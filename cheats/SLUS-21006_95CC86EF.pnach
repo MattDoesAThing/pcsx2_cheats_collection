@@ -30,3 +30,7 @@ patch=1,EE,20115CB4,extended,00000000
 [Cheats\Halo-Legacy Mode Analog Sticks]
 patch=1,EE,00101E3C,extended,00000006
 patch=1,EE,00101E5C,extended,00000004
+
+[Cheats\Extra Ammo]
+author=Code Master
+patch=1,EE,201155C4,extended,00701821
