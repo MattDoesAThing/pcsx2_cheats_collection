@@ -1,0 +1,10 @@
+[Cheats\God Mode]
+patch=1,EE,20541530,extended,03E00008
+patch=1,EE,20541534,extended,00000000
+
+[Cheats\Fruits Always Restore Max Life]
+patch=1,EE,205414A0,extended,C4800008
+patch=1,EE,205414A4,extended,00000000
+
+[Cheats\Unlock All The Tricks, Sketches And High-resolution Images Creating New Game ]
+patch=1,EE,204CC834,extended,24020000

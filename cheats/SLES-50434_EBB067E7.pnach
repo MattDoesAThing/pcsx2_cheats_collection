@@ -1,0 +1,17 @@
+gametitle=Army Men - RTS PAL-E SLES-50434 EBB067E7
+
+[50 FPS]
+author=Gabominated
+description=Might need EE overclock (130%).
+patch=0,EE,00120EF8,word,AC4057F4
+
+[Cheats\Always Wins]
+patch=1,EE,201432A4,extended,24020001
+
+[Cheats\Low Timer]
+patch=1,EE,201429CC,extended,240503B3
+patch=1,EE,201429D4,extended,AC6540F0
+
+[Cheats\Infinite Resources]
+patch=1,EE,203C087C,extended,2402270F
+patch=1,EE,203C0884,extended,AC910000

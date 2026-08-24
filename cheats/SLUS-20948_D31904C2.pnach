@@ -1,0 +1,78 @@
+gametitle=Crimson Tears SLUS_209.48
+
+// From consolidated source D31904C2.pnach: For NTSC version - D31904C2
+
+[Widescreen 16:9]
+gsaspectratio=16:9
+description=Widescreen Hack
+//aabf023c 00008544 abaa4334
+patch=1,EE,001bcb98,word,3c02bfe3 //3c02bfaa hor fov
+patch=1,EE,001bcba0,word,34438e39 //3443aaab hor fov
+
+[No-Interlacing]
+description=Attempts to disable interlaced offset rendering.
+gsinterlacemode=1
+
+patch=1,EE,00166A84,word,30420000
+patch=1,EE,002ae84c,word,00000000 //64420008
+patch=1,EE,0032B280,word,30420000
+
+[Remove Ghosting and Bloom (Optional)]
+patch=1,EE,006C4D58,word,00000000
+patch=1,EE,00E36888,word,00000000
+patch=1,EE,00E363A8,word,00000000
+patch=1,EE,00E38B78,word,00000000
+
+[Remove Ghosting in the overworld]
+// Duplicate source label from D31904C2.pnach: [Remove Ghosting in the over world]
+// From duplicate source D31904C2.pnach: //Remove Ghosting in the over world
+patch=1,EE,E0010001,extended,306C4D58
+patch=1,EE,206C4D58,extended,00000001
+patch=1,EE,E0010001,extended,30E36888
+patch=1,EE,20E36888,extended,00000001
+patch=1,EE,E0010001,extended,30E363A8
+patch=1,EE,20E363A8,extended,00000001
+patch=1,EE,E0010001,extended,30E38B78
+patch=1,EE,20E38B78,extended,00000001
+
+[Cheats\Infinite Funds]
+patch=1,EE,103AC6AC,extended,0000FFFF
+
+[Cheats\Max Funds]
+patch=1,EE,203AC6AC,extended,0098967F
+
+[Cheats\Infinite Health]
+patch=1,EE,20288144,extended,C60101FC
+patch=1,EE,20288150,extended,E6010200
+
+[Cheats\infinite Ammo]
+patch=1,EE,20205DB4,extended,00000000
+
+[Cheats\Infinite Item Usage]
+patch=1,EE,202DD778,extended,00000000
+
+[Cheats\1 Hit Death Enemies]
+patch=1,EE,200C0220,extended,3C01003A
+patch=1,EE,200C0224,extended,8C213BD8
+patch=1,EE,200C0228,extended,8C210050
+patch=1,EE,200C022C,extended,50310001
+patch=1,EE,200C0230,extended,27FF0230
+patch=1,EE,200C0234,extended,03E00008
+patch=1,EE,200C0238,extended,00000000
+patch=1,EE,2012112C,extended,44801800
+patch=1,EE,20120FE8,extended,0C030088
+
+[Cheats\Unlock Access All Levels From Teleporter]
+patch=1,EE,003AEA34,extended,00000007
+
+[Cheats\Unlock Movie Viewer All Movies]
+patch=1,EE,103AEB46,extended,00000101
+patch=1,EE,403AEB48,extended,00050001
+patch=1,EE,01010101,extended,00000000
+patch=1,EE,103AEB5C,extended,00000101
+
+[Cheats\Unlock Monster Viewer All Monsters]
+patch=1,EE,103AEB66,extended,00000101
+patch=1,EE,403AEB68,extended,00060001
+patch=1,EE,01010101,extended,00000000
+patch=1,EE,103AEB80,extended,00000101

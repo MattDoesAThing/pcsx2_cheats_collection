@@ -1,0 +1,18 @@
+[Cheats\Max Money]
+patch=1,EE,20469618,extended,05F5E0FF
+
+[Cheats\Player 1 Infinite Health]
+patch=1,EE,1053BD7C,extended,000001F0
+patch=1,EE,1053BD7E,extended,00001F00
+
+[Cheats\Player 1 Infinite Musou]
+patch=1,EE,1053BD82,extended,000001F0
+patch=1,EE,1053BD84,extended,00001F00
+
+[Cheats\Player 1 Infinite Arrows]
+patch=1,EE,0055F0DC,extended,00000063
+
+[Cheats\Infinite Arrows All Players]
+patch=1,EE,201C4130,extended,24203634
+
+

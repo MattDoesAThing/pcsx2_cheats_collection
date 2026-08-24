@@ -1,0 +1,19 @@
+gametitle=Wild Wild Racing PAL-M SLES-50009 04FE3778
+
+[50 FPS]
+author=Gabominated
+description=Might need EE Overclock (130%).
+patch=1,EE,00378E94,word,00000001
+
+[Cheats\Unlock All Cars]
+patch=1,EE,003392D7,extended,00000001
+
+[Cheats\Unlock All Upgrades]
+patch=1,EE,003392D8,extended,00000001
+
+[Cheats\Unlock I.C.V]
+// Duplicate source label from 04FE3778 - Wild Wild Racing SLES-50009.pnach: [Cheats\Unlock Saucey]
+patch=1,EE,003392D9,extended,00000001
+
+[Cheats\Unlock Secret Menü]
+patch=1,EE,003392D4,extended,00000001

@@ -1,0 +1,26 @@
+gametitle=Reign of Fire PAL-M SLES-50873 79464D5E
+
+[50/60 FPS]
+author=Gabominated
+description=Might need EE Overclock.
+patch=1,EE,00265C70,word,00000001 //00000002
+patch=1,EE,00140A44,word,2402003C //2402001E
+patch=1,EE,00140A50,word,24020032 //24020019
+
+[NTSC Mode]
+author=Gabominated
+description=NTSC Mode at start.
+patch=1,EE,0012E2F8,word,A38486F0 //938486F0
+patch=1,EE,0012E398,word,14800006 //10800006
+patch=1,EE,0012E3C4,word,14800003 //10800003
+patch=1,EE,00140A3C,word,14400004 //10400004
+
+[Cheats\Infinite Health]
+patch=1,EE,201290C4,extended,0803FFC0
+patch=1,EE,200FFF00,extended,3C010026
+patch=1,EE,200FFF04,extended,8C215DD8
+patch=1,EE,200FFF08,extended,3C024448
+patch=1,EE,200FFF0C,extended,10010005
+patch=1,EE,200FFF28,extended,24030070
+patch=1,EE,200FFF2C,extended,0804A432
+patch=1,EE,200FFF14,extended,AC22008C

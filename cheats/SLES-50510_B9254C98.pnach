@@ -1,0 +1,21 @@
+gametitle=The Mummy Returns PAL-M SLES-50510 B9254C98
+
+[50/60 FPS]
+author=Gabominated
+description=Might need EE overclock (130%).
+patch=0,EE,00122164,word,A0600036
+//0025DCC4 alt
+
+[NTSC Mode]
+author=Gabominated
+description=NTSC mode at start.
+patch=0,EE,0012215C,word,A0600035
+
+[Cheats\Rick 1st Life Only Infinite Health]
+patch=1,EE,109D975E,extended,000042CE
+
+[Cheats\Rick 1st Life Only Infinite Pistol Bullets]
+patch=1,EE,109D9E00,extended,00000063
+
+[Cheats\Imhotep 1st Life Only Infinite Health]
+patch=1,EE,10983A6E,extended,000042CE

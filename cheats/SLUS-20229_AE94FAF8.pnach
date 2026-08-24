@@ -1,31 +1,17 @@
-gametitle=Jonny Moseley Mad Trix [SLUS-20229] [AE94FAF8]
-
-[Unlock All Extras]
-author=xs1l3n7x(pnach)/CheatDevicePS2(codes)
-description=Unlock All Extras
-// Unlock All Extras
-patch=1,EE,F0100008,extended,0025EB97
-
-[Max Score]
-author=xs1l3n7x(pnach)/CheatDevicePS2(codes)
-description=Max Score
-// Max Score
-patch=1,EE,203A2D44,extended,4B18967F
-
-[Infinite Time]
-author=xs1l3n7x(pnach)/CheatDevicePS2(codes)
-description=Infinite Time
-// Infinite Time
+[Cheats\Infinite Time]
 patch=1,EE,2044B398,extended,4415FF5C
 
-[Have All Levels]
-author=xs1l3n7x(pnach)/CheatDevicePS2(codes)
-description=Have All Levels
-// Have All Levels
+[Cheats\Unlock All Levels]
 patch=1,EE,21F43534,extended,00000000
-
-[Have All Levels]
-author=xs1l3n7x(pnach)/CheatDevicePS2(codes)
-description=Have All Levels
-// Have All Levels
 patch=1,EE,21F4337C,extended,00000000
+
+[Cheats\Debug Menu R3+D-Pad Up]
+patch=1,EE,E008FFEB,extended,00382442
+patch=1,EE,202E4168,extended,75626544
+patch=1,EE,202E416C,extended,654D2067
+patch=1,EE,202E4170,extended,0000756E
+patch=1,EE,202E4174,extended,00000000
+patch=1,EE,20158D6C,extended,00000000
+patch=1,EE,10158DB4,extended,00000011
+patch=1,EE,00158DAC,extended,00000020
+patch=1,EE,20158DBC,extended,24020010

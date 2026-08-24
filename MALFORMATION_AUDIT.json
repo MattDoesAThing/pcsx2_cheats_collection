@@ -1,0 +1,121 @@
+{
+  "pnach_files": 5798,
+  "files_changed_vs_semantic_group_baseline": 103,
+  "files_removed_vs_semantic_group_baseline": [],
+  "validation": {
+    "patch": 0,
+    "ungrouped": 0,
+    "unknown_keys": 0,
+    "headers": 0,
+    "duplicate_groups": 0,
+    "active_placeholders": 0,
+    "raw_codes": 0,
+    "suspicious_headers": 0,
+    "patch_like": 0,
+    "overflow": 0
+  },
+  "placeholder_review": [
+    {
+      "file": "722EC0E2 - Ripple no Tamago SLPM-62340.pnach",
+      "pattern": "000000x64",
+      "status": "repaired",
+      "details": "6 lines corrected to 00000064; seventh favorability entry already used 00000064 and 0x64 = decimal 100."
+    },
+    {
+      "file": "D2063214 - Simple 2000 Series Vol.074 - The Oujisama to Romance - Ripple no Tamago SLPM-62579.pnach",
+      "pattern": "000000x64",
+      "status": "repaired",
+      "details": "6 lines corrected to 00000064; same code set as the other Ripple no Tamago release."
+    },
+    {
+      "file": "FC0F8A5B - Simple 2000 Series Vol.114 - The Jo'okappichi Torimonochou - Oharuchan GOGOGO! SLPS-20489.pnach",
+      "pattern": "??FFFFFFFF",
+      "status": "repaired",
+      "details": "Corrected to FFFFFFFF. Adjacent writes FFFFFFFF / [malformed] / FFFF form a contiguous all-ones unlock bitfield."
+    },
+    {
+      "file": "9A51B627 - Fatal Frame II - Crimson Butterfly SLUS-20766.pnach",
+      "pattern": "0000000?",
+      "status": "commented template",
+      "details": "Original source uses ? as user-replaceable Chapter Select modifier; not PNACH wildcard syntax."
+    },
+    {
+      "file": "951555A0 - Disgaea 2 - Cursed Memories SLUS-21397.pnach",
+      "pattern": "3402????",
+      "status": "commented template",
+      "details": "Original code sources explicitly publish ???? modifier forms; requires a concrete immediate value."
+    },
+    {
+      "file": "9027FB4C -  Taito Legends SLUS-21122.pnach",
+      "pattern": "240200??",
+      "status": "commented template",
+      "details": "Weapon and level modifier groups explicitly use ?? as the user-selected value; helper blocks remain commented together."
+    },
+    {
+      "file": "721DEBE4 - Sengoku Basara X SLPM-55008.pnach",
+      "pattern": "zz000001",
+      "status": "commented template",
+      "details": "Published raw-code source itself contains zz000001; no verified mapping for zz was located."
+    },
+    {
+      "file": "354B02C6 - Only You Liber Cross SLPS-25150.pnach",
+      "pattern": "0000xxxx",
+      "status": "commented template",
+      "details": "Likely attack-power modifier. 270F is contextually plausible from neighboring max-stat codes but not verified, so no value was invented."
+    },
+    {
+      "file": "E263BC4B - Demento SLPM-65913.pnach",
+      "pattern": "xxxx / xxxxxxxx",
+      "status": "commented templates",
+      "details": "Modifier templates and their value notes are preserved in-file; helper lines that had leaked active are now commented with their templates."
+    }
+  ],
+  "silent_hill_2_us_files": [
+    "SLUS-20228_8E8E384B.pnach",
+    "SLUS-20228_FE06A030.pnach"
+  ],
+  "silent_hill_2_sha256": {
+    "SLUS-20228_FE06A030.pnach": "5d41fec0e5a5d4797ec467cb5a7cc9fbcffbac890d9b03f2cfd8fd507588f6ab",
+    "SLUS-20228_8E8E384B.pnach": "9666353028eb03a6e5182acf95165feaee5355d2f82c5053ea53dbba70965457"
+  },
+  "ripple_x64_remaining": 0,
+  "active_placeholder_patch_lines": 0,
+  "overflow_address_repairs": [
+    {
+      "file": "C6B97484 - Shin Contra (Konami the Best) SLPM-62264.pnach",
+      "before": "120912410",
+      "after": "20912410",
+      "reason": "32-bit Combat Training unlock write; 9-digit source has one extra leading 1."
+    },
+    {
+      "file": "0AE42E34 - Shin Contra SLPM-62247.pnach",
+      "before": "120912410",
+      "after": "20912410",
+      "reason": "Same code and correction as the other Shin Contra release."
+    },
+    {
+      "file": "37419DEE -  J-League Winning Eleven 10 + Europe League 06-07  v.2.01 SLPM-66595.pnach",
+      "before": "D0B888E74",
+      "after": "D0B88E74",
+      "reason": "Identical condition appears correctly twice immediately below in the same group."
+    },
+    {
+      "file": "F32B1B28 -  J-League Winning Eleven 10 + Europe League 06-07  V.1.03 SLPM-66595.pnach",
+      "before": "D0B888E74",
+      "after": "D0B88E74",
+      "reason": "Identical condition appears correctly twice immediately below in the same group."
+    },
+    {
+      "file": "67B8204F - Hoshigari Empusa SLPM-66969.pnach",
+      "before": "2003B7308",
+      "after": "003B7308",
+      "reason": "Every Player Intelligence/Health pair is a consecutive byte write ending 07/08."
+    },
+    {
+      "file": "EE352EE6 - DDR Festival Dance Dance Revolution SLPM-65775.pnach",
+      "before": "2015A3F00",
+      "after": "2015A3F0",
+      "reason": "The same toggle group restores the original instruction at 2015A3F0."
+    }
+  ]
+}

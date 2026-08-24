@@ -1,0 +1,48 @@
+[Cheats\Infinite Health Driving Mission]
+patch=1,EE,2111FE44,extended,453B8000
+
+[Cheats\Infinite Ammo Driving Mission 2nd]
+patch=1,EE,20153890,extended,00000000
+
+[Cheats\Infinite health Action Missions]
+patch=1,EE,200C0220,extended,3C0143FA
+patch=1,EE,200C0224,extended,03E00008
+patch=1,EE,200C0228,extended,AC6102EC
+patch=1,EE,2027338C,extended,0C030088
+patch=1,EE,20273390,extended,4602003
+
+[Cheats\Unlock Level 1]
+patch=1,EE,20413684,extended,00000000
+
+[Cheats\Unlock Level 2]
+patch=1,EE,20413684,extended,00000001
+
+[Cheats\Unlock Level 3]
+patch=1,EE,20413684,extended,00000002
+
+[Cheats\Unlock Level 4]
+patch=1,EE,20413684,extended,00000003
+
+[Cheats\Unlock Level 5]
+patch=1,EE,20413684,extended,00000004
+
+[Cheats\Unlock Level 6]
+patch=1,EE,20413684,extended,00000005
+
+[Cheats\Unlock Level 7]
+patch=1,EE,20413684,extended,00000006
+
+[Cheats\Unlock Level 8]
+patch=1,EE,20413684,extended,00000007
+
+[Cheats\Unlock Level 9]
+patch=1,EE,20413684,extended,00000008
+
+[Cheats\Unlock Level 10]
+patch=1,EE,20413684,extended,00000009
+
+[Cheats\Unlock Last Level]
+patch=1,EE,20413684,extended,0000000A
+
+[Cheats\Unlock Level]
+patch=1,EE,20413684,extended,0000000B

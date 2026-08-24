@@ -1,0 +1,46 @@
+gametitle=The Godfather - Collector's Edition NTSC-U SLUS-21406 D850707E
+
+[60 FPS]
+author=Gabominated
+description=Might need EE Overclock (130%).
+patch=1,EE,005C5D28,word,42EFC28F //426FC28F
+
+[Disable Additional Filter]
+author=Gabominated
+description=Disable additional opaque filter.
+patch=1,EE,005C5D2C,byte,00
+
+[Cheats\Infinite Money]
+patch=1,EE,2063E868,extended,05F5E0FF
+
+[Cheats\Infinite Ammo]
+patch=1,EE,20156C44,extended,00000000
+
+[Cheats\Bo Reload]
+patch=1,EE,201582BC,extended,24420000
+
+[Cheats\L1+L2 Max Skill Points]
+patch=1,EE,D0665C82,extended,0000FAFF
+patch=1,EE,218085E8,extended,42C80000
+
+[Cheats\Activator Must Be On]
+patch=1,EE,200A0000,extended,3C020066
+patch=1,EE,200A0004,extended,8C424308
+patch=1,EE,200A0008,extended,10400004
+patch=1,EE,200A001C,extended,03E00008
+patch=1,EE,204D2D5C,extended,08028000
+
+[Cheats\Infinite Health Use activator above for this code to work]
+patch=1,EE,200A0010,extended,8C43104C
+patch=1,EE,200A0014,extended,AC431048
+
+[Cheats\Disable Timer For Mob Wars]
+patch=1,EE,2016BAA0,extended,03E00008
+patch=1,EE,2016BAA4,extended,00000000
+
+[Cheats\Infinite Mission Time]
+patch=1,EE,20162BD0,extended,240603E8
+
+[Cheats\Unlock All Movies]
+patch=1,EE,21B6908C,extended,42C80000
+patch=1,EE,42C80000,extended,21B69190

@@ -1,0 +1,107 @@
+gametitle=Monster Hunter 2 NTSC-J SLPM-66280 2F0E94A1
+
+[60 FPS BETA]
+author=Gabominated
+description=Might need EE overclock.
+patch=1,EE,00218CC4,word,00000000 //00000001 fps
+patch=1,EE,003ABAEC,word,3c023f80 //3c024000 speed 2 quest
+patch=1,EE,0039C1F8,word,3c023f80 //3c024000 speed 1 quest
+patch=1,EE,00714DC0,word,3c023fa0 //3c024020 run in quest
+patch=1,EE,00715874,word,3c023f4C //3c023fCC climb up in quest
+patch=1,EE,00715A94,word,3c023f4C //3c023fCC climb down in quest
+patch=1,EE,00715888,word,3C023fa0 //3c024020 climb up booster
+patch=1,EE,00715AA8,word,3C023fa6 //3c024026 climb down booster
+patch=1,EE,0039C1D0,word,3C023f80 //3c024000 gathering
+patch=1,EE,0077DF50,word,3c023f80 //3c024000 npc in town
+patch=1,EE,00794E84,word,3c023f80 //3c024000 walk in town
+patch=1,EE,00797CA8,word,3C033fa0 //3C034020 run in town
+patch=1,EE,00905604,word,3C023f80 //3c024000 npc in quest
+patch=1,EE,0031AED4,word,2403023F //2403047E cam speed
+
+[30 FPS]
+patch=1,EE,00218CC4,word,00000001 //fps
+patch=1,EE,003ABAEC,word,3c024000 //speed 2 quest
+patch=1,EE,0039C1F8,word,3c024000 //speed 1 quest
+patch=1,EE,00714DC0,word,3c024020 //run in quest
+patch=1,EE,00715874,word,3c023fCC //climb up
+patch=1,EE,00715A94,word,3c023fCC //climb down
+patch=1,EE,00715888,word,3c024020 //climb up booster
+patch=1,EE,00715AA8,word,3c024026 //climb down booster
+patch=1,EE,0039C1D0,word,3c024000 //gathering
+patch=1,EE,0077DF50,word,3c024000 //npc in town
+patch=1,EE,00794E84,word,3c024000 //walk in town
+patch=1,EE,00797CA8,word,3C034020 //run in town
+patch=1,EE,00905604,word,3c024000 //npc in quest
+patch=1,EE,0031AED4,word,2403047E //cam speed
+
+[Max & infinite health]
+author=Gabominated
+description=Max & infinite health toggle on by Gabominated 
+patch=1,EE,005F90AC,word,00960096 //00780078 //max health
+patch=1,EE,005F8C90,word,00960002 //00780002 //main health
+//patch=1,EE,005B396C,word,00960096 //00780078 //health
+
+[infinite stamina]
+author=Gabominated
+description=infinite stamina toggle on by Gabominated
+patch=1,EE,005F9064,word,000001C2 // stamina
+patch=1,EE,001BA048,word,01C20000
+patch=1,EE,005F91A8,word,01C20000 //stamina never decrease
+
+[Pychoserum]
+author=Gabominated
+description=show monster location on map by Gabominated
+patch=1,EE,005F925C,word,00000126 //00000000 //Pychoserum
+
+[stop timer]
+author=Gabominated
+description=stop timer toggle on by Gabominated
+//patch=1,EE,E05B3964,word,0002BF20 //00015f90
+patch=1,EE,105D8270,word,00015f90 //00015f90 //0002BF20
+
+[infinite money]
+author=Gabominated
+description=infinite money toggle on by Gabominated
+patch=1,EE,005D4AC0,word,0098967F
+
+[Cheats\Max Money]
+patch=1,EE,203C6FE0,extended,0098967F
+
+[Cheats\Infinite Health]
+patch=1,EE,105B396C,extended,00000096
+patch=1,EE,105F8C92,extended,00000096
+patch=1,EE,205F90AC,extended,00960096
+
+[Cheats\Infinite Stamina]
+patch=1,EE,105F9064,extended,000001C2
+patch=1,EE,105F91AA,extended,000001C2
+
+[Cheats\Ques ttime set to 50 minutes L3+L1]
+patch=1,EE,D024BDE2,extended,0000FDFB
+patch=1,EE,205D8270,extended,00015F90
+
+[Cheats\No Weapon sharpness decrease]
+patch=1,EE,105F91A6,extended,0000018F
+
+[Cheats\Katana Slash Gauge Always Full]
+patch=1,EE,105F9146,extended,00000064
+
+[Cheats\Infinite Carves]
+patch=1,EE,D03A5E2C,extended,0000FFFF
+patch=1,EE,203A5E2C,extended,24830000
+
+[Cheats\Infinite Mining, Bugging, Gathering]
+patch=1,EE,D03B14A4,extended,00000050
+patch=1,EE,203B14A4,extended,00000000
+
+[Cheats\Fast Carving, Mining, Bugging, Gathering hold L3 meanwhile]
+patch=1,EE,D024BDE2,extended,0000FDFF
+patch=1,EE,105F89D7,extended,00000000
+
+[Cheats\Unlock All Movies in Gallery]
+patch=1,EE,D03BDA08,extended,0000102B
+patch=1,EE,203BDA08,extended,24020001
+
+[Cheats\Unlock All Gallery]
+patch=1,EE,103F30AC,extended,0000FFFF
+

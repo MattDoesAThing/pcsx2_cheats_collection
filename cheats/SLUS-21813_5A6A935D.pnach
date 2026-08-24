@@ -1,0 +1,72 @@
+gametitle=007 - Quantum of Solace SLUS-21813 0x5A6A935D
+
+[Cheats\Infinite Health]
+patch=1,EE,20130C38,extended,C6200D24
+patch=1,EE,20130C40,extended,E6200D20
+
+[Cheats\No Reload]
+patch=1,EE,201FEF6C,extended,00000000
+
+[Cheats\Infinite Time For Electo-Hack]
+patch=1,EE,2021E674,extended,00000000
+
+[Cheats\Have All Weapons With Max Infinite Ammo]
+patch=1,EE,2020046C,extended,240203E7
+
+[Cheats\Debug Menu]
+patch=1,EE,003C9EB0,extended,00000001
+
+// -----------------------------------------------------------------------------
+// Fork additions consolidated from WINDROID-EMU/PCSX2OID-CHEATS
+// Source file: 5A6A935D.pnach
+// -----------------------------------------------------------------------------
+
+[God Mode OFF (L2+D-Down):]
+author=RyTheHexer
+description=Player cannot be hit; no screen shake, no blood spatter; no health decrease etc.
+patch=1,EE,E002FEBF,extended,00423C02
+patch=1,EE,20134EE0,extended,27BDFEF0
+patch=1,EE,20134EE4,extended,7FB300C0
+
+[God Mode ON (L2+D-Up):]
+author=RyTheHexer
+description=Player cannot be hit; no screen shake, no blood spatter; no health decrease etc.
+patch=1,EE,E002FEEF,extended,00423C02
+patch=1,EE,20134EE0,extended,03E00008
+patch=1,EE,20134EE4,extended,00000000
+
+[Infinite Ammo]
+author=RyTheHexer
+description=
+patch=1,EE,201FF088,extended,241103E7
+
+[Infinite Health:]
+author=RyTheHexer
+description=Regular infinite health. Use instead of God Mode. Can get hit, with screen shake etc, but no health decrease.
+patch=1,EE,2014709C,extended,3C0242C8
+patch=1,EE,201470A0,extended,AE020D20
+
+[Kill Hack Timers:]
+author=RyTheHexer
+description=
+patch=1,EE,2021E6DC,extended,00000000
+
+[No Reload]
+author=RyTheHexer
+description=
+patch=1,EE,001FEFE2,extended,000000C0
+
+[No Spread / Accuracy:]
+author=RyTheHexer
+description=
+patch=1,EE,20135EF0,extended,3C083A83
+patch=1,EE,20135EF4,extended,2508226F
+patch=1,EE,10135EFE,extended,0000AE08
+
+[Shoot During Reload]
+author=RyTheHexer
+description=
+patch=1,EE,00163AD3,extended,000000AE
+
+[Disable wait on right stick input fuction while in cover]
+patch=1,EE,001DE778,word,00000000

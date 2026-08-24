@@ -1,0 +1,20 @@
+gametitle=Conspiracy - Weapons of Mass Destruction PAL-M SLES-53098 D11B52FD
+
+[NTSC Mode]
+author=Gabominated
+description=NTSC mode at start.
+patch=1,EE,002CE08C,word,00000001
+
+[Cheats\Infinite Health]
+patch=1,EE,201654E0,extended,AC6501B8
+patch=1,EE,201654F0,extended,24A30000
+
+[Cheats\Infinite Ammo]
+patch=1,EE,201D68A8,extended,00000000
+
+[Cheats\Auto Complete Mission Press R1+R2+L1+L2]
+patch=1,EE,201912E8,extended,106001F5
+patch=1,EE,201912F4,extended,106001F2
+patch=1,EE,E002F0FF,extended,002E6BC2
+patch=1,EE,201912E8,extended,00000000
+patch=1,EE,201912F4,extended,00000000

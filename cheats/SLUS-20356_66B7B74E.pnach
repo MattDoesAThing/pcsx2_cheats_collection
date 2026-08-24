@@ -1,0 +1,31 @@
+gametitle=TransWorld Surf NTSC-U SLUS-20356 66B7B74E
+
+[60 FPS]
+author=Gabominated
+description=Might need EE Overclock (180%).
+patch=1,EE,1027c4cc,extended,00000001 //00000002
+patch=1,EE,2027F358,extended,3c888889 //3d088889
+patch=1,EE,E0020001,extended,003A2224
+patch=1,EE,1027c4cc,extended,00000002
+patch=1,EE,2027F358,extended,3d088889
+
+[Cheats\Paddle Faster]
+patch=1,EE,20279810,extended,00000001
+
+[Cheats\Perfect Floater Balance]
+patch=1,EE,20279828,extended,00000001
+
+[Cheats\Press L2+R2 To Wipeout! & Restart]
+patch=1,EE,20279834,extended,00000001
+
+[Cheats\Max Trick Meter]
+patch=1,EE,20279840,extended,00000001
+
+[Cheats\Complete All Goals Current Level]
+patch=1,EE,20279870,extended,00000001
+
+[Cheats\Unlock Super Kook]
+patch=1,EE,200C0220,extended,24050001
+patch=1,EE,200C0224,extended,03E00008
+patch=1,EE,200C0228,extended,AE0500F4
+patch=1,EE,2013362C,extended,0C030088

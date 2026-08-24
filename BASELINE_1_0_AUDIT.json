@@ -1,0 +1,530 @@
+{
+  "baseline": "1.0",
+  "date": "2026-08-23",
+  "pnach_files": 5798,
+  "distinct_crc_keys": 5250,
+  "active_patch_lines": 103747,
+  "commented_patch_lines": 240,
+  "aliases": [
+    {
+      "alias": "SLUS-20184_0EEFD2E0.pnach",
+      "groups": 1166,
+      "active_patch_lines": 1248,
+      "commented_patch_lines": 0,
+      "meta": {
+        "adjacent_headers_collapsed": 33,
+        "residual_groups_renamed": [
+          [
+            "Health Codes\\Infinite Health",
+            "Health Codes\\Infinite Health (2)"
+          ],
+          [
+            "Max Item Codes\\Slot 1",
+            "Max Item Codes\\Slot 1 (2)"
+          ],
+          [
+            "Item Modifier Codes\\Slot 1",
+            "Item Modifier Codes\\Slot 1 (2)"
+          ],
+          [
+            "Max Item Modifier Codes\\Slot 1",
+            "Max Item Modifier Codes\\Slot 1 (2)"
+          ],
+          [
+            "Max Item Codes\\Slot 1",
+            "Max Item Codes\\Slot 1 (3)"
+          ],
+          [
+            "Item Modifier Codes\\Slot 1",
+            "Item Modifier Codes\\Slot 1 (3)"
+          ],
+          [
+            "Max Item Modifier Codes\\Slot 1",
+            "Max Item Modifier Codes\\Slot 1 (3)"
+          ],
+          [
+            "Max Item Codes\\Slot 1",
+            "Max Item Codes\\Slot 1 (4)"
+          ],
+          [
+            "Item Modifier Codes\\Slot 1",
+            "Item Modifier Codes\\Slot 1 (4)"
+          ],
+          [
+            "Max Item Modifier Codes\\Slot 1",
+            "Max Item Modifier Codes\\Slot 1 (4)"
+          ],
+          [
+            "Max Item Codes\\Slot 2",
+            "Max Item Codes\\Slot 2 (2)"
+          ],
+          [
+            "Item Modifier Codes\\Slot 2",
+            "Item Modifier Codes\\Slot 2 (2)"
+          ],
+          [
+            "Max Item Modifier Codes\\Slot 2",
+            "Max Item Modifier Codes\\Slot 2 (2)"
+          ],
+          [
+            "Max Item Codes\\Slot 2",
+            "Max Item Codes\\Slot 2 (3)"
+          ],
+          [
+            "Item Modifier Codes\\Slot 2",
+            "Item Modifier Codes\\Slot 2 (3)"
+          ],
+          [
+            "Max Item Modifier Codes\\Slot 2",
+            "Max Item Modifier Codes\\Slot 2 (3)"
+          ],
+          [
+            "Max Item Codes\\Slot 2",
+            "Max Item Codes\\Slot 2 (4)"
+          ],
+          [
+            "Item Modifier Codes\\Slot 2",
+            "Item Modifier Codes\\Slot 2 (4)"
+          ],
+          [
+            "Max Item Modifier Codes\\Slot 2",
+            "Max Item Modifier Codes\\Slot 2 (4)"
+          ],
+          [
+            "Max Item Codes\\Slot 3",
+            "Max Item Codes\\Slot 3 (2)"
+          ],
+          [
+            "Item Modifier Codes\\Slot 3",
+            "Item Modifier Codes\\Slot 3 (2)"
+          ],
+          [
+            "Max Item Modifier Codes\\Slot 3",
+            "Max Item Modifier Codes\\Slot 3 (2)"
+          ],
+          [
+            "Max Item Codes\\Slot 3",
+            "Max Item Codes\\Slot 3 (3)"
+          ],
+          [
+            "Item Modifier Codes\\Slot 3",
+            "Item Modifier Codes\\Slot 3 (3)"
+          ],
+          [
+            "Max Item Modifier Codes\\Slot 3",
+            "Max Item Modifier Codes\\Slot 3 (3)"
+          ],
+          [
+            "Max Item Codes\\Slot 3",
+            "Max Item Codes\\Slot 3 (4)"
+          ],
+          [
+            "Item Modifier Codes\\Slot 3",
+            "Item Modifier Codes\\Slot 3 (4)"
+          ],
+          [
+            "Max Item Modifier Codes\\Slot 3",
+            "Max Item Modifier Codes\\Slot 3 (4)"
+          ],
+          [
+            "Max Item Codes\\Slot 4",
+            "Max Item Codes\\Slot 4 (2)"
+          ],
+          [
+            "Item Modifier Codes\\Slot 4",
+            "Item Modifier Codes\\Slot 4 (2)"
+          ],
+          [
+            "Max Item Modifier Codes\\Slot 4",
+            "Max Item Modifier Codes\\Slot 4 (2)"
+          ],
+          [
+            "Max Item Codes\\Slot 4",
+            "Max Item Codes\\Slot 4 (3)"
+          ],
+          [
+            "Item Modifier Codes\\Slot 4",
+            "Item Modifier Codes\\Slot 4 (3)"
+          ],
+          [
+            "Max Item Modifier Codes\\Slot 4",
+            "Max Item Modifier Codes\\Slot 4 (3)"
+          ],
+          [
+            "Max Item Codes\\Slot 4",
+            "Max Item Codes\\Slot 4 (4)"
+          ],
+          [
+            "Item Modifier Codes\\Slot 4",
+            "Item Modifier Codes\\Slot 4 (4)"
+          ],
+          [
+            "Max Item Modifier Codes\\Slot 4",
+            "Max Item Modifier Codes\\Slot 4 (4)"
+          ],
+          [
+            "Max Item Codes\\Slot 5",
+            "Max Item Codes\\Slot 5 (2)"
+          ],
+          [
+            "Item Modifier Codes\\Slot 5",
+            "Item Modifier Codes\\Slot 5 (2)"
+          ],
+          [
+            "Max Item Modifier Codes\\Slot 5",
+            "Max Item Modifier Codes\\Slot 5 (2)"
+          ],
+          [
+            "Max Item Codes\\Slot 5",
+            "Max Item Codes\\Slot 5 (3)"
+          ],
+          [
+            "Item Modifier Codes\\Slot 5",
+            "Item Modifier Codes\\Slot 5 (3)"
+          ],
+          [
+            "Max Item Modifier Codes\\Slot 5",
+            "Max Item Modifier Codes\\Slot 5 (3)"
+          ],
+          [
+            "Max Item Codes\\Slot 5",
+            "Max Item Codes\\Slot 5 (4)"
+          ],
+          [
+            "Item Modifier Codes\\Slot 5",
+            "Item Modifier Codes\\Slot 5 (4)"
+          ],
+          [
+            "Max Item Modifier Codes\\Slot 5",
+            "Max Item Modifier Codes\\Slot 5 (4)"
+          ],
+          [
+            "Max Item Codes\\Slot 6",
+            "Max Item Codes\\Slot 6 (2)"
+          ],
+          [
+            "Item Modifier Codes\\Slot 6",
+            "Item Modifier Codes\\Slot 6 (2)"
+          ],
+          [
+            "Max Item Modifier Codes\\Slot 6",
+            "Max Item Modifier Codes\\Slot 6 (2)"
+          ],
+          [
+            "Max Item Codes\\Slot 6",
+            "Max Item Codes\\Slot 6 (3)"
+          ],
+          [
+            "Item Modifier Codes\\Slot 6",
+            "Item Modifier Codes\\Slot 6 (3)"
+          ],
+          [
+            "Max Item Modifier Codes\\Slot 6",
+            "Max Item Modifier Codes\\Slot 6 (3)"
+          ],
+          [
+            "Max Item Codes\\Slot 6",
+            "Max Item Codes\\Slot 6 (4)"
+          ],
+          [
+            "Item Modifier Codes\\Slot 6",
+            "Item Modifier Codes\\Slot 6 (4)"
+          ],
+          [
+            "Max Item Modifier Codes\\Slot 6",
+            "Max Item Modifier Codes\\Slot 6 (4)"
+          ],
+          [
+            "Max Item Codes\\Slot 7",
+            "Max Item Codes\\Slot 7 (2)"
+          ],
+          [
+            "Item Modifier Codes\\Slot 7",
+            "Item Modifier Codes\\Slot 7 (2)"
+          ],
+          [
+            "Max Item Modifier Codes\\Slot 7",
+            "Max Item Modifier Codes\\Slot 7 (2)"
+          ],
+          [
+            "Max Item Codes\\Slot 7",
+            "Max Item Codes\\Slot 7 (3)"
+          ],
+          [
+            "Item Modifier Codes\\Slot 7",
+            "Item Modifier Codes\\Slot 7 (3)"
+          ],
+          [
+            "Max Item Modifier Codes\\Slot 7",
+            "Max Item Modifier Codes\\Slot 7 (3)"
+          ],
+          [
+            "Max Item Codes\\Slot 7",
+            "Max Item Codes\\Slot 7 (4)"
+          ],
+          [
+            "Item Modifier Codes\\Slot 7",
+            "Item Modifier Codes\\Slot 7 (4)"
+          ],
+          [
+            "Max Item Modifier Codes\\Slot 7",
+            "Max Item Modifier Codes\\Slot 7 (4)"
+          ],
+          [
+            "Max Item Codes\\Slot 8",
+            "Max Item Codes\\Slot 8 (2)"
+          ],
+          [
+            "Item Modifier Codes\\Slot 8",
+            "Item Modifier Codes\\Slot 8 (2)"
+          ],
+          [
+            "Max Item Modifier Codes\\Slot 8",
+            "Max Item Modifier Codes\\Slot 8 (2)"
+          ],
+          [
+            "Max Item Codes\\Slot 8",
+            "Max Item Codes\\Slot 8 (3)"
+          ],
+          [
+            "Item Modifier Codes\\Slot 8",
+            "Item Modifier Codes\\Slot 8 (3)"
+          ],
+          [
+            "Max Item Modifier Codes\\Slot 8",
+            "Max Item Modifier Codes\\Slot 8 (3)"
+          ],
+          [
+            "Max Item Codes\\Slot 8",
+            "Max Item Codes\\Slot 8 (4)"
+          ],
+          [
+            "Item Modifier Codes\\Slot 8",
+            "Item Modifier Codes\\Slot 8 (4)"
+          ],
+          [
+            "Max Item Modifier Codes\\Slot 8",
+            "Max Item Modifier Codes\\Slot 8 (4)"
+          ]
+        ]
+      },
+      "fixstats": {}
+    },
+    {
+      "alias": "SLUS-20733_28211F7D.pnach",
+      "groups": 905,
+      "active_patch_lines": 1104,
+      "commented_patch_lines": 0,
+      "meta": {
+        "adjacent_headers_collapsed": 26,
+        "residual_groups_renamed": [
+          [
+            "Have All Skills",
+            "Have All Skills (2)"
+          ],
+          [
+            "Infinite Gold",
+            "Infinite Gold (2)"
+          ],
+          [
+            "Infinite Health",
+            "Infinite Health (2)"
+          ],
+          [
+            "Infinite Hearts",
+            "Infinite Hearts (2)"
+          ],
+          [
+            "Infinite MP",
+            "Infinite MP (2)"
+          ],
+          [
+            "Infinite MP",
+            "Infinite MP (3)"
+          ],
+          [
+            "Max Atk",
+            "Max Atk (2)"
+          ],
+          [
+            "Max Con",
+            "Max Con (2)"
+          ],
+          [
+            "Max Def",
+            "Max Def (2)"
+          ],
+          [
+            "Max Gold",
+            "Max Gold (2)"
+          ],
+          [
+            "Max Health",
+            "Max Health (2)"
+          ],
+          [
+            "Max Int",
+            "Max Int (2)"
+          ],
+          [
+            "Max Lck",
+            "Max Lck (2)"
+          ],
+          [
+            "Max MP",
+            "Max MP (2)"
+          ]
+        ]
+      },
+      "fixstats": {}
+    },
+    {
+      "alias": "SLUS-21448_99D3310F.pnach",
+      "groups": 868,
+      "active_patch_lines": 1714,
+      "commented_patch_lines": 0,
+      "meta": {
+        "adjacent_headers_collapsed": 5,
+        "residual_groups_renamed": [
+          [
+            "Infinite Health",
+            "Infinite Health (2)"
+          ]
+        ]
+      },
+      "fixstats": {}
+    },
+    {
+      "alias": "SLES-52730_90205D97.pnach",
+      "groups": 49,
+      "active_patch_lines": 91,
+      "commented_patch_lines": 0,
+      "meta": {
+        "legacy_groups_added": 49
+      },
+      "fixstats": {}
+    }
+  ],
+  "issues": [],
+  "policy": "Conflicting fork CRCs are preserved as serial-specific unverified compatibility aliases while the same fork cheat sets remain merged into confirmed retail targets.",
+  "silent_hill_2_cleanup": {
+    "SLUS-20228_FE06A030.pnach": "Replaced with fresh combined Greatest Hits v2.01 file, including Gabominated Disable Noise Effect.",
+    "SLUS-20228_8E8E384B.pnach": "Merged legacy cheat-only file into existing black-label v1.20 technical-patch file.",
+    "removed": [
+      "FE06A030.pnach",
+      "FE06A030 - Silent Hill 2 GH V.1.1 SLUS-20228.pnach",
+      "8E8E384B - Silent Hill 2 SLUS-20228.pnach"
+    ]
+  },
+  "semantic_header_reclassification": {
+    "status": "completed",
+    "groups_changed": 16,
+    "files_changed": 9,
+    "policy": "Actual gameplay cheats remain under Cheats\\. Technical, visual, framerate, camera/input, and widescreen patches use standalone group names.",
+    "patch_instruction_changes": 0,
+    "changes": [
+      {
+        "file": "00000000.pnach",
+        "old": "[Cheats\\Widescreen Hack]",
+        "new": "[Widescreen Hack]"
+      },
+      {
+        "file": "23510F99.pnach",
+        "old": "[Cheats\\disable aim-assist (also causes onFoot reticle to always remain neutral color)]",
+        "new": "[disable aim-assist (also causes onFoot reticle to always remain neutral color)]"
+      },
+      {
+        "file": "24036809.pnach",
+        "old": "[Cheats\\Widescreen Hack]",
+        "new": "[Widescreen Hack]"
+      },
+      {
+        "file": "327053E8.pnach",
+        "old": "[Cheats\\Disable auto-centering]",
+        "new": "[Disable auto-centering]"
+      },
+      {
+        "file": "327053E8.pnach",
+        "old": "[Cheats\\Disable horizontal aim-lock (required by MouseInjectorDolphinDuck)]",
+        "new": "[Disable horizontal aim-lock (required by MouseInjectorDolphinDuck)]"
+      },
+      {
+        "file": "327053E8.pnach",
+        "old": "[Cheats\\Disable vertical aim-lock (required by MouseInjectorDolphinDuck)]",
+        "new": "[Disable vertical aim-lock (required by MouseInjectorDolphinDuck)]"
+      },
+      {
+        "file": "327053E8.pnach",
+        "old": "[Cheats\\Write turret base to 0x720590 (required by MouseInjectorDolphinDuck) (disables turret Y-axis with analog stick)]",
+        "new": "[Write turret base to 0x720590 (required by MouseInjectorDolphinDuck) (disables turret Y-axis with analog stick)]"
+      },
+      {
+        "file": "327053E8.pnach",
+        "old": "[Cheats\\Write FOV base to 0x620090 (required by MouseInjectorDolphinDuck)]",
+        "new": "[Write FOV base to 0x620090 (required by MouseInjectorDolphinDuck)]"
+      },
+      {
+        "file": "327053E8.pnach",
+        "old": "[Cheats\\Write cambase to 0x620230 (for use with MouseInjectorDolphinDuck)]",
+        "new": "[Write cambase to 0x620230 (for use with MouseInjectorDolphinDuck)]"
+      },
+      {
+        "file": "43598BF3.pnach",
+        "old": "[Cheats\\Widescreen Hack]",
+        "new": "[Widescreen Hack]"
+      },
+      {
+        "file": "785B28DA.pnach",
+        "old": "[Cheats\\Disable aim-lock]",
+        "new": "[Disable aim-lock]"
+      },
+      {
+        "file": "D31904C2.pnach",
+        "old": "[Cheats\\Remove Ghosting in the over world]",
+        "new": "[Remove Ghosting in the over world]"
+      },
+      {
+        "file": "EFE4448F.pnach",
+        "old": "[Cheats\\60 FPS]",
+        "new": "[60 FPS]"
+      },
+      {
+        "file": "EFE4448F.pnach",
+        "old": "[Cheats\\write camBase to free address (required to use MouseInjector)]",
+        "new": "[write camBase to free address (required to use MouseInjector)]"
+      },
+      {
+        "file": "FBB5290C.pnach",
+        "old": "[Cheats\\Disable FPS Camera Auto-Center]",
+        "new": "[Disable FPS Camera Auto-Center]"
+      },
+      {
+        "file": "FBB5290C.pnach",
+        "old": "[Cheats\\Disable Rounded Corner CamX Adjust]",
+        "new": "[Disable Rounded Corner CamX Adjust]"
+      }
+    ]
+  },
+  "legacy_autogroup_semantic_audit": {
+    "original_auto_created_groups": 43,
+    "genuine_cheats_kept_under_Cheats": 16,
+    "technical_visual_input_framerate_groups_moved_to_standalone": 27,
+    "technical_groups_previously_fixed_in_silent_hill_2_cleanup": 11,
+    "technical_groups_fixed_in_this_pass": 16,
+    "known_remaining_semantic_misclassifications_from_these_43": 0
+  },
+  "independent_parser_findings_not_changed_in_this_pass": [
+    {
+      "file": "06BBB610 - Open Season SLUS-21467.pnach",
+      "line": 56,
+      "text": "[patch=1,EE,200C005C,extended,A0610098",
+      "note": "Malformed legacy patch line with an erroneous leading [."
+    },
+    {
+      "file": "0643F90C - Rogue Galaxy SCUS-97490.pnach",
+      "line": 55,
+      "text": "[patch=1,EE,203B7FE8,extended,00000000",
+      "note": "Malformed legacy patch line with an erroneous leading [."
+    }
+  ]
+}

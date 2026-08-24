@@ -1,0 +1,19 @@
+gametitle=Robots PAL-M SLES-53052 B860F5B6
+
+[50 FPS]
+author=Gabominated
+description=Might need EE overclock (130%).
+patch=1,EE,00196280,word,1400000A
+patch=1,EE,00349AB0,word,00000001
+
+[Cheats\Infinite Health]
+patch=1,EE,200C2000,extended,46000046
+patch=1,EE,200C2004,extended,03E00008
+patch=1,EE,200C2008,extended,E44103D0
+patch=1,EE,201B4E40,extended,0C030800
+
+[Cheats\Infinite Scrap]
+patch=1,EE,200C2010,extended,2402270F
+patch=1,EE,200C2014,extended,03E00008
+patch=1,EE,200C2018,extended,AC820004
+patch=1,EE,20218134,extended,08030804

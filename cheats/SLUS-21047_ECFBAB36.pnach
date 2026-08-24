@@ -1,0 +1,34 @@
+gametitle=Cold Fear NTSC-U SLUS-21047 ECFBAB36
+
+[Widescreen 16:9]
+gsaspectratio=16:9
+author=Gabominated
+description=Enable native widescreen.
+patch=1,EE,0046EFB4,word,00000001 //00000000
+patch=1,EE,004F9500,word,01000000 //00000000
+
+[60 FPS]
+author=Gabominated
+description=Might need EE Overclock (130%).
+patch=0,EE,00256974,word,A3808814
+//patch=1,EE,00254678,word,24020002 //24020001
+
+[Cheats\Infinite Health]
+patch=1,EE,200FFF00,extended,3C03437A
+patch=1,EE,200FFF04,extended,AC830530
+patch=1,EE,200FFF08,extended,8C990000
+patch=1,EE,200FFF0C,extended,8F390098
+patch=1,EE,200FFF10,extended,0807C128
+patch=1,EE,201F0498,extended,0803FFC0
+
+[Cheats\Infinite Ammo And No Reload]
+patch=1,EE,201F6B50,extended,24450000
+patch=1,EE,201F6B38,extended,24450000
+patch=1,EE,202239F8,extended,00000000
+patch=1,EE,202239F8,extended,00000000
+
+[Cheats\Infinite Resistance]
+patch=1,EE,201EF3D4,extended,00000000
+
+[Cheats\Unlock All Bonus Material]
+patch=1,EE,20345E88,extended,24020001

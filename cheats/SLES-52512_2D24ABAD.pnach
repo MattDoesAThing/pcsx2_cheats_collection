@@ -1,0 +1,34 @@
+gametitle=Headhunter - Redemption PAL-M SLES-52512 2D24ABAD
+
+[50/60 FPS]
+author=Gabominated
+description=Might need EE Overclock (180%).
+patch=1,EE,20157D78,extended,0042102A
+patch=1,EE,20166f8c,extended,24070032
+patch=1,EE,201670C8,extended,2403003c
+patch=1,EE,E0010032,extended,0043BA24
+patch=1,EE,2043BA24,extended,00000019
+patch=1,EE,E001003C,extended,0043BA24
+patch=1,EE,2043BA24,extended,0000001E
+patch=1,EE,E0010001,extended,005CCF78
+patch=1,EE,20157D78,extended,0043102A
+
+[NTSC Mode]
+author=Gabominated
+description=NTSC mode at start.
+patch=1,EE,00167098,word,14000018 //10000018
+
+[Disable Blur]
+author=Gabominated
+description=Disable post-processing blur effect.
+patch=1,EE,001464AC,word,00000000
+
+[Cheats\Infinite Health]
+patch=1,EE,201CDE88,extended,3C054400
+patch=1,EE,201CDE98,extended,AE050038
+
+[Cheats\Infinite Ammo]
+patch=1,EE,201C4C74,extended,00000000
+
+[Cheats\Press Select for Debug menu level select on the main menu, and in game debug menu press select invincibility,  ammo, no clipping, save-load state, blind enemies]
+patch=1,EE,0043B848,extended,00000001

@@ -1,79 +1,41 @@
-gametitle=Monster House [SLUS-21400] [1AFD7469]
+gametitle=Monster House NTSC-U SLUS-21400 1AFD7469
 
-[Unlock All Offroad/Stadium/Exhibition Tracks]
-author=xs1l3n7x(pnach)/CheatDevicePS2(codes)
-description=Unlock All Offroad/Stadium/Exhibition Tracks
-// Unlock All Offroad/Stadium/Exhibition Tracks
-patch=1,EE,9011D824,extended,0C04A81C
+[60 FPS]
+author=Gabominated
+description=Might need EE overclock (130%).
+patch=1,EE,003D2530,word,00000000
 
-[Infinite Water]
-author=xs1l3n7x(pnach)/CheatDevicePS2(codes)
-description=Infinite Water
-// Infinite Water
-patch=1,EE,D10DB2E4,extended,0000802D
-
-[Infinite Water]
-author=xs1l3n7x(pnach)/CheatDevicePS2(codes)
-description=Infinite Water
-// Infinite Water
-patch=1,EE,210DB2F0,extended,00000000
-
-[Unlock All Replay Chapters]
-author=xs1l3n7x(pnach)/CheatDevicePS2(codes)
-description=Unlock All Replay Chapters
-// Unlock All Replay Chapters
-patch=1,EE,2088F4A0,extended,00000008
-
-[Unlock All Gallery]
-author=xs1l3n7x(pnach)/CheatDevicePS2(codes)
-description=Unlock All Gallery
-// Unlock All Gallery
-patch=1,EE,4088F3A4,extended,00200001
-
-[Unlock All Gallery]
-author=xs1l3n7x(pnach)/CheatDevicePS2(codes)
-description=Unlock All Gallery
-// Unlock All Gallery
-patch=1,EE,00000001,extended,00000000
-
-[Infinite Credits]
-author=xs1l3n7x(pnach)/CheatDevicePS2(codes)
-description=Infinite Credits
-// Infinite Credits
-patch=1,EE,2088F424,extended,00000063
-
-[Infinite Lives]
-author=xs1l3n7x(pnach)/CheatDevicePS2(codes)
-description=Infinite Lives
-// Infinite Lives
+[Cheats\Infinite Lives]
 patch=1,EE,21382738,extended,00000063
 
-[Quick Score Gain]
-author=xs1l3n7x(pnach)/CheatDevicePS2(codes)
-description=Quick Score Gain
-// Quick Score Gain
-patch=1,EE,1138273C,extended,0000FFFF
+[Cheats\Infinite Health]
+patch=1,EE,E002F02D,extended,01397DB8
+patch=1,EE,21397DE0,extended,C4400004
+patch=1,EE,21397DE8,extended,E4400008
 
-[Max Score]
-author=xs1l3n7x(pnach)/CheatDevicePS2(codes)
-description=Max Score
-// Max Score
+[Cheats\Infinite Water]
+patch=1,EE,D10DB2E5,extended,0000802D
+patch=1,EE,210DB2F0,extended,00000000
+
+[Cheats\Max Score]
 patch=1,EE,2138273C,extended,05F5E0FF
 
-[Infinite Health]
-author=xs1l3n7x(pnach)/CheatDevicePS2(codes)
-description=Infinite Health
-// Infinite Health
-patch=1,EE,E002F02D,extended,01397DB8
+[Cheats\Thou Art Dead Codes Infinite Credits]
+patch=1,EE,2088F424,extended,00000063
 
-[Infinite Health]
-author=xs1l3n7x(pnach)/CheatDevicePS2(codes)
-description=Infinite Health
-// Infinite Health
-patch=1,EE,21397DE0,extended,C4400004
+[Cheats\Unlock All Replay Chapters]
+patch=1,EE,2088F4A0,extended,00000008
 
-[Infinite Health]
-author=xs1l3n7x(pnach)/CheatDevicePS2(codes)
-description=Infinite Health
-// Infinite Health
-patch=1,EE,21397DE8,extended,E4400008
+[Cheats\Unlock All Gallery]
+patch=1,EE,4088F3A4,extended,00200001
+patch=1,EE,00000001,extended,00000000
+
+[Cheats\Re-enable Debug Options in Main Menu and Pause Menu move the menu cursor to the very bottom option while in these menus. ]
+patch=1,EE,D185A304,extended,00000006
+patch=1,EE,1185A304,extended,00000007
+patch=1,EE,D113B18C,extended,00000004
+patch=1,EE,1113B18C,extended,00000005
+
+
+
+

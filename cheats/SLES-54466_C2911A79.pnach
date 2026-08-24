@@ -1,0 +1,26 @@
+gametitle=Test Drive Unlimited PAL-M SLES-54466 C2911A79
+
+[50/60 FPS]
+author=Gabominated
+description=Might need EE Overclock (130%).
+patch=1,EE,20109DC8,extended,C440D5E8
+patch=1,EE,E0010001,extended,005EA904
+patch=1,EE,20109DC8,extended,C441D5E8
+patch=0,EE,20383730,extended,3C033F00
+
+[Disable Filters]
+author=Gabominated
+description=Disable blue filters.
+patch=1,EE,001A73A8,word,00000000
+
+[Cheats\Infinite Cash]
+patch=1,EE,21ABC6E8,extended,05F00000
+
+[Cheats\Max Cash After a Paint Job]
+patch=1,EE,203BACA4,extended,3C0505F0
+
+[Cheats\Unlock All Cars Are Available to Purchase without Condition]
+patch=1,EE,203B9550,extended,00000000
+
+[Cheats\Always Low Race Time]
+patch=1,EE,205DF0FC,extended,00000000

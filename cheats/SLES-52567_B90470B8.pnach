@@ -1,0 +1,26 @@
+gametitle=Catwoman PAL-M SLES-52567 B90470B8
+
+[50/60 FPS]
+author=PeterDelta & Gabominated
+description=Might need EE overclock (130%).
+patch=0,EE,0012A3D0,word,24420002
+patch=0,EE,001763EC,word,46000843
+
+[Cheats\Infinite Health And Power]
+patch=1,EE,2025D2DC,extended,447A0000
+
+[Cheats\Lots Of Points]
+patch=1,EE,2025DB70,extended,0001869F
+
+[Cheats\9999 Diamonds]
+patch=1,EE,2025DACC,extended,0000270F
+
+[Cheats\Unlock Everything]
+patch=1,EE,20341CE8,extended,FFFFFFFF
+patch=1,EE,20341CEC,extended,FFFFFFFF
+patch=1,EE,20341CF0,extended,FFFFFFFF
+patch=1,EE,20341CF4,extended,FFFFFFFF
+patch=1,EE,20341CF8,extended,FFFFFFFF
+patch=1,EE,20341CFC,extended,FFFFFFFF
+patch=1,EE,20341D00,extended,FFFFFFFF
+patch=1,EE,20341D04,extended,FFFFFFFF

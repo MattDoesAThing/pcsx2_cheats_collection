@@ -1,0 +1,58 @@
+gametitle=Mercenaries - Playground of Destruction NTSC-U SLUS-20932 23510F99
+
+// From consolidated source 23510F99.pnach: gametitle=Mercenaries: Playground of Destruction SLUS-20932 0x23510F99
+// From consolidated source 23510F99.pnach: // 60 fps
+// From consolidated source 23510F99.pnach: //patch=1,EE,203AD720,extended,2C420001
+
+[60 FPS]
+author=Gabominated
+description=Might need EE overclock (130%).
+patch=1,EE,004A55DC,word,00000000
+
+[Remove Blur/Bloom]
+author=Gabominated
+description=Removes the post-processing blur/bloom effect
+patch=1,EE,004F318C,word,00000000
+
+[Cheats\Infinite Health]
+patch=1,EE,21940594,extended,43FA0000
+patch=1,EE,21A76A94,extended,43FA0000
+
+[Cheats\Infinite Ammo]
+patch=1,EE,20124E5C,extended,AEA2022C
+
+[Cheats\Infinite Funds]
+patch=1,EE,21A77560,extended,4CBEBC20
+
+[Cheats\Infinite Grenades]
+patch=1,EE,2012363C,extended,00000000
+
+[Cheats\Infinite Ammo and Never Reload]
+patch=1,EE,20124E5C,extended,00000000
+
+[Cheats\Activate Cheat Infinite Health]
+patch=1,EE,200C0250,extended,96010110
+patch=1,EE,200C0254,extended,34210004
+patch=1,EE,200C0258,extended,A6010110
+patch=1,EE,200C025C,extended,03E00008
+patch=1,EE,200C0260,extended,46000834
+patch=1,EE,2012FF08,extended,0C030094
+
+[Cheats\Activate Cheat Infinite Ammo and Grenades All Weapons]
+patch=1,EE,205153F0,extended,00000001
+
+[Cheats\Always Good Faction South Korea]
+patch=1,EE,20553194,extended,3F800000
+
+[Cheats\Always Good Faction Russian Mafia]
+patch=1,EE,205531B4,extended,3F800000
+
+[Cheats\Always Good Faction China]
+patch=1,EE,205531D4,extended,3F800000
+
+[Cheats\Always Good Faction Allies]
+patch=1,EE,205531F4,extended,3F800000
+
+[disable aim-assist (also causes onFoot reticle to always remain neutral color)]
+// disable aim-assist (also causes onFoot reticle to always remain neutral color)
+patch=1,EE,2032D21C,extended,AE200010

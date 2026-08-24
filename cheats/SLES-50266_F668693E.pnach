@@ -1,0 +1,16 @@
+gametitle=Hype - The Time Quest PAL-M SLES-50266 F668693E
+
+[50 FPS]
+author=Gabominated
+description=Might need EE Overclock (130%).
+patch=1,EE,0030E8A0,word,00000032
+
+[Cheats\Infinite Money]
+patch=1,EE,1063B71E,extended,0000270F
+
+[Cheats\Infinite Health]
+patch=1,EE,20C229F8,extended,0001869F
+
+[Cheats\Infinite Arrows]
+patch=1,EE,1063A156,extended,00000063
+

@@ -1,0 +1,482 @@
+[Cheats\Infinite Health All Playable Characters]
+patch=1,EE,20448F2C,extended,000000A0
+
+[Cheats\Claire Infinite Item Ammo Slot 1]
+patch=1,EE,10449BA8,extended,000003E7
+
+[Cheats\Claire Infinite Item Ammo Slot 2]
+patch=1,EE,10449BAC,extended,000003E7
+
+[Cheats\Claire Infinite Item Ammo Slot 3]
+patch=1,EE,10449BB0,extended,000003E7
+
+[Cheats\Claire Infinite Item Ammo Slot 4]
+patch=1,EE,10449BB4,extended,000003E7
+
+[Cheats\Claire Infinite Item Ammo Slot 5]
+patch=1,EE,10449BB8,extended,000003E7
+
+[Cheats\Claire Infinite Item Ammo Slot 6]
+patch=1,EE,10449BBC,extended,000003E7
+
+[Cheats\Claire Infinite Item Ammo Slot 7]
+patch=1,EE,10449BC0,extended,000003E7
+
+[Cheats\Claire Infinite Item Ammo Slot 8]
+patch=1,EE,10449BC4,extended,000003E7
+
+[Cheats\Steve Infinite Item Ammo Slot 1]
+patch=1,EE,10449C28,extended,000003E7
+
+[Cheats\Steve Infinite Item Ammo Slot 2]
+patch=1,EE,10449C2C,extended,000003E7
+
+[Cheats\Steve Infinite Item Ammo Slot 3]
+patch=1,EE,10449C30,extended,000003E7
+
+[Cheats\Steve Infinite Item Ammo Slot 4]
+patch=1,EE,10449C34,extended,000003E7
+
+[Cheats\Steve Infinite Item Ammo Slot 5]
+patch=1,EE,10449C38,extended,000003E7
+
+[Cheats\Steve Infinite Item Ammo Slot 6]
+patch=1,EE,10449C3C,extended,000003E7
+
+[Cheats\Steve Infinite Item Ammo Slot 7]
+patch=1,EE,10449C40,extended,000003E7
+
+[Cheats\Steve Infinite Item Ammo Slot 8]
+patch=1,EE,10449C44,extended,000003E7
+
+[Cheats\Chris Infinite Item Ammo Slot 1]
+patch=1,EE,10449BE8,extended,000003E7
+
+[Cheats\Chris Infinite Item Ammo Slot 2]
+patch=1,EE,10449BEC,extended,000003E7
+
+[Cheats\Chris Infinite Item Ammo Slot 3]
+patch=1,EE,10449BF0,extended,000003E7
+
+[Cheats\Chris Infinite Item Ammo Slot 4]
+patch=1,EE,10449BF4,extended,000003E7
+
+[Cheats\Chris Infinite Item Ammo Slot 5]
+patch=1,EE,10449BF8,extended,000003E7
+
+[Cheats\Chris Infinite Item Ammo Slot 6]
+patch=1,EE,10449BFC,extended,000003E7
+
+[Cheats\Chris Infinite Item Ammo Slot 7]
+patch=1,EE,10449C00,extended,000003E7
+
+[Cheats\Chris Infinite Item Ammo Slot 8]
+patch=1,EE,10449C04,extended,000003E7
+
+[Cheats\Always First Save]
+patch=1,EE,104499B0,extended,00000000
+
+[Cheats\No Retries]
+patch=1,EE,1044A1DA,extended,00000000
+
+[Cheats\Low End Time]
+patch=1,EE,2044A1D0,extended,00000000
+
+[Cheats\Press L1 + Cross Save Anywhere]
+patch=1,EE,D1E257C0,extended,0000BBFF
+patch=1,EE,00449996,extended,00000020
+
+[Cheats\Unlock All Extras]
+patch=1,EE,20449934,extended,0000FFFF
+
+// -----------------------------------------------------------------------------
+// Fork additions consolidated from Nexxus-Drako/pcsx2_cheats_collection
+// Source file: 6EA9DDA9.pnach
+// -----------------------------------------------------------------------------
+
+[Cheats\Unlock Extras]
+//Unlock Extras
+patch=1,EE,10449934,extended,0000FFFF
+[Cheats\Lance-roquettes]
+//Codes de la boîte..
+//Lance-roquettes
+patch=1,EE,20449CA0,extended,000103E7
+[Cheats\Fusil d'assaut]
+//Fusil d'assaut
+patch=1,EE,20449CA4,extended,000203E7
+[Cheats\Fusil de Sniper]
+//Fusil de Sniper
+patch=1,EE,20449CA8,extended,000303E7
+[Cheats\Shotgun]
+//Shotgun
+patch=1,EE,20449CAC,extended,000403E7
+[Cheats\Handgun]
+//Handgun
+patch=1,EE,20449CB0,extended,000503E7
+//tir d'arbalète
+//Grenade Launcher
+patch=1,EE,20449CB4,extended,000603E7
+[Cheats\Lance-grenades]
+//Lance-grenades
+patch=1,EE,20449CB8,extended,000703E7
+[Cheats\Couteau de Combat]
+//Couteau de Combat
+patch=1,EE,20449CBC,extended,000803E7
+[Cheats\Handgun 2]
+//Handgun 2
+patch=1,EE,20449CC0,extended,000903E7
+[Cheats\Custom Handgun]
+//Custom Handgun
+patch=1,EE,20449CC4,extended,000A03E7
+[Cheats\Linear Launcher]
+//Linear Launcher
+patch=1,EE,20449CC8,extended,000B03E7
+[Cheats\Main balles de fusil]
+//Main balles de fusil
+patch=1,EE,20449CCC,extended,000C03E7
+[Cheats\Bullets Magnum]
+//Bullets Magnum
+patch=1,EE,20449CD0,extended,000D03E7
+[Cheats\Grenade Rounds]
+//Shotgun ShellsLauncher linéaire
+//Grenade Rounds
+patch=1,EE,20449CD8,extended,000F03E7
+[Cheats\Rounds Acid]
+//Rounds Acid
+patch=1,EE,20449CDC,extended,001003E7
+[Cheats\Flame Rounds]
+//Flame Rounds
+patch=1,EE,20449CE0,extended,001103E7
+[Cheats\Bow Gun Arrows]
+//Bow Gun Arrows
+patch=1,EE,20449CE4,extended,001203E7
+[Cheats\M93R Parts]
+//M93R Parts
+patch=1,EE,20449CE8,extended,001303E7
+[Cheats\First Aid Spray]
+//First Aid Spray
+patch=1,EE,20449CEC,extended,001403E7
+[Cheats\Green Herb]
+//Green Herb
+patch=1,EE,20449CF0,extended,001503E7
+[Cheats\Red Herb]
+//Red Herb
+patch=1,EE,20449CF4,extended,001603E7
+[Cheats\Blue Herb]
+//Blue Herb
+patch=1,EE,20449CF8,extended,001703E7
+[Cheats\M-100P]
+//M-100P
+patch=1,EE,20449CFC,extended,008E03E7
+[Cheats\Enhanced Handgun]
+//Enhanced Handgun
+patch=1,EE,20449D00,extended,008303E7
+[Cheats\Boardclip]
+//Boardclip
+patch=1,EE,20449D04,extended,008503E7
+[Cheats\Luger Replica]
+//Luger Replica
+patch=1,EE,20449D08,extended,008803E7
+[Cheats\Family Picture]
+//Family Picture
+patch=1,EE,20449D0C,extended,008A03E7
+[Cheats\Magnum Bullets]
+//Magnum Bullets
+patch=1,EE,20449D10,extended,001E03E7
+[Cheats\Ink Ribbon]
+//Ink Ribbon
+patch=1,EE,20449D14,extended,001F03E7
+[Cheats\Magnum]
+//Magnum
+patch=1,EE,20449D18,extended,002003E7
+[Cheats\Gold Lugers]
+//Gold Lugers
+patch=1,EE,20449D1C,extended,002103E7
+[Cheats\Sub Machine Gun]
+//Sub Machine Gun
+patch=1,EE,20449D20,extended,002203E7
+[Cheats\Bow Gun Powder]
+//Bow Gun Powder
+patch=1,EE,20449D24,extended,002303E7
+[Cheats\Gun Powder Arrow]
+//Gun Powder Arrow
+patch=1,EE,20449D28,extended,002403E7
+[Cheats\BOW Gas Rounds]
+//BOW Gas Rounds
+patch=1,EE,20449D2C,extended,002503E7
+[Cheats\M. Gun Bullets]
+//M. Gun Bullets
+patch=1,EE,20449D30,extended,002603E7
+[Cheats\Gas Mask]
+//Gas Mask
+patch=1,EE,20449D34,extended,002703E7
+[Cheats\Rifle Bullets]
+//Rifle Bullets
+patch=1,EE,20449D38,extended,002803E7
+[Cheats\Calico Bullets]
+//Calico Bullets
+patch=1,EE,20449D3C,extended,008F03E7
+[Cheats\A.Rifle Bullets]
+//A.Rifle Bullets
+patch=1,EE,20449D40,extended,002A03E7
+[Cheats\Alexander's Pierce]
+//Alexander's Pierce
+patch=1,EE,20449D44,extended,002B03E7
+[Cheats\Alexander's Jewel]
+//Alexander's Jewel
+patch=1,EE,20449D48,extended,002C03E7
+[Cheats\Alfred's Ring]
+//Alfred's Ring
+patch=1,EE,20449D4C,extended,002D03E7
+[Cheats\Alfred's Jewel]
+//Alfred's Jewel
+patch=1,EE,20449D50,extended,002E03E7
+[Cheats\Clement Mixture]
+//Clement Mixture
+patch=1,EE,20449D54,extended,009003E7
+[Cheats\Crest Key S]
+//Crest Key S
+patch=1,EE,20449D58,extended,009803E7
+[Cheats\Crest Key G]
+//Crest Key G
+patch=1,EE,20449D5C,extended,009903E7
+[Cheats\Lock Pick]
+//Lock Pick
+patch=1,EE,20449D60,extended,003203E7
+[Cheats\Glass Eye]
+//Glass Eye
+patch=1,EE,20449D64,extended,003303E7
+[Cheats\Piano Roll]
+//Piano Roll
+patch=1,EE,20449D68,extended,003403E7
+[Cheats\Steering Wheel]
+//Steering Wheel
+patch=1,EE,20449D6C,extended,003503E7
+[Cheats\Crane Key]
+//Crane Key
+patch=1,EE,20449D70,extended,003603E7
+[Cheats\Lighter]
+//Lighter
+patch=1,EE,20449D74,extended,003703E7
+[Cheats\Eagle Plate]
+//Eagle Plate
+patch=1,EE,20449D78,extended,003803E7
+[Cheats\Side Pack]
+//Side Pack
+patch=1,EE,20449D7C,extended,003903E7
+[Cheats\Map]
+//Map
+patch=1,EE,20449D80,extended,003A03E7
+[Cheats\Hawk Emblem]
+//Hawk Emblem
+patch=1,EE,20449D84,extended,003B03E7
+[Cheats\Queen Ant Object]
+//Queen Ant Object
+patch=1,EE,20449D88,extended,003C03E7
+[Cheats\King Ant Object]
+//King Ant Object
+patch=1,EE,20449D8C,extended,003D03E7
+[Cheats\Biohazard Card]
+//Biohazard Card
+patch=1,EE,20449D90,extended,003E03E7
+[Cheats\Duralumin Case]
+//Duralumin Case
+patch=1,EE,20449D94,extended,003F03E7
+[Cheats\Detonator]
+//Detonator
+patch=1,EE,20449D98,extended,004003E7
+[Cheats\Control Lever]
+//Control Lever
+patch=1,EE,20449D9C,extended,004103E7
+[Cheats\Gold Dragonfly]
+//Gold Dragonfly
+patch=1,EE,20449DA0,extended,004203E7
+[Cheats\Silver Key]
+//Silver Key
+patch=1,EE,20449DA4,extended,004303E7
+[Cheats\Gold Key]
+//Gold Key
+patch=1,EE,20449DA8,extended,004403E7
+[Cheats\Army Proof]
+//Army Proof
+patch=1,EE,20449DAC,extended,004503E7
+[Cheats\Navy Proof]
+//Navy Proof
+patch=1,EE,20449DB0,extended,004603E7
+[Cheats\Air Force Proof]
+//Air Force Proof
+patch=1,EE,20449DB4,extended,004703E7
+[Cheats\Key With Tag]
+//Key With Tag
+patch=1,EE,20449DB8,extended,004803E7
+[Cheats\ID Card]
+//ID Card
+patch=1,EE,20449DBC,extended,004903E7
+[Cheats\Map (2)]
+//Map
+patch=1,EE,20449DC0,extended,004A03E7
+[Cheats\Airport Key]
+//Airport Key
+patch=1,EE,20449DC4,extended,004B03E7
+[Cheats\Emblem Card]
+//Emblem Card
+patch=1,EE,20449DC8,extended,004C03E7
+[Cheats\Skeleton Picture]
+//Skeleton Picture
+patch=1,EE,20449DCC,extended,004D03E7
+[Cheats\Music Box Plate]
+//Music Box Plate
+patch=1,EE,20449DD0,extended,004E03E7
+[Cheats\Dragonfly Object]
+//Dragonfly Object
+patch=1,EE,20449DD4,extended,004F03E7
+[Cheats\Album]
+//Album
+patch=1,EE,20449DD8,extended,005003E7
+[Cheats\Halberd]
+//Halberd
+patch=1,EE,20449DDC,extended,005103E7
+[Cheats\Extinguisher]
+//Extinguisher
+patch=1,EE,20449DE0,extended,005203E7
+[Cheats\Briefcase]
+//Briefcase
+patch=1,EE,20449DE4,extended,005303E7
+[Cheats\Padlock Key]
+//Padlock Key
+patch=1,EE,20449DE8,extended,005403E7
+[Cheats\TG-01]
+//TG-01
+patch=1,EE,20449DEC,extended,005503E7
+[Cheats\SP.Alloy Emblem]
+//SP.Alloy Emblem
+patch=1,EE,20449DF0,extended,005603E7
+[Cheats\Valve Handle]
+//Valve Handle
+patch=1,EE,20449DF4,extended,005703E7
+[Cheats\Octa Valve Handle]
+//Octa Valve Handle
+patch=1,EE,20449DF8,extended,005803E7
+[Cheats\Machine Room Key]
+//Machine Room Key
+patch=1,EE,20449DFC,extended,005903E7
+[Cheats\Mining Room Key]
+//Mining Room Key
+patch=1,EE,20449E00,extended,005A03E7
+[Cheats\Barcode Sticker]
+//Barcode Sticker
+patch=1,EE,20449E04,extended,005B03E7
+[Cheats\Sterile Room Key]
+//Sterile Room Key
+patch=1,EE,20449E08,extended,005C03E7
+[Cheats\Door Knob]
+//Door Knob
+patch=1,EE,20449E0C,extended,005D03E7
+[Cheats\Battery Pack]
+//Battery Pack
+patch=1,EE,20449E10,extended,005E03E7
+[Cheats\Hemostatic]
+//Hemostatic
+patch=1,EE,20449E14,extended,005F03E7
+[Cheats\Turn Table Key]
+//Turn Table Key
+patch=1,EE,20449E18,extended,006003E7
+[Cheats\Chem.Storage Key]
+//Chem.Storage Key
+patch=1,EE,20449E1C,extended,006103E7
+[Cheats\Clement Alpha]
+//Clement Alpha
+patch=1,EE,20449E20,extended,006203E7
+[Cheats\Clement Sigma]
+//Clement Sigma
+patch=1,EE,20449E24,extended,006303E7
+[Cheats\Tank Object]
+//Tank Object
+patch=1,EE,20449E28,extended,006403E7
+[Cheats\SP. Alloy Emblem]
+//SP. Alloy Emblem
+patch=1,EE,20449E2C,extended,006503E7
+[Cheats\Alfred's Memo]
+//Alfred's Memo
+patch=1,EE,20449E30,extended,006603E7
+[Cheats\Rusted Sword]
+//Rusted Sword
+patch=1,EE,20449E34,extended,006703E7
+[Cheats\Hemostatic (2)]
+//Hemostatic
+patch=1,EE,20449E38,extended,006803E7
+[Cheats\Security Card]
+//Security Card
+patch=1,EE,20449E3C,extended,006903E7
+[Cheats\Security File]
+//Security File
+patch=1,EE,20449E40,extended,006A03E7
+[Cheats\Alexia's Choker]
+//Alexia's Choker
+patch=1,EE,20449E44,extended,006B03E7
+[Cheats\Alexia's Jewel]
+//Alexia's Jewel
+patch=1,EE,20449E48,extended,006C03E7
+[Cheats\Queen Ant Relief]
+//Queen Ant Relief
+patch=1,EE,20449E4C,extended,006D03E7
+[Cheats\King And Relief]
+//King And Relief
+patch=1,EE,20449E50,extended,006E03E7
+[Cheats\Red Jewel]
+//Red Jewel
+patch=1,EE,20449E54,extended,006F03E7
+[Cheats\Blue Jewel]
+//Blue Jewel
+patch=1,EE,20449E58,extended,007003E7
+[Cheats\Socket]
+//Socket
+patch=1,EE,20449E5C,extended,007103E7
+[Cheats\Sq. Valve Handle]
+//Sq. Valve Handle
+patch=1,EE,20449E60,extended,007203E7
+[Cheats\Serum]
+//Serum
+patch=1,EE,20449E64,extended,007303E7
+[Cheats\Earthenware Vase]
+//Earthenware Vase
+patch=1,EE,20449E68,extended,007403E7
+[Cheats\Paperweight]
+//Paperweight
+patch=1,EE,20449E6C,extended,007503E7
+[Cheats\Silver Dragonfly]
+//Silver Dragonfly
+patch=1,EE,20449E70,extended,007603E7
+[Cheats\Silver Dragonfly 1]
+//Silver Dragonfly 1
+patch=1,EE,20449E74,extended,007703E7
+[Cheats\Wing Object]
+//Wing Object
+patch=1,EE,20449E78,extended,007803E7
+[Cheats\Crystal]
+//Crystal
+patch=1,EE,20449E7C,extended,007903E7
+[Cheats\Gold Dragonfly (2)]
+//Gold Dragonfly
+patch=1,EE,20449E80,extended,007A03E7
+[Cheats\Gold Dragonfly 1]
+//Gold Dragonfly 1
+patch=1,EE,20449E84,extended,007B03E7
+[Cheats\Gold Dragonfly 2]
+//Gold Dragonfly 2
+patch=1,EE,20449E88,extended,007C03E7
+[Cheats\File]
+//File
+patch=1,EE,20449E8C,extended,007D03E7
+[Cheats\Plant Pot]
+//Plant Pot
+patch=1,EE,20449E90,extended,007E03E7
+[Cheats\Picture B]
+//Picture B
+patch=1,EE,20449E94,extended,007F03E7
+[Cheats\Duralumin Case (2)]
+//Duralumin Case
+patch=1,EE,20449E98,extended,008003E7
+[Cheats\Duralumin Case (3)]
+//Duralumin Case
+patch=1,EE,20449E9C,extended,008103E7

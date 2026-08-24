@@ -1,0 +1,56 @@
+[Cheats\Infinite Health]
+patch=1,EE,2190f9d8,extended,000003e8
+
+[Cheats\Infinite Health alt]
+patch=1,EE,201b1ab8,extended,e60103f8
+
+[Cheats\Max Health]
+patch=1,EE,2190f9d4,extended,000003e8
+
+[Cheats\Infinite Health alternate]
+patch=1,EE,201B1AAC,extended,C60103F8
+patch=1,EE,201B1AB8,extended,E60103FC
+
+[Cheats\Infinite Musou]
+patch=1,EE,2190f9e8,extended,000003e8
+
+[Cheats\Max Musou]
+patch=1,EE,2190f9e4,extended,000003e8
+
+[Cheats\HP and Musou Get 999 After Lv up]
+patch=1,EE,20280394,extended,00000000
+
+[Cheats\Infinite Saves]
+patch=1,EE,20280ef4,extended,26450000
+
+[Cheats\Challenge Mode - Max Box Broke]
+patch=1,EE,202801a8,extended,00000000
+
+[Cheats\Player HP 9999]
+patch=1,EE,202b66f4,extended,00000000
+patch=1,EE,202b66fc,extended,2405270f
+
+[Cheats\Musou 9999]
+patch=1,EE,202b66c4,extended,00000000
+patch=1,EE,202b66cc,extended,2405270f
+
+[Cheats\Atk 9999]
+patch=1,EE,202b6694,extended,00000000
+patch=1,EE,202b669c,extended,2405270f
+
+[Cheats\Def 9999]
+patch=1,EE,202b6664,extended,00000000
+patch=1,EE,202b666c,extended,2405270f
+
+[Cheats\Horse Max Stats]
+patch=1,EE,20291b08,extended,00000000
+patch=1,EE,20291cc4,extended,00000000
+patch=1,EE,20291e80,extended,00000000
+patch=1,EE,2029203c,extended,00000000
+
+[Cheats\Infinite Items]
+patch=1,EE,201af52c,extended,3C0248A0
+patch=1,EE,201af580,extended,3C0248A0
+patch=1,EE,201af5c4,extended,3C0248A0
+patch=1,EE,201af608,extended,3C0248A0
+patch=1,EE,201af64c,extended,3C0248A0

@@ -1,55 +1,26 @@
-gametitle=Ghosthunter [SLUS-20993] [29C7DA54]
+gametitle=Ghosthunters NTSC-U SLUS-20993 29C7DA54
 
-[Halo-Legacy Mode (Analog Sticks)]
-author=xs1l3n7x(pnach)/CheatDevicePS2(codes)
-description=Halo-Legacy Mode (Analog Sticks)
-// Halo-Legacy Mode (Analog Sticks)
-patch=1,EE,90447E4C,extended,0C114C3F
+[60 FPS]
+author=Gabominated
+description=Might need EE Overclock.
+patch=1,EE,10354A74,extended,2442FFFE
+patch=1,EE,E0010001,extended,00651FE0
+patch=1,EE,10354A74,extended,2442FFFF
 
-[Infinite Health]
-author=xs1l3n7x(pnach)/CheatDevicePS2(codes)
-description=Infinite Health
-// Infinite Health
+[Cheats\Infinite Health]
 patch=1,EE,200C0220,extended,C44102C0
-
-[Infinite Health]
-author=xs1l3n7x(pnach)/CheatDevicePS2(codes)
-description=Infinite Health
-// Infinite Health
 patch=1,EE,200C0224,extended,0808D435
-
-[Infinite Health]
-author=xs1l3n7x(pnach)/CheatDevicePS2(codes)
-description=Infinite Health
-// Infinite Health
 patch=1,EE,200C0228,extended,E44102C4
-
-[Infinite Health]
-author=xs1l3n7x(pnach)/CheatDevicePS2(codes)
-description=Infinite Health
-// Infinite Health
 patch=1,EE,202350D0,extended,0C030088
 
-[Infinite Ammo]
-author=xs1l3n7x(pnach)/CheatDevicePS2(codes)
-description=Infinite Ammo
-// Infinite Ammo
+[Cheats\Infinite Ammo]
 patch=1,EE,202163F4,extended,00000000
 
-[Infinite Ghost Energy (Upon Pickup)]
-author=xs1l3n7x(pnach)/CheatDevicePS2(codes)
-description=Infinite Ghost Energy (Upon Pickup)
-// Infinite Ghost Energy (Upon Pickup)
+[Cheats\Infinite Ghost Energy Upon Pickup]
 patch=1,EE,20324884,extended,00000000
 
-[Quick Captures]
-author=xs1l3n7x(pnach)/CheatDevicePS2(codes)
-description=Quick Captures
-// Quick Captures
+[Cheats\Quick Captures]
 patch=1,EE,20568620,extended,00000001
 
-[Infinite Ability Energy]
-author=xs1l3n7x(pnach)/CheatDevicePS2(codes)
-description=Infinite Ability Energy
-// Infinite Ability Energy
+[Cheats\Astral Infinite Ability Energy]
 patch=1,EE,201DF7B4,extended,00000000

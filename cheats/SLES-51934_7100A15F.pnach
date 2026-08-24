@@ -1,0 +1,39 @@
+gametitle=Curse - The Eye of Isis PAL-M SLES-51934 7100A15F
+
+[50/60 FPS]
+author=Gabominated
+description=Might need EE Overclock (130%).
+patch=1,EE,003A699C,word,A3808490
+//patch=1,EE,003A6780,word,24020002 //24020001
+
+[NTSC Mode]
+author=Gabominated
+description=NTSC mode at startup, FMVs remain in PAL.
+patch=1,EE,002b45b0,word,240201c0 //24020200
+patch=1,EE,002DB2D0,word,240700E0 //24070100
+patch=1,EE,002DB29C,word,24060002 //24060003
+
+[480p Mode]
+author=Gabominated
+description=SDTV 480p mode at start. FMVs remain in PAL. 
+patch=1,EE,003B0A68,word,10620005 //14620005
+patch=1,EE,002b45b0,word,240201c0 //24020200
+patch=1,EE,002DB2D0,word,240700E0 //24070100
+patch=1,EE,002DB29C,word,24060002 //24060003
+
+[Cheats\Infinite Health]
+patch=1,EE,20157F78,extended,C64103B0
+patch=1,EE,20157F80,extended,E64103AC
+
+[Cheats\Infinite Health ALT]
+patch=1,EE,0015c9c8,extended,46006306
+patch=1,EE,0015cce4,extended,46006306
+
+[Cheats\Max Infinite Ammo]
+patch=1,EE,2013CBB4,extended,24020063
+
+[Cheats\Infinite Items]
+patch=1,EE,D0533F02,extended,0000FFFD
+patch=1,EE,2013BD98,extended,00000000
+patch=1,EE,D0533F02,extended,0000FFFB
+patch=1,EE,2013BD98,extended,AE820098

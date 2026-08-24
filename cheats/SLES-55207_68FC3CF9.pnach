@@ -1,0 +1,21 @@
+gametitle=Alone in the Dark PAL-M SLES-55207 68FC3CF9
+
+[NTSC Mode]
+author=Gabominated
+description=NTSC mode at start.
+patch=1,EE,0036b1a4,word,24020002 //24020003
+patch=1,EE,005b6784,word,000001c0 //00000200
+patch=1,EE,005b6790,word,0000003c //00000032
+
+[Cheats\Invincible]
+patch=1,EE,2020901C,extended,24020001
+
+[Cheats\Infinite Ammo]
+patch=1,EE,2024A004,extended,3C020000
+
+[Cheats\1 Hit Kill]
+patch=1,EE,20151608,extended,10000009
+
+[Cheats\Disable AI Path]
+patch=1,EE,201A1C20,extended,03E00008
+patch=1,EE,201A1C24,extended,00000000

@@ -1,0 +1,64 @@
+gametitle=Dirge of Cerberus - Final Fantasy VII SLUS-21419 44A5FA15
+
+// From consolidated source 44A5FA15.pnach: gametitle=Dirge of Cerberus - Final Fantasy VII 0x44A5FA15
+
+[Widescreen 16:9]
+gsaspectratio=16:9
+author=Gabominated
+description=Widescreen hack
+patch=1,EE,004FB248,word,3FC962FC //3F970A3D y-fov
+patch=1,EE,004FB250,word,42b40000 //42930000 zoom
+patch=1,EE,0040c5d4,word,3c013fab //3c013f80 render y-fix
+patch=1,EE,0040c5f4,word,3c013fab //3c013f80 render y-fix
+
+[Cheats\Infinite Gil]
+patch=1,EE,20A0B748,extended,05F5E0FF
+
+[Cheats\Infinite Health]
+patch=1,EE,200C0220,extended,240103E7
+patch=1,EE,200C0224,extended,03E00008
+patch=1,EE,200C0228,extended,AC810020
+patch=1,EE,20317660,extended,08030088
+
+[Cheats\Infinite MP]
+patch=1,EE,200C0230,extended,24100064
+patch=1,EE,200C0234,extended,080C5D70
+patch=1,EE,200C0238,extended,A6300024
+patch=1,EE,20317604,extended,0C03008C
+
+[Cheats\Infinite Potions]
+// Duplicate source label from 44A5FA15 - Final Fantasy VII - Dirge of Cerberus SLUS-21419.pnach: [Cheats\Infinite Potions (2)]
+patch=1,EE,20A0B004,extended,000003E7
+
+[Cheats\Quick Level Up]
+patch=1,EE,20A0B750,extended,0000C350
+
+[Cheats\One Shoot Kill]
+patch=1,EE,20A0B764,extended,00002710
+
+[Cheats\Infinite Handgun Ammo]
+patch=1,EE,10A0A6D8,extended,00000012
+patch=1,EE,20A0B010,extended,000003E7
+
+[Cheats\Infinite Rifle Ammo]
+patch=1,EE,10A0A60C,extended,0000000F
+patch=1,EE,20A0B01C,extended,000003E7
+
+[Cheats\Infinite Machine Gun Ammo]
+patch=1,EE,10A0A540,extended,0000001B
+patch=1,EE,20A0B028,extended,000003E7
+
+[Cheats\Unlock All Art Gallery]
+patch=1,EE,104B6D72,extended,0000FFFC
+patch=1,EE,004B6D75,extended,0000000F
+
+[Cheats\Unlock All Extra Missions]
+patch=1,EE,404B6D64,extended,00030001
+patch=1,EE,FFFFFFFF,extended,00000000
+
+[Disable Auto-Lookahead]
+patch=1,EE,2032D668,extended,00000000
+patch=1,EE,2032D168,extended,00000000
+patch=1,EE,2032CF7C,extended,00000000
+patch=1,EE,2032D66C,extended,00000000
+patch=1,EE,2032D8A0,extended,00000000

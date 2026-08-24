@@ -1,0 +1,15 @@
+[Cheats\Away Team Scores 9]
+patch=1,EE,01D3C3DE,extended,00000009
+
+[Cheats\Away Team Scores 0]
+patch=1,EE,01D3C3DE,extended,00000000
+
+[Cheats\Home Team Scores 9]
+patch=1,EE,01D3C3E8,extended,00000009
+
+[Cheats\Home Team Scores 0]
+patch=1,EE,01D3C3E8,extended,00000000
+
+
+
+

@@ -1,49 +1,24 @@
-gametitle=Catwoman [SLUS-20992] [E3DF71E1]
+gametitle=Catwoman NTSC-U SLUS-20992 E3DF71E1
 
-[Unlock Encyclopedia-All Enemies]
-author=xs1l3n7x(pnach)/CheatDevicePS2(codes)
-description=Unlock Encyclopedia-All Enemies
-// Unlock Encyclopedia-All Enemies
-patch=1,EE,901D2250,extended,0C078871
+[60 FPS]
+author=Gabominated
+description=Might need EE overclock (130%).
+patch=0,EE,0012A3B0,word,24420002
+patch=0,EE,001763C4,word,46000843
 
-[Max Diamonds]
-author=xs1l3n7x(pnach)/CheatDevicePS2(codes)
-description=Max Diamonds
-// Max Diamonds
-patch=1,EE,2025DADC,extended,000F423F
-
-[Quick Score Gain]
-author=xs1l3n7x(pnach)/CheatDevicePS2(codes)
-description=Quick Score Gain
-// Quick Score Gain
-patch=1,EE,0025DB70,extended,000000FF
-
-[Max Score]
-author=xs1l3n7x(pnach)/CheatDevicePS2(codes)
-description=Max Score
-// Max Score
-patch=1,EE,2025DB70,extended,0001869F
-
-[Infinite Domination]
-author=xs1l3n7x(pnach)/CheatDevicePS2(codes)
-description=Infinite Domination
-// Infinite Domination
+[Cheats\Infinite Health And Power]
 patch=1,EE,2025D2DC,extended,447A0000
 
-[Unlock Everything]
-author=xs1l3n7x(pnach)/CheatDevicePS2(codes)
-description=Unlock Everything
-// Unlock Everything
+[Cheats\Max Diamonds]
+patch=1,EE,2025DADC,extended,000F423F
+
+[Cheats\Unlock Everything]
 patch=1,EE,10341CEE,extended,0000FFFF
-
-[Unlock Everything]
-author=xs1l3n7x(pnach)/CheatDevicePS2(codes)
-description=Unlock Everything
-// Unlock Everything
 patch=1,EE,20341CF0,extended,FFFFFFFF
-
-[Unlock Everything]
-author=xs1l3n7x(pnach)/CheatDevicePS2(codes)
-description=Unlock Everything
-// Unlock Everything
 patch=1,EE,20341CF4,extended,FFFFFFFF
+
+[Cheats\Debug Mode Pause the game with the code on to enable this.]
+patch=1,EE,2012B134,extended,00000000
+
+[Cheats\Debug Mode invulnerability Level SelectTwo extra debug menu options will be enabled if this is active.]
+patch=1,EE,2012B090,extended,00000000

@@ -1,0 +1,33 @@
+[Cheats\Infinite Gold]
+patch=1,EE,2148FBE8,extended,000F423F
+
+[Cheats\Infinite Fodder]
+patch=1,EE,1149F73C,extended,000003E8
+
+[Cheats\Max Tolerances]
+patch=1,EE,4148FE74,extended,00050002
+patch=1,EE,005B7CB1,extended,00000000
+
+[Cheats\Never Hungry]
+patch=1,EE,2148FD64,extended,00149970
+
+[Cheats\Never Tired]
+patch=1,EE,2148FD54,extended,000186A0
+patch=1,EE,2148FD70,extended,0001869F
+
+[Cheats\Barn Can Hold Max Capacity]
+patch=1,EE,1149F73C,extended,000003E8
+
+[Cheats\Max Skill Farm Tools]
+patch=1,EE,4148FD90,extended,00080003
+patch=1,EE,0000C350,extended,00000000
+
+[Cheats\Pet 1 Always Happy]
+patch=1,EE,21493034,extended,00000064
+
+[Cheats\Quick Dog Training]
+patch=1,EE,2032631C,extended,00000000
+
+[Cheats\Have All Tools]
+patch=1,EE,4148E6EC,extended,00050001
+patch=1,EE,81818181,extended,00000000

@@ -1,0 +1,46 @@
+[Cheats\Max Gold 9999999]
+patch=1,EE,20248314,extended,0098967F
+
+[Cheats\Character 1 HP 999 And All Stats 999]
+patch=1,EE,40247706,extended,000C0001
+patch=1,EE,000003E7,extended,00000000
+
+[Cheats\Character 1 Exp 999999 After 1 Battle level 99 And All Skills]
+patch=1,EE,20247754,extended,0098967F
+
+[Cheats\Character 2 HP 999 And All Stats 999]
+patch=1,EE,4024778A,extended,000C0001
+patch=1,EE,000003E7,extended,00000000
+
+[Cheats\Character 2 Exp 999999 After 1 Battle level 99 And All Skills]
+patch=1,EE,202477DA,extended,0098967F
+
+[Cheats\Character 3 HP 999 And All Stats 9]
+patch=1,EE,4024780E,extended,000C0001
+patch=1,EE,000003E7,extended,00000000
+
+[Cheats\Character 3 Exp 999999 After 1 Battle level 99 And All Skills]
+patch=1,EE,2024785E,extended,0098967F
+
+[Cheats\Character 4 HP 999 And All Stats 9]
+patch=1,EE,40247892,extended,000C0001
+patch=1,EE,000003E7,extended,00000000
+
+[Cheats\Character 4 Exp 999999 After 1 Battle level 99 And All Skills]
+patch=1,EE,202478E2,extended,0098967F
+
+[Cheats\Character 7 HP 999 And All Stats 999]
+patch=1,EE,40247AA2,extended,000C0001
+patch=1,EE,000003E7,extended,00000000
+
+[Cheats\Character 7 Exp 999999 After 1 Battle level 99 And All Skill]
+patch=1,EE,20247AF2,extended,0098967F
+
+[Cheats\No Random Batlle Press Select+L2 Select+R2 normal game]
+patch=1,EE,D0245B82,extended,0000FEFE
+patch=1,EE,2010D060,extended,00000000
+patch=1,EE,D0245B82,extended,0000FDFE
+patch=1,EE,2010D060,extended,2442FFFF
+
+[Cheats\Start Game With 3 Characters]
+patch=1,EE,202476A0,extended,00000003

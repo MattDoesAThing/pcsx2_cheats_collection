@@ -1,0 +1,38 @@
+[Cheats\Infinite Health]
+patch=1,EE,20D2F988,extended,44200000
+
+[Cheats\Infinite Super Attack Strength]
+patch=1,EE,20D30174,extended,00000063
+
+[Cheats\Infinite Starkos - Jade]
+patch=1,EE,20D30170,extended,00000063
+
+[Cheats\Infinite Starkos - Pey'J's]
+patch=1,EE,20D2FB30,extended,00000063
+
+[Cheats\Easy-Unit Card Maxed]
+patch=1,EE,20D2F998,extended,0001869F
+
+[Cheats\Infinite PA1]
+patch=1,EE,20D30168,extended,00000010
+
+[Cheats\Infinite H-Craft Boost Capsules]
+patch=1,EE,20D3018C,extended,00000005
+
+[Cheats\Have Pey'J's Jet-Boots]
+patch=1,EE,20D3016C,extended,00000001
+
+[Cheats\Have Speedcraft Motor]
+patch=1,EE,20D3019C,extended,00000001
+
+[Cheats\Have Neutralizing Cannon]
+patch=1,EE,20D30190,extended,00000001
+
+[Cheats\Have Jump Kit]
+patch=1,EE,20D30188,extended,00000001
+
+[Cheats\Have Stellar Motor]
+patch=1,EE,20D301A4,extended,00000001
+
+[Cheats\Have Compass]
+patch=1,EE,20D301A0,extended,00000001

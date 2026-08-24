@@ -1,0 +1,35 @@
+gametitle=Nebula - Echo Night NTSC-J SLPS-25314 B6AA81EE
+
+[60 FPS]
+author=Gabominated
+description=Might need EE Overclock.
+patch=1,EE,001403E4,word,AE600360
+//patch=1,EE,001401BC,word,14200014
+
+[Performance Fix]
+author=Gabominated
+description=Remove flashlight shadows to increase performance.
+patch=1,EE,00285C48,word,00000000 //00000001
+//patch=1,EE,001441f4,word,3c020000
+
+[Disable Flicker Filter]
+author=Gabominated
+description=Disable Blurry FLicker Filter.
+patch=1,EE,002835E8,word,00000000
+patch=1,EE,002835F0,word,00000000
+patch=1,EE,002835F8,word,00000000
+patch=1,EE,00283600,word,00000000
+
+[Cheats\Always Low Heart Rate]
+patch=1,EE,209C4C04,extended,42A00000
+patch=1,EE,209C4C0C,extended,42A00000
+
+[Cheats\Invincible Except For Falling To Death]
+patch=1,EE,202137E4,extended,00000000
+patch=1,EE,202137F4,extended,00000000
+patch=1,EE,2020C4BC,extended,00000000
+patch=1,EE,2020AF8C,extended,00000000
+
+[Cheats\Light Battery Does Not Drain]
+patch=1,EE,20AC59EC,extended,4F800000
+patch=1,EE,20AC59F0,extended,4F800000

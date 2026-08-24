@@ -1,0 +1,11 @@
+[Cheats\Infinite Time Slopestyle]
+patch=1,EE,201F2000,extended,00000000
+
+[Cheats\Infinite Time Snowboarder X]
+patch=1,EE,201A77D8,extended,00000000
+
+[Cheats\Infinite Time Superpipe]
+patch=1,EE,201F108C,extended,00000000
+
+[Cheats\Infinite Time Big Air]
+patch=1,EE,201F33FC,extended,00000000

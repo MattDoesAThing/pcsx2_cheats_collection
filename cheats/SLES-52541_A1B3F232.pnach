@@ -1,0 +1,44 @@
+gametitle=Grand Theft Auto - San Andreas PAL-M SLES-52541 A1B3F232
+
+[50/60 FPS]
+author=Gabominated
+description=Might need EE overclock (130%).
+patch=0,EE,0034F9EC,word,A382C7DC
+//patch=1,EE,0034D6F0,word,24020002
+
+[480p Mode]
+gsinterlacemode=1
+author=Gabominated
+description=SDTV 480p mode at start. Use Software renderer for FMVs to avoid shake at videos.
+patch=1,EE,00358940,word,1462000A //1062000A
+
+[Cheats\Infinite Health]
+patch=1,EE,202A9C28,extended,AC610580
+patch=1,EE,202A9C20,extended,3C0142C8
+patch=1,EE,202A9C2C,extended,24030064
+
+[Cheats\Infinite Health v2]
+patch=1,EE,207096D0,extended,00640064
+patch=1,EE,207096D4,extended,00640064
+
+[Cheats\Infinite Ammo]
+patch=1,EE,20134340,extended,24420000
+patch=1,EE,201343A4,extended,24420000
+
+[Cheats\Money 99,999,999]
+patch=1,EE,207097B4,extended,05F5E0FF
+patch=1,EE,207097B8,extended,05F5E0FF
+
+[Cheats\Hashbury Hemlock Tattoos to Unused TATTO2]
+patch=1,EE,20C996E8,extended,00C9C4A0
+patch=1,EE,00C996B5,extended,00000032
+
+[Cheats\All Tags]
+patch=1,EE,2066C640,extended,00000064
+
+[Cheats\All Oysters Collected]
+patch=1,EE,2080259C,extended,00000032
+
+[Cheats\All Photos Taken]
+patch=1,EE,2080256C,extended,00000032
+

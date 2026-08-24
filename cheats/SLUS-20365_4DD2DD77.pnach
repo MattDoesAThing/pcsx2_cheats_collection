@@ -1,0 +1,31 @@
+gametitle=Pirates - The Legend of Black Kat NTSC-U SLUS-20365 4DD2DD77
+
+[60 FPS]
+author=Gabominated
+description=Might need EE overclock (130%).
+patch=0,EE,00101770,word,24020001
+patch=0,EE,0010177C,word,3C013f80
+
+[Cheats\Infinite Health]
+patch=1,EE,20411CE4,extended,000000E1
+
+[Cheats\Max Special]
+patch=1,EE,20411CC8,extended,3F800000
+
+[Cheats\Infinite Health Ship]
+patch=1,EE,204159E8,extended,00000001
+
+[Cheats\Max Special Ship]
+patch=1,EE,204121E0,extended,3F800000
+
+[Cheats\Max Wind Ship]
+patch=1,EE,204121EC,extended,3F800000
+
+[Cheats\Infinite Gold Doubloons]
+patch=1,EE,20411D68,extended,0000FFFF
+
+[Cheats\Have Skeleton Key]
+patch=1,EE,20411DF0,extended,00000001
+
+[Cheats\Unlock all Scrapbook]
+patch=1,EE,203A41F0,extended,000000C8

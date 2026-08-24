@@ -1,0 +1,22 @@
+gametitle=Polar Express, The PAL-M SLES-52685 C72FEF17
+
+[50 FPS]
+author=Gabominated
+description=Might need EE Overclock (130%).
+patch=1,EE,10514174,extended,00000001 //03E80002
+//patch=1,EE,003528F8,word,24020002 //24020001
+
+[Cheats\19 Gold Coins]
+patch=1,EE,207FE740,extended,00000013
+
+[Cheats\Infinite Continues]
+patch=1,EE,207FE764,extended,00000009
+
+[Cheats\Invulnerable]
+patch=1,EE,20113710,extended,00000000
+
+[Cheats\Scrooge 1 hit kill]
+patch=1,EE,2018D208,extended,00000000
+
+[Cheats\Tennis Challenge 1 point to win or lose]
+patch=1,EE,2017D054,extended,00000000

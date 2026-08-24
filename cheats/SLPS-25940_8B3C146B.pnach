@@ -1,0 +1,6 @@
+[Cheats\Max Money After Press L3+R3]
+// Duplicate source label from 8B3C146B - Gendai Daisenryaku - Isshoku Sokuhatsu Gunji Balance Houkai SLPS-25940.pnach: [Cheats\Max Funds Press L3 and R3]
+patch=1,EE,D0435982,extended,0000FFF9
+patch=1,EE,2145D224,extended,0098967F
+patch=1,EE,D0435982,extended,0000FFF9
+patch=1,EE,20FDBB04,extended,0098967F

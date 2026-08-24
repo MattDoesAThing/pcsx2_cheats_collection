@@ -1,0 +1,5 @@
+[Cheats\Infinite HP Player 1]
+patch=1,EE,20A24A56,extended,000041A0
+
+[Cheats\Infinite HP Player 2]
+patch=1,EE,20A1EF66,extended,000041A0

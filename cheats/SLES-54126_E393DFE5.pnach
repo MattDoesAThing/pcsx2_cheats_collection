@@ -1,0 +1,20 @@
+gametitle=Family Guy - The Video Game PAL-M SLES-54126 E393DFE5
+
+[50/60 FPS]
+author=Gabominated
+description=Might need EE Overclock.
+patch=1,EE,0017223C,word,AC409898
+
+[NTSC Mode]
+author=Gabominated
+description=NTSC mode at start.
+patch=1,EE,0014E0D8,word,14600002 //10600002
+
+[Cheats\Infinite Health Stevie Level 1]
+patch=1,EE,21A24C20,extended,42C80000
+
+[Cheats\Infinite Health Stevie Level 2]
+patch=1,EE,219EC890,extended,42C80000
+
+[Cheats\Twenty Upgrades Stevie Weapon]
+patch=1,EE,2035EA84,extended,00000014

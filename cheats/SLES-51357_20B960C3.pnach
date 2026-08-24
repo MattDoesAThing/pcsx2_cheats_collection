@@ -1,73 +1,46 @@
-gametitle=G1 Jockey 3 [SLES-51357] [20B960C3]
+[Cheats\Infinite Riding Points]
+patch=1,EE,105B52FC,extended,0000FFFF
 
-[All Characters]
-author=xs1l3n7x(pnach)/CheatDevicePS2(codes)
-description=All Characters
-// All Characters
-patch=1,EE,F0100008,extended,002621C7
+[Cheats\Infinite Stamina]
+patch=1,EE,200FFF00,extended,3C0144F0
+patch=1,EE,200FFF04,extended,AE010074
 
-[Max Speed]
-author=xs1l3n7x(pnach)/CheatDevicePS2(codes)
-description=Max Speed
-// Max Speed
-patch=1,EE,20167CF4,extended,3C014200
+[Cheats\Infinite Potential]
+patch=1,EE,200FFF08,extended,3C01469C
+patch=1,EE,200FFF0C,extended,AE010078
 
-[Max Speed]
-author=xs1l3n7x(pnach)/CheatDevicePS2(codes)
-description=Max Speed
-// Max Speed
-patch=1,EE,20167CFC,extended,AE010064
+[Cheats\Max Acc]
+patch=1,EE,200FFF18,extended,3C0143C8
+patch=1,EE,200FFF1C,extended,AE010030
 
-[Max Stamina]
-author=xs1l3n7x(pnach)/CheatDevicePS2(codes)
-description=Max Stamina
-// Max Stamina
-patch=1,EE,200C0220,extended,8E01001C
+[Cheats\Max Vit]
+patch=1,EE,200FFF20,extended,3C0146C8
+patch=1,EE,200FFF24,extended,AE010008
 
-[Max Stamina]
-author=xs1l3n7x(pnach)/CheatDevicePS2(codes)
-description=Max Stamina
-// Max Stamina
-patch=1,EE,200C0224,extended,03E00008
+[Cheats\Max EXP]
+patch=1,EE,105B4D98,extended,0000FFFF
 
-[Max Stamina]
-author=xs1l3n7x(pnach)/CheatDevicePS2(codes)
-description=Max Stamina
-// Max Stamina
-patch=1,EE,200C0228,extended,AE010074
+[Cheats\Max RP]
+patch=1,EE,105B52FC,extended,0000FFFF
 
-[Max Stamina]
-author=xs1l3n7x(pnach)/CheatDevicePS2(codes)
-description=Max Stamina
-// Max Stamina
-patch=1,EE,20167F40,extended,0C030088
+[Cheats\All Skills]
+patch=1,EE,205B5330,extended,FFFFFFFF
 
-[Max Potential]
-author=xs1l3n7x(pnach)/CheatDevicePS2(codes)
-description=Max Potential
-// Max Potential
-patch=1,EE,20167FA0,extended,AE030078
+[Cheats\Max Career Earning]
+patch=1,EE,205B4D94,extended,05F00000
 
-[Max EXP]
-author=xs1l3n7x(pnach)/CheatDevicePS2(codes)
-description=Max EXP
-// Max EXP
-patch=1,EE,10785ED8,extended,0000270F
+[Cheats\Max Season Earning]
+patch=1,EE,205B5280,extended,05F00000
 
-[Infinite Riding Points]
-author=xs1l3n7x(pnach)/CheatDevicePS2(codes)
-description=Infinite Riding Points
-// Infinite Riding Points
-patch=1,EE,107864B0,extended,0000270F
+[Cheats\All First Places]
+patch=1,EE,205B5260,extended,0000FFFF
 
-[Never Suspended/Injured]
-author=xs1l3n7x(pnach)/CheatDevicePS2(codes)
-description=Never Suspended/Injured
-// Never Suspended/Injured
-patch=1,EE,007864B4,extended,00000000
-
-[Have All Skills]
-author=xs1l3n7x(pnach)/CheatDevicePS2(codes)
-description=Have All Skills
-// Have All Skills
-patch=1,EE,207864E4,extended,01010101
+[Cheats\Slow Enemy AI]
+patch=1,EE,200FFF80,extended,3C010010
+patch=1,EE,200FFF84,extended,8C21FFF0
+patch=1,EE,200FFF88,extended,10340004
+patch=1,EE,200FFF94,extended,3C014080
+patch=1,EE,200FFF98,extended,AE810000
+patch=1,EE,200FFFA0,extended,92840102
+patch=1,EE,200FFFA4,extended,03E00008
+patch=1,EE,2015C8B0,extended,0C03FFE0

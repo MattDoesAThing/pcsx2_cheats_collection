@@ -1,37 +1,15 @@
-gametitle=Nascar Thunder 2002 [SLUS-20266] [6436665F]
+gametitle=NASCAR Thunder 2002 NTSC-U SLUS-20266 6436665F
 
-[Max Points]
-author=xs1l3n7x(pnach)/CheatDevicePS2(codes)
-description=Max Points
-// Max Points
-patch=1,EE,90278E3C,extended,0C0830CC
+[60 FPS]
+author=Gabominated
+description=Might need EE overclock (130%).
+patch=0,EE,00233B64,word,24420002
 
-[Max Money (Career Mode)]
-author=xs1l3n7x(pnach)/CheatDevicePS2(codes)
-description=Max Money (Career Mode)
-// Max Money (Career Mode)
+[Cheats\Max Money Career Mode]
 patch=1,EE,21F74678,extended,0098967F
 
-[Unlock All Drivers]
-author=xs1l3n7x(pnach)/CheatDevicePS2(codes)
-description=Unlock All Drivers
-// Unlock All Drivers
+[Cheats\Unlock All Drivers]
 patch=1,EE,21F6D6C4,extended,00000100
-
-[Unlock All Drivers]
-author=xs1l3n7x(pnach)/CheatDevicePS2(codes)
-description=Unlock All Drivers
-// Unlock All Drivers
 patch=1,EE,21F6DB04,extended,00000100
-
-[Unlock All Drivers]
-author=xs1l3n7x(pnach)/CheatDevicePS2(codes)
-description=Unlock All Drivers
-// Unlock All Drivers
 patch=1,EE,41F6DE34,extended,002E0011
-
-[Unlock All Drivers]
-author=xs1l3n7x(pnach)/CheatDevicePS2(codes)
-description=Unlock All Drivers
-// Unlock All Drivers
 patch=1,EE,00000100,extended,00000000

@@ -1,0 +1,31 @@
+gametitle=Gladiator - Sword of Vengeance PAL-M SLES-51766 80EA26DA
+
+[50/60 FPS]
+author=Gabominated
+description=Might need EE Overclock.
+patch=1,EE,0020D3D4,word,28420001 //28420002
+
+[NTSC Mode]
+author=Gabominated
+description=NTSC mode at start.
+patch=1,EE,0020D54C,word,14800006 //10800006
+
+[Cheats\Infinite Health]
+patch=1,EE,2011217C,extended,AE2101F4
+patch=1,EE,20112170,extended,8E2101F8
+
+[Cheats\All 8 Titan Tablets]
+patch=1,EE,21495590,extended,02020202
+patch=1,EE,21495594,extended,02020202
+
+[Cheats\All 4 Coins]
+patch=1,EE,214955B8,extended,02020202
+
+[Cheats\All 12 Health Urns]
+patch=1,EE,21495570,extended,02020202
+patch=1,EE,2149556C,extended,02020202
+patch=1,EE,21495568,extended,02020202
+
+[Cheats\All 8 Amulets]
+patch=1,EE,214955E0,extended,02020202
+patch=1,EE,214955E4,extended,02020202

@@ -1,0 +1,3376 @@
+[Cheats\Infinite Money]
+patch=1,EE,20409B40,extended,05F5E0FF
+
+[Cheats\Infinite Health And MP In Battle]
+patch=1,EE,202A1F3C,extended,0C03FFC0
+patch=1,EE,200FFF00,extended,240503E8
+patch=1,EE,200FFF04,extended,AE050004
+patch=1,EE,200FFF08,extended,AE050008
+patch=1,EE,200FFF0C,extended,03E00008
+patch=1,EE,200FFF10,extended,A605000E
+
+[Cheats\No Random Battles Press R2+UP Random Encounters Press R2+DOWN ]
+patch=1,EE,D04030c2,extended,0000FDEF
+patch=1,EE,203024ec,extended,00000000
+patch=1,EE,D04030c2,extended,0000FDBF
+patch=1,EE,203024ec,extended,E6410024
+
+[Cheats\Max Weapon Stats]
+patch=1,EE,2020766C,extended,08081DB1
+patch=1,EE,20207670,extended,240303E7
+
+[Cheats\Max Stats All Attributes]
+patch=1,EE,20207B14,extended,24020001
+patch=1,EE,20207B34,extended,24020001
+
+[Cheats\Experience After Battle 9999 X]
+patch=1,EE,20369170,extended,2401270F
+patch=1,EE,20369174,extended,AC410000
+patch=1,EE,20369178,extended,AFA100D0
+
+[Cheats\All Items x999]
+patch=1,EE,40409DD2,extended,018C0001
+patch=1,EE,000003E7,extended,00000000
+
+[Cheats\Max and Infinite Casino Money]
+patch=1,EE,2040ED50,extended,05F5E0FF
+
+[Cheats\Max and Infinite Bank Money]
+patch=1,EE,2040A594,extended,05F5DD18
+
+[Cheats\Unlock Full Teleport List]
+patch=1,EE,20409390,extended,FFFFFFFF
+patch=1,EE,00409394,extended,000000FF
+
+[Cheats\Max and Have all 3384 items includes Key]
+patch=1,EE,40409DD0,extended,01800001
+patch=1,EE,03E00001,extended,00000001
+
+[Cheats\Max and Have all 337 Main Items]
+patch=1,EE,40409DD0,extended,01510001
+patch=1,EE,03E00001,extended,00000001
+
+[Cheats\4 Characters Quest mode]
+patch=1,EE,00409B44,extended,0000000F
+
+[Cheats\Have All Collected Items List]
+// Duplicate source label from 945FBF31 - Dragon Quest VIII SLES-53974.pnach: [Cheats\Unlock - Have all Collected Items List]
+patch=1,EE,4040A5A8,extended,00120001
+patch=1,EE,FFFFFFFF,extended,00000000
+
+[Cheats\Unlock All Monster Book]
+// Duplicate source label from 945FBF31 - Dragon Quest VIII SLES-53974.pnach: [Cheats\Unlock - Monster Book Full]
+// From duplicate source 945FBF31 - Dragon Quest VIII SLES-53974.pnach: // -----------------------------------------------------------------------------
+// From duplicate source 945FBF31 - Dragon Quest VIII SLES-53974.pnach: // Fork additions consolidated from Nexxus-Drako/pcsx2_cheats_collection
+// From duplicate source 945FBF31 - Dragon Quest VIII SLES-53974.pnach: // Source file: 945FBF31.pnach
+patch=1,EE,4040A8A0,extended,01270008
+patch=1,EE,0000270F,extended,00000000
+patch=1,EE,4040A8A8,extended,01270008
+patch=1,EE,00630063,extended,00000000
+
+[Cheats\Alchemy Pot Upgrade Ultimate 3 Slots, Instantaneous]
+patch=1,EE,0040929E,extended,00000003
+
+[Cheats\Unlock All Alchemy Recipes Works From beginning]
+patch=1,EE,4040EB80,extended,00320001
+patch=1,EE,FFFFFFFF,extended,00000000
+
+[Cheats\Recevoir 999 Objets dans le sac après en avoir acheté]
+//Recevoir 999 Objets dans le sac après en avoir acheté
+patch=1,EE,2020706C,extended,240303E7
+patch=1,EE,202070BC,extended,240303E7
+
+[Cheats\Pas de combats aléatoires (L3 pour activer et R3 pour désactiver)]
+//Pas de combats aléatoires (L3 pour activer et R3 pour désactiver) 
+patch=1,EE,D03FAFB4,extended,00000200
+patch=1,EE,20302394,extended,00000000
+patch=1,EE,D03FAFB4,extended,00000400
+patch=1,EE,20302394,extended,14A00003
+
+[Cheats\Force au Maximum]
+//Force au Maximum
+patch=1,EE,202054B0,extended,10000061
+
+[Cheats\Agilité au maximum]
+//Agilité au maximum
+patch=1,EE,202054C0,extended,1000005F
+
+[Cheats\Sagesse au maximum]
+//Sagesse au maximum
+patch=1,EE,202054E0,extended,1000005B
+
+[Cheats\Endurance et Défense au maximum]
+//Endurance et Défense au maximum
+patch=1,EE,202054D0,extended,1000005D
+
+[Cheats\PV au maximum]
+//PV au maximum 
+patch=1,EE,20205500,extended,10000057
+
+[Cheats\PM au maximum]
+//PM au maximum
+patch=1,EE,20205510,extended,10000055
+
+[Cheats\100 EXP]
+//100 EXP 
+patch=1,EE,20369170,extended,24010064
+patch=1,EE,20369174,extended,AC410000
+patch=1,EE,20369178,extended,AFA100D0
+
+[Cheats\1000 EXP]
+//1000 EXP 
+patch=1,EE,20369170,extended,240103E8
+patch=1,EE,20369174,extended,AC410000
+patch=1,EE,20369178,extended,AFA100D0
+
+[Cheats\30000 EXP]
+//30000 EXP 
+patch=1,EE,20369170,extended,24017530
+patch=1,EE,20369174,extended,AC410000
+patch=1,EE,20369178,extended,AFA100D0
+
+[Cheats\PV au maximum (2)]
+//PV au maximum 
+patch=1,EE,20409B70,extended,000003E7
+
+[Cheats\Barre des PV toujours remplie]
+//Barre des PV toujours remplie
+patch=1,EE,20409B74,extended,000003E7
+
+[Cheats\PM au maximum (2)]
+//PM au maximum
+patch=1,EE,20409B78,extended,000003E7
+
+[Cheats\Barre des PM toujours remplie]
+//Barre des PM toujours remplie 
+patch=1,EE,20409B7C,extended,000003E7
+
+[Cheats\Passer rapidement aux niveaux supérieurs (peut être très encombrant si vous êtes à un faible niveau)]
+//Passer rapidement aux niveaux supérieurs (peut être très encombrant si vous êtes à un faible niveau)
+patch=1,EE,20409B88,extended,05F5E0FF
+
+[Cheats\Force au maximum (Alternative)]
+//Force au maximum 
+patch=1,EE,10409BA0,extended,000003E7
+
+[Cheats\Agilité au maximum (2)]
+//Agilité au maximum
+patch=1,EE,10409BA2,extended,000003E7
+
+[Cheats\Sagesse au maximum (2)]
+//Sagesse au maximum 
+patch=1,EE,10409BA6,extended,000003E7
+
+[Cheats\Endurance et défense au maximum (Alternative)]
+//Endurance et défense au maximum
+patch=1,EE,10409BA4,extended,000003E7
+
+[Cheats\Aptitudes d'épées au maximum]
+//Aptitudes d'épées au maximum 
+patch=1,EE,10409BAA,extended,000003E7
+
+[Cheats\Aptitudes de lances au maximum]
+//Aptitudes de lances au maximum
+patch=1,EE,10409BAC,extended,000003E7
+
+[Cheats\Aptitudes aux boomerangs au maximum]
+//Aptitudes aux boomerangs au maximum
+patch=1,EE,10409BAE,extended,000003E7
+
+[Cheats\Aptitudes à main nues au maximum]
+//Aptitudes à main nues au maximum
+patch=1,EE,10409BB0,extended,000003E7
+
+[Cheats\courage au maximum]
+//courage au maximum 
+patch=1,EE,10409BB2,extended,000003E7
+
+[Cheats\PV au maximum (3)]
+//PV au maximum 
+patch=1,EE,20409BD8,extended,000003E7
+
+[Cheats\Barre des PV toujours pleine]
+//Barre des PV toujours pleine 
+patch=1,EE,20409BDC,extended,000003E7
+
+[Cheats\PM au maximum (3)]
+//PM au maximum 
+patch=1,EE,20409BE0,extended,000003E7
+
+[Cheats\Barre des PM toujours pleine]
+//Barre des PM toujours pleine
+patch=1,EE,20409BE4,extended,000003E7
+
+[Cheats\Passer rapidement aux niveaux supérieurs (peut être très encombrant si vous êtes à un faible niveau) (2)]
+//Passer rapidement aux niveaux supérieurs (peut être très encombrant si vous êtes à un faible niveau)
+patch=1,EE,20409BF0,extended,05F5E0FF
+
+[Cheats\Force au maximum (2)]
+//Force au maximum 
+patch=1,EE,10409C08,extended,000003E7
+
+[Cheats\Agilité au maximum (3)]
+//Agilité au maximum 
+patch=1,EE,10409C0A,extended,000003E7
+
+[Cheats\Sagesse au maximum (3)]
+//Sagesse au maximum
+patch=1,EE,10409C0E,extended,000003E7
+
+[Cheats\Endurence et défense au maximum]
+//Endurence et défense au maximum
+patch=1,EE,10409C0C,extended,000003E7
+
+[Cheats\Aptitudes aux haches au maximum]
+//Aptitudes aux haches au maximum
+patch=1,EE,10409C12,extended,000003E7
+
+[Cheats\Aptitudes aux Batons au maximum]
+//Aptitudes aux Batons au maximum 
+patch=1,EE,10409C14,extended,000003E7
+
+[Cheats\Aptitudes aux faux au maximum]
+//Aptitudes aux faux au maximum 
+patch=1,EE,10409C16,extended,000003E7
+
+[Cheats\Aptitudes mains nues maximum]
+//Aptitudes mains nues maximum
+patch=1,EE,10409C18,extended,000003E7
+
+[Cheats\Humanité au maximum]
+//Humanité au maximum 
+patch=1,EE,10409C1A,extended,000003E7
+
+[Cheats\PV au maximum (4)]
+//PV au maximum 
+patch=1,EE,20409C40,extended,000003E7
+
+[Cheats\Barre des PV toujours pleine (2)]
+//Barre des PV toujours pleine
+patch=1,EE,20409C44,extended,000003E7
+
+[Cheats\PM au maximum (4)]
+//PM au maximum
+patch=1,EE,20409C48,extended,000003E7
+
+[Cheats\Barre des PM toujours pleine (2)]
+//Barre des PM toujours pleine 
+patch=1,EE,20409C4C,extended,000003E7
+
+[Cheats\Passer rapidement aux niveaux supérieurs (peut être très encombrant si vous êtes à un faible niveau) (3)]
+//Passer rapidement aux niveaux supérieurs (peut être très encombrant si vous êtes à un faible niveau)
+patch=1,EE,20409C58,extended,05F5E0FF
+
+[Cheats\Force au maximum (3)]
+//Force au maximum
+patch=1,EE,10409C70,extended,000003E7
+
+[Cheats\Agilité au maximum (4)]
+//Agilité au maximum
+patch=1,EE,10409C72,extended,000003E7
+
+[Cheats\Endurance et défense au maximum (2)]
+//Endurance et défense au maximum 
+patch=1,EE,10409C74,extended,000003E7
+
+[Cheats\Sagesse au maximum (4)]
+//Sagesse au maximum
+patch=1,EE,10409C76,extended,000003E7
+
+[Cheats\Aptitudes aux Poignards au maximum]
+//Aptitudes aux Poignards au maximum 
+patch=1,EE,10409C7A,extended,000003E7
+
+[Cheats\Aptitudes aux fouets au maximum]
+//Aptitudes aux fouets au maximum
+patch=1,EE,10409C7C,extended,000003E7
+
+[Cheats\Aptitudes aux bâtons au maximum]
+//Aptitudes aux bâtons au maximum
+patch=1,EE,10409C7E,extended,000003E7
+
+[Cheats\Aptitudes à mains nues au maximum]
+//Aptitudes à mains nues au maximum 
+patch=1,EE,10409C80,extended,000003E7
+
+[Cheats\Séduction au maximum]
+//Séduction au maximum
+patch=1,EE,10409C82,extended,000003E7
+
+[Cheats\PV au maximum (5)]
+//PV au maximum 
+patch=1,EE,20409CA8,extended,000003E7
+
+[Cheats\Barre des PV toujours pleine (3)]
+//Barre des PV toujours pleine 
+patch=1,EE,20409CAC,extended,000003E7
+
+[Cheats\PM au maximum (5)]
+//PM au maximum
+patch=1,EE,20409CB0,extended,000003E7
+
+[Cheats\Barre des PM toujours pleine (3)]
+//Barre des PM toujours pleine
+patch=1,EE,20409CB4,extended,000003E7
+
+[Cheats\Passer rapidement aux niveaux supérieurs (peut être très encombrant si vous êtes à un faible niveau) (4)]
+//Passer rapidement aux niveaux supérieurs (peut être très encombrant si vous êtes à un faible niveau) 
+patch=1,EE,20409CC0,extended,05F5E0FF
+
+[Cheats\Force au maximum (4)]
+//Force au maximum 
+patch=1,EE,10409CD8,extended,000003E7
+
+[Cheats\Agilité au maximum (5)]
+//Agilité au maximum 
+patch=1,EE,10409CDA,extended,000003E7
+
+[Cheats\Endurance et défense au maximum (3)]
+//Endurance et défense au maximum
+patch=1,EE,10409CDC,extended,000003E7
+
+[Cheats\Sagesse au maximum (5)]
+//Sagesse au maximum
+patch=1,EE,10409CDE,extended,000003E7
+
+[Cheats\Aptitudes d'épées au maximum (2)]
+//Aptitudes d'épées au maximum 
+patch=1,EE,10409CE2,extended,000003E7
+
+[Cheats\Aptitudes d'arcs au maximum]
+//Aptitudes d'arcs au maximum
+patch=1,EE,10409CE4,extended,000003E7
+
+[Cheats\Aptitudes au bâtons au maximum]
+//Aptitudes au bâtons au maximum
+patch=1,EE,10409CE6,extended,000003E7
+
+[Cheats\Aptitudes à mains nues au maximum (2)]
+//Aptitudes à mains nues au maximum
+patch=1,EE,10409CE8,extended,000003E7
+
+[Cheats\Charisme au maximum]
+//Charisme au maximum 
+patch=1,EE,10409CEA,extended,000003E7
+
+[Cheats\case 1]
+//case 1 
+patch=1,EE,10409DD2,extended,00000001
+
+[Cheats\case 2]
+//case 2 
+patch=1,EE,10409DD6,extended,00000001
+
+[Cheats\case 3]
+//case 3 
+patch=1,EE,10409DDA,extended,00000001
+
+[Cheats\case 4]
+//case 4 
+patch=1,EE,10409DDE,extended,00000001
+
+[Cheats\case 5]
+//case 5 
+patch=1,EE,10409DE2,extended,00000001
+
+[Cheats\case 6]
+//case 6 
+patch=1,EE,10409DE6,extended,00000001
+
+[Cheats\case 7]
+//case 7 
+patch=1,EE,10409DEA,extended,00000001
+
+[Cheats\case 8]
+//case 8 
+patch=1,EE,10409DEE,extended,00000001
+
+[Cheats\case 9]
+//case 9 
+patch=1,EE,10409DF2,extended,00000001
+
+[Cheats\case 10]
+//case 10 
+patch=1,EE,10409DF6,extended,00000001
+
+[Cheats\case 11]
+//case 11 
+patch=1,EE,10409DFA,extended,00000001
+
+[Cheats\case 12]
+//case 12 
+patch=1,EE,10409DFE,extended,00000001
+
+[Cheats\case 1 (2)]
+//case 1 
+patch=1,EE,10409DD2,extended,00000009
+
+[Cheats\case 2 (2)]
+//case 2 
+patch=1,EE,10409DD6,extended,00000009
+
+[Cheats\case 3 (2)]
+//case 3 
+patch=1,EE,10409DDA,extended,00000009
+
+[Cheats\case 4 (2)]
+//case 4 
+patch=1,EE,10409DDE,extended,00000009
+
+[Cheats\case 5 (2)]
+//case 5 
+patch=1,EE,10409DE2,extended,00000009
+
+[Cheats\case 6 (2)]
+//case 6 
+patch=1,EE,10409DE6,extended,00000009
+
+[Cheats\case 7 (2)]
+//case 7 
+patch=1,EE,10409DEA,extended,00000009
+
+[Cheats\case 8 (2)]
+//case 8 
+patch=1,EE,10409DEE,extended,00000009
+
+[Cheats\case 9 (2)]
+//case 9 
+patch=1,EE,10409DF2,extended,00000009
+
+[Cheats\case 10 (2)]
+//case 10 
+patch=1,EE,10409DF6,extended,00000009
+
+[Cheats\case 11 (2)]
+//case 11 
+patch=1,EE,10409DFA,extended,00000009
+
+[Cheats\case 12 (2)]
+//case 12 
+patch=1,EE,10409DFE,extended,00000009
+
+[Cheats\case 1 (3)]
+//case 1 
+patch=1,EE,10409DD2,extended,000003E7
+
+[Cheats\case 2 (3)]
+//case 2 
+patch=1,EE,10409DD6,extended,000003E7
+
+[Cheats\case 3 (3)]
+//case 3 
+patch=1,EE,10409DDA,extended,000003E7
+
+[Cheats\case 4 (3)]
+//case 4 
+patch=1,EE,10409DDE,extended,000003E7
+
+[Cheats\case 5 (3)]
+//case 5 
+patch=1,EE,10409DE2,extended,000003E7
+
+[Cheats\case 6 (3)]
+//case 6 
+patch=1,EE,10409DE6,extended,000003E7
+
+[Cheats\case 7 (3)]
+//case 7 
+patch=1,EE,10409DEA,extended,000003E7
+
+[Cheats\case 8 (3)]
+//case 8 
+patch=1,EE,10409DEE,extended,000003E7
+
+[Cheats\case 9 (3)]
+//case 9 
+patch=1,EE,10409DF2,extended,000003E7
+
+[Cheats\case 10 (3)]
+//case 10 
+patch=1,EE,10409DF6,extended,000003E7
+
+[Cheats\case 11 (3)]
+//case 11 
+patch=1,EE,10409DFA,extended,000003E7
+
+[Cheats\case 12 (3)]
+//case 12 
+patch=1,EE,10409DFE,extended,000003E7
+
+[Cheats\Cypress Stick]
+//Cypress Stick 
+patch=1,EE,10409DD0,extended,00000001
+
+[Cheats\Soldier's Sword]
+//Soldier's Sword 
+patch=1,EE,10409DD0,extended,00000002
+
+[Cheats\Copper Sword]
+//Copper Sword 
+patch=1,EE,10409DD0,extended,00000003
+
+[Cheats\Steel Broadsword]
+//Steel Broadsword 
+patch=1,EE,10409DD0,extended,00000004
+
+[Cheats\Platinium Sword]
+//Platinium Sword 
+patch=1,EE,10409DD0,extended,00000005
+
+[Cheats\Dream Blade]
+//Dream Blade 
+patch=1,EE,10409DD0,extended,00000006
+
+[Cheats\Falcon Blade]
+//Falcon Blade 
+patch=1,EE,10409DD0,extended,00000007
+
+[Cheats\Uber Falcon Blade]
+//Uber Falcon Blade 
+patch=1,EE,10409DD0,extended,00000008
+
+[Cheats\Zombiesbane]
+//Zombiesbane 
+patch=1,EE,10409DD0,extended,00000009
+
+[Cheats\Zombie Slayer]
+//Zombie Slayer 
+patch=1,EE,10409DD0,extended,0000000A
+
+[Cheats\Dragonsbane]
+//Dragonsbane 
+patch=1,EE,10409DD0,extended,0000000B
+
+[Cheats\Dragon Slayer]
+//Dragon Slayer 
+patch=1,EE,10409DD0,extended,0000000C
+
+[Cheats\Blizzard Blade]
+//Blizzard Blade 
+patch=1,EE,10409DD0,extended,0000000D
+
+[Cheats\Miracle Sword]
+//Miracle Sword 
+patch=1,EE,10409DD0,extended,0000000E
+
+[Cheats\Uber Miracle Sword]
+//Uber Miracle Sword 
+patch=1,EE,10409DD0,extended,0000000F
+
+[Cheats\Bastard Sword]
+//Bastard Sword 
+patch=1,EE,10409DD0,extended,00000010
+
+[Cheats\Liquid Metal Sword]
+//Liquid Metal Sword 
+patch=1,EE,10409DD0,extended,00000011
+
+[Cheats\Double Edged Sword]
+//Double Edged Sword 
+patch=1,EE,10409DD0,extended,00000012
+
+[Cheats\Uber Double Edge]
+//Uber Double Edge 
+patch=1,EE,10409DD0,extended,00000013
+
+[Cheats\Rusty Old Sword]
+//Rusty Old Sword 
+patch=1,EE,10409DD0,extended,00000014
+
+[Cheats\Dragovian Sword]
+//Dragovian Sword 
+patch=1,EE,10409DD0,extended,00000015
+
+[Cheats\Dragovian Kind Sword]
+//Dragovian Kind Sword 
+patch=1,EE,10409DD0,extended,00000016
+
+[Cheats\Rapier]
+//Rapier 
+patch=1,EE,10409DD0,extended,00000017
+
+[Cheats\Templar's Sword]
+//Templar's Sword 
+patch=1,EE,10409DD0,extended,00000018
+
+[Cheats\Hell sabre]
+//Hell sabre 
+patch=1,EE,10409DD0,extended,00000019
+
+[Cheats\Holy silve Rapier]
+//Holy silve Rapier 
+patch=1,EE,10409DD0,extended,0000001A
+
+[Cheats\Fallen Angel Rapier]
+//Fallen Angel Rapier 
+patch=1,EE,10409DD0,extended,0000001B
+
+[Cheats\Shamshir of Light]
+//Shamshir of Light 
+patch=1,EE,10409DD0,extended,0000001C
+
+[Cheats\Mercury Rapier]
+//Mercury Rapier 
+patch=1,EE,10409DD0,extended,0000001D
+
+[Cheats\Bronze Knife]
+//Bronze Knife 
+patch=1,EE,10409DD0,extended,0000001E
+
+[Cheats\Dagger]
+//Dagger 
+patch=1,EE,10409DD0,extended,0000001F
+
+[Cheats\Poison Moth Knife]
+//Poison Moth Knife 
+patch=1,EE,10409DD0,extended,00000020
+
+[Cheats\Assassin's Dagger]
+//Assassin's Dagger 
+patch=1,EE,10409DD0,extended,00000021
+
+[Cheats\Icicle dirk]
+//Icicle dirk 
+patch=1,EE,10409DD0,extended,00000022
+
+[Cheats\Poison Needle]
+//Poison Needle 
+patch=1,EE,10409DD0,extended,00000023
+
+[Cheats\Falcon Knife]
+//Falcon Knife 
+patch=1,EE,10409DD0,extended,00000024
+
+[Cheats\Imp Knife]
+//Imp Knife 
+patch=1,EE,10409DD0,extended,00000025
+
+[Cheats\Sword breaker]
+//Sword breaker 
+patch=1,EE,10409DD0,extended,00000026
+
+[Cheats\Eagle Dagger]
+//Eagle Dagger 
+patch=1,EE,10409DD0,extended,00000027
+
+[Cheats\Iron Lance]
+//Iron Lance 
+patch=1,EE,10409DD0,extended,00000028
+
+[Cheats\Holy Lance]
+//Holy Lance 
+patch=1,EE,10409DD0,extended,00000029
+
+[Cheats\Long Spear]
+//Long Spear 
+patch=1,EE,10409DD0,extended,0000002A
+
+[Cheats\Partisan]
+//Partisan 
+patch=1,EE,10409DD0,extended,0000002B
+
+[Cheats\Battle fork]
+//Battle fork 
+patch=1,EE,10409DD0,extended,0000002C
+
+[Cheats\Sandstorm Spear]
+//Sandstorm Spear 
+patch=1,EE,10409DD0,extended,0000002D
+
+[Cheats\Demon Spear]
+//Demon Spear 
+patch=1,EE,10409DD0,extended,0000002E
+
+[Cheats\Hero Spear]
+//Hero Spear 
+patch=1,EE,10409DD0,extended,0000002F
+
+[Cheats\Metal King Spear]
+//Metal King Spear 
+patch=1,EE,10409DD0,extended,00000030
+
+[Cheats\Boomerang]
+//Boomerang 
+patch=1,EE,10409DD0,extended,00000031
+
+[Cheats\Reinforced Boomerang]
+//Reinforced Boomerang 
+patch=1,EE,10409DD0,extended,00000032
+
+[Cheats\Edged boomerang]
+//Edged boomerang 
+patch=1,EE,10409DD0,extended,00000033
+
+[Cheats\Metal wing Boomerang]
+//Metal wing Boomerang 
+patch=1,EE,10409DD0,extended,00000034
+
+[Cheats\Razor Wing boomerang]
+//Razor Wing boomerang 
+patch=1,EE,10409DD0,extended,00000035
+
+[Cheats\Swallotail]
+//Swallotail 
+patch=1,EE,10409DD0,extended,00000036
+
+[Cheats\Flametang boomerang]
+//Flametang boomerang 
+patch=1,EE,10409DD0,extended,00000037
+
+[Cheats\Stone Axe]
+//Stone Axe 
+patch=1,EE,10409DD0,extended,00000038
+
+[Cheats\Iron Axe]
+//Iron Axe 
+patch=1,EE,10409DD0,extended,00000039
+
+[Cheats\King Axe]
+//King Axe 
+patch=1,EE,10409DD0,extended,0000003A
+
+[Cheats\Moon Axe]
+//Moon Axe 
+patch=1,EE,10409DD0,extended,0000003B
+
+[Cheats\Bandit Axe]
+//Bandit Axe 
+patch=1,EE,10409DD0,extended,0000003C
+
+[Cheats\Golden Axe]
+//Golden Axe 
+patch=1,EE,10409DD0,extended,0000003D
+
+[Cheats\Battle AXe]
+//Battle AXe 
+patch=1,EE,10409DD0,extended,0000003E
+
+[Cheats\Conqueror's Axe]
+//Conqueror's Axe 
+patch=1,EE,10409DD0,extended,0000003F
+
+[Cheats\Oaken Club]
+//Oaken Club 
+patch=1,EE,10409DD0,extended,00000040
+
+[Cheats\Giant Mallet]
+//Giant Mallet 
+patch=1,EE,10409DD0,extended,00000041
+
+[Cheats\Sledgehammer]
+//Sledgehammer 
+patch=1,EE,10409DD0,extended,00000042
+
+[Cheats\War Hammer]
+//War Hammer 
+patch=1,EE,10409DD0,extended,00000043
+
+[Cheats\Uber War Hammer]
+//Uber War Hammer 
+patch=1,EE,10409DD0,extended,00000044
+
+[Cheats\Megaton Hammer]
+//Megaton Hammer 
+patch=1,EE,10409DD0,extended,00000046
+
+[Cheats\Flail of Furry]
+//Flail of Furry 
+patch=1,EE,10409DD0,extended,00000047
+
+[Cheats\Flail of Destruction]
+//Flail of Destruction 
+patch=1,EE,10409DD0,extended,00000048
+
+[Cheats\Thorn Whip]
+//Thorn Whip 
+patch=1,EE,10409DD0,extended,00000049
+
+[Cheats\Leather Whip]
+//Leather Whip 
+patch=1,EE,10409DD0,extended,0000004A
+
+[Cheats\Snakeskin Whip]
+//Snakeskin Whip 
+patch=1,EE,10409DD0,extended,0000004B
+
+[Cheats\Chain Whip]
+//Chain Whip 
+patch=1,EE,10409DD0,extended,0000004C
+
+[Cheats\Dragontail Whip]
+//Dragontail Whip 
+patch=1,EE,10409DD0,extended,0000004D
+
+[Cheats\Spiked Steel Whip]
+//Spiked Steel Whip 
+patch=1,EE,10409DD0,extended,0000004E
+
+[Cheats\Demon Whip]
+//Demon Whip 
+patch=1,EE,10409DD0,extended,0000004F
+
+[Cheats\Scourge Whip]
+//Scourge Whip 
+patch=1,EE,10409DD0,extended,00000050
+
+[Cheats\Gringham Whip]
+//Gringham Whip 
+patch=1,EE,10409DD0,extended,00000051
+
+[Cheats\Farmer's Scythe]
+//Farmer's Scythe 
+patch=1,EE,10409DD0,extended,00000052
+
+[Cheats\Heavy Hatchet]
+//Heavy Hatchet 
+patch=1,EE,10409DD0,extended,00000054
+
+[Cheats\Bardiche of binding]
+//Bardiche of binding 
+patch=1,EE,10409DD0,extended,00000055
+
+[Cheats\hell Scythe]
+//hell Scythe 
+patch=1,EE,10409DD0,extended,00000056
+
+[Cheats\Stell Scythe]
+//Stell Scythe 
+patch=1,EE,10409DD0,extended,00000057
+
+[Cheats\Wizard's Staff]
+//Wizard's Staff 
+patch=1,EE,10409DD0,extended,00000058
+
+[Cheats\Lightning Staff]
+//Lightning Staff 
+patch=1,EE,10409DD0,extended,00000059
+
+[Cheats\Staff of Divine Wrath]
+//Staff of Divine Wrath 
+patch=1,EE,10409DD0,extended,0000005A
+
+[Cheats\Magma Staff]
+//Magma Staff 
+patch=1,EE,10409DD0,extended,0000005B
+
+[Cheats\Staff of Antimagic]
+//Staff of Antimagic 
+patch=1,EE,10409DD0,extended,0000005D
+
+[Cheats\Rune Staff]
+//Rune Staff 
+patch=1,EE,10409DD0,extended,0000005E
+
+[Cheats\Staff Of Resurection]
+//Staff Of Resurection 
+patch=1,EE,10409DD0,extended,0000005F
+
+[Cheats\Magical Mace]
+//Magical Mace 
+patch=1,EE,10409DD0,extended,00000060
+
+[Cheats\Hunter's Bow]
+//Hunter's Bow 
+patch=1,EE,10409DD0,extended,00000062
+
+[Cheats\Great Bow]
+//Great Bow 
+patch=1,EE,10409DD0,extended,00000063
+
+[Cheats\Short Bow]
+//Short Bow 
+patch=1,EE,10409DD0,extended,00000064
+
+[Cheats\Odin's bow]
+//Odin's bow 
+patch=1,EE,10409DD0,extended,00000065
+
+[Cheats\Cheiron's Bow]
+//Cheiron's Bow 
+patch=1,EE,10409DD0,extended,00000066
+
+[Cheats\Eros' Bow]
+//Eros' Bow 
+patch=1,EE,10409DD0,extended,00000067
+
+[Cheats\Plain Clothes]
+//Plain Clothes 
+patch=1,EE,10409DD0,extended,00000068
+
+[Cheats\Bandit Grass Skirt]
+//Bandit Grass Skirt 
+patch=1,EE,10409DD0,extended,00000069
+
+[Cheats\Wayfarer's Clothes]
+//Wayfarer's Clothes 
+patch=1,EE,10409DD0,extended,0000006A
+
+[Cheats\Boxer Short]
+//Boxer Short 
+patch=1,EE,10409DD0,extended,0000006B
+
+[Cheats\Dancer's Costume]
+//Dancer's Costume 
+patch=1,EE,10409DD0,extended,0000006C
+
+[Cheats\Leather Kilt]
+//Leather Kilt 
+patch=1,EE,10409DD0,extended,0000006D
+
+[Cheats\Leather Dress]
+//Leather Dress 
+patch=1,EE,10409DD0,extended,0000006E
+
+[Cheats\Templar's Uniform]
+//Templar's Uniform 
+patch=1,EE,10409DD0,extended,0000006F
+
+[Cheats\Fur Poncho]
+//Fur Poncho 
+patch=1,EE,10409DD0,extended,00000070
+
+[Cheats\Cloak Of Evasion]
+//Cloak Of Evasion 
+patch=1,EE,10409DD0,extended,00000071
+
+[Cheats\Bunny Suit]
+//Bunny Suit 
+patch=1,EE,10409DD0,extended,00000072
+
+[Cheats\Silk bustier]
+//Silk bustier 
+patch=1,EE,10409DD0,extended,00000073
+
+[Cheats\Magic bikini]
+//Magic bikini 
+patch=1,EE,10409DD0,extended,00000074
+
+[Cheats\Spangled Dress]
+//Spangled Dress 
+patch=1,EE,10409DD0,extended,00000075
+
+[Cheats\Posh waistcost]
+//Posh waistcost 
+patch=1,EE,10409DD0,extended,00000076
+
+[Cheats\Magical Skirt]
+//Magical Skirt 
+patch=1,EE,10409DD0,extended,00000077
+
+[Cheats\Shimmering Dress]
+//Shimmering Dress 
+patch=1,EE,10409DD0,extended,00000078
+
+[Cheats\Dark Robe]
+//Dark Robe 
+patch=1,EE,10409DD0,extended,00000079
+
+[Cheats\Dangerous Bustier]
+//Dangerous Bustier 
+patch=1,EE,10409DD0,extended,0000007B
+
+[Cheats\Divine Bustier]
+//Divine Bustier 
+patch=1,EE,10409DD0,extended,0000007C
+
+[Cheats\Jessica's Outfit]
+//Jessica's Outfit 
+patch=1,EE,10409DD0,extended,0000007D
+
+[Cheats\Leather Armour]
+//Leather Armour 
+patch=1,EE,10409DD0,extended,0000007E
+
+[Cheats\Scale Armour]
+//Scale Armour 
+patch=1,EE,10409DD0,extended,0000007F
+
+[Cheats\Chain Mail]
+//Chain Mail 
+patch=1,EE,10409DD0,extended,00000080
+
+[Cheats\Bronze Armour]
+//Bronze Armour 
+patch=1,EE,10409DD0,extended,00000081
+
+[Cheats\Iron Cuirass]
+//Iron Cuirass 
+patch=1,EE,10409DD0,extended,00000082
+
+[Cheats\Iron Armour]
+//Iron Armour 
+patch=1,EE,10409DD0,extended,00000083
+
+[Cheats\Turtoise Shell]
+//Turtoise Shell 
+patch=1,EE,10409DD0,extended,00000084
+
+[Cheats\Full Plate Armor]
+//Full Plate Armor 
+patch=1,EE,10409DD0,extended,00000085
+
+[Cheats\Silver Cuirass]
+//Silver Cuirass 
+patch=1,EE,10409DD0,extended,00000086
+
+[Cheats\Dancer's Mail]
+//Dancer's Mail 
+patch=1,EE,10409DD0,extended,00000087
+
+[Cheats\Silver Mail]
+//Silver Mail 
+patch=1,EE,10409DD0,extended,00000088
+
+[Cheats\Dragon Mail]
+//Dragon Mail 
+patch=1,EE,10409DD0,extended,00000089
+
+[Cheats\Magic Armour]
+//Magic Armour 
+patch=1,EE,10409DD0,extended,0000008A
+
+[Cheats\Zombie Mail]
+//Zombie Mail 
+patch=1,EE,10409DD0,extended,0000008B
+
+[Cheats\Heavy Armour]
+//Heavy Armour 
+patch=1,EE,10409DD0,extended,0000008C
+
+[Cheats\Spiked Armour]
+//Spiked Armour 
+patch=1,EE,10409DD0,extended,0000008D
+
+[Cheats\Platinium Mail]
+//Platinium Mail 
+patch=1,EE,10409DD0,extended,0000008E
+
+[Cheats\Bandit Mail]
+//Bandit Mail 
+patch=1,EE,10409DD0,extended,0000008F
+
+[Cheats\Sacred Armour]
+//Sacred Armour 
+patch=1,EE,10409DD0,extended,00000090
+
+[Cheats\Gigant Armour]
+//Gigant Armour 
+patch=1,EE,10409DD0,extended,00000092
+
+[Cheats\Mirror Armour]
+//Mirror Armour 
+patch=1,EE,10409DD0,extended,00000093
+
+[Cheats\Liquid Metal Armour]
+//Liquid Metal Armour 
+patch=1,EE,10409DD0,extended,00000094
+
+[Cheats\Dragovian Armour]
+//Dragovian Armour 
+patch=1,EE,10409DD0,extended,00000095
+
+[Cheats\Metal Kibd Armor]
+//Metal Kibd Armor 
+patch=1,EE,10409DD0,extended,00000096
+
+[Cheats\Silk Robe]
+//Silk Robe 
+patch=1,EE,10409DD0,extended,00000097
+
+[Cheats\Leather Cape]
+//Leather Cape 
+patch=1,EE,10409DD0,extended,00000098
+
+[Cheats\Robe of Serenity]
+//Robe of Serenity 
+patch=1,EE,10409DD0,extended,00000099
+
+[Cheats\Magic Vestment]
+//Magic Vestment 
+patch=1,EE,10409DD0,extended,0000009A
+
+[Cheats\Flowing Dress]
+//Flowing Dress 
+patch=1,EE,10409DD0,extended,0000009B
+
+[Cheats\Sage's Robe]
+//Sage's Robe 
+patch=1,EE,10409DD0,extended,0000009C
+
+[Cheats\Angel's Robe]
+//Angel's Robe 
+patch=1,EE,10409DD0,extended,0000009D
+
+[Cheats\Velvet Cape]
+//Velvet Cape 
+patch=1,EE,10409DD0,extended,0000009E
+
+[Cheats\Crimson Robe]
+//Crimson Robe 
+patch=1,EE,10409DD0,extended,0000009F
+
+[Cheats\Princess' Robe]
+//Princess' Robe 
+patch=1,EE,10409DD0,extended,000000A0
+
+[Cheats\Dragon Robe]
+//Dragon Robe 
+patch=1,EE,10409DD0,extended,000000A1
+
+[Cheats\Pot Lid]
+//Pot Lid 
+patch=1,EE,10409DD0,extended,000000A2
+
+[Cheats\Leather Shield]
+//Leather Shield 
+patch=1,EE,10409DD0,extended,000000A3
+
+[Cheats\Scale Shield]
+//Scale Shield 
+patch=1,EE,10409DD0,extended,000000A4
+
+[Cheats\Silver Platter]
+//Silver Platter 
+patch=1,EE,10409DD0,extended,000000A5
+
+[Cheats\Kitty Shield]
+//Kitty Shield 
+patch=1,EE,10409DD0,extended,000000A6
+
+[Cheats\Bronze Shield]
+//Bronze Shield 
+patch=1,EE,10409DD0,extended,000000A7
+
+[Cheats\Templar's Shield]
+//Templar's Shield 
+patch=1,EE,10409DD0,extended,000000A8
+
+[Cheats\Iron Shield]
+//Iron Shield 
+patch=1,EE,10409DD0,extended,000000A9
+
+[Cheats\Light Shield]
+//Light Shield 
+patch=1,EE,10409DD0,extended,000000AA
+
+[Cheats\White Shield]
+//White Shield 
+patch=1,EE,10409DD0,extended,000000AB
+
+[Cheats\Steel Shield]
+//Steel Shield 
+patch=1,EE,10409DD0,extended,000000AC
+
+[Cheats\Magic Shield]
+//Magic Shield 
+patch=1,EE,10409DD0,extended,000000AD
+
+[Cheats\Dragon Shield]
+//Dragon Shield 
+patch=1,EE,10409DD0,extended,000000AE
+
+[Cheats\Power Shield]
+//Power Shield 
+patch=1,EE,10409DD0,extended,000000B0
+
+[Cheats\Saintess Shield]
+//Saintess Shield 
+patch=1,EE,10409DD0,extended,000000B1
+
+[Cheats\Bone Shield]
+//Bone Shield 
+patch=1,EE,10409DD0,extended,000000B2
+
+[Cheats\Mirror shield]
+//Mirror shield 
+patch=1,EE,10409DD0,extended,000000B3
+
+[Cheats\Ogre Shield]
+//Ogre Shield 
+patch=1,EE,10409DD0,extended,000000B4
+
+[Cheats\Silver Shield]
+//Silver Shield 
+patch=1,EE,10409DD0,extended,000000B5
+
+[Cheats\Big boss Shield]
+//Big boss Shield 
+patch=1,EE,10409DD0,extended,000000B6
+
+[Cheats\Ruinous shield]
+//Ruinous shield 
+patch=1,EE,10409DD0,extended,000000B7
+
+[Cheats\Thanatos Shield]
+//Thanatos Shield 
+patch=1,EE,10409DD0,extended,000000B8
+
+[Cheats\Goddess Shield]
+//Goddess Shield 
+patch=1,EE,10409DD0,extended,000000B9
+
+[Cheats\Dragovian Shield]
+//Dragovian Shield 
+patch=1,EE,10409DD0,extended,000000BA
+
+[Cheats\Metal King Shield]
+//Metal King Shield 
+patch=1,EE,10409DD0,extended,000000BB
+
+[Cheats\Bandana]
+//Bandana 
+patch=1,EE,10409DD0,extended,000000BC
+
+[Cheats\Leather Hat]
+//Leather Hat 
+patch=1,EE,10409DD0,extended,000000BD
+
+[Cheats\Hairband]
+//Hairband 
+patch=1,EE,10409DD0,extended,000000BE
+
+[Cheats\Pointy Hat]
+//Pointy Hat 
+patch=1,EE,10409DD0,extended,000000BF
+
+[Cheats\Feathered Cap]
+//Feathered Cap 
+patch=1,EE,10409DD0,extended,000000C0
+
+[Cheats\Turban]
+//Turban 
+patch=1,EE,10409DD0,extended,000000C1
+
+[Cheats\Silver Tiara]
+//Silver Tiara 
+patch=1,EE,10409DD0,extended,000000C2
+
+[Cheats\Bunny ears]
+//Bunny ears 
+patch=1,EE,10409DD0,extended,000000C3
+
+[Cheats\Stone Hardhat]
+//Stone Hardhat 
+patch=1,EE,10409DD0,extended,000000C4
+
+[Cheats\Iron Helmet]
+//Iron Helmet 
+patch=1,EE,10409DD0,extended,000000C5
+
+[Cheats\Fur Hood]
+//Fur Hood 
+patch=1,EE,10409DD0,extended,000000C6
+
+[Cheats\Bronze Helmet]
+//Bronze Helmet 
+patch=1,EE,10409DD0,extended,000000C7
+
+[Cheats\Coral Hairpin]
+//Coral Hairpin 
+patch=1,EE,10409DD0,extended,000000C8
+
+[Cheats\Pirate Hat]
+//Pirate Hat 
+patch=1,EE,10409DD0,extended,000000C9
+
+[Cheats\Iron Mask]
+//Iron Mask 
+patch=1,EE,10409DD0,extended,000000CA
+
+[Cheats\Hermes Hat]
+//Hermes Hat 
+patch=1,EE,10409DD0,extended,000000CB
+
+[Cheats\Platinium Headgear]
+//Platinium Headgear 
+patch=1,EE,10409DD0,extended,000000CC
+
+[Cheats\Magical Hat]
+//Magical Hat 
+patch=1,EE,10409DD0,extended,000000CD
+
+[Cheats\Happy Hat]
+//Happy Hat 
+patch=1,EE,10409DD0,extended,000000CE
+
+[Cheats\Hades Helm]
+//Hades Helm 
+patch=1,EE,10409DD0,extended,000000CF
+
+[Cheats\Slime Crown]
+//Slime Crown 
+patch=1,EE,10409DD0,extended,000000D0
+
+[Cheats\Mythrill Helm]
+//Mythrill Helm 
+patch=1,EE,10409DD0,extended,000000D1
+
+[Cheats\Mercury's Bandana]
+//Mercury's Bandana 
+patch=1,EE,10409DD0,extended,000000D2
+
+[Cheats\Scholar Cap]
+//Scholar Cap 
+patch=1,EE,10409DD0,extended,000000D3
+
+[Cheats\Thinking Cap]
+//Thinking Cap 
+patch=1,EE,10409DD0,extended,000000D5
+
+[Cheats\Iron Headgear]
+//Iron Headgear 
+patch=1,EE,10409DD0,extended,000000D6
+
+[Cheats\Ragin Bull Helm]
+//Ragin Bull Helm 
+patch=1,EE,10409DD0,extended,000000D7
+
+[Cheats\Golden Tiara]
+//Golden Tiara 
+patch=1,EE,10409DD0,extended,000000D8
+
+[Cheats\Great Helm]
+//Great Helm 
+patch=1,EE,10409DD0,extended,000000D9
+
+[Cheats\Phantom Mask]
+//Phantom Mask 
+patch=1,EE,10409DD0,extended,000000DA
+
+[Cheats\Skull helm]
+//Skull helm 
+patch=1,EE,10409DD0,extended,000000DB
+
+[Cheats\Dragovian Helm]
+//Dragovian Helm 
+patch=1,EE,10409DD0,extended,000000DC
+
+[Cheats\Sun Crown]
+//Sun Crown 
+patch=1,EE,10409DD0,extended,000000DD
+
+[Cheats\Metal King Helm]
+//Metal King Helm 
+patch=1,EE,10409DD0,extended,000000DE
+
+[Cheats\Ability Ring]
+//Ability Ring 
+patch=1,EE,10409DD0,extended,000000E0
+
+[Cheats\Meteorite Bracer]
+//Meteorite Bracer 
+patch=1,EE,10409DD0,extended,000000E1
+
+[Cheats\Strengh Ring]
+//Strengh Ring 
+patch=1,EE,10409DD0,extended,000000E2
+
+[Cheats\Gold Ring]
+//Gold Ring 
+patch=1,EE,10409DD0,extended,000000E3
+
+[Cheats\Prayer Ring]
+//Prayer Ring 
+patch=1,EE,10409DD0,extended,000000E4
+
+[Cheats\Recovery Ring]
+//Recovery Ring 
+patch=1,EE,10409DD0,extended,000000E5
+
+[Cheats\Goddess ring]
+//Goddess ring 
+patch=1,EE,10409DD0,extended,000000E6
+
+[Cheats\Gospel ring]
+//Gospel ring 
+patch=1,EE,10409DD0,extended,000000E7
+
+[Cheats\Life Bracer]
+//Life Bracer 
+patch=1,EE,10409DD0,extended,000000E8
+
+[Cheats\Mighty Armlet]
+//Mighty Armlet 
+patch=1,EE,10409DD0,extended,000000E9
+
+[Cheats\Gold Bracer]
+//Gold Bracer 
+patch=1,EE,10409DD0,extended,000000EA
+
+[Cheats\Ruby of Protection]
+//Ruby of Protection 
+patch=1,EE,10409DD0,extended,000000ED
+
+[Cheats\Titan blet]
+//Titan blet 
+patch=1,EE,10409DD0,extended,000000EE
+
+[Cheats\Scholar Specs]
+//Scholar Specs 
+patch=1,EE,10409DD0,extended,000000EF
+
+[Cheats\Tough Guy Tattoo]
+//Tough Guy Tattoo 
+patch=1,EE,10409DD0,extended,000000F0
+
+[Cheats\Slime Earrings]
+//Slime Earrings 
+patch=1,EE,10409DD0,extended,000000F1
+
+[Cheats\Devil's Tail]
+//Devil's Tail 
+patch=1,EE,10409DD0,extended,000000F2
+
+[Cheats\Fishnet Stockings]
+//Fishnet Stockings 
+patch=1,EE,10409DD0,extended,000000F3
+
+[Cheats\Garter]
+//Garter 
+patch=1,EE,10409DD0,extended,000000F4
+
+[Cheats\Lady's Ring]
+//Lady's Ring 
+patch=1,EE,10409DD0,extended,000000F5
+
+[Cheats\Gold Rosary]
+//Gold Rosary 
+patch=1,EE,10409DD0,extended,000000F6
+
+[Cheats\Sorcerer's Ring]
+//Sorcerer's Ring 
+patch=1,EE,10409DD0,extended,000000F8
+
+[Cheats\Skull Ring]
+//Skull Ring 
+patch=1,EE,10409DD0,extended,000000F9
+
+[Cheats\Holy Talisman]
+//Holy Talisman 
+patch=1,EE,10409DD0,extended,000000FA
+
+[Cheats\Ring of Awakening]
+//Ring of Awakening 
+patch=1,EE,10409DD0,extended,000000FB
+
+[Cheats\Full moon Ring]
+//Full moon Ring 
+patch=1,EE,10409DD0,extended,000000FC
+
+[Cheats\Ring of Clarity]
+//Ring of Clarity 
+patch=1,EE,10409DD0,extended,000000FD
+
+[Cheats\Ring of Truth]
+//Ring of Truth 
+patch=1,EE,10409DD0,extended,000000FE
+
+[Cheats\Ring of Immunity]
+//Ring of Immunity 
+patch=1,EE,10409DD0,extended,000000FF
+
+[Cheats\catholicon Ring]
+//catholicon Ring 
+patch=1,EE,10409DD0,extended,00000100
+
+[Cheats\Dragon Scale]
+//Dragon Scale 
+patch=1,EE,10409DD0,extended,00000103
+
+[Cheats\Elevating Shoes]
+//Elevating Shoes 
+patch=1,EE,10409DD0,extended,00000104
+
+[Cheats\Medicinal Herb]
+//Medicinal Herb 
+patch=1,EE,10409DD0,extended,00000105
+
+[Cheats\Antidotal Herb]
+//Antidotal Herb 
+patch=1,EE,10409DD0,extended,00000106
+
+[Cheats\Moonwort Bulb]
+//Moonwort Bulb 
+patch=1,EE,10409DD0,extended,00000107
+
+[Cheats\Strong Medecine]
+//Strong Medecine 
+patch=1,EE,10409DD0,extended,00000108
+
+[Cheats\Special Medecine]
+//Special Medecine 
+patch=1,EE,10409DD0,extended,00000109
+
+[Cheats\Lesser Panacea]
+//Lesser Panacea 
+patch=1,EE,10409DD0,extended,0000010A
+
+[Cheats\Greater Panacea]
+//Greater Panacea 
+patch=1,EE,10409DD0,extended,0000010B
+
+[Cheats\Rose-root]
+//Rose-root 
+patch=1,EE,10409DD0,extended,0000010C
+
+[Cheats\Rose-wort]
+//Rose-wort 
+patch=1,EE,10409DD0,extended,0000010D
+
+[Cheats\Strong Antidote]
+//Strong Antidote 
+patch=1,EE,10409DD0,extended,0000010E
+
+[Cheats\Special Antidote]
+//Special Antidote 
+patch=1,EE,10409DD0,extended,0000010F
+
+[Cheats\Moon's Mercy]
+//Moon's Mercy 
+patch=1,EE,10409DD0,extended,00000110
+
+[Cheats\Mystifying Misture]
+//Mystifying Misture 
+patch=1,EE,10409DD0,extended,00000111
+
+[Cheats\Yggdrasil Leaf]
+//Yggdrasil Leaf 
+patch=1,EE,10409DD0,extended,00000112
+
+[Cheats\Yggdrasil Dew]
+//Yggdrasil Dew 
+patch=1,EE,10409DD0,extended,00000113
+
+[Cheats\Armor Secco Essence]
+//Armor Secco Essence 
+patch=1,EE,10409DD0,extended,00000114
+
+[Cheats\Chimaera Wing]
+//Chimaera Wing 
+patch=1,EE,10409DD0,extended,00000115
+
+[Cheats\Holy Water]
+//Holy Water 
+patch=1,EE,10409DD0,extended,00000116
+
+[Cheats\Magic Water]
+//Magic Water 
+patch=1,EE,10409DD0,extended,00000117
+
+[Cheats\Elfin Elixir]
+//Elfin Elixir 
+patch=1,EE,10409DD0,extended,00000118
+
+[Cheats\Rockbomb Shard]
+//Rockbomb Shard 
+patch=1,EE,10409DD0,extended,00000119
+
+[Cheats\Sage's Stone]
+//Sage's Stone 
+patch=1,EE,10409DD0,extended,0000011A
+
+[Cheats\Seed of Strengh]
+//Seed of Strengh 
+patch=1,EE,10409DD0,extended,0000011C
+
+[Cheats\Seed of Agility]
+//Seed of Agility 
+patch=1,EE,10409DD0,extended,0000011D
+
+[Cheats\Seed of Defence]
+//Seed of Defence 
+patch=1,EE,10409DD0,extended,0000011E
+
+[Cheats\Seed of Wisdom]
+//Seed of Wisdom 
+patch=1,EE,10409DD0,extended,0000011F
+
+[Cheats\Seed of Skill]
+//Seed of Skill 
+patch=1,EE,10409DD0,extended,00000120
+
+[Cheats\Seed of Life]
+//Seed of Life 
+patch=1,EE,10409DD0,extended,00000121
+
+[Cheats\Seed of Magic]
+//Seed of Magic 
+patch=1,EE,10409DD0,extended,00000122
+
+[Cheats\Mini Medal]
+//Mini Medal 
+patch=1,EE,10409DD0,extended,00000123
+
+[Cheats\Thief's Key]
+//Thief's Key 
+patch=1,EE,10409DD0,extended,00000125
+
+[Cheats\Magic Key]
+//Magic Key 
+patch=1,EE,10409DD0,extended,00000126
+
+[Cheats\Ultime Key]
+//Ultime Key 
+patch=1,EE,10409DD0,extended,00000127
+
+[Cheats\Orichalcum]
+//Orichalcum 
+patch=1,EE,10409DD0,extended,00000128
+
+[Cheats\Bunny Tail]
+//Bunny Tail 
+patch=1,EE,10409DD0,extended,00000129
+
+[Cheats\Timbrel of Tension]
+//Timbrel of Tension 
+patch=1,EE,10409DD0,extended,0000012A
+
+[Cheats\Baumren's Bell]
+//Baumren's Bell 
+patch=1,EE,10409DD0,extended,0000012D
+
+[Cheats\Gold nugget]
+//Gold nugget 
+patch=1,EE,10409DD0,extended,0000012E
+
+[Cheats\Iron Nail]
+//Iron Nail 
+patch=1,EE,10409DD0,extended,0000012F
+
+[Cheats\Cowpat]
+//Cowpat 
+patch=1,EE,10409DD0,extended,00000130
+
+[Cheats\Dragon Dug]
+//Dragon Dug 
+patch=1,EE,10409DD0,extended,00000131
+
+[Cheats\Rock Salt]
+//Rock Salt 
+patch=1,EE,10409DD0,extended,00000132
+
+[Cheats\Saint's Ashes]
+//Saint's Ashes 
+patch=1,EE,10409DD0,extended,00000134
+
+[Cheats\Wing of Bat]
+//Wing of Bat 
+patch=1,EE,10409DD0,extended,00000135
+
+[Cheats\Magic Beast hide]
+//Magic Beast hide 
+patch=1,EE,10409DD0,extended,00000136
+
+[Cheats\Fresh Milk]
+//Fresh Milk 
+patch=1,EE,10409DD0,extended,00000137
+
+[Cheats\Rennet Powder]
+//Rennet Powder 
+patch=1,EE,10409DD0,extended,00000138
+
+[Cheats\Red Mould]
+//Red Mould 
+patch=1,EE,10409DD0,extended,00000139
+
+[Cheats\Waterweed Mould]
+//Waterweed Mould 
+patch=1,EE,10409DD0,extended,0000013A
+
+[Cheats\Premium Mould]
+//Premium Mould 
+patch=1,EE,10409DD0,extended,0000013B
+
+[Cheats\Plain Cheese]
+//Plain Cheese 
+patch=1,EE,10409DD0,extended,0000013C
+
+[Cheats\Spicy Cheese]
+//Spicy Cheese 
+patch=1,EE,10409DD0,extended,0000013E
+
+[Cheats\Super Spicy Cheese]
+//Super Spicy Cheese 
+patch=1,EE,10409DD0,extended,0000013F
+
+[Cheats\Scorching Cheese]
+//Scorching Cheese 
+patch=1,EE,10409DD0,extended,00000140
+
+[Cheats\Cool Cheese]
+//Cool Cheese 
+patch=1,EE,10409DD0,extended,00000142
+
+[Cheats\Chilly cheese]
+//Chilly cheese 
+patch=1,EE,10409DD0,extended,00000143
+
+[Cheats\Cold Cheese]
+//Cold Cheese 
+patch=1,EE,10409DD0,extended,00000144
+
+[Cheats\C-c-cold Cheese]
+//C-c-cold Cheese 
+patch=1,EE,10409DD0,extended,00000145
+
+[Cheats\Mild Cheese]
+//Mild Cheese 
+patch=1,EE,10409DD0,extended,0000014B
+
+[Cheats\Cured Cheese]
+//Cured Cheese 
+patch=1,EE,10409DD0,extended,0000014C
+
+[Cheats\Angel Cheese]
+//Angel Cheese 
+patch=1,EE,10409DD0,extended,0000014D
+
+[Cheats\Hard Cheese]
+//Hard Cheese 
+patch=1,EE,10409DD0,extended,0000014E
+
+[Cheats\Soft Cheese]
+//Soft Cheese 
+patch=1,EE,10409DD0,extended,0000014F
+
+[Cheats\Chunky cheese]
+//Chunky cheese 
+patch=1,EE,10409DD0,extended,00000150
+
+[Cheats\Highly Strung Cheese]
+//Highly Strung Cheese 
+patch=1,EE,10409DD0,extended,00000151
+
+[Cheats\Crytal Ball]
+//Crytal Ball 
+patch=1,EE,10409DD0,extended,00000153
+
+[Cheats\Tool Bag]
+//Tool Bag 
+patch=1,EE,10409DD0,extended,00000154
+
+[Cheats\Jessica's Letter]
+//Jessica's Letter 
+patch=1,EE,10409DD0,extended,00000155
+
+[Cheats\Templar's Ring]
+//Templar's Ring 
+patch=1,EE,10409DD0,extended,00000156
+
+[Cheats\World Map]
+//World Map 
+patch=1,EE,10409DD0,extended,00000157
+
+[Cheats\Venus Tear]
+//Venus Tear 
+patch=1,EE,10409DD0,extended,00000158
+
+[Cheats\Moonshadow Harp]
+//Moonshadow Harp 
+patch=1,EE,10409DD0,extended,00000159
+
+[Cheats\Sand of Serenity]
+//Sand of Serenity 
+patch=1,EE,10409DD0,extended,0000015A
+
+[Cheats\Lizard Humour]
+//Lizard Humour 
+patch=1,EE,10409DD0,extended,0000015B
+
+[Cheats\Argon Heart]
+//Argon Heart 
+patch=1,EE,10409DD0,extended,0000015D
+
+[Cheats\Great Big Argon Heart]
+//Great Big Argon Heart 
+patch=1,EE,10409DD0,extended,0000015E
+
+[Cheats\Magic Mirror]
+//Magic Mirror 
+patch=1,EE,10409DD0,extended,0000015F
+
+[Cheats\Sun Mirror]
+//Sun Mirror 
+patch=1,EE,10409DD0,extended,00000160
+
+[Cheats\Stone Sword]
+//Stone Sword 
+patch=1,EE,10409DD0,extended,00000161
+
+[Cheats\Kran Spinels]
+//Kran Spinels 
+patch=1,EE,10409DD0,extended,00000162
+
+[Cheats\The Big Book of Barriers]
+//The Big Book of Barriers 
+patch=1,EE,10409DD0,extended,00000163
+
+[Cheats\Marta's Bag]
+//Marta's Bag 
+patch=1,EE,10409DD0,extended,00000164
+
+[Cheats\Illuminated Sea Chart]
+//Illuminated Sea Chart 
+patch=1,EE,10409DD0,extended,00000165
+
+[Cheats\Nook Grass]
+//Nook Grass 
+patch=1,EE,10409DD0,extended,00000166
+
+[Cheats\Godbird's Soulstone]
+//Godbird's Soulstone 
+patch=1,EE,10409DD0,extended,00000167
+
+[Cheats\Darktree Leaf]
+//Darktree Leaf 
+patch=1,EE,10409DD0,extended,00000168
+
+[Cheats\Templar Captain's Ring]
+//Templar Captain's Ring 
+patch=1,EE,10409DD0,extended,00000169
+
+[Cheats\Argon Ring]
+//Argon Ring 
+patch=1,EE,10409DD0,extended,0000016B
+
+[Cheats\Echo Flute]
+//Echo Flute 
+patch=1,EE,10409DD0,extended,0000016C
+
+[Cheats\Eros' Bow Recipe]
+//Eros' Bow Recipe 
+patch=1,EE,10409DD0,extended,0000016D
+
+[Cheats\Imp Knife Recipe]
+//Imp Knife Recipe 
+patch=1,EE,10409DD0,extended,0000016E
+
+[Cheats\Dragon Slayer Recipe]
+//Dragon Slayer Recipe 
+patch=1,EE,10409DD0,extended,0000016F
+
+[Cheats\Thief's key recipe]
+//Thief's key recipe 
+patch=1,EE,10409DD0,extended,00000170
+
+[Cheats\Morrie's Memo 1]
+//Morrie's Memo 1 
+patch=1,EE,10409DD0,extended,00000171
+
+[Cheats\Morrie's Memo 2]
+//Morrie's Memo 2 
+patch=1,EE,10409DD0,extended,00000172
+
+[Cheats\Morrie's Memo 3]
+//Morrie's Memo 3 
+patch=1,EE,10409DD0,extended,00000173
+
+[Cheats\Monster Arena Key]
+//Monster Arena Key 
+patch=1,EE,10409DD0,extended,00000174
+
+[Cheats\Godbird Sceptre]
+//Godbird Sceptre 
+patch=1,EE,10409DD0,extended,00000175
+
+[Cheats\Gold Card]
+//Gold Card 
+patch=1,EE,10409DD0,extended,00000177
+
+[Cheats\Silver Orb]
+//Silver Orb 
+patch=1,EE,10409DD0,extended,00000178
+
+[Cheats\Red Orb]
+//Red Orb 
+patch=1,EE,10409DD0,extended,00000179
+
+[Cheats\Blue Orb]
+//Blue Orb 
+patch=1,EE,10409DD0,extended,0000017A
+
+[Cheats\Green Orb]
+//Green Orb 
+patch=1,EE,10409DD0,extended,0000017B
+
+[Cheats\Yellow Orb]
+//Yellow Orb 
+patch=1,EE,10409DD0,extended,0000017C
+
+[Cheats\Purple Orb]
+//Purple Orb 
+patch=1,EE,10409DD0,extended,0000017D
+
+[Cheats\Copper Monster Coin]
+//Copper Monster Coin 
+patch=1,EE,10409DD0,extended,0000017E
+
+[Cheats\Silver Monster Coin]
+//Silver Monster Coin 
+patch=1,EE,10409DD0,extended,0000017F
+
+[Cheats\Gold Monster Coin]
+//Gold Monster Coin 
+patch=1,EE,10409DD0,extended,00000180
+
+[Cheats\Flame Shield]
+//Flame Shield 
+patch=1,EE,10409DD0,extended,00000181
+
+[Cheats\Ice Shield]
+//Ice Shield 
+patch=1,EE,10409DD0,extended,00000182
+
+[Cheats\Mastercode]
+//Mastercode
+patch=1,EE,F038D4B0,extended,0000000E
+
+[Cheats\PAL2NTSC]
+//PAL2NTSC
+patch=1,EE,201083C8,extended,24120002
+
+[Cheats\Skip FMV]
+//Skip FMV
+patch=1,EE,201114F0,extended,24020001
+
+[Cheats\argent infinie de la banque]
+//argent infinie de la banque
+patch=1,EE,2040A594,extended,05F00000
+
+[Cheats\9999 expérience par bataille]
+//9999 expérience par bataille
+patch=1,EE,20369170,extended,2402270F
+patch=1,EE,20369174,extended,AFA23EC4
+
+[Cheats\Pas de batailles plus aléatoires]
+//Pas de batailles plus aléatoires 
+patch=1,EE,203024EC,extended,C6410024
+patch=1,EE,203024D0,extended,E6410024
+
+[Cheats\Tension rapide Max]
+//Tension rapide  Max
+patch=1,EE,20304BDC,extended,00000000
+
+[Cheats\Cypress Stick (2)]
+//Cypress Stick
+patch=1,EE,20409DD0,extended,00090001
+
+[Cheats\Soldier's Sword (2)]
+//Soldier's Sword
+patch=1,EE,20409DD0,extended,00090002
+
+[Cheats\Copper Sword (2)]
+//Copper Sword
+patch=1,EE,20409DD0,extended,00090003
+
+[Cheats\Steel Broadsword (2)]
+//Steel Broadsword
+patch=1,EE,20409DD0,extended,00090004
+
+[Cheats\Platinium Sword (2)]
+//Platinium Sword
+patch=1,EE,20409DD0,extended,00090005
+
+[Cheats\Dream Blade (2)]
+//Dream Blade
+patch=1,EE,20409DD0,extended,00090006
+
+[Cheats\Falcon Blade (2)]
+//Falcon Blade
+patch=1,EE,20409DD0,extended,00090007
+
+[Cheats\Uber Falcon Blade (2)]
+//Uber Falcon Blade
+patch=1,EE,20409DD0,extended,00090008
+
+[Cheats\Zombiesbane (2)]
+//Zombiesbane
+patch=1,EE,20409DD0,extended,00090009
+
+[Cheats\Zombie Slayer (2)]
+//Zombie Slayer
+patch=1,EE,20409DD0,extended,0009000A
+
+[Cheats\Dragonsbane (2)]
+//Dragonsbane
+patch=1,EE,20409DD0,extended,0009000B
+
+[Cheats\Dragon Slayer (2)]
+//Dragon Slayer
+patch=1,EE,20409DD0,extended,0009000C
+
+[Cheats\Blizzard Blade (2)]
+//Blizzard Blade
+patch=1,EE,20409DD0,extended,0009000D
+
+[Cheats\Miracle Sword (2)]
+//Miracle Sword
+patch=1,EE,20409DD0,extended,0009000E
+
+[Cheats\Uber Miracle Sword (2)]
+//Uber Miracle Sword
+patch=1,EE,20409DD0,extended,0009000F
+
+[Cheats\Bastard Sword (2)]
+//Bastard Sword
+patch=1,EE,20409DD0,extended,00090010
+
+[Cheats\Liquid Metal Sword (2)]
+//Liquid Metal Sword
+patch=1,EE,20409DD0,extended,00090011
+
+[Cheats\Double Edged Sword (2)]
+//Double Edged Sword
+patch=1,EE,20409DD0,extended,00090012
+
+[Cheats\Uber Double Edge (2)]
+//Uber Double Edge
+patch=1,EE,20409DD0,extended,00090013
+
+[Cheats\Rusty Old Sword (2)]
+//Rusty Old Sword
+patch=1,EE,20409DD0,extended,00090014
+
+[Cheats\Dragovian Sword (2)]
+//Dragovian Sword
+patch=1,EE,20409DD0,extended,00090015
+
+[Cheats\Dragovian Kind Sword (2)]
+//Dragovian Kind Sword
+patch=1,EE,20409DD0,extended,00090016
+
+[Cheats\Rapier (2)]
+//Rapier
+patch=1,EE,20409DD0,extended,00090017
+
+[Cheats\Templar's Sword (2)]
+//Templar's Sword
+patch=1,EE,20409DD0,extended,00090018
+
+[Cheats\Hell sabre (2)]
+//Hell sabre
+patch=1,EE,20409DD0,extended,00090019
+
+[Cheats\Holy silve Rapier (2)]
+//Holy silve Rapier
+patch=1,EE,20409DD0,extended,0009001A
+
+[Cheats\Fallen Angel Rapier (2)]
+//Fallen Angel Rapier
+patch=1,EE,20409DD0,extended,0009001B
+
+[Cheats\Shamshir of Light (2)]
+//Shamshir of Light
+patch=1,EE,20409DD0,extended,0009001C
+
+[Cheats\Mercury Rapier (2)]
+//Mercury Rapier
+patch=1,EE,20409DD0,extended,0009001D
+
+[Cheats\Bronze Knife (2)]
+//Bronze Knife
+patch=1,EE,20409DD0,extended,0009001E
+
+[Cheats\Dagger (2)]
+//Dagger
+patch=1,EE,20409DD0,extended,0009001F
+
+[Cheats\Poison Moth Knife (2)]
+//Poison Moth Knife
+patch=1,EE,20409DD0,extended,00090020
+
+[Cheats\Assassin's Dagger (2)]
+//Assassin's Dagger
+patch=1,EE,20409DD0,extended,00090021
+
+[Cheats\Icicle dirk (2)]
+//Icicle dirk
+patch=1,EE,20409DD0,extended,00090022
+
+[Cheats\Poison Needle (2)]
+//Poison Needle
+patch=1,EE,20409DD0,extended,00090023
+
+[Cheats\Falcon Knife (2)]
+//Falcon Knife
+patch=1,EE,20409DD0,extended,00090024
+
+[Cheats\Imp Knife (2)]
+//Imp Knife
+patch=1,EE,20409DD0,extended,00090025
+
+[Cheats\Sword breaker (2)]
+//Sword breaker
+patch=1,EE,20409DD0,extended,00090026
+
+[Cheats\Eagle Dagger (2)]
+//Eagle Dagger
+patch=1,EE,20409DD0,extended,00090027
+
+[Cheats\Iron Lance (2)]
+//Iron Lance
+patch=1,EE,20409DD0,extended,00090028
+
+[Cheats\Holy Lance (2)]
+//Holy Lance
+patch=1,EE,20409DD0,extended,00090029
+
+[Cheats\Long Spear (2)]
+//Long Spear
+patch=1,EE,20409DD0,extended,0009002A
+
+[Cheats\Partisan (2)]
+//Partisan
+patch=1,EE,20409DD0,extended,0009002B
+
+[Cheats\Battle fork (2)]
+//Battle fork
+patch=1,EE,20409DD0,extended,0009002C
+
+[Cheats\Sandstorm Spear (2)]
+//Sandstorm Spear
+patch=1,EE,20409DD0,extended,0009002D
+
+[Cheats\Demon Spear (2)]
+//Demon Spear
+patch=1,EE,20409DD0,extended,0009002E
+
+[Cheats\Hero Spear (2)]
+//Hero Spear
+patch=1,EE,20409DD0,extended,0009002F
+
+[Cheats\Metal King Spear (2)]
+//Metal King Spear
+patch=1,EE,20409DD0,extended,00090030
+
+[Cheats\Boomerang (2)]
+//Boomerang
+patch=1,EE,20409DD0,extended,00090031
+
+[Cheats\Reinforced Boomerang (2)]
+//Reinforced Boomerang
+patch=1,EE,20409DD0,extended,00090032
+
+[Cheats\Edged boomerang (2)]
+//Edged boomerang
+patch=1,EE,20409DD0,extended,00090033
+
+[Cheats\Metal wing Boomerang (2)]
+//Metal wing Boomerang
+patch=1,EE,20409DD0,extended,00090034
+
+[Cheats\Razor Wing boomerang (2)]
+//Razor Wing boomerang
+patch=1,EE,20409DD0,extended,00090035
+
+[Cheats\Swallotail (2)]
+//Swallotail
+patch=1,EE,20409DD0,extended,00090036
+
+[Cheats\Flametang boomerang (2)]
+//Flametang boomerang
+patch=1,EE,20409DD0,extended,00090037
+
+[Cheats\Stone Axe (2)]
+//Stone Axe
+patch=1,EE,20409DD0,extended,00090038
+
+[Cheats\Iron Axe (2)]
+//Iron Axe
+patch=1,EE,20409DD0,extended,00090039
+
+[Cheats\King Axe (2)]
+//King Axe
+patch=1,EE,20409DD0,extended,0009003A
+
+[Cheats\Moon Axe (2)]
+//Moon Axe
+patch=1,EE,20409DD0,extended,0009003B
+
+[Cheats\Bandit Axe (2)]
+//Bandit Axe
+patch=1,EE,20409DD0,extended,0009003C
+
+[Cheats\Golden Axe (2)]
+//Golden Axe
+patch=1,EE,20409DD0,extended,0009003D
+
+[Cheats\Battle AXe (2)]
+//Battle AXe
+patch=1,EE,20409DD0,extended,0009003E
+
+[Cheats\Conqueror's Axe (2)]
+//Conqueror's Axe
+patch=1,EE,20409DD0,extended,0009003F
+
+[Cheats\Oaken Club (2)]
+//Oaken Club
+patch=1,EE,20409DD0,extended,00090040
+
+[Cheats\Giant Mallet (2)]
+//Giant Mallet
+patch=1,EE,20409DD0,extended,00090041
+
+[Cheats\Sledgehammer (2)]
+//Sledgehammer
+patch=1,EE,20409DD0,extended,00090042
+
+[Cheats\War Hammer (2)]
+//War Hammer
+patch=1,EE,20409DD0,extended,00090043
+
+[Cheats\Uber War Hammer (2)]
+//Uber War Hammer
+patch=1,EE,20409DD0,extended,00090044
+
+[Cheats\Megaton Hammer (2)]
+//Megaton Hammer
+patch=1,EE,20409DD0,extended,00090046
+
+[Cheats\Flail of Furry (2)]
+//Flail of Furry
+patch=1,EE,20409DD0,extended,00090047
+
+[Cheats\Flail of Destruction (2)]
+//Flail of Destruction
+patch=1,EE,20409DD0,extended,00090048
+
+[Cheats\Thorn Whip (2)]
+//Thorn Whip
+patch=1,EE,20409DD0,extended,00090049
+
+[Cheats\Leather Whip (2)]
+//Leather Whip
+patch=1,EE,20409DD0,extended,0009004A
+
+[Cheats\Snakeskin Whip (2)]
+//Snakeskin Whip
+patch=1,EE,20409DD0,extended,0009004B
+
+[Cheats\Chain Whip (2)]
+//Chain Whip
+patch=1,EE,20409DD0,extended,0009004C
+
+[Cheats\Dragontail Whip (2)]
+//Dragontail Whip
+patch=1,EE,20409DD0,extended,0009004D
+
+[Cheats\Spiked Steel Whip (2)]
+//Spiked Steel Whip
+patch=1,EE,20409DD0,extended,0009004E
+
+[Cheats\Demon Whip (2)]
+//Demon Whip
+patch=1,EE,20409DD0,extended,0009004F
+
+[Cheats\Scourge Whip (2)]
+//Scourge Whip
+patch=1,EE,20409DD0,extended,00090050
+
+[Cheats\Gringham Whip (2)]
+//Gringham Whip
+patch=1,EE,20409DD0,extended,00090051
+
+[Cheats\Farmer's Scythe (2)]
+//Farmer's Scythe
+patch=1,EE,20409DD0,extended,00090052
+
+[Cheats\Heavy Hatchet (2)]
+//Heavy Hatchet
+patch=1,EE,20409DD0,extended,00090054
+
+[Cheats\Bardiche of binding (2)]
+//Bardiche of binding
+patch=1,EE,20409DD0,extended,00090055
+
+[Cheats\hell Scythe (2)]
+//hell Scythe
+patch=1,EE,20409DD0,extended,00090056
+
+[Cheats\Stell Scythe (2)]
+//Stell Scythe
+patch=1,EE,20409DD0,extended,00090057
+
+[Cheats\Wizard's Staff (2)]
+//Wizard's Staff
+patch=1,EE,20409DD0,extended,00090058
+
+[Cheats\Lightning Staff (2)]
+//Lightning Staff
+patch=1,EE,20409DD0,extended,00090059
+
+[Cheats\Staff of Divine Wrath (2)]
+//Staff of Divine Wrath
+patch=1,EE,20409DD0,extended,0009005A
+
+[Cheats\Magma Staff (2)]
+//Magma Staff
+patch=1,EE,20409DD0,extended,0009005B
+
+[Cheats\Staff of Antimagic (2)]
+//Staff of Antimagic
+patch=1,EE,20409DD0,extended,0009005D
+
+[Cheats\Rune Staff (2)]
+//Rune Staff
+patch=1,EE,20409DD0,extended,0009005E
+
+[Cheats\Staff Of Resurection (2)]
+//Staff Of Resurection
+patch=1,EE,20409DD0,extended,0009005F
+
+[Cheats\Magical Mace (2)]
+//Magical Mace
+patch=1,EE,20409DD0,extended,00090060
+
+[Cheats\Hunter's Bow (2)]
+//Hunter's Bow
+patch=1,EE,20409DD0,extended,00090062
+
+[Cheats\Great Bow (2)]
+//Great Bow
+patch=1,EE,20409DD0,extended,00090063
+
+[Cheats\Short Bow (2)]
+//Short Bow
+patch=1,EE,20409DD0,extended,00090064
+
+[Cheats\Odin's bow (2)]
+//Odin's bow
+patch=1,EE,20409DD0,extended,00090065
+
+[Cheats\Cheiron's Bow (2)]
+//Cheiron's Bow
+patch=1,EE,20409DD0,extended,00090066
+
+[Cheats\Eros' Bow (2)]
+//Eros' Bow
+patch=1,EE,20409DD0,extended,00090067
+
+[Cheats\Plain Clothes (2)]
+//Plain Clothes
+patch=1,EE,20409DD0,extended,00090068
+
+[Cheats\Bandit Grass Skirt (2)]
+//Bandit Grass Skirt
+patch=1,EE,20409DD0,extended,00090069
+
+[Cheats\Wayfarer's Clothes (2)]
+//Wayfarer's Clothes
+patch=1,EE,20409DD0,extended,0009006A
+
+[Cheats\Boxer Short (2)]
+//Boxer Short
+patch=1,EE,20409DD0,extended,0009006B
+
+[Cheats\Dancer's Costume (2)]
+//Dancer's Costume
+patch=1,EE,20409DD0,extended,0009006C
+
+[Cheats\Leather Kilt (2)]
+//Leather Kilt
+patch=1,EE,20409DD0,extended,0009006D
+
+[Cheats\Leather Dress (2)]
+//Leather Dress
+patch=1,EE,20409DD0,extended,0009006E
+
+[Cheats\Templar's Uniform (2)]
+//Templar's Uniform
+patch=1,EE,20409DD0,extended,0009006F
+
+[Cheats\Fur Poncho (2)]
+//Fur Poncho
+patch=1,EE,20409DD0,extended,00090070
+
+[Cheats\Cloak Of Evasion (2)]
+//Cloak Of Evasion
+patch=1,EE,20409DD0,extended,00090071
+
+[Cheats\Bunny Suit (2)]
+//Bunny Suit
+patch=1,EE,20409DD0,extended,00090072
+
+[Cheats\Silk bustier (2)]
+//Silk bustier
+patch=1,EE,20409DD0,extended,00090073
+
+[Cheats\Magic bikini (2)]
+//Magic bikini
+patch=1,EE,20409DD0,extended,00090074
+
+[Cheats\Spangled Dress (2)]
+//Spangled Dress
+patch=1,EE,20409DD0,extended,00090075
+
+[Cheats\Posh waistcost (2)]
+//Posh waistcost
+patch=1,EE,20409DD0,extended,00090076
+
+[Cheats\Magical Skirt (2)]
+//Magical Skirt
+patch=1,EE,20409DD0,extended,00090077
+
+[Cheats\Shimmering Dress (2)]
+//Shimmering Dress
+patch=1,EE,20409DD0,extended,00090078
+
+[Cheats\Dark Robe (2)]
+//Dark Robe
+patch=1,EE,20409DD0,extended,00090079
+
+[Cheats\Dangerous Bustier (2)]
+//Dangerous Bustier
+patch=1,EE,20409DD0,extended,0009007B
+
+[Cheats\Divine Bustier (2)]
+//Divine Bustier
+patch=1,EE,20409DD0,extended,0009007C
+
+[Cheats\Jessica's Outfit (2)]
+//Jessica's Outfit
+patch=1,EE,20409DD0,extended,0009007D
+
+[Cheats\Leather Armour (2)]
+//Leather Armour
+patch=1,EE,20409DD0,extended,0009007E
+
+[Cheats\Scale Armour (2)]
+//Scale Armour
+patch=1,EE,20409DD0,extended,0009007F
+
+[Cheats\Chain Mail (2)]
+//Chain Mail
+patch=1,EE,20409DD0,extended,00090080
+
+[Cheats\Bronze Armour (2)]
+//Bronze Armour
+patch=1,EE,20409DD0,extended,00090081
+
+[Cheats\Iron Cuirass (2)]
+//Iron Cuirass
+patch=1,EE,20409DD0,extended,00090082
+
+[Cheats\Iron Armour (2)]
+//Iron Armour
+patch=1,EE,20409DD0,extended,00090083
+
+[Cheats\Turtoise Shell (2)]
+//Turtoise Shell
+patch=1,EE,20409DD0,extended,00090084
+
+[Cheats\Full Plate Armor (2)]
+//Full Plate Armor
+patch=1,EE,20409DD0,extended,00090085
+
+[Cheats\Silver Cuirass (2)]
+//Silver Cuirass
+patch=1,EE,20409DD0,extended,00090086
+
+[Cheats\Dancer's Mail (2)]
+//Dancer's Mail
+patch=1,EE,20409DD0,extended,00090087
+
+[Cheats\Silver Mail (2)]
+//Silver Mail
+patch=1,EE,20409DD0,extended,00090088
+
+[Cheats\Dragon Mail (2)]
+//Dragon Mail
+patch=1,EE,20409DD0,extended,00090089
+
+[Cheats\Magic Armour (2)]
+//Magic Armour
+patch=1,EE,20409DD0,extended,0009008A
+
+[Cheats\Zombie Mail (2)]
+//Zombie Mail
+patch=1,EE,20409DD0,extended,0009008B
+
+[Cheats\Heavy Armour (2)]
+//Heavy Armour
+patch=1,EE,20409DD0,extended,0009008C
+
+[Cheats\Spiked Armour (2)]
+//Spiked Armour
+patch=1,EE,20409DD0,extended,0009008D
+
+[Cheats\Platinium Mail (2)]
+//Platinium Mail
+patch=1,EE,20409DD0,extended,0009008E
+
+[Cheats\Bandit Mail (2)]
+//Bandit Mail
+patch=1,EE,20409DD0,extended,0009008F
+
+[Cheats\Sacred Armour (2)]
+//Sacred Armour
+patch=1,EE,20409DD0,extended,00090090
+
+[Cheats\Gigant Armour (2)]
+//Gigant Armour
+patch=1,EE,20409DD0,extended,00090092
+
+[Cheats\Mirror Armour (2)]
+//Mirror Armour
+patch=1,EE,20409DD0,extended,00090093
+
+[Cheats\Liquid Metal Armour (2)]
+//Liquid Metal Armour
+patch=1,EE,20409DD0,extended,00090094
+
+[Cheats\Dragovian Armour (2)]
+//Dragovian Armour
+patch=1,EE,20409DD0,extended,00090095
+
+[Cheats\Metal Kibd Armor (2)]
+//Metal Kibd Armor
+patch=1,EE,20409DD0,extended,00090096
+
+[Cheats\Silk Robe (2)]
+//Silk Robe
+patch=1,EE,20409DD0,extended,00090097
+
+[Cheats\Leather Cape (2)]
+//Leather Cape
+patch=1,EE,20409DD0,extended,00090098
+
+[Cheats\Robe of Serenity (2)]
+//Robe of Serenity
+patch=1,EE,20409DD0,extended,00090099
+
+[Cheats\Magic Vestment (2)]
+//Magic Vestment
+patch=1,EE,20409DD0,extended,0009009A
+
+[Cheats\Flowing Dress (2)]
+//Flowing Dress
+patch=1,EE,20409DD0,extended,0009009B
+
+[Cheats\Sage's Robe (2)]
+//Sage's Robe
+patch=1,EE,20409DD0,extended,0009009C
+
+[Cheats\Angel's Robe (2)]
+//Angel's Robe
+patch=1,EE,20409DD0,extended,0009009D
+
+[Cheats\Velvet Cape (2)]
+//Velvet Cape
+patch=1,EE,20409DD0,extended,0009009E
+
+[Cheats\Crimson Robe (2)]
+//Crimson Robe
+patch=1,EE,20409DD0,extended,0009009F
+
+[Cheats\Princess' Robe (2)]
+//Princess' Robe
+patch=1,EE,20409DD0,extended,000900A0
+
+[Cheats\Dragon Robe (2)]
+//Dragon Robe
+patch=1,EE,20409DD0,extended,000900A1
+
+[Cheats\Pot Lid (2)]
+//Pot Lid
+patch=1,EE,20409DD0,extended,000900A2
+
+[Cheats\Leather Shield (2)]
+//Leather Shield
+patch=1,EE,20409DD0,extended,000900A3
+
+[Cheats\Scale Shield (2)]
+//Scale Shield
+patch=1,EE,20409DD0,extended,000900A4
+
+[Cheats\Silver Platter (2)]
+//Silver Platter
+patch=1,EE,20409DD0,extended,000900A5
+
+[Cheats\Kitty Shield (2)]
+//Kitty Shield
+patch=1,EE,20409DD0,extended,000900A6
+
+[Cheats\Bronze Shield (2)]
+//Bronze Shield
+patch=1,EE,20409DD0,extended,000900A7
+
+[Cheats\Templar's Shield (2)]
+//Templar's Shield
+patch=1,EE,20409DD0,extended,000900A8
+
+[Cheats\Iron Shield (2)]
+//Iron Shield
+patch=1,EE,20409DD0,extended,000900A9
+
+[Cheats\Light Shield (2)]
+//Light Shield
+patch=1,EE,20409DD0,extended,000900AA
+
+[Cheats\White Shield (2)]
+//White Shield
+patch=1,EE,20409DD0,extended,000900AB
+
+[Cheats\Steel Shield (2)]
+//Steel Shield
+patch=1,EE,20409DD0,extended,000900AC
+
+[Cheats\Magic Shield (2)]
+//Magic Shield
+patch=1,EE,20409DD0,extended,000900AD
+
+[Cheats\Dragon Shield (2)]
+//Dragon Shield
+patch=1,EE,20409DD0,extended,000900AE
+
+[Cheats\Power Shield (2)]
+//Power Shield
+patch=1,EE,20409DD0,extended,000900B0
+
+[Cheats\Saintess Shield (2)]
+//Saintess Shield
+patch=1,EE,20409DD0,extended,000900B1
+
+[Cheats\Bone Shield (2)]
+//Bone Shield
+patch=1,EE,20409DD0,extended,000900B2
+
+[Cheats\Mirror shield (2)]
+//Mirror shield
+patch=1,EE,20409DD0,extended,000900B3
+
+[Cheats\Ogre Shield (2)]
+//Ogre Shield
+patch=1,EE,20409DD0,extended,000900B4
+
+[Cheats\Silver Shield (2)]
+//Silver Shield
+patch=1,EE,20409DD0,extended,000900B5
+
+[Cheats\Big boss Shield (2)]
+//Big boss Shield
+patch=1,EE,20409DD0,extended,000900B6
+
+[Cheats\Ruinous shield (2)]
+//Ruinous shield
+patch=1,EE,20409DD0,extended,000900B7
+
+[Cheats\Thanatos Shield (2)]
+//Thanatos Shield
+patch=1,EE,20409DD0,extended,000900B8
+
+[Cheats\Goddess Shield (2)]
+//Goddess Shield
+patch=1,EE,20409DD0,extended,000900B9
+
+[Cheats\Dragovian Shield (2)]
+//Dragovian Shield
+patch=1,EE,20409DD0,extended,000900BA
+
+[Cheats\Metal King Shield (2)]
+//Metal King Shield
+patch=1,EE,20409DD0,extended,000900BB
+
+[Cheats\Bandana (2)]
+//Bandana
+patch=1,EE,20409DD0,extended,000900BC
+
+[Cheats\Leather Hat (2)]
+//Leather Hat
+patch=1,EE,20409DD0,extended,000900BD
+
+[Cheats\Hairband (2)]
+//Hairband
+patch=1,EE,20409DD0,extended,000900BE
+
+[Cheats\Pointy Hat (2)]
+//Pointy Hat
+patch=1,EE,20409DD0,extended,000900BF
+
+[Cheats\Feathered Cap (2)]
+//Feathered Cap
+patch=1,EE,20409DD0,extended,000900C0
+
+[Cheats\Turban (2)]
+//Turban
+patch=1,EE,20409DD0,extended,000900C1
+
+[Cheats\Silver Tiara (2)]
+//Silver Tiara
+patch=1,EE,20409DD0,extended,000900C2
+
+[Cheats\Bunny ears (2)]
+//Bunny ears
+patch=1,EE,20409DD0,extended,000900C3
+
+[Cheats\Stone Hardhat (2)]
+//Stone Hardhat
+patch=1,EE,20409DD0,extended,000900C4
+
+[Cheats\Iron Helmet (2)]
+//Iron Helmet
+patch=1,EE,20409DD0,extended,000900C5
+
+[Cheats\Fur Hood (2)]
+//Fur Hood
+patch=1,EE,20409DD0,extended,000900C6
+
+[Cheats\Bronze Helmet (2)]
+//Bronze Helmet
+patch=1,EE,20409DD0,extended,000900C7
+
+[Cheats\Coral Hairpin (2)]
+//Coral Hairpin
+patch=1,EE,20409DD0,extended,000900C8
+
+[Cheats\Pirate Hat (2)]
+//Pirate Hat
+patch=1,EE,20409DD0,extended,000900C9
+
+[Cheats\Iron Mask (2)]
+//Iron Mask
+patch=1,EE,20409DD0,extended,000900CA
+
+[Cheats\Hermes Hat (2)]
+//Hermes Hat
+patch=1,EE,20409DD0,extended,000900CB
+
+[Cheats\Platinium Headgear (2)]
+//Platinium Headgear
+patch=1,EE,20409DD0,extended,000900CC
+
+[Cheats\Magical Hat (2)]
+//Magical Hat
+patch=1,EE,20409DD0,extended,000900CD
+
+[Cheats\Happy Hat (2)]
+//Happy Hat
+patch=1,EE,20409DD0,extended,000900CE
+
+[Cheats\Hades Helm (2)]
+//Hades Helm
+patch=1,EE,20409DD0,extended,000900CF
+
+[Cheats\Slime Crown (2)]
+//Slime Crown
+patch=1,EE,20409DD0,extended,000900D0
+
+[Cheats\Mythrill Helm (2)]
+//Mythrill Helm
+patch=1,EE,20409DD0,extended,000900D1
+
+[Cheats\Mercury's Bandana (2)]
+//Mercury's Bandana
+patch=1,EE,20409DD0,extended,000900D2
+
+[Cheats\Scholar Cap (2)]
+//Scholar Cap
+patch=1,EE,20409DD0,extended,000900D3
+
+[Cheats\Thinking Cap (2)]
+//Thinking Cap
+patch=1,EE,20409DD0,extended,000900D5
+
+[Cheats\Iron Headgear (2)]
+//Iron Headgear
+patch=1,EE,20409DD0,extended,000900D6
+
+[Cheats\Ragin Bull Helm (2)]
+//Ragin Bull Helm
+patch=1,EE,20409DD0,extended,000900D7
+
+[Cheats\Golden Tiara (2)]
+//Golden Tiara
+patch=1,EE,20409DD0,extended,000900D8
+
+[Cheats\Great Helm (2)]
+//Great Helm
+patch=1,EE,20409DD0,extended,000900D9
+
+[Cheats\Phantom Mask (2)]
+//Phantom Mask
+patch=1,EE,20409DD0,extended,000900DA
+
+[Cheats\Skull helm (2)]
+//Skull helm
+patch=1,EE,20409DD0,extended,000900DB
+
+[Cheats\Dragovian Helm (2)]
+//Dragovian Helm
+patch=1,EE,20409DD0,extended,000900DC
+
+[Cheats\Sun Crown (2)]
+//Sun Crown
+patch=1,EE,20409DD0,extended,000900DD
+
+[Cheats\Metal King Helm (2)]
+//Metal King Helm
+patch=1,EE,20409DD0,extended,000900DE
+
+[Cheats\Ability Ring (2)]
+//Ability Ring
+patch=1,EE,20409DD0,extended,000900E0
+
+[Cheats\Meteorite Bracer (2)]
+//Meteorite Bracer
+patch=1,EE,20409DD0,extended,000900E1
+
+[Cheats\Strengh Ring (2)]
+//Strengh Ring
+patch=1,EE,20409DD0,extended,000900E2
+
+[Cheats\Gold Ring (2)]
+//Gold Ring
+patch=1,EE,20409DD0,extended,000900E3
+
+[Cheats\Prayer Ring (2)]
+//Prayer Ring
+patch=1,EE,20409DD0,extended,000900E4
+
+[Cheats\Recovery Ring (2)]
+//Recovery Ring
+patch=1,EE,20409DD0,extended,000900E5
+
+[Cheats\Goddess ring (2)]
+//Goddess ring
+patch=1,EE,20409DD0,extended,000900E6
+
+[Cheats\Gospel ring (2)]
+//Gospel ring
+patch=1,EE,20409DD0,extended,000900E7
+
+[Cheats\Life Bracer (2)]
+//Life Bracer
+patch=1,EE,20409DD0,extended,000900E8
+
+[Cheats\Mighty Armlet (2)]
+//Mighty Armlet
+patch=1,EE,20409DD0,extended,000900E9
+
+[Cheats\Gold Bracer (2)]
+//Gold Bracer
+patch=1,EE,20409DD0,extended,000900EA
+
+[Cheats\Ruby of Protection (2)]
+//Ruby of Protection
+patch=1,EE,20409DD0,extended,000900ED
+
+[Cheats\Titan blet (2)]
+//Titan blet
+patch=1,EE,20409DD0,extended,000900EE
+
+[Cheats\Scholar Specs (2)]
+//Scholar Specs
+patch=1,EE,20409DD0,extended,000900EF
+
+[Cheats\Tough Guy Tattoo (2)]
+//Tough Guy Tattoo
+patch=1,EE,20409DD0,extended,000900F0
+
+[Cheats\Slime Earrings (2)]
+//Slime Earrings
+patch=1,EE,20409DD0,extended,000900F1
+
+[Cheats\Devil's Tail (2)]
+//Devil's Tail
+patch=1,EE,20409DD0,extended,000900F2
+
+[Cheats\Fishnet Stockings (2)]
+//Fishnet Stockings
+patch=1,EE,20409DD0,extended,000900F3
+
+[Cheats\Garter (2)]
+//Garter
+patch=1,EE,20409DD0,extended,000900F4
+
+[Cheats\Lady's Ring (2)]
+//Lady's Ring
+patch=1,EE,20409DD0,extended,000900F5
+
+[Cheats\Gold Rosary (2)]
+//Gold Rosary
+patch=1,EE,20409DD0,extended,000900F6
+
+[Cheats\Sorcerer's Ring (2)]
+//Sorcerer's Ring
+patch=1,EE,20409DD0,extended,000900F8
+
+[Cheats\Skull Ring (2)]
+//Skull Ring
+patch=1,EE,20409DD0,extended,000900F9
+
+[Cheats\Holy Talisman (2)]
+//Holy Talisman
+patch=1,EE,20409DD0,extended,000900FA
+
+[Cheats\Ring of Awakening (2)]
+//Ring of Awakening
+patch=1,EE,20409DD0,extended,000900FB
+
+[Cheats\Full moon Ring (2)]
+//Full moon Ring
+patch=1,EE,20409DD0,extended,000900FC
+
+[Cheats\Ring of Clarity (2)]
+//Ring of Clarity
+patch=1,EE,20409DD0,extended,000900FD
+
+[Cheats\Ring of Truth (2)]
+//Ring of Truth
+patch=1,EE,20409DD0,extended,000900FE
+
+[Cheats\Ring of Immunity (2)]
+//Ring of Immunity
+patch=1,EE,20409DD0,extended,000900FF
+
+[Cheats\catholicon Ring (2)]
+//catholicon Ring
+patch=1,EE,20409DD0,extended,00090100
+
+[Cheats\Dragon Scale (2)]
+//Dragon Scale
+patch=1,EE,20409DD0,extended,00090103
+
+[Cheats\Elevating Shoes (2)]
+//Elevating Shoes
+patch=1,EE,20409DD0,extended,00090104
+
+[Cheats\Medicinal Herb (2)]
+//Medicinal Herb
+patch=1,EE,20409DD0,extended,00090105
+
+[Cheats\Antidotal Herb (2)]
+//Antidotal Herb
+patch=1,EE,20409DD0,extended,00090106
+
+[Cheats\Moonwort Bulb (2)]
+//Moonwort Bulb
+patch=1,EE,20409DD0,extended,00090107
+
+[Cheats\Strong Medecine (2)]
+//Strong Medecine
+patch=1,EE,20409DD0,extended,00090108
+
+[Cheats\Special Medecine (2)]
+//Special Medecine
+patch=1,EE,20409DD0,extended,00090109
+
+[Cheats\Lesser Panacea (2)]
+//Lesser Panacea
+patch=1,EE,20409DD0,extended,0009010A
+
+[Cheats\Greater Panacea (2)]
+//Greater Panacea
+patch=1,EE,20409DD0,extended,0009010B
+
+[Cheats\Rose-root (2)]
+//Rose-root
+patch=1,EE,20409DD0,extended,0009010C
+
+[Cheats\Rose-wort (2)]
+//Rose-wort
+patch=1,EE,20409DD0,extended,0009010D
+
+[Cheats\Strong Antidote (2)]
+//Strong Antidote
+patch=1,EE,20409DD0,extended,0009010E
+
+[Cheats\Special Antidote (2)]
+//Special Antidote
+patch=1,EE,20409DD0,extended,0009010F
+
+[Cheats\Moon's Mercy (2)]
+//Moon's Mercy
+patch=1,EE,20409DD0,extended,00090110
+
+[Cheats\Mystifying Misture (2)]
+//Mystifying Misture
+patch=1,EE,20409DD0,extended,00090111
+
+[Cheats\Yggdrasil Leaf (2)]
+//Yggdrasil Leaf
+patch=1,EE,20409DD0,extended,00090112
+
+[Cheats\Yggdrasil Dew (2)]
+//Yggdrasil Dew
+patch=1,EE,20409DD0,extended,00090113
+
+[Cheats\Armor Secco Essence (2)]
+//Armor Secco Essence
+patch=1,EE,20409DD0,extended,00090114
+
+[Cheats\Chimaera Wing (2)]
+//Chimaera Wing
+patch=1,EE,20409DD0,extended,00090115
+
+[Cheats\Holy Water (2)]
+//Holy Water
+patch=1,EE,20409DD0,extended,00090116
+
+[Cheats\Magic Water (2)]
+//Magic Water
+patch=1,EE,20409DD0,extended,00090117
+
+[Cheats\Elfin Elixir (2)]
+//Elfin Elixir
+patch=1,EE,20409DD0,extended,00090118
+
+[Cheats\Rockbomb Shard (2)]
+//Rockbomb Shard
+patch=1,EE,20409DD0,extended,00090119
+
+[Cheats\Sage's Stone (2)]
+//Sage's Stone
+patch=1,EE,20409DD0,extended,0009011A
+
+[Cheats\Seed of Strengh (2)]
+//Seed of Strengh
+patch=1,EE,20409DD0,extended,0009011C
+
+[Cheats\Seed of Agility (2)]
+//Seed of Agility
+patch=1,EE,20409DD0,extended,0009011D
+
+[Cheats\Seed of Defence (2)]
+//Seed of Defence
+patch=1,EE,20409DD0,extended,0009011E
+
+[Cheats\Seed of Wisdom (2)]
+//Seed of Wisdom
+patch=1,EE,20409DD0,extended,0009011F
+
+[Cheats\Seed of Skill (2)]
+//Seed of Skill
+patch=1,EE,20409DD0,extended,00090120
+
+[Cheats\Seed of Life (2)]
+//Seed of Life
+patch=1,EE,20409DD0,extended,00090121
+
+[Cheats\Seed of Magic (2)]
+//Seed of Magic
+patch=1,EE,20409DD0,extended,00090122
+
+[Cheats\Mini Medal (2)]
+//Mini Medal
+patch=1,EE,20409DD0,extended,00090123
+
+[Cheats\Thief's Key (2)]
+//Thief's Key
+patch=1,EE,20409DD0,extended,00090125
+
+[Cheats\Magic Key (2)]
+//Magic Key
+patch=1,EE,20409DD0,extended,00090126
+
+[Cheats\Ultime Key (2)]
+//Ultime Key
+patch=1,EE,20409DD0,extended,00090127
+
+[Cheats\Orichalcum (2)]
+//Orichalcum
+patch=1,EE,20409DD0,extended,00090128
+
+[Cheats\Bunny Tail (2)]
+//Bunny Tail
+patch=1,EE,20409DD0,extended,00090129
+
+[Cheats\Timbrel of Tension (2)]
+//Timbrel of Tension
+patch=1,EE,20409DD0,extended,0009012A
+
+[Cheats\Baumren's Bell (2)]
+//Baumren's Bell
+patch=1,EE,20409DD0,extended,0009012D
+
+[Cheats\Gold nugget (2)]
+//Gold nugget
+patch=1,EE,20409DD0,extended,0009012E
+
+[Cheats\Iron Nail (2)]
+//Iron Nail
+patch=1,EE,20409DD0,extended,0009012F
+
+[Cheats\Cowpat (2)]
+//Cowpat
+patch=1,EE,20409DD0,extended,00090130
+
+[Cheats\Dragon Dug (2)]
+//Dragon Dug
+patch=1,EE,20409DD0,extended,00090131
+
+[Cheats\Rock Salt (2)]
+//Rock Salt
+patch=1,EE,20409DD0,extended,00090132
+
+[Cheats\Saint's Ashes (2)]
+//Saint's Ashes
+patch=1,EE,20409DD0,extended,00090134
+
+[Cheats\Wing of Bat (2)]
+//Wing of Bat
+patch=1,EE,20409DD0,extended,00090135
+
+[Cheats\Magic Beast hide (2)]
+//Magic Beast hide
+patch=1,EE,20409DD0,extended,00090136
+
+[Cheats\Fresh Milk (2)]
+//Fresh Milk
+patch=1,EE,20409DD0,extended,00090137
+
+[Cheats\Rennet Powder (2)]
+//Rennet Powder
+patch=1,EE,20409DD0,extended,00090138
+
+[Cheats\Red Mould (2)]
+//Red Mould
+patch=1,EE,20409DD0,extended,00090139
+
+[Cheats\Waterweed Mould (2)]
+//Waterweed Mould
+patch=1,EE,20409DD0,extended,0009013A
+
+[Cheats\Premium Mould (2)]
+//Premium Mould
+patch=1,EE,20409DD0,extended,0009013B
+
+[Cheats\Plain Cheese (2)]
+//Plain Cheese
+patch=1,EE,20409DD0,extended,0009013C
+
+[Cheats\Spicy Cheese (2)]
+//Spicy Cheese
+patch=1,EE,20409DD0,extended,0009013E
+
+[Cheats\Super Spicy Cheese (2)]
+//Super Spicy Cheese
+patch=1,EE,20409DD0,extended,0009013F
+
+[Cheats\Scorching Cheese (2)]
+//Scorching Cheese
+patch=1,EE,20409DD0,extended,00090140
+
+[Cheats\Cool Cheese (2)]
+//Cool Cheese
+patch=1,EE,20409DD0,extended,00090142
+
+[Cheats\Chilly cheese (2)]
+//Chilly cheese
+patch=1,EE,20409DD0,extended,00090143
+
+[Cheats\Cold Cheese (2)]
+//Cold Cheese
+patch=1,EE,20409DD0,extended,00090144
+
+[Cheats\C-c-cold Cheese (2)]
+//C-c-cold Cheese
+patch=1,EE,20409DD0,extended,00090145
+
+[Cheats\Mild Cheese (2)]
+//Mild Cheese
+patch=1,EE,20409DD0,extended,0009014B
+
+[Cheats\Cured Cheese (2)]
+//Cured Cheese
+patch=1,EE,20409DD0,extended,0009014C
+
+[Cheats\Angel Cheese (2)]
+//Angel Cheese
+patch=1,EE,20409DD0,extended,0009014D
+
+[Cheats\Hard Cheese (2)]
+//Hard Cheese
+patch=1,EE,20409DD0,extended,0009014E
+
+[Cheats\Soft Cheese (2)]
+//Soft Cheese
+patch=1,EE,20409DD0,extended,0009014F
+
+[Cheats\Chunky cheese (2)]
+//Chunky cheese
+patch=1,EE,20409DD0,extended,00090150
+
+[Cheats\Highly Strung Cheese (2)]
+//Highly Strung Cheese
+patch=1,EE,20409DD0,extended,00090151
+
+[Cheats\Crytal Ball (2)]
+//Crytal Ball
+patch=1,EE,20409DD0,extended,00090153
+
+[Cheats\Tool Bag (2)]
+//Tool Bag
+patch=1,EE,20409DD0,extended,00090154
+
+[Cheats\Jessica's Letter (2)]
+//Jessica's Letter
+patch=1,EE,20409DD0,extended,00090155
+
+[Cheats\Templar's Ring (2)]
+//Templar's Ring
+patch=1,EE,20409DD0,extended,00090156
+
+[Cheats\World Map (2)]
+//World Map
+patch=1,EE,20409DD0,extended,00090157
+
+[Cheats\Venus Tear (2)]
+//Venus Tear
+patch=1,EE,20409DD0,extended,00090158
+
+[Cheats\Moonshadow Harp (2)]
+//Moonshadow Harp
+patch=1,EE,20409DD0,extended,00090159
+
+[Cheats\Sand of Serenity (2)]
+//Sand of Serenity
+patch=1,EE,20409DD0,extended,0009015A
+
+[Cheats\Lizard Humour (2)]
+//Lizard Humour
+patch=1,EE,20409DD0,extended,0009015B
+
+[Cheats\Argon Heart (2)]
+//Argon Heart
+patch=1,EE,20409DD0,extended,0009015D
+
+[Cheats\Great Big Argon Heart (2)]
+//Great Big Argon Heart
+patch=1,EE,20409DD0,extended,0009015E
+
+[Cheats\Magic Mirror (2)]
+//Magic Mirror
+patch=1,EE,20409DD0,extended,0009015F
+
+[Cheats\Sun Mirror (2)]
+//Sun Mirror
+patch=1,EE,20409DD0,extended,00090160
+
+[Cheats\Stone Sword (2)]
+//Stone Sword
+patch=1,EE,20409DD0,extended,00090161
+
+[Cheats\Kran Spinels (2)]
+//Kran Spinels
+patch=1,EE,20409DD0,extended,00090162
+
+[Cheats\The Big Book of Barriers (2)]
+//The Big Book of Barriers
+patch=1,EE,20409DD0,extended,00090163
+
+[Cheats\Marta's Bag (2)]
+//Marta's Bag
+patch=1,EE,20409DD0,extended,00090164
+
+[Cheats\Illuminated Sea Chart (2)]
+//Illuminated Sea Chart
+patch=1,EE,20409DD0,extended,00090165
+
+[Cheats\Nook Grass (2)]
+//Nook Grass
+patch=1,EE,20409DD0,extended,00090166
+
+[Cheats\Godbird's Soulstone (2)]
+//Godbird's Soulstone
+patch=1,EE,20409DD0,extended,00090167
+
+[Cheats\Darktree Leaf (2)]
+//Darktree Leaf
+patch=1,EE,20409DD0,extended,00090168
+
+[Cheats\Templar Captain's Ring (2)]
+//Templar Captain's Ring
+patch=1,EE,20409DD0,extended,00090169
+
+[Cheats\Argon Ring (2)]
+//Argon Ring
+patch=1,EE,20409DD0,extended,0009016B
+
+[Cheats\Echo Flute (2)]
+//Echo Flute
+patch=1,EE,20409DD0,extended,0009016C
+
+[Cheats\Eros' Bow Recipe (2)]
+//Eros' Bow Recipe
+patch=1,EE,20409DD0,extended,0009016D
+
+[Cheats\Imp Knife Recipe (2)]
+//Imp Knife Recipe
+patch=1,EE,20409DD0,extended,0009016E
+
+[Cheats\Dragon Slayer Recipe (2)]
+//Dragon Slayer Recipe
+patch=1,EE,20409DD0,extended,0009016F
+
+[Cheats\Thief's key recipe (2)]
+//Thief's key recipe
+patch=1,EE,20409DD0,extended,00090170
+
+[Cheats\Morrie's Memo 1 (2)]
+//Morrie's Memo 1
+patch=1,EE,20409DD0,extended,00090171
+
+[Cheats\Morrie's Memo 2 (2)]
+//Morrie's Memo 2
+patch=1,EE,20409DD0,extended,00090172
+
+[Cheats\Morrie's Memo 3 (2)]
+//Morrie's Memo 3
+patch=1,EE,20409DD0,extended,00090173
+
+[Cheats\Monster Arena Key (2)]
+//Monster Arena Key
+patch=1,EE,20409DD0,extended,00090174
+
+[Cheats\Godbird Sceptre (2)]
+//Godbird Sceptre
+patch=1,EE,20409DD0,extended,00090175
+
+[Cheats\Gold Card (2)]
+//Gold Card
+patch=1,EE,20409DD0,extended,00090177
+
+[Cheats\Silver Orb (2)]
+//Silver Orb
+patch=1,EE,20409DD0,extended,00090178
+
+[Cheats\Red Orb (2)]
+//Red Orb
+patch=1,EE,20409DD0,extended,00090179
+
+[Cheats\Blue Orb (2)]
+//Blue Orb
+patch=1,EE,20409DD0,extended,0009017A
+
+[Cheats\Green Orb (2)]
+//Green Orb
+patch=1,EE,20409DD0,extended,0009017B
+
+[Cheats\Yellow Orb (2)]
+//Yellow Orb
+patch=1,EE,20409DD0,extended,0009017C
+
+[Cheats\Purple Orb (2)]
+//Purple Orb
+patch=1,EE,20409DD0,extended,0009017D
+
+[Cheats\Copper Monster Coin (2)]
+//Copper Monster Coin
+patch=1,EE,20409DD0,extended,0009017E
+
+[Cheats\Silver Monster Coin (2)]
+//Silver Monster Coin
+patch=1,EE,20409DD0,extended,0009017F
+
+[Cheats\Gold Monster Coin (2)]
+//Gold Monster Coin
+patch=1,EE,20409DD0,extended,00090180
+
+[Cheats\Flame Shield (2)]
+//Flame Shield
+patch=1,EE,20409DD0,extended,00090181
+
+[Cheats\Ice Shield (2)]
+//Ice Shield
+patch=1,EE,20409DD0,extended,00090182

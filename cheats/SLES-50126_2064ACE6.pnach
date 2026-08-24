@@ -1,0 +1,15 @@
+gametitle=Quake III - Revolution PAL-M SLES-50126 2064ACE6
+
+[NTSC Mode]
+author=Gabominated
+description=NTSC mode at start.
+patch=1,EE,002C0AA4,word,14600013 //14600013
+
+[Cheats\Infinite Health]
+patch=1,EE,105B9190,extended,000003E7
+
+[Cheats\Have All Weapons]
+patch=1,EE,1068828C,extended,0000FFFF
+
+[Cheats\Unlock All Arenas]
+patch=1,EE,106A074C,extended,0000001A

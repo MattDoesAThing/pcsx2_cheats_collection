@@ -1,0 +1,165 @@
+gametitle=Grand Theft Auto III PAL-M SLES-50330 581954FC (v1.60)
+
+[50 FPS]
+author=Gabominated
+description=Might need EE overclock (180%).
+patch=1,EE,00417CFC,word,00000001
+
+[Cheats\Max Cash]
+patch=1,EE,20511928,extended,05F5E0FF
+
+[Cheats\Infinite Health]
+patch=1,EE,20B66810,extended,42C80000
+
+[Cheats\Infinite Armour]
+patch=1,EE,20B66814,extended,42C80000
+
+[Cheats\Infinite Pistol Ammo]
+patch=1,EE,20B668EC,extended,0000000C
+patch=1,EE,20B668F0,extended,00000034
+
+[Cheats\Infinite AK47 Ammo]
+patch=1,EE,20B662E8,extended,0000001E
+patch=1,EE,20B662EC,extended,00000064
+
+[Cheats\Infinite Grenades]
+patch=1,EE,20B66364,extended,0000000A
+
+[Cheats\Infinite Rocket Launcher Ammo]
+patch=1,EE,003A1213,extended,0000008B
+
+[Cheats\Infinite Shotgun Ammo]
+patch=1,EE,20B66914,extended,0000000A
+patch=1,EE,20B66918,extended,0000000A
+
+[Cheats\Infinite Sniper Rifle Ammo]
+patch=1,EE,20B66954,extended,00000032
+
+[Cheats\Freeze Mission Timers Press L2 Activate and R2 Deactivate]
+patch=1,EE,D050A242,extended,0000FEFF
+patch=1,EE,202BE2B8,extended,00000000
+patch=1,EE,D050A242,extended,0000FDFF
+patch=1,EE,202BE2B8,extended,0C0AE548
+
+[Cheats\Never Wanted]
+patch=1,EE,202A37B0,extended,00000000
+patch=1,EE,202A3A28,extended,00000000
+patch=1,EE,20415908,extended,00000000
+
+[Cheats\Turn Off Car Damage]
+patch=1,EE,201AE558,extended,00000000
+
+[Cheats\All Weapons At Hideout]
+patch=1,EE,20511930,extended,00000064
+
+// -----------------------------------------------------------------------------
+// Fork additions consolidated from Nexxus-Drako/pcsx2_cheats_collection
+// Source file: 581954FC.pnach
+// -----------------------------------------------------------------------------
+
+[Cheats\Pas d'IA pour les policier à pied]
+//Pas d'IA pour les policier à pied
+patch=1,EE,201CAEC0,extended,00000000
+patch=1,EE,201CAED4,extended,00000000
+patch=1,EE,201CAEE8,extended,00000000
+patch=1,EE,201CAEFC,extended,00000000
+
+[Cheats\Voitures transparentes]
+//Voitures transparentes
+patch=1,EE,2027D644,extended,00000000
+
+[Cheats\Pas de véhicules sur la route]
+//Pas de véhicules sur la route
+patch=1,EE,2027B1C4,extended,00000000
+patch=1,EE,2027B2B4,extended,00000000
+
+[Cheats\Pas de piétons]
+//Pas de piétons
+patch=1,EE,2027B1A8,extended,00000000
+
+[Cheats\Impossibilité de faire du carjacking]
+//Impossibilité de faire du carjacking
+patch=1,EE,202EC880,extended,03E00008
+patch=1,EE,202EC884,extended,00000000
+
+[Cheats\Pas de traces de dérapages]
+//Pas de traces de dérapages
+patch=1,EE,2027D020,extended,00000000
+
+[Cheats\Enlever les ordures]
+//Enlever les ordures 
+patch=1,EE,2027D030,extended,00000000
+
+[Cheats\Vitesse x2]
+//Vitesse x2 
+patch=1,EE,20417EC0,extended,40000000
+
+[Cheats\Vitesse x4]
+//Vitesse x4 
+patch=1,EE,20417EC0,extended,40800000
+
+[Cheats\Vitesse x6]
+//Vitesse x6 
+patch=1,EE,20417EC0,extended,40C00000
+
+[Cheats\Vitesse x8]
+//Vitesse x8 
+patch=1,EE,20417EC0,extended,41000000
+
+[Cheats\Uzi Ammo]
+//Uzi Ammo 
+patch=1,EE,20B66900,extended,00000019
+patch=1,EE,20B66904,extended,00000019
+
+[Cheats\Grenades Infinies]
+//Grenades Infinies 
+patch=1,EE,20B66F54,extended,0000000A
+
+[Cheats\Munitions pour fusil à pompe infinies]
+//Munitions pour fusil à pompe infinies 
+patch=1,EE,20B66914,extended,0000000A
+patch=1,EE,20B66918,extended,0000000A
+//.
+//Munition pour AK47 infinies 
+patch=1,EE,20B66928,extended,0000001E
+patch=1,EE,20B6692C,extended,00000064
+
+[Cheats\Munitions pour M16 Infinies]
+//Munitions pour M16 Infinies 
+patch=1,EE,20B6693C,extended,00000064
+patch=1,EE,20B66940,extended,00000063
+
+[Cheats\Munitions pour Lance-Rockettes Infinies]
+//Munitions pour Lance-Rockettes Infinies
+patch=1,EE,20B66968,extended,00000032
+
+[Cheats\Bombes à pétrole Infinies]
+//Bombes à pétrole Infinies
+patch=1,EE,20B66990,extended,0000000A
+
+[Cheats\Armes gratuites]
+//Armes gratuites
+patch=1,EE,203FF6F0,extended,00000000
+patch=1,EE,203FF6F4,extended,00000000
+patch=1,EE,203FF6F8,extended,00000000
+patch=1,EE,203FF6FC,extended,00000000
+patch=1,EE,203FF700,extended,00000000
+patch=1,EE,203FF704,extended,00000000
+patch=1,EE,203FF708,extended,00000000
+patch=1,EE,203FF70C,extended,00000000
+patch=1,EE,203FF710,extended,00000000
+patch=1,EE,203FF714,extended,00000000
+
+[Cheats\Ne Jamais perdre d'armes]
+//Ne Jamais perdre d'armes
+patch=1,EE,201D8610,extended,03E00008
+patch=1,EE,201D8614,extended,00000000
+
+[Cheats\Empecher le changement de météo]
+-------------------------------------------------------CODES DE METEO
+//Empecher le changement de météo 
+patch=1,EE,2027B120,extended,00000000
+
+[Cheats\Eclipse constante]
+//Eclipse constante 
+patch=1,EE,20415AD0,extended,FFFF0000

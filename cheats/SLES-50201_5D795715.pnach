@@ -1,0 +1,11 @@
+[Cheats\Infinite Health]
+patch=1,EE,20350D54,extended,00000000
+
+[Cheats\Infinite Lives]
+patch=1,EE,20350F9C,extended,24420000
+
+[Cheats\No Damage]
+patch=1,EE,00ED51DC,extended,0000000A
+
+[Cheats\Quick Gain Power Bar]
+patch=1,EE,2034B128,extended,24630010
