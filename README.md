@@ -9,6 +9,8 @@ A consolidated, modern-PCSX2-compatible cheat database built from the original [
 
 > **2026-08-24 reconciliation:** Restored five current-parent CRC-only files whose serials remain unresolved and merged 43 reviewed missing groups into five identified titles. See [`UPSTREAM_RECONCILIATION_2026-08-24.md`](UPSTREAM_RECONCILIATION_2026-08-24.md). The historical baseline/audit artifacts remain preserved as snapshots of the 2026-08-23 consolidation unless explicitly marked otherwise.
 
+> **2026-08-25 full audit:** The complete 5,483-file tree was revalidated against current PCSX2 PNACH parser behavior. Nine deterministic legacy code-field errors were corrected; no files were removed and the active patch-line count is unchanged. See [`AUDIT_REPORT_2026-08-25.md`](AUDIT_REPORT_2026-08-25.md) and [`CURRENT_FULL_AUDIT.json`](CURRENT_FULL_AUDIT.json). `CHEAT_INDEX.csv` has been regenerated for the audited tree.
+
 ## Installation
 
 Copy the contents of `cheats/` into PCSX2's `cheats` directory. In PCSX2, enable cheats globally if required, then use **Game Properties → Cheats** to enable individual groups.
@@ -137,8 +139,6 @@ Old `/patch=` cheats remain commented out on purpose. They can be revisited agai
 
 [`CHEAT_INDEX.csv`](CHEAT_INDEX.csv) contains one row per PNACH file with filename, detected serial, CRC, title/metadata hint, group count, active patch-line count, and commented patch-line count. This replaces an enormous hand-maintained README table and can be regenerated mechanically.
 
-The current CSV and JSON audit artifacts are retained as historical snapshots of the 2026-08-23 consolidated baseline. The 2026-08-24 delta is recorded in [`UPSTREAM_RECONCILIATION_2026-08-24.md`](UPSTREAM_RECONCILIATION_2026-08-24.md); a later full generator run should regenerate the derived index/audits from the reconciled tree.
-
 ## Provenance and credits
 
 The original collection credits **Ultimate PCSX2 Cheater (UPC)** and **root670/CheatDevicePS2** as its initial decrypted-code sources. This unified edition preserves existing author/description metadata and incorporates public contributions from the fork network, including xs1l3n7x, OctopusButtons, YoshiCrystal9, anthoneous, Souvlaki42, lily-gh, CW-B-W, godmd5, dirsors, FuzzyWuggzy, NangenX, paynssj4, Nexxus-Drako, WINDROID-EMU, HiroTex, and the original code authors identified inside individual PNACH files.
@@ -172,3 +172,4 @@ The collection has been consolidated around PCSX2's modern `SERIAL_CRC.pnach` na
 Exact duplicate complete code groups are deduplicated, while same-name groups containing different implementations are preserved as alternatives. No missing CRC is guessed merely from a matching serial. Files that still lack enough trustworthy identity information remain under their original names and are listed in [`CONSOLIDATION_REPORT.md`](CONSOLIDATION_REPORT.md).
 
 See [`CONSOLIDATION_MAP.csv`](CONSOLIDATION_MAP.csv) for the complete source-to-target mapping and [`CONSOLIDATION_AUDIT.json`](CONSOLIDATION_AUDIT.json) for machine-readable verification details.
+

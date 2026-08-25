@@ -30,7 +30,7 @@ patch=1,EE,204AD76C,extended,0000000A
 [Cheats\0 Time limit stop]
 patch=1,EE,202354A4,extended,00000000
 patch=1,EE,D034EA82,extended,0000FFEE
-patch=1,EE,202354A4,extended,A4408A900
+patch=1,EE,202354A4,extended,A4408A90
 
 [Cheats\Credit up Press SELECT]
 patch=1,EE,D034EA82,extended,0000FFFE

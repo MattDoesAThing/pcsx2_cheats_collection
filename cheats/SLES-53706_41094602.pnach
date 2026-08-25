@@ -16,7 +16,7 @@ patch=1,EE,00000002,extended,00000000
 
 [Cheats\1 Hit Kill]
 patch=1,EE,2026107C,extended,00000000
-patch=1,EE,202610E4,extended,100000CE2
+patch=1,EE,202610E4,extended,100000CE
 
 [Cheats\All Action Points Visible And One Shot To Fill Red Bar]
 patch=1,EE,203352A8,extended,C60200B0

@@ -18,7 +18,7 @@ patch=1,EE,20499B80,extended,453B8000
 patch=1,EE,D047033C,extended,00000000
 patch=1,EE,20497B70,extended,45DAC000
 patch=1,EE,D047033C,extended,00000001
-patch=1,EE,20499B90,extended,45DAC0007
+patch=1,EE,20499B90,extended,45DAC000
 
 [Cheats\Tournament No Health P2]
 patch=1,EE,D047033C,extended,00000000

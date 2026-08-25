@@ -2,7 +2,21 @@
 
 This pass consolidates legacy CRC/title-named PNACH files into canonical `SERIAL_CRC.pnach` targets. Identity is based on **serial + CRC**, not CRC alone. Patch addresses/opcodes are not rewritten by this pass.
 
-## Summary
+## Current post-reconciliation state (2026-08-25)
+
+The serial+CRC consolidation report below records the original 2026-08-23 consolidation pass. The repository has since received a current-parent reconciliation and a parser-oriented full-tree audit. Current state:
+
+- **PNACH files**: 5,483
+- **Canonical `SERIAL_CRC.pnach` files**: 5,461
+- **Unresolved legacy/CRC-only files retained**: 21
+- **Distinct CRC keys (including BIOS `00000000`)**: 5,255
+- **Active `patch=` lines**: 107,552
+- **Current structural audit issues**: 0
+- **Deterministic audit corrections**: 9 field corrections across 7 existing PNACH files
+
+See [`UPSTREAM_RECONCILIATION_2026-08-24.md`](UPSTREAM_RECONCILIATION_2026-08-24.md) for the parent reconciliation and [`AUDIT_REPORT_2026-08-25.md`](AUDIT_REPORT_2026-08-25.md) / [`CURRENT_FULL_AUDIT.json`](CURRENT_FULL_AUDIT.json) for the current full-tree validation. The original consolidation statistics below remain historical rather than being rewritten as if the 2026-08-23 generator had produced the later additions.
+
+## Original 2026-08-23 consolidation summary
 
 - **Input pnach files**: 5,798
 - **Output pnach files**: 5,478
