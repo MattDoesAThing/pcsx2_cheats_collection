@@ -55,7 +55,7 @@ See [`UPSTREAM_RECONCILIATION_2026-08-24.md`](UPSTREAM_RECONCILIATION_2026-08-24
 | `SCPS-15010_C220951A.pnach` | `C220951A - Gran Turismo - Concept 2001 Tokyo SCPS-15010 SCPS-55005.pnach` | `Cheats\Unlock All Course Licenses Are Gold` | `Cheats\Unlock All Course Licenses Are Gold (Alternative)` |
 | `SCPS-15010_C220951A.pnach` | `C220951A - Gran Turismo - Concept 2001 Tokyo SCPS-15010 SCPS-55005.pnach` | `Cheats\Unlock All Cars` | `Cheats\Unlock All Cars (Alternative)` |
 | `SLES-53974_945FBF31.pnach` | `945FBF31 - Dragon Quest VIII SLES-53974.pnach` | `Cheats\Force au maximum` | `Cheats\Force au maximum (Alternative)` |
-| `SLES-53974_945FBF31.pnach` | `945FBF31 - Dragon Quest VIII SLES-53974.pnach` | `Cheats\Endurance et dÃ©fense au maximum` | `Cheats\Endurance et dÃ©fense au maximum (Alternative)` |
+| `SLES-53974_945FBF31.pnach` | `945FBF31 - Dragon Quest VIII SLES-53974.pnach` | `Cheats\Endurance et défense au maximum` | `Cheats\Endurance et défense au maximum (Alternative)` |
 | `SLPS-20470_CC0DFD32.pnach` | `CC0DFD32 - Simple 2000 Series Vol.103 - The Chikyuu Boueigun Tactics SLPS-20470.pnach` | `Cheats\Can Be Reactivated By Selecting An Ally Unit` | `Cheats\Can Be Reactivated By Selecting An Ally Unit (Alternative)` |
 | `SLUS-20149_2B58234D.pnach` | `2B58234D - Tribes - Aerial Assault SLUS-20149.pnach` | `Cheats\Infinite Ammo` | `Cheats\Infinite Ammo (Alternative)` |
 | `SLUS-20733_28211F7D.pnach` | `SLUS-20733_28211F7D.pnach` | `Event Items\'e' Tablet-Slot 1` | `Event Items\'e' Tablet-Slot 1 (Alternative)` |

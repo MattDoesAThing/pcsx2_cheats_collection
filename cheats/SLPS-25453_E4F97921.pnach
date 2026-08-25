@@ -35,6 +35,6 @@ patch=1,EE,203FC330,extended,00000000
 
 [Cheats\Max MP 99999 It is not reflected in save data]
 patch=1,EE,203FC410,extended,00000000
- 
+Â 
 [Cheats\Max Status]
 patch=1,EE,203FC1E0,extended,00000000

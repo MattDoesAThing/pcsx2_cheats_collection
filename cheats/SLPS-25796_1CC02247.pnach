@@ -43,7 +43,7 @@ patch=1,EE,0021AC40,extended,00000001
 
 [Cheats\Misfortune level 100 Shimizu Shin]
 patch=1,EE,1021A8AE,extended,00000064
- 
+Â 
 [Cheats\Change in attack Max Shimizu Shin]
 patch=1,EE,0021A978,extended,000000C8
 

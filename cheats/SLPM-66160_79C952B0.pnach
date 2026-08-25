@@ -21,7 +21,7 @@ patch=1,EE,1078EEF2,extended,00000101
 [Cheats\Max Red Orb 10000]
 patch=1,EE,2078EECC,extended,37B54000
 
-[Cheats\Unlock All ENEMY· TUTORAL]
+[Cheats\Unlock All ENEMYÂ· TUTORAL]
 patch=1,EE,2078EF18,extended,FFFFFFFF
 patch=1,EE,2078EF1C,extended,FFFFFFFF
 patch=1,EE,2078EF20,extended,FFFFFFFF

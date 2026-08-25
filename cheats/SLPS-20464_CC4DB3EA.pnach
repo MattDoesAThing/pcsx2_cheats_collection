@@ -42,7 +42,7 @@ patch=1,EE,10234B00,extended,00000002
 [Cheats\Unlock Story mode sudden ending]
 patch=1,EE,2010E64C,extended,24110008
 
-[Cheats\Unlock EX GAME, FREE MODE added  location If you start a new game, it will appear if you cancel the briefing screen twice by pressing the × button and exit the screen]
+[Cheats\Unlock EX GAME, FREE MODE added  location If you start a new game, it will appear if you cancel the briefing screen twice by pressing the Ã— button and exit the screen]
 patch=1,EE,00234A32,extended,00000001
 
 [Cheats\Total rank S upon clearing]

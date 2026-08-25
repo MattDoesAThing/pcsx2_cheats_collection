@@ -55,7 +55,7 @@ patch=1,EE,2030497C,extended,00000000
 patch=1,EE,D03049B0,extended,00007531
 patch=1,EE,203049B4,extended,00000000
 
-[Cheats\HP · MP · SP recovery at the end of combat]
+[Cheats\HP Â· MP Â· SP recovery at the end of combat]
 patch=1,EE,201E33D8,extended,00000025
 patch=1,EE,201E3400,extended,00000025
 patch=1,EE,201E3428,extended,00000025

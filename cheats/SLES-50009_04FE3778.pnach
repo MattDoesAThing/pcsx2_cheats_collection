@@ -15,5 +15,5 @@ patch=1,EE,003392D8,extended,00000001
 // Duplicate source label from 04FE3778 - Wild Wild Racing SLES-50009.pnach: [Cheats\Unlock Saucey]
 patch=1,EE,003392D9,extended,00000001
 
-[Cheats\Unlock Secret Menü]
+[Cheats\Unlock Secret MenÃ¼]
 patch=1,EE,003392D4,extended,00000001

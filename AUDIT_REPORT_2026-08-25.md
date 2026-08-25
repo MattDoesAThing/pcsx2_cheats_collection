@@ -18,6 +18,20 @@ This audit validates the post-reconciliation cheat tree against the current PCSX
 - Duplicate group names within a PNACH: **0**
 - Bad legacy directives (`/patch=`, `atch=`, `gameplay=`, `gamettitle=`): **0**
 
+
+## Text encoding validation
+
+A dedicated encoding pass was added after the structural audit. Current PCSX2 displays PNACH group names as UTF-8 text, so legacy single-byte Windows-1252 text was normalized to UTF-8.
+
+- PNACH files checked: **5,483**
+- Legacy Windows-1252 PNACH files found and normalized: **36**
+- Invalid UTF-8 PNACH files after normalization: **0**
+- Numeric/directive patch lines changed by encoding normalization: **0**
+- Existing valid UTF-8 non-ASCII text (for example `Los 4 Fantásticos`) was preserved unchanged.
+- The stale metadata mojibake `dÃ©fense` was corrected to `défense` in `CONSOLIDATION_REPORT.md` and `CONSOLIDATION_AUDIT.json`.
+
+The conversion is encoding-only: each affected PNACH was decoded as Windows-1252 and re-encoded as UTF-8, and all patch/directive lines were verified text-identical before and after conversion.
+
 ## Parser model checked
 
 Current PCSX2 stores PNACH patch addresses as `u32` and patch data as `u64`. Its parser rejects addresses that cannot be parsed into `u32`; non-`bytes` data must parse into `u64`. For `extended` cheats, the extended-code engine consumes the low 32 bits or narrower portions according to the code type.

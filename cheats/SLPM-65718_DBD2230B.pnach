@@ -14,7 +14,7 @@ patch=1,EE,200FF084,extended,84430272
 patch=1,EE,200FF088,extended,03E00008
 patch=1,EE,200FF08C,extended,2463000F
 
-[Cheats\Max Currently Ñhysical Strength]
+[Cheats\Max Currently Ã‘hysical Strength]
 patch=1,EE,200FF000,extended,84450270
 patch=1,EE,200FF004,extended,00052900
 patch=1,EE,200FF008,extended,A4450272

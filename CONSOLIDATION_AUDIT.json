@@ -20737,8 +20737,8 @@
         {
           "action": "rename_conflict",
           "source": "945FBF31 - Dragon Quest VIII SLES-53974.pnach",
-          "old_group": "Cheats\\Endurance et dÃ©fense au maximum",
-          "new_group": "Cheats\\Endurance et dÃ©fense au maximum (Alternative)"
+          "old_group": "Cheats\\Endurance et défense au maximum",
+          "new_group": "Cheats\\Endurance et défense au maximum (Alternative)"
         }
       ],
       "sha256": "8c19f6cefb0faa849562a8713995b3c223f29cceeaa3810c4762589573271d7d"

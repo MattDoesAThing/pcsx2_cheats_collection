@@ -15,7 +15,7 @@ patch=1,EE,00000001,extended,00000000
 [Cheats\Unlock Stage beast]
 patch=1,EE,40610D50,extended,000A0001
 patch=1,EE,00000001,extended,00000000
- 
+Â 
 [Cheats\Unlock Light Beast]
 patch=1,EE,40610C60,extended,00160001
 patch=1,EE,00000001,extended,00000000

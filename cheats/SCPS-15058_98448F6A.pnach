@@ -19,7 +19,7 @@ patch=1,EE,10295711,extended,00002FF0
 [Cheats\Infinite CP]
 patch=1,EE,2011F704,extended,14400001
 
-[Cheats\Max HP · CP other than the Status of All save unreflected I will also affect the enemy at the end of the Hunter test]
+[Cheats\Max HP Â· CP other than the Status of All save unreflected I will also affect the enemy at the end of the Hunter test]
 patch=1,EE,20104C34,extended,00C0080A
 patch=1,EE,201086DC,extended,00C0080A
 

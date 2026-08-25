@@ -11,7 +11,7 @@ patch=1,EE,201a65c8,extended,a4420268
 [Cheats\unendlich Zeit]
 patch=1,EE,2053fe60,extended,01010101
 
-[Cheats\Sofortiger Sieg Drück Select]
+[Cheats\Sofortiger Sieg DrÃ¼ck Select]
 patch=1,EE,D0370e9c,extended,0000fffe
 patch=1,EE,2053fe68,extended,00050005
 

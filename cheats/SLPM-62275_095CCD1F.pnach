@@ -1,7 +1,7 @@
 [Cheats\Next Stage Press L3+R3]
 patch=1,EE,D029A0C2,extended,0000FFF9
 patch=1,EE,0027B062,extended,00000000
- 
+Â 
 [Cheats\Infinite Health Justin]
 patch=1,EE,0117887A,extended,0000006E
 patch=1,EE,01178870,extended,00000064

@@ -27,7 +27,7 @@ patch=1,EE,201B2AD4,extended,00000000
 patch=1,EE,20199760,extended,03E00008
 patch=1,EE,20199764,extended,00000000
 
-[Cheats\Autos Können Nicht Zerstört Werden]
+[Cheats\Autos KÃ¶nnen Nicht ZerstÃ¶rt Werden]
 patch=1,EE,2016838C,extended,00000000
 
 [Cheats\Niemals Gesucht]

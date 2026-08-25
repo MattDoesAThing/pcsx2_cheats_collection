@@ -1,4 +1,4 @@
-[Cheats\Sofortiger Sieg drück Select]
+[Cheats\Sofortiger Sieg drÃ¼ck Select]
 patch=1,EE,D0321a1c,extended,0000fffe
 patch=1,EE,204c4a68,extended,00050005
 

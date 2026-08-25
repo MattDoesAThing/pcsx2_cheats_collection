@@ -33,7 +33,7 @@ patch=1,EE,200F4010,extended,34065FFF
 patch=1,EE,200F4014,extended,AC66A748
 patch=1,EE,200F4018,extended,AC66A74C
 
-[Cheats\Function Scenario limited rescue code Risa Onda first day 22:00 Miyata Clinic) L1+R1+× will instantly kill the Brain Shijin (and will also kill all other Shijin). Please do not use it in any other scenario.]
+[Cheats\Function Scenario limited rescue code Risa Onda first day 22:00 Miyata Clinic) L1+R1+Ã— will instantly kill the Brain Shijin (and will also kill all other Shijin). Please do not use it in any other scenario.]
 patch=1,EE,200F4038,extended,34010001
 patch=1,EE,200F403C,extended,52A10001
 patch=1,EE,200F4040,extended,00000000

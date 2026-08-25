@@ -19,7 +19,7 @@ patch=1,EE,2018EEDC,extended,00000000
 [Cheats\Combo never stops]
 patch=1,EE,20140C6C,extended,8C8513C4
 
-[Cheats\Change to rampage stateL1+circlle  for rampage L1+× for normal returns to normal when moving to another area]
+[Cheats\Change to rampage stateL1+circlle  for rampage L1+Ã— for normal returns to normal when moving to another area]
 patch=1,EE,2013B66C,extended,8E421420
 patch=1,EE,D040EAC2,extended,0000DBFF
 patch=1,EE,2013B66C,extended,AE521420

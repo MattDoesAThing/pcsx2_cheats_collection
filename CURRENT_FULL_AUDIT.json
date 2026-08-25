@@ -1,5 +1,5 @@
 {
-  "audit_version": 2,
+  "audit_version": 3,
   "date": "2026-08-25",
   "scope": "post-reconciliation full PNACH tree",
   "status": "PASS",
@@ -296,5 +296,17 @@
     "Patch address is parsed as hexadecimal u32; overflow is a hard parser failure.",
     "Patch data is parsed as hexadecimal u64. For extended codes, downstream operations generally consume low 32 bits or narrower according to code type.",
     "The BIOS 00000000.pnach is the sole intentional ungrouped-patch exception and its CRC key is included in distinct CRC count."
-  ]
+  ],
+  "encoding_validation": {
+    "target_encoding": "UTF-8",
+    "pnach_files_checked": 5483,
+    "legacy_windows_1252_files_normalized": 36,
+    "invalid_utf8_files_after_normalization": 0,
+    "mojibake_strings_corrected_in_current_generated_metadata": [
+      "Los 4 FantÃ¡sticos -> Los 4 Fantásticos (CHEAT_INDEX.csv; already correct in pushed audit index)",
+      "dÃ©fense -> défense (CONSOLIDATION_REPORT.md and historical CONSOLIDATION_AUDIT.json)"
+    ],
+    "numeric_patch_lines_changed_by_encoding_normalization": 0,
+    "notes": "The 36 PNACH conversions change text encoding only. All patch/directive lines are text-identical before and after Windows-1252 to UTF-8 conversion."
+  }
 }
