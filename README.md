@@ -111,14 +111,6 @@ Each alias contains only the cheat set actually supplied under that fork CRC; it
 
 `WINDROID/5A6A935D.pnach` likewise did not require a CRC change. Its CRC is the documented NTSC-U `SLUS-21813` executable; only the source comment incorrectly called it PAL-M5. The PAL `SLES-55345` release uses a different CRC.
 
-## Haunting Ground NTSC-U post-consolidation correction
-
-The previously unresolved `Haunting Ground (NTSC-U).pnach` was user-confirmed as **SLUS-21075 / CRC `901AAC09`** and identified as a GameHacking.org export. It has been merged into `SLUS-21075_901AAC09.pnach` and the redundant unmarked file removed.
-
-A full comparison against the current original `xs1l3n7x/pcsx2_cheats_collection` Haunting Ground file also found four logical gameplay cheats that were absent from the downloaded legacy copy used as the original consolidation input: **Max Souls**, **Infinite Item Usage (Need More Than 1)**, **Always Max Items (On Pickup)**, and **Always Invisible**. Those were restored. The missing **Have Ultra Big Boobs** visual group was also restored.
-
-The canonical file additionally preserves material not present in the current original GitHub file, including the GameHacking-derived **Gives Fiona More Natural Breasts** and **Press L3 For Closer Camera, R3 Regular Camera** groups, plus the pre-existing `Master/Test` group from the larger legacy collection.
-
 ## Validation status
 
 This release is **structurally validated, not gameplay-tested across the entire database**.
