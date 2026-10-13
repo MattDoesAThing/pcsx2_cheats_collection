@@ -1,133 +1,81 @@
-gametitle=Endgame [SLUS-20389] [BA7C4436]
-
-[Unlock All Characters]
-author=xs1l3n7x(pnach)/CheatDevicePS2(codes)
-description=Unlock All Characters
-// Unlock All Characters
-patch=1,EE,902542BC,extended,0C095BF3
-
-[Infinite Health (Training Levels)]
-author=xs1l3n7x(pnach)/CheatDevicePS2(codes)
-description=Infinite Health (Training Levels)
-// Infinite Health (Training Levels)
+[Cheats\Infinite Health Mighty Joe Jupiter Cadet Training Levels]
 patch=1,EE,D0D5BE80,extended,00200003
-
-[Infinite Health (Training Levels)]
-author=xs1l3n7x(pnach)/CheatDevicePS2(codes)
-description=Infinite Health (Training Levels)
-// Infinite Health (Training Levels)
 patch=1,EE,10D5BE80,extended,00000003
 
-[Unlock All Country Challenges]
-author=xs1l3n7x(pnach)/CheatDevicePS2(codes)
-description=Unlock All Country Challenges
-// Unlock All Country Challenges
-patch=1,EE,402A5BE8,extended,00050001
-
-[Unlock All Country Challenges]
-author=xs1l3n7x(pnach)/CheatDevicePS2(codes)
-description=Unlock All Country Challenges
-// Unlock All Country Challenges
-patch=1,EE,00000001,extended,00000000
-
-[Have All Arcade Mode Options]
-author=xs1l3n7x(pnach)/CheatDevicePS2(codes)
-description=Have All Arcade Mode Options
-// Have All Arcade Mode Options
-patch=1,EE,402A5BFC,extended,00060001
-
-[Have All Arcade Mode Options]
-author=xs1l3n7x(pnach)/CheatDevicePS2(codes)
-description=Have All Arcade Mode Options
-// Have All Arcade Mode Options
-patch=1,EE,00000001,extended,00000000
-
-[Unlock All Mighty Joe Jupiter Episodes]
-author=xs1l3n7x(pnach)/CheatDevicePS2(codes)
-description=Unlock All Mighty Joe Jupiter Episodes
-// Unlock All Mighty Joe Jupiter Episodes
-patch=1,EE,402A5C14,extended,00030001
-
-[Unlock All Mighty Joe Jupiter Episodes]
-author=xs1l3n7x(pnach)/CheatDevicePS2(codes)
-description=Unlock All Mighty Joe Jupiter Episodes
-// Unlock All Mighty Joe Jupiter Episodes
-patch=1,EE,00000001,extended,00000000
-
-[Unlock Music Jukebox]
-author=xs1l3n7x(pnach)/CheatDevicePS2(codes)
-description=Unlock Music Jukebox
-// Unlock Music Jukebox
-patch=1,EE,202A5C20,extended,00000001
-
-[Unlock All Mighty Joe Jupiter Cadet Training Missions]
-author=xs1l3n7x(pnach)/CheatDevicePS2(codes)
-description=Unlock All Mighty Joe Jupiter Cadet Training Missions
-// Unlock All Mighty Joe Jupiter Cadet Training Missions
-patch=1,EE,402A677C,extended,000A0001
-
-[Unlock All Mighty Joe Jupiter Cadet Training Missions]
-author=xs1l3n7x(pnach)/CheatDevicePS2(codes)
-description=Unlock All Mighty Joe Jupiter Cadet Training Missions
-// Unlock All Mighty Joe Jupiter Cadet Training Missions
-patch=1,EE,00000003,extended,00000000
-
-[Alien Skeet]
-author=xs1l3n7x(pnach)/CheatDevicePS2(codes)
-description=Alien Skeet
-// Alien Skeet
+[Cheats\Mighty Joe Jupiter Cadet Infinite Ammo Alien Skeet]
 patch=1,EE,112C77A0,extended,00000006
 
-[Duck 'N' Cover]
-author=xs1l3n7x(pnach)/CheatDevicePS2(codes)
-description=Duck 'N' Cover
-// Duck 'N' Cover
+[Cheats\Mighty Joe Jupiter Cadet Infinite Ammo Duck 'N' Cover]
 patch=1,EE,111E7410,extended,00000006
 
-[Chicken Run]
-author=xs1l3n7x(pnach)/CheatDevicePS2(codes)
-description=Chicken Run
-// Chicken Run
+[Cheats\Mighty Joe Jupiter Cadet Infinite Ammo Chicken Run]
 patch=1,EE,111C7EC0,extended,00000006
 
-[Pot Shot]
-author=xs1l3n7x(pnach)/CheatDevicePS2(codes)
-description=Pot Shot
-// Pot Shot
+[Cheats\Mighty Joe Jupiter Cadet Infinite Ammo Pot Shot]
 patch=1,EE,112712D0,extended,00000006
 
-[Rapid Fire]
-author=xs1l3n7x(pnach)/CheatDevicePS2(codes)
-description=Rapid Fire
-// Rapid Fire
+[Cheats\Mighty Joe Jupiter Cadet Infinite Ammo Rapid Fire]
 patch=1,EE,1121C280,extended,00000006
 
-[Chain Reaction]
-author=xs1l3n7x(pnach)/CheatDevicePS2(codes)
-description=Chain Reaction
-// Chain Reaction
+[Cheats\Mighty Joe Jupiter Cadet Infinite Ammo Chain Reaction]
 patch=1,EE,112243C0,extended,00000006
 
-[High Noon]
-author=xs1l3n7x(pnach)/CheatDevicePS2(codes)
-description=High Noon
-// High Noon
+[Cheats\Mighty Joe Jupiter Cadet Infinite Ammo High Noon]
 patch=1,EE,1124CAB0,extended,00000006
 
-[Save Andromeda]
-author=xs1l3n7x(pnach)/CheatDevicePS2(codes)
-description=Save Andromeda
-// Save Andromeda
+[Cheats\Mighty Joe Jupiter Cadet Infinite Ammo Save Andromeda]
 patch=1,EE,11209170,extended,00000006
 
-[Six Shooter]
-author=xs1l3n7x(pnach)/CheatDevicePS2(codes)
-description=Six Shooter
-// Six Shooter
+[Cheats\Mighty Joe Jupiter Cadet Infinite Ammo Six Shooter]
 patch=1,EE,112DCA60,extended,00000006
 
-[Who's The Boss?]
-author=xs1l3n7x(pnach)/CheatDevicePS2(codes)
-description=Who's The Boss?
-// Who's The Boss?
+[Cheats\Mighty Joe Jupiter Cadet Infinite Ammo Who's The Boss?]
 patch=1,EE,111F5D80,extended,00000006
+
+[Cheats\Unlock All Challenges]
+patch=1,EE,402A5BE8,extended,00050001
+patch=1,EE,00000001,extended,00000000
+
+[Cheats\Unlock Arcade Mode All Options]
+patch=1,EE,402A5BFC,extended,00060001
+patch=1,EE,00000001,extended,00000000
+
+[Cheats\Unlock Mighty Joe Jupiter Cadet Training All Missions]
+patch=1,EE,402A677C,extended,000A0001
+patch=1,EE,00000003,extended,00000000
+
+[Cheats\Unlock Everything]
+patch=1,EE,102A5BEC,extended,00000001
+patch=1,EE,102A5BF0,extended,00000001
+patch=1,EE,102A5BE8,extended,00000001
+patch=1,EE,102A5BF4,extended,00000001
+patch=1,EE,102A5BF8,extended,00000001
+patch=1,EE,102A5C14,extended,00000001
+patch=1,EE,102A5C18,extended,00000001
+patch=1,EE,102A5C1C,extended,00000001
+patch=1,EE,102A677C,extended,00000003
+patch=1,EE,102A6780,extended,00000003
+patch=1,EE,102A6784,extended,00000003
+patch=1,EE,102A6788,extended,00000003
+patch=1,EE,102A678C,extended,00000003
+patch=1,EE,102A6790,extended,00000003
+patch=1,EE,102A6794,extended,00000003
+patch=1,EE,102A6798,extended,00000003
+patch=1,EE,102A679C,extended,00000003
+patch=1,EE,102A67A0,extended,00000003
+patch=1,EE,112C77A0,extended,00000006
+patch=1,EE,111E7410,extended,00000006
+patch=1,EE,111C7EC0,extended,00000006
+patch=1,EE,112712D0,extended,00000006
+patch=1,EE,1121C280,extended,00000006
+patch=1,EE,112243C0,extended,00000006
+patch=1,EE,1124CAB0,extended,00000006
+patch=1,EE,11209170,extended,00000006
+patch=1,EE,112D3460,extended,00000006
+patch=1,EE,111F5D80,extended,00000006
+patch=1,EE,102A5BFC,extended,00000001
+patch=1,EE,202A5C00,extended,00000001
+patch=1,EE,202A5C40,extended,00000001
+patch=1,EE,202A5C80,extended,00000001
+patch=1,EE,202A5CC0,extended,00000001
+patch=1,EE,202A5C10,extended,00000001

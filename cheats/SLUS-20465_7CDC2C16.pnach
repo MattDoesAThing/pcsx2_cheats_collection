@@ -1,391 +1,178 @@
-gametitle=Alter Echo [SLUS-20465] [7CDC2C16]
-
-[Slot 236]
-author=xs1l3n7x(pnach)/CheatDevicePS2(codes)
-description=Slot 236
-// Slot 236
-patch=1,EE,90157DC4,extended,0C0B1867
-
-[Infinite Double Jumps]
-author=xs1l3n7x(pnach)/CheatDevicePS2(codes)
-description=Infinite Double Jumps
-// Infinite Double Jumps
-patch=1,EE,20211C90,extended,24030001
-
-[Infinite Special Attacks]
-author=xs1l3n7x(pnach)/CheatDevicePS2(codes)
-description=Infinite Special Attacks
-// Infinite Special Attacks
-patch=1,EE,20210690,extended,00000000
-
-[Infinite Health]
-author=xs1l3n7x(pnach)/CheatDevicePS2(codes)
-description=Infinite Health
-// Infinite Health
+[Cheats\Infinite Health]
 patch=1,EE,200C0220,extended,0806192A
-
-[Infinite Health]
-author=xs1l3n7x(pnach)/CheatDevicePS2(codes)
-description=Infinite Health
-// Infinite Health
 patch=1,EE,200C0224,extended,E44100B8
-
-[Infinite Health]
-author=xs1l3n7x(pnach)/CheatDevicePS2(codes)
-description=Infinite Health
-// Infinite Health
 patch=1,EE,2011BCC0,extended,0C030088
 
-[Quick Plasm Gain]
-author=xs1l3n7x(pnach)/CheatDevicePS2(codes)
-description=Quick Plasm Gain
-// Quick Plasm Gain
+[Cheats\Infinite Double Jumps]
+patch=1,EE,20211C90,extended,24030001
+
+[Cheats\Infinite Special Attacks]
+patch=1,EE,20210690,extended,00000000
+
+[Cheats\Quick Plasm Gain]
 patch=1,EE,1034E39C,extended,0000FFFF
 
-[Max Plasm]
-author=xs1l3n7x(pnach)/CheatDevicePS2(codes)
-description=Max Plasm
-// Max Plasm
+[Cheats\Max Plasm]
 patch=1,EE,2034E39C,extended,05F5E0FF
-
-[Max Plasm]
-author=xs1l3n7x(pnach)/CheatDevicePS2(codes)
-description=Max Plasm
-// Max Plasm
 patch=1,EE,2034E3A0,extended,4CBEBC1F
-
-[Max Plasm]
-author=xs1l3n7x(pnach)/CheatDevicePS2(codes)
-description=Max Plasm
-// Max Plasm
 patch=1,EE,203C51EC,extended,05F5E0FF
 
-[Buying New Abilities Cost $0]
-author=xs1l3n7x(pnach)/CheatDevicePS2(codes)
-description=Buying New Abilities Cost $0
-// Buying New Abilities Cost $0
+[Cheats\Buying New Abilities Cost 0]
 patch=1,EE,2029D270,extended,00000000
 
-[Buy New Abilities With No Plasma]
-author=xs1l3n7x(pnach)/CheatDevicePS2(codes)
-description=Buy New Abilities With No Plasma
-// Buy New Abilities With No Plasma
+[Cheats\Buy New Abilities With No Plasma]
 patch=1,EE,1029D41E,extended,00001000
 
-[Have All Abilities]
-author=xs1l3n7x(pnach)/CheatDevicePS2(codes)
-description=Have All Abilities
-// Have All Abilities
+[Cheats\Have All Abilities]
 patch=1,EE,408485D4,extended,00310001
-
-[Have All Abilities]
-author=xs1l3n7x(pnach)/CheatDevicePS2(codes)
-description=Have All Abilities
-// Have All Abilities
 patch=1,EE,00000002,extended,00000000
 
-[Disable FMV]
-author=xs1l3n7x(pnach)/CheatDevicePS2(codes)
-description=Disable FMV
-// Disable FMV
-patch=1,EE,202B47D0,extended,24020001
-
-[Rebirth-Echo]
-author=xs1l3n7x(pnach)/CheatDevicePS2(codes)
-description=Rebirth-Echo
-// Rebirth-Echo
+[Cheats\Load Save For Level Rebirth - Echo]
 patch=1,EE,203C51F4,extended,00000001
 
-[Rebirth-Gunplay]
-author=xs1l3n7x(pnach)/CheatDevicePS2(codes)
-description=Rebirth-Gunplay
-// Rebirth-Gunplay
+[Cheats\Load Save For Level Rebirth - Gunplay]
 patch=1,EE,203C51F4,extended,00000002
 
-[Rebirth-Stealth]
-author=xs1l3n7x(pnach)/CheatDevicePS2(codes)
-description=Rebirth-Stealth
-// Rebirth-Stealth
+[Cheats\Load Save For Level Rebirth - Stealth]
 patch=1,EE,203C51F4,extended,00000003
 
-[Rebirth-Time]
-author=xs1l3n7x(pnach)/CheatDevicePS2(codes)
-description=Rebirth-Time
-// Rebirth-Time
+[Cheats\Load Save For Level Rebirth - Time]
 patch=1,EE,203C51F4,extended,00000004
 
-[Rebirth-Master]
-author=xs1l3n7x(pnach)/CheatDevicePS2(codes)
-description=Rebirth-Master
-// Rebirth-Master
+[Cheats\Load Save For Level Rebirth - Master]
 patch=1,EE,203C51F4,extended,00000005
 
-[Surface-Search]
-author=xs1l3n7x(pnach)/CheatDevicePS2(codes)
-description=Surface-Search
-// Surface-Search
+[Cheats\Load Save For Level Surface - Search]
 patch=1,EE,203C51F4,extended,00000006
 
-[Surface-Arana]
-author=xs1l3n7x(pnach)/CheatDevicePS2(codes)
-description=Surface-Arana
-// Surface-Arana
+[Cheats\Load Save For Level Surface - Arana]
 patch=1,EE,203C51F4,extended,00000007
 
-[Surface-Master]
-author=xs1l3n7x(pnach)/CheatDevicePS2(codes)
-description=Surface-Master
-// Surface-Master
+[Cheats\Load Save For Level Surface - Master]
 patch=1,EE,203C51F4,extended,00000008
 
-[Hunted-Reunion]
-author=xs1l3n7x(pnach)/CheatDevicePS2(codes)
-description=Hunted-Reunion
-// Hunted-Reunion
+[Cheats\Load Save For Level Hunted - Reunion]
 patch=1,EE,203C51F4,extended,00000009
 
-[Hunted-Gunship]
-author=xs1l3n7x(pnach)/CheatDevicePS2(codes)
-description=Hunted-Gunship
-// Hunted-Gunship
+[Cheats\Load Save For Level Hunted - Gunship]
 patch=1,EE,203C51F4,extended,0000000A
 
-[Hunted-Pursuit]
-author=xs1l3n7x(pnach)/CheatDevicePS2(codes)
-description=Hunted-Pursuit
-// Hunted-Pursuit
+[Cheats\Load Save For Level Hunted - Pursuit]
 patch=1,EE,203C51F4,extended,0000000B
 
-[Hunted-Showdown]
-author=xs1l3n7x(pnach)/CheatDevicePS2(codes)
-description=Hunted-Showdown
-// Hunted-Showdown
+[Cheats\Load Save For Level Hunted - Showdown]
 patch=1,EE,203C51F4,extended,0000000C
 
-[Hunted-Master]
-author=xs1l3n7x(pnach)/CheatDevicePS2(codes)
-description=Hunted-Master
-// Hunted-Master
+[Cheats\Load Save For Level Hunted - Master]
 patch=1,EE,203C51F4,extended,0000000D
 
-[Power-Transmit]
-author=xs1l3n7x(pnach)/CheatDevicePS2(codes)
-description=Power-Transmit
-// Power-Transmit
+[Cheats\Load Save For Level Power - Transmit]
 patch=1,EE,203C51F4,extended,0000000E
 
-[Power-Kess]
-author=xs1l3n7x(pnach)/CheatDevicePS2(codes)
-description=Power-Kess
-// Power-Kess
+[Cheats\Load Save For Level Power - Kess]
 patch=1,EE,203C51F4,extended,0000000F
 
-[Power-Master]
-author=xs1l3n7x(pnach)/CheatDevicePS2(codes)
-description=Power-Master
-// Power-Master
+[Cheats\Load Save For Level Power - Master]
 patch=1,EE,203C51F4,extended,00000010
 
-[Transit-Stome]
-author=xs1l3n7x(pnach)/CheatDevicePS2(codes)
-description=Transit-Stome
-// Transit-Stome
+[Cheats\Load Save For Level Transit - Stome]
 patch=1,EE,203C51F4,extended,00000011
 
-[Transit-Ambush]
-author=xs1l3n7x(pnach)/CheatDevicePS2(codes)
-description=Transit-Ambush
-// Transit-Ambush
+[Cheats\Load Save For Level Transit - Ambush]
 patch=1,EE,203C51F4,extended,00000012
 
-[Transit-Seedlings]
-author=xs1l3n7x(pnach)/CheatDevicePS2(codes)
-description=Transit-Seedlings
-// Transit-Seedlings
+[Cheats\Load Save For Level Transit - Seedlings]
 patch=1,EE,203C51F4,extended,00000013
 
-[Transit-Obstacles]
-author=xs1l3n7x(pnach)/CheatDevicePS2(codes)
-description=Transit-Obstacles
-// Transit-Obstacles
+[Cheats\Load Save For Level Transit - Obstacles]
 patch=1,EE,203C51F4,extended,00000014
 
-[Transit-Cooperation]
-author=xs1l3n7x(pnach)/CheatDevicePS2(codes)
-description=Transit-Cooperation
-// Transit-Cooperation
+[Cheats\Load Save For Level Transit - Cooperation]
 patch=1,EE,203C51F4,extended,00000015
 
-[Transit-Master]
-author=xs1l3n7x(pnach)/CheatDevicePS2(codes)
-description=Transit-Master
-// Transit-Master
+[Cheats\Load Save For Level Transit - Master]
 patch=1,EE,203C51F4,extended,00000016
 
-[Spaceport-Plans 1]
-author=xs1l3n7x(pnach)/CheatDevicePS2(codes)
-description=Spaceport-Plans 1
-// Spaceport-Plans 1
+[Cheats\Load Save For Level Spaceport - Plans 1]
 patch=1,EE,203C51F4,extended,00000017
 
-[Spaceport-Plans 2]
-author=xs1l3n7x(pnach)/CheatDevicePS2(codes)
-description=Spaceport-Plans 2
-// Spaceport-Plans 2
+[Cheats\Load Save For Level Spaceport - Plans 2]
 patch=1,EE,203C51F4,extended,00000018
 
-[Spaceport-Shuttle]
-author=xs1l3n7x(pnach)/CheatDevicePS2(codes)
-description=Spaceport-Shuttle
-// Spaceport-Shuttle
+[Cheats\Load Save For Level Spaceport - Shuttle]
 patch=1,EE,203C51F4,extended,00000019
 
-[Brain-Plea]
-author=xs1l3n7x(pnach)/CheatDevicePS2(codes)
-description=Brain-Plea
-// Brain-Plea
+[Cheats\Load Save For Level Brain - Plea]
 patch=1,EE,203C51F4,extended,0000001A
 
-[Brain-Underneath]
-author=xs1l3n7x(pnach)/CheatDevicePS2(codes)
-description=Brain-Underneath
-// Brain-Underneath
+[Cheats\Load Save For Level Brain - Underneath]
 patch=1,EE,203C51F4,extended,0000001B
 
-[Brain-Gherran]
-author=xs1l3n7x(pnach)/CheatDevicePS2(codes)
-description=Brain-Gherran
-// Brain-Gherran
+[Cheats\Load Save For Level Brain - Gherran]
 patch=1,EE,203C51F4,extended,0000001C
 
-[Brain-Toxic 1]
-author=xs1l3n7x(pnach)/CheatDevicePS2(codes)
-description=Brain-Toxic 1
-// Brain-Toxic 1
+[Cheats\Load Save For Level Brain - Toxic 1]
 patch=1,EE,203C51F4,extended,0000001D
 
-[Brain-Toxic 2]
-author=xs1l3n7x(pnach)/CheatDevicePS2(codes)
-description=Brain-Toxic 2
-// Brain-Toxic 2
+[Cheats\Load Save For Level Brain - Toxic 2]
 patch=1,EE,203C51F4,extended,0000001E
 
-[Brain-Kess]
-author=xs1l3n7x(pnach)/CheatDevicePS2(codes)
-description=Brain-Kess
-// Brain-Kess
+[Cheats\Load Save For Level Brain - Kess]
 patch=1,EE,203C51F4,extended,0000001F
 
-[Brain-Master]
-author=xs1l3n7x(pnach)/CheatDevicePS2(codes)
-description=Brain-Master
-// Brain-Master
+[Cheats\Load Save For Level Brain - Master]
 patch=1,EE,203C51F4,extended,00000020
 
-[Rescue-Arana]
-author=xs1l3n7x(pnach)/CheatDevicePS2(codes)
-description=Rescue-Arana
-// Rescue-Arana
+[Cheats\Load Save For Level Rescue - Arana]
 patch=1,EE,203C51F4,extended,00000021
 
-[Rescue-Forcefield]
-author=xs1l3n7x(pnach)/CheatDevicePS2(codes)
-description=Rescue-Forcefield
-// Rescue-Forcefield
+[Cheats\Load Save For Level Rescue - Force Field]
 patch=1,EE,203C51F4,extended,00000022
 
-[Rescue-Sacrifice]
-author=xs1l3n7x(pnach)/CheatDevicePS2(codes)
-description=Rescue-Sacrifice
-// Rescue-Sacrifice
+[Cheats\Load Save For Level Rescue - Sacrifice]
 patch=1,EE,203C51F4,extended,00000023
 
-[Breach-Landing]
-author=xs1l3n7x(pnach)/CheatDevicePS2(codes)
-description=Breach-Landing
-// Breach-Landing
+[Cheats\Load Save For Level Breach - Landing]
 patch=1,EE,203C51F4,extended,00000024
 
-[Breach-Barriers 1]
-author=xs1l3n7x(pnach)/CheatDevicePS2(codes)
-description=Breach-Barriers 1
-// Breach-Barriers 1
+[Cheats\Load Save For Level Breach - Barriers 1]
 patch=1,EE,203C51F4,extended,00000025
 
-[Breach-Barriers 2]
-author=xs1l3n7x(pnach)/CheatDevicePS2(codes)
-description=Breach-Barriers 2
-// Breach-Barriers 2
+[Cheats\Load Save For Level Breach - Barriers 2]
 patch=1,EE,203C51F4,extended,00000026
 
-[Breach-Approach]
-author=xs1l3n7x(pnach)/CheatDevicePS2(codes)
-description=Breach-Approach
-// Breach-Approach
+[Cheats\Load Save For Level Breach - Approach]
 patch=1,EE,203C51F4,extended,00000027
 
-[Breach-Elevator]
-author=xs1l3n7x(pnach)/CheatDevicePS2(codes)
-description=Breach-Elevator
-// Breach-Elevator
+[Cheats\Load Save For Level Breach - Elevator]
 patch=1,EE,203C51F4,extended,00000028
 
-[Breach-Shield 1]
-author=xs1l3n7x(pnach)/CheatDevicePS2(codes)
-description=Breach-Shield 1
-// Breach-Shield 1
+[Cheats\Load Save For Level Breach - Shield 1]
 patch=1,EE,203C51F4,extended,00000029
 
-[Breach-Shield 2]
-author=xs1l3n7x(pnach)/CheatDevicePS2(codes)
-description=Breach-Shield 2
-// Breach-Shield 2
+[Cheats\Load Save For Level Breach- Shield 2]
 patch=1,EE,203C51F4,extended,0000002A
 
-[Breach-Master]
-author=xs1l3n7x(pnach)/CheatDevicePS2(codes)
-description=Breach-Master
-// Breach-Master
+[Cheats\Load Save For Level Breach - Master]
 patch=1,EE,203C51F4,extended,0000002B
 
-[Citadel-Alone]
-author=xs1l3n7x(pnach)/CheatDevicePS2(codes)
-description=Citadel-Alone
-// Citadel-Alone
+[Cheats\Load Save For Level Citadel - Alone]
 patch=1,EE,203C51F4,extended,0000002C
 
-[Citadel-Ascent]
-author=xs1l3n7x(pnach)/CheatDevicePS2(codes)
-description=Citadel-Ascent
-// Citadel-Ascent
+[Cheats\Load Save For Level Citadel - Ascent]
 patch=1,EE,203C51F4,extended,0000002D
 
-[Citadel-Assault]
-author=xs1l3n7x(pnach)/CheatDevicePS2(codes)
-description=Citadel-Assault
-// Citadel-Assault
+[Cheats\Load Save For Level Citadel - Assault]
 patch=1,EE,203C51F4,extended,0000002E
 
-[Citadel-Inside]
-author=xs1l3n7x(pnach)/CheatDevicePS2(codes)
-description=Citadel-Inside
-// Citadel-Inside
+[Cheats\Load Save For Level Citadel - Inside]
 patch=1,EE,203C51F4,extended,0000002F
 
-[Citadel-Guardian]
-author=xs1l3n7x(pnach)/CheatDevicePS2(codes)
-description=Citadel-Guardian
-// Citadel-Guardian
+[Cheats\Load Save For Level Citadel - Guardian]
 patch=1,EE,203C51F4,extended,00000030
 
-[Citadel-Paavo]
-author=xs1l3n7x(pnach)/CheatDevicePS2(codes)
-description=Citadel-Paavo
-// Citadel-Paavo
+[Cheats\Load Save For Level Citadel - Paavo]
 patch=1,EE,203C51F4,extended,00000031
 
-[Citadel-Ending]
-author=xs1l3n7x(pnach)/CheatDevicePS2(codes)
-description=Citadel-Ending
-// Citadel-Ending
+[Cheats\Load Save For Level Citadel - Ending]
 patch=1,EE,203C51F4,extended,00000032

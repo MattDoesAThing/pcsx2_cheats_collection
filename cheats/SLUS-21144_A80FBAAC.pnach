@@ -1,0 +1,43 @@
+gametitle=Tom Clancy's Rainbow Six - Lockdown SLUS-21144 A80FBAAC
+
+[Widescreen 16:9]
+gsaspectratio=16:9
+author=Gabominated
+description=Widescreen hack
+patch=1,EE,002015A4,word,3C014115 //3C0140e0 y-fov
+patch=1,EE,00132818,word,3c013F21 //3c013f00 zoom
+patch=1,EE,001af8bc,word,3c013f21 //3c013f00 render fix
+
+[Cheats\God Mode]
+patch=1,EE,2031118C,extended,24020001
+
+[Cheats\Team God Mode Activate In Game Cheat View In Game Cheat Menu To Activate]
+patch=1,EE,2043A22C,extended,24020001
+patch=1,EE,2043A230,extended,A202036C
+
+[Cheats\Unlock All Levels]
+patch=1,EE,200C0250,extended,24020001
+patch=1,EE,200C0254,extended,0809889E
+patch=1,EE,200C0258,extended,A0220058
+patch=1,EE,20262270,extended,00670821
+patch=1,EE,20262274,extended,08030094
+
+[Cheats\Unlock View Character To Unlock It]
+patch=1,EE,202624B8,extended,00400821
+patch=1,EE,202624BC,extended,24020001
+patch=1,EE,202624C4,extended,A0220444
+
+[Cheats\Unlock View Cheat Code To Unlock It]
+patch=1,EE,202623E0,extended,00400821
+patch=1,EE,202623E4,extended,24020001
+patch=1,EE,202623EC,extended,A0220410
+
+[Cheats\Unlock View Concept Art To Unlock It]
+patch=1,EE,20262300,extended,00400821
+patch=1,EE,20262304,extended,24020001
+patch=1,EE,2026230C,extended,A02203D0
+
+[Cheats\Unlock View Weapon To Unlock It]
+patch=1,EE,20436E0C,extended,24020001
+patch=1,EE,20436E10,extended,54400037
+patch=1,EE,20436E14,extended,A0620020

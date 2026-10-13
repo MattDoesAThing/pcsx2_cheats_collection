@@ -1,0 +1,170 @@
+gametitle=Baroque [SLUS-21714] (U)
+comment=Patches/Codes Hacked By Maori-Jigglypuff [Savas Guercebe]
+
+// From consolidated source 4566213C 60.pnach: gametitle=Baroque 4566213C
+
+[Cheats\Infinite HP Press Select+R3 to Die]
+patch=1,EE,D04e6342,extended,0010FFFA
+patch=1,EE,20bd8f84,extended,000003e7
+patch=1,EE,D04e6342,extended,0000FFFA
+patch=1,EE,20bd8f84,extended,00000000
+
+[Cheats\Infinite Current VT]
+patch=1,EE,20134B74,extended,8CC30008
+
+[Cheats\Infinite Vt]
+patch=1,EE,20bd8f8c,extended,000003e7
+
+[Cheats\Infinite Ammo]
+patch=1,EE,101c4124,extended,00000000
+
+[Cheats\Gain Ammo]
+patch=1,EE,101c4124,extended,00000001
+
+[Cheats\1 Hit Kills Enemy]
+patch=1,EE,200a0000,extended,24081002
+patch=1,EE,200a0004,extended,15070004
+patch=1,EE,200a000c,extended,ac600004
+patch=1,EE,200a0010,extended,0804d280
+patch=1,EE,200a0018,extended,00451021
+patch=1,EE,200a001c,extended,ac620004
+patch=1,EE,200a0020,extended,0804d280
+patch=1,EE,201349fc,extended,08028000
+patch=1,EE,20134a00,extended,00000000
+
+[Cheats\Unlock All Items List Database]
+patch=1,EE,0053c3d5,extended,000000F0
+patch=1,EE,1053c3d6,extended,0000FFFF
+patch=1,EE,4053C3D8,extended,000A0001
+patch=1,EE,FFFFFFFF,extended,00000000
+patch=1,EE,1053c400,extended,0000FFFF
+
+[Cheats\Unlock All Event List]
+patch=1,EE,1053c402,extended,0000FFFF
+patch=1,EE,0053c404,extended,0000007F
+
+[Cheats\Unlock All Character List and Voice List]
+patch=1,EE,4053C4FC,extended,001A0001
+patch=1,EE,FFFFFFFF,extended,00000000
+patch=1,EE,1053C564,extended,0000FFFF
+
+[Cheats\Unlock All Sound Test]
+patch=1,EE,0053c423,extended,000000F0
+patch=1,EE,1053c424,extended,01FFFFFF
+
+[Cheats\Unlock All Baroque List]
+patch=1,EE,2053C440,extended,FFFFFFF8
+patch=1,EE,2053C444,extended,FFFFFFFF
+patch=1,EE,0053C448,extended,00000007
+
+[60FPS]
+patch=1,EE,00556E70,word,00000000
+
+[Revert to 30fps in FMV and cutscenes]
+patch=1,EE,e0010000,extended,005179C0
+patch=1,EE,20556E70,extended,00000001
+
+[Player Speed Modifer]
+patch=1,EE,0013D770,word,3C033F00
+patch=1,EE,00143CA4,word,3C023F00
+patch=1,EE,00146FEC,word,3C033F00
+
+[Enemy and NPC Animations Speed Modifer]
+patch=1,EE,00146E08,word,3C023f00
+patch=1,EE,00146DF0,word,3C033eCC
+
+[Camera Speed Modifer]
+patch=1,EE,0013DCBC,word,3C023F80
+
+[Player's Gauge Speed Modifer]
+patch=1,EE,001341d8,word,3c024000
+patch=1,EE,00133ff4,word,3c024000
+
+//Bonus
+
+[SDTV 480P Mode]
+patch=1,EE,00216398,word,24120050
+patch=1,EE,0021639c,word,24020001
+patch=1,EE,002163a4,word,24130001 //00079c03
+
+[No Black Borders (Credit to Maori-Jigglypuff )]
+// Duplicate source label from 4566213C.pnach: [No black Borders]
+patch=1,EE,00173f98,word,64030001
+
+[Noise Filter Off]
+patch=1,EE,0010fb9c,word,64030000
+
+[Disable Blur Effect]
+patch=1,EE,0010ee18,word,64030000
+
+[No Body Shadow of the Characters on the Ground]
+patch=1,EE,001116d0,word,3c030000
+
+[Enhance World, Rooms, Characters, Enemies and Weapons real Light]
+// and disable their uneven extra Light
+patch=1,EE,00259334,word,64150001
+patch=1,EE,0010e0e0,word,64030000
+patch=1,EE,001026a8,word,3c050041
+patch=1,EE,001026b4,word,24a5cc90
+patch=1,EE,0040cc90,word,3F140000
+patch=1,EE,0040cc94,word,3F140000
+patch=1,EE,0040cc98,word,3F140000
+patch=1,EE,0040cc9c,word,3F800000
+patch=1,EE,00259ba0,word,10000003
+patch=1,EE,00259bb0,word,14000005
+patch=1,EE,00259bb8,word,3c020041
+patch=1,EE,00259bbc,word,7842cca0
+patch=1,EE,0040cca0,word,3F780000
+patch=1,EE,0040cca4,word,3F780000
+patch=1,EE,0040cca8,word,3F780000
+patch=1,EE,0040ccac,word,3F800000
+patch=1,EE,00259c18,word,3C020041
+patch=1,EE,00259c1c,word,7843CCB0
+patch=1,EE,00259c20,word,7C830000
+patch=1,EE,0040ccb0,word,43400000
+patch=1,EE,0040ccb4,word,43400000
+patch=1,EE,0040ccb8,word,43400000
+patch=1,EE,0040ccbc,word,3F800000
+patch=1,EE,00259cc0,word,64020000
+patch=1,EE,00259d78,word,70005428
+patch=1,EE,00259f40,word,10000002
+patch=1,EE,00259f58,word,10000002
+patch=1,EE,00259f70,word,50000004
+patch=1,EE,00259f88,word,50000012
+patch=1,EE,00259ddc,word,64030000
+patch=1,EE,00259fe4,word,64030000
+patch=1,EE,0025a1fc,word,64030001
+
+[Disable World Renderer]
+patch=1,EE,00249230,word,3c05437f
+patch=1,EE,00249238,word,34a50000
+patch=1,EE,0024923c,word,44850000
+patch=1,EE,00249240,word,3c040000
+patch=1,EE,00249248,word,34840000
+patch=1,EE,0024924c,word,44841000
+patch=1,EE,0039e900,word,0c103320
+patch=1,EE,0040cc80,word,3c03465a
+patch=1,EE,0040cc84,word,3463c000
+patch=1,EE,0040cc88,word,03e00008
+patch=1,EE,0040cc8c,word,44838800
+
+// Disable all Enemy AI
+//patch=1,EE,001F0C40,word,64010000
+
+[Disable HP and VT Decrease Counter]
+patch=1,EE,001342e0,word,24050000
+patch=1,EE,001342b4,word,24050000
+
+[Infinite Maxed Out Health]
+patch=1,EE,001349f0,word,0c103330
+patch=1,EE,0040ccc0,word,3c0600be
+patch=1,EE,0040ccc4,word,24c68f80
+patch=1,EE,0040ccc8,word,14660003
+patch=1,EE,0040cccc,word,8c620000
+patch=1,EE,0040ccd0,word,ac620004
+patch=1,EE,0040ccd4,word,34050000
+patch=1,EE,0040ccd8,word,03e00008
+patch=1,EE,0040ccdc,word,0080882d
+
+[Infinite Ammunition for "Angelic Rifle"]
+patch=1,EE,001c4124,word,24420000

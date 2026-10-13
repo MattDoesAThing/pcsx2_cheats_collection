@@ -1,0 +1,20 @@
+gametitle=Drakan - The Ancients' Gates NTSC-U SCUS-97128 4167D813
+
+[60 FPS]
+author=Gabominated
+description=Might need EE overclock (130%).
+patch=1,EE,E0010000,extended,004DC8A0
+patch=1,EE,204E9D18,extended,00000003
+
+[Cheats\Infinite Health]
+// Duplicate source label from 4167D813 - Drakan - The Ancients' Gates SCUS-97128.pnach: [Cheats\Infinite Mana]
+patch=1,EE,204FC954,extended,739AA945
+
+[Cheats\Max Cash]
+patch=1,EE,204FC960,extended,7FFFFF45
+
+[Cheats\Max Skill Points]
+patch=1,EE,204FC974,extended,739AFF45
+
+[Cheats\Quick Level Up]
+patch=1,EE,204FC96C,extended,7FFFFF45

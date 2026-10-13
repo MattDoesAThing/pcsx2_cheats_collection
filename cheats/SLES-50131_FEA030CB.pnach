@@ -1,43 +1,23 @@
-gametitle=Le Mans 24 Hours [SLES-50131] [FEA030CB]
+gametitle=Le Mans 24 Hours 
 
-[P1 Press {L1}+{L1}+{R1}+{R2}+{SELECT} To Restart level]
-author=xs1l3n7x(pnach)/CheatDevicePS2(codes)
-description=P1 Press {L1}+{L1}+{R1}+{R2}+{SELECT} To Restart level
-// P1 Press {L1}+{L1}+{R1}+{R2}+{SELECT} To Restart level
-patch=1,EE,90132A74,extended,0C048F22
+[50/60 FPS]
+author=Gabominated
+description=Might need EE overclock (130%).
+patch=0,EE,0033F1FC,word,24420002
+patch=0,EE,0024872C,word,3C044270
+patch=0,EE,00263D34,word,3C024248 // PAL mode but, It's turn to NTSC.
 
-[Idiot AI]
-author=xs1l3n7x(pnach)/CheatDevicePS2(codes)
-description=Idiot AI
-// Idiot AI
-patch=1,EE,20135A80,extended,03E00008
+[Cheats\Freeze Lap Timer]
+patch=1,EE,206B94E0,extended,00000100
 
-[Idiot AI]
-author=xs1l3n7x(pnach)/CheatDevicePS2(codes)
-description=Idiot AI
-// Idiot AI
-patch=1,EE,20135A84,extended,00000000
+[Cheats\Easy 2 Wheels]
+patch=1,EE,20221B6C,extended,00000000
 
-[Always Good Tires]
-author=xs1l3n7x(pnach)/CheatDevicePS2(codes)
-description=Always Good Tires
-// Always Good Tires
-patch=1,EE,20214A70,extended,03E00008
+[Cheats\No Slow Down Off Track]
+patch=1,EE,20221B94,extended,00000000
 
-[Always Good Tires]
-author=xs1l3n7x(pnach)/CheatDevicePS2(codes)
-description=Always Good Tires
-// Always Good Tires
-patch=1,EE,20214A74,extended,00000000
+[Cheats\No Fuel Useage]
+patch=1,EE,20221BDC,extended,00000000
 
-[Infinite Fuel]
-author=xs1l3n7x(pnach)/CheatDevicePS2(codes)
-description=Infinite Fuel
-// Infinite Fuel
-patch=1,EE,20215350,extended,03E00008
-
-[Infinite Fuel]
-author=xs1l3n7x(pnach)/CheatDevicePS2(codes)
-description=Infinite Fuel
-// Infinite Fuel
-patch=1,EE,20215354,extended,00000000
+[Cheats\No Tyre Wear]
+patch=1,EE,20221BEC,extended,00000000

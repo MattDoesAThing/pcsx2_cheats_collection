@@ -1,0 +1,38 @@
+gametitle=7 Blades PAL-M SLES-50109 97AE372A
+
+[Widescreen 16:9]
+gsaspectratio=16:9
+author=Gabominated
+description=Widescreen hack
+patch=1,EE,00552674,word,3FAB0000 //3F800000
+patch=1,EE,002EF970,word,3C0143c0 //3C014400
+patch=1,EE,002EF978,word,3C01433f //3C014380
+
+[50 FPS]
+author=Gabominated
+description=Might need EE Overclock.
+patch=1,EE,00552670,word,00000100 //00000200
+patch=1,EE,0051bb2c,word,3E99999a //3F19999a
+patch=1,EE,0035e8e8,word,3c013f00 //3c013f80
+patch=1,EE,0036565c,word,3c013f00 //3c013f80
+
+[Cheats\Infinite Health]
+patch=1,EE,20401268,extended,00000100
+patch=1,EE,204B675C,extended,01000100
+
+[Cheats\Have Shotgun & Shotgun Ammo]
+patch=1,EE,20498D70,extended,00000001
+patch=1,EE,20498D90,extended,00000064
+
+[Cheats\Have 7th Blade]
+// Duplicate source label from 97AE372A - 7 Blades SLES-50109.pnach: [Cheats\Press R2 to Activate Have The 7th Blade]
+patch=1,EE,2051C5A4,extended,00000007
+
+[Cheats\Gameplay 16:9]
+patch=1,EE,20396334,extended,3c013fab
+patch=1,EE,202ef7ec,extended,3c013fab
+
+[Cheats\Press L2 to Activate Fill The Berserk Meter]
+patch=1,EE,D0551F42,extended,0000FDFF
+patch=1,EE,2051C63C,extended,00000000
+

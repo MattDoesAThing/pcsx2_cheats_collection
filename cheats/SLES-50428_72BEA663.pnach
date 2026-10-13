@@ -1,0 +1,22 @@
+gametitle=MX 2002 featuring Ricky Carmichael PAL-E SLES-50428 72BEA663
+ 
+
+[50/50 FPS]
+author=Gabominated
+description=Might need EE Overclock.
+patch=1,EE,0012A9C8,word,2E420068 //2E420168
+patch=1,EE,00192D84,word,3C024248 //3C0241C8
+patch=1,EE,00192D94,word,3C0241C8 //3C024248
+
+[Cheats\Infinite Career Points]
+patch=1,EE,10344F0C,extended,0000FFFF
+
+[Cheats\Infinite Freestyle Points]
+patch=1,EE,204349B8,extended,7FFFFFFF
+
+[Cheats\Unlock All Tracks and Modes]
+patch=1,EE,20355F80,extended,FFFFFFFF
+
+[Cheats\Unlock All Movies]
+patch=1,EE,10355F94,extended,0000FFFF
+patch=1,EE,00355F96,extended,000000FF

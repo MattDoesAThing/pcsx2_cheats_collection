@@ -1,0 +1,29 @@
+gametitle=Gauntlet - Seven Sorrows PAL-M SLES-53667 BBB8392E
+
+[50 FPS]
+author=Gabominated
+description=Might need EE Overclock.
+patch=1,EE,00210AB8,word,10600006 //54600006 fps
+patch=1,EE,0050D230,word,3CA3D70A //3D23D70A
+
+[Cheats\All Levels Infinite Mana]
+patch=1,EE,202046f8,extended,e4800004
+patch=1,EE,20204708,extended,e4800004
+
+[Cheats\Infinite Health Player 1 Level 2]
+patch=1,EE,21980C20,extended,43FB8000
+
+[Cheats\Infinite Health Player 2 Level 2]
+patch=1,EE,2195FD20,extended,43FC8000
+
+[Cheats\Infinite Health Player 1 Level 3]
+patch=1,EE,21D79200,extended,43FB8000
+
+[Cheats\Infinite Health Player 2 Level 3]
+patch=1,EE,21D2CFF0,extended,43FC8000
+
+[Cheats\Infinite Health Player 1 Level 4]
+patch=1,EE,21C59450,extended,43FE8000
+
+[Cheats\Infinite Health Player 2 Level 4]
+patch=1,EE,21BBA3E0,extended,4400C000

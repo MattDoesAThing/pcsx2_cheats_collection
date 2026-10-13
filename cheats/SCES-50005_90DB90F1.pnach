@@ -1,0 +1,36 @@
+[Cheats\Infinite Shield]
+patch=1,EE,202CC8EC,extended,421C0000
+
+[Cheats\Always On Last Lap]
+patch=1,EE,202CD2A8,extended,00000019
+
+[Cheats\UInfinite Proton Cannons]
+patch=1,EE,102CD2F8,extended,00000063
+
+[Cheats\Infinite Credits]
+patch=1,EE,20394E74,extended,05F5E0FF
+
+[Cheats\Unlock Extra Leagues]
+patch=1,EE,20394DFC,extended,000007FF
+
+[Cheats\Unlock All Teams]
+patch=1,EE,20395D40,extended,0000FFFF
+
+[Cheats\Unlock All Zone And Time Trial]
+patch=1,EE,20395D50,extended,00000003
+
+[Cheats\Unlock All Challenges Open]
+patch=1,EE,20395D48,extended,FFFFFFFF
+patch=1,EE,20395D4C,extended,FFFFFFFF
+
+[Cheats\Unlock All Challenges Gold]
+patch=1,EE,20395D10,extended,FFFFFFFF
+patch=1,EE,20395D14,extended,FFFFFFFF
+
+[Cheats\Unlock All Arcade And Time Trial Open]
+patch=1,EE,20394DE8,extended,FFFFFFFF
+patch=1,EE,20394DEC,extended,FFFFFFFF
+
+[Cheats\Unlock All Arcade Gold]
+patch=1,EE,20395CE0,extended,FFFFFFFF
+patch=1,EE,20395CE4,extended,FFFFFFFF

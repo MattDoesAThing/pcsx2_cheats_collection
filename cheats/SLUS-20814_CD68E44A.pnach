@@ -1,0 +1,22 @@
+[Cheats\Infinite Health]
+patch=1,EE,20365EEC,extended,3C02447A
+patch=1,EE,20365EF0,extended,AC8200DC
+
+[Cheats\Infinite Bullet Time]
+patch=1,EE,20295270,extended,00000000
+patch=1,EE,202955A0,extended,00000000
+
+[Cheats\Never Reload]
+patch=1,EE,203ED8B0,extended,00000000
+
+[Cheats\1 Hit Kill Enemies]
+patch=1,EE,20385430,extended,AC8000DC
+
+[Cheats\Infinite Item And Ammo Usage]
+patch=1,EE,203EC190,extended,00000000
+
+[Cheats\Unlock All Game Modes]
+patch=1,EE,207B71F0,extended,01010101
+
+[Cheats\Debug Options developer Enables a level select menu in the main menu.]
+patch=1,EE,005FC048,extended,00000001

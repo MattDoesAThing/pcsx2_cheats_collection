@@ -1,0 +1,20 @@
+[Cheats\Infinite Health]
+patch=1,EE,2037CAB8,extended,00000FA0
+patch=1,EE,203A82A8,extended,00000FA0
+
+[Cheats\Aleft gauge 0]
+patch=1,EE,1037C8B8,extended,00000000
+
+[Cheats\Enemy Does not Attack]
+patch=1,EE,20158910,extended,17E00011
+
+[Cheats\Some Materials 99]
+patch=1,EE,1037C8EE,extended,01020304
+patch=1,EE,1037C8F0,extended,00006363
+patch=1,EE,0037C8F2,extended,00000063
+
+[Cheats\Debug Menu Hold L3+R3 while the game is first booting up Title, Opening, Ending, Demo, Menu, Tutorial, Process after Finish, Inside of the Shelter, Outside of the Shelter, Town, Outside of the Castle, Castle 1F, Castle 2F, Castle Underground, Forest, Underground Graveyard, Dock, Last Boss Battle, Character Act, Character System, Map System, Effect, Event, Character Acting Test, Memory card, Sound Test, Modeling Test, Everyone Test, Debug Main]
+patch=1,EE,D03CEB82,extended,0000FFF9
+patch=1,EE,201A4A48,extended,2404001C
+patch=1,EE,D03CEB82,extended,0000FFFF
+patch=1,EE,201A4A48,extended,8C24C4F8

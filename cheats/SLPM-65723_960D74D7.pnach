@@ -1,0 +1,24 @@
+gametitle=Van Helsing NTSC-J SLPM-65723 960D74D7
+
+[Widescreen 16:9]
+gsaspectratio=16:9
+author=Arapapa & Gabominated 
+description=Widescreen hack
+patch=1,EE,002EC1B0,word,3fE38E39 //3fAAAAAA
+patch=1,EE,002EC1B4,word,C2D55554 //00000000
+patch=1,EE,002EC1B8,word,443AAAAB //44200000
+
+[Cheats\Power Glyph 99999999]
+patch=1,EE,202EC148,extended,05F5E0FF
+
+[Cheats\Unlock All Cheat]
+patch=1,EE,201A0F60,extended,24100001
+
+[Cheats\Unlock All Weapons]
+patch=1,EE,002EE038,extended,00000001
+patch=1,EE,002EE020,extended,00000001
+patch=1,EE,002EE050,extended,00000001
+patch=1,EE,002EE040,extended,00000001
+patch=1,EE,002EE030,extended,00000001
+patch=1,EE,002EE048,extended,00000001
+

@@ -1,0 +1,46 @@
+gametitle=Red Dead Revolver PAL-M SLES-52478 E2E67E23
+
+[50/60 FPS]
+author=Gabominated
+description=Might need EE overclock (130%).
+patch=1,EE,004FD20C,word,00000001
+
+[NTSC Mode]
+author=Gabominated
+description=NTSC mode at start instead PAL Mode.
+patch=1,EE,003C1598,word,A0A1D3A4
+patch=1,EE,00235B3C,word,70430004
+
+[Disable Blur]
+author=Gabominated
+description=Disable the Post-Processing blur effect.
+patch=1,EE,00310B54,word,00000000
+
+[Disable Black Bars]
+author=Gabominated
+description=Disable black bars in gameplay.
+patch=1,EE,0073ED84,word,00000000
+patch=1,EE,0073E694,word,3F866666
+
+[Cheats\Infinite Health]
+patch=1,EE,20364B38,extended,03E00008
+patch=1,EE,20364B3C,extended,00000000
+
+[Cheats\Invincible]
+patch=1,EE,2035D8E8,extended,00000000
+patch=1,EE,2035DF30,extended,00000000
+
+[Cheats\Max Cash]
+patch=1,EE,2035D84C,extended,00000000
+
+[Cheats\Unlock Journal And Multiplayer]
+patch=1,EE,201003F4,extended,24020001
+
+[Cheats\Unlock Journal]
+patch=1,EE,2011CCF8,extended,24020001
+
+[Cheats\Unlock Multiplayer Missions]
+patch=1,EE,20132794,extended,24020001
+
+[Cheats\Unlock All Characters In Multiplayer Missions]
+patch=1,EE,2013FC3C,extended,24020001

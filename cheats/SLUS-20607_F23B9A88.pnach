@@ -1,13 +1,6 @@
-gametitle=Disney's Extreme Skate Adventure [SLUS-20607] [F23B9A88]
-
-[Infinite Lives]
-author=xs1l3n7x(pnach)/CheatDevicePS2(codes)
-description=Infinite Lives
-// Infinite Lives
-patch=1,EE,F024A618,extended,002C4C37
-
-[Quick Score Gain]
-author=xs1l3n7x(pnach)/CheatDevicePS2(codes)
-description=Quick Score Gain
-// Quick Score Gain
+[Cheats\Quick Score Gain]
 patch=1,EE,201C3BA8,extended,24A5270F
+
+[Cheats\Debug Mode]
+patch=1,EE,D0A82980,extended,00007300
+patch=1,EE,20235D20,extended,0000102D

@@ -1,0 +1,61 @@
+gametitle=Project Zero 2 - Crimson Butterfly PAL-M SLES-52384 9D87F3AF
+
+[50/60 FPS]
+author=Gabominated
+description=Might need EE Overclock (130%).
+patch=1,EE,2022088C,extended,00000000 //8F82C960
+patch=1,EE,201E6028,extended,00000000 //0C079FB0
+patch=1,EE,201b5ca0,extended,3c014148 //3c0141c8
+patch=1,EE,201FC230,extended,2C42003c //2C42001E
+patch=1,EE,E0040001,extended,002C3FA8
+patch=1,EE,2022088C,extended,8F82C960
+patch=1,EE,201E6028,extended,0C079FB0
+patch=1,EE,201b5ca0,extended,3c0141c8
+patch=1,EE,201FC230,extended,2C42001E
+patch=1,EE,E0010001,extended,002ECEF4
+patch=1,EE,2022088C,extended,8F82C960
+
+[Cheats\Infinite Health]
+patch=1,EE,202E8D18,extended,00006000
+patch=1,EE,202E8D1C,extended,00006000
+
+[Cheats\Infinite Film and Item Use]
+patch=1,EE,201A24F8,extended,00000000
+
+[Cheats\1 Photo Taken]
+patch=1,EE,204148D4,extended,00000001
+
+[Cheats\Max Photo Taken]
+patch=1,EE,204148D4,extended,001F423F
+
+[Cheats\No Defeat]
+patch=1,EE,204148D8,extended,00000000
+
+[Cheats\Enable All Camera Lens]
+patch=1,EE,102C544C,extended,000003FF
+
+[Cheats\Unlock All Notes, Photos, Scraps and Notebook]
+patch=1,EE,20172B40,extended,24010002
+patch=1,EE,200FFF00,extended,A0410000
+patch=1,EE,200FFF04,extended,03E00008
+patch=1,EE,200FFF08,extended,24020002
+patch=1,EE,20172B48,extended,0803FFC0
+
+[Cheats\Have All Costumes]
+patch=1,EE,20286058,extended,000001FF
+
+[Cheats\Unlock Accessory For Mio & Mayu]
+patch=1,EE,00286050,extended,00000006
+
+[Cheats\Unlock All Difficulty Levels]
+patch=1,EE,2028605C,extended,0000000F
+
+[Cheats\All Missions Completed SE & S = 100%]
+patch=1,EE,4040F4B0,extended,00190004
+patch=1,EE,00000002,extended,00000000
+patch=1,EE,4040F4B4,extended,00190004
+patch=1,EE,00000000,extended,00000000
+patch=1,EE,4040F4B8,extended,00190004
+patch=1,EE,3B9AC9FF,extended,00000000
+patch=1,EE,4040F4BC,extended,00190004
+patch=1,EE,3B9AC9FF,extended,00000000

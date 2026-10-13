@@ -1,91 +1,45 @@
-gametitle=Batman Vengeance [SLUS-20226] [5BD38469]
+gametitle=Batman - Vengeance NTSC-U SLUS-20226 5BD38469 (Rev 1)
 
-[P1 Press {L1}+{L2} For Normal Game Speed]
-author=xs1l3n7x(pnach)/CheatDevicePS2(codes)
-description=P1 Press {L1}+{L2} For Normal Game Speed
-// P1 Press {L1}+{L2} For Normal Game Speed
-patch=1,EE,F0200008,extended,0024298F
+[60 FPS]
+author=Gabominated
+description=Might need EE Overclock (130%).
+patch=1,EE,00786710,word,00000001
 
-[Unlock All Levels]
-author=xs1l3n7x(pnach)/CheatDevicePS2(codes)
-description=Unlock All Levels
-// Unlock All Levels
-patch=1,EE,008470C0,extended,00000017
+[Cheats\Infinite Health]
+patch=1,EE,2089E358,extended,42C80000
 
-[Have All Items]
-author=xs1l3n7x(pnach)/CheatDevicePS2(codes)
-description=Have All Items
-// Have All Items
-patch=1,EE,2084713C,extended,FFFFFFFF
+[Cheats\Infinite Health ALT]
+patch=1,EE,2089E35A,extended,000000C8
 
-[Unlock All Movies]
-author=xs1l3n7x(pnach)/CheatDevicePS2(codes)
-description=Unlock All Movies
-// Unlock All Movies
-patch=1,EE,10847144,extended,0000FFFF
-
-[Have All Cheats]
-author=xs1l3n7x(pnach)/CheatDevicePS2(codes)
-description=Have All Cheats
-// Have All Cheats
-patch=1,EE,10847146,extended,0000FFFF
-
-[Max Level Scores]
-author=xs1l3n7x(pnach)/CheatDevicePS2(codes)
-description=Max Level Scores
-// Max Level Scores
-patch=1,EE,40847148,extended,00030001
-
-[Max Level Scores]
-author=xs1l3n7x(pnach)/CheatDevicePS2(codes)
-description=Max Level Scores
-// Max Level Scores
-patch=1,EE,0A0A0A0A,extended,00000000
-
-[Infinite Health]
-author=xs1l3n7x(pnach)/CheatDevicePS2(codes)
-description=Infinite Health
-// Infinite Health
-patch=1,EE,0089E35A,extended,000000C8
-
-[Infinite Batarangs]
-author=xs1l3n7x(pnach)/CheatDevicePS2(codes)
-description=Infinite Batarangs
-// Infinite Batarangs
+[Cheats\Infinite Batarangs]
 patch=1,EE,1089E3A6,extended,0000000F
 
-[Infinite Electric Batarangs]
-author=xs1l3n7x(pnach)/CheatDevicePS2(codes)
-description=Infinite Electric Batarangs
-// Infinite Electric Batarangs
+[Cheats\Infinite Electric Batarangs]
 patch=1,EE,1089E3A8,extended,0000000F
 
-[Infinite Stunners]
-author=xs1l3n7x(pnach)/CheatDevicePS2(codes)
-description=Infinite Stunners
-// Infinite Stunners
+[Cheats\Infinite Stunners]
 patch=1,EE,1089E3AA,extended,0000000F
 
-[Infinite Nets]
-author=xs1l3n7x(pnach)/CheatDevicePS2(codes)
-description=Infinite Nets
-// Infinite Nets
+[Cheats\Infinite Nets]
 patch=1,EE,1089E3AC,extended,0000000F
 
-[Infinite Remote Charges]
-author=xs1l3n7x(pnach)/CheatDevicePS2(codes)
-description=Infinite Remote Charges
-// Infinite Remote Charges
+[Cheats\Infinite Remote Charges]
 patch=1,EE,1089E3AE,extended,0000000F
 
-[Infinite Flash Bombs]
-author=xs1l3n7x(pnach)/CheatDevicePS2(codes)
-description=Infinite Flash Bombs
-// Infinite Flash Bombs
+[Cheats\Infinite Flash Bombs]
 patch=1,EE,1089E3B0,extended,0000000F
 
-[Infinite Batcuffs]
-author=xs1l3n7x(pnach)/CheatDevicePS2(codes)
-description=Infinite Batcuffs
-// Infinite Batcuffs
+[Cheats\Infinite Batcuffs]
 patch=1,EE,1089E3B2,extended,0000000F
+
+[Cheats\Unlock All Levels]
+patch=1,EE,208470C0,extended,00000017
+
+[Cheats\Unlock All Items]
+patch=1,EE,2084713C,extended,FFFFFFFF
+
+[Cheats\Unlock All Movies]
+patch=1,EE,10847144,extended,0000FFFF
+
+[Cheats\Unlock All Cheats]
+patch=1,EE,10847146,extended,0000FFFF

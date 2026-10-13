@@ -1,271 +1,104 @@
-gametitle=Mega Man X Collection [SLUS-21370] [DB581CF5]
+[Cheats\Mega Man X Infinite Lives]
+patch=1,EE,00FE31C0,extended,00000009
 
-[1-Hit Death (Enemies)]
-author=xs1l3n7x(pnach)/CheatDevicePS2(codes)
-description=1-Hit Death (Enemies)
-// 1-Hit Death (Enemies)
-patch=1,EE,9012F8B0,extended,00832021
+[Cheats\Mega Man X Infinite Homing T]
+patch=1,EE,00FE31C8,extended,0000005C
 
-[Unlock Mega Man Battle & Chase]
-author=xs1l3n7x(pnach)/CheatDevicePS2(codes)
-description=Unlock Mega Man Battle & Chase
-// Unlock Mega Man Battle & Chase
+[Cheats\Mega Man X Infinite C Sting]
+patch=1,EE,00FE31CA,extended,0000005C
+
+[Cheats\Mega Man X Infinite R Shield]
+patch=1,EE,00FE31CC,extended,0000005C
+
+[Cheats\Mega Man X Infinite Fire W]
+patch=1,EE,00FE31CE,extended,0000005C
+
+[Cheats\Mega Man X Infinite Storm T]
+patch=1,EE,00FE31D0,extended,0000005C
+
+[Cheats\Mega Man X Infinite E Spark]
+patch=1,EE,00FE31D2,extended,0000005C
+
+[Cheats\Mega Man X Infinite B Cutter]
+patch=1,EE,00FE31D4,extended,0000005C
+
+[Cheats\Mega Man X Infinite S Ice]
+patch=1,EE,00FE31D6,extended,0000005C
+
+[Cheats\Mega Man X2 Infinite Health]
+patch=1,EE,00FE1C3F,extended,00000010
+
+[Cheats\Mega Man X2 Infinite Lives]
+patch=1,EE,00FE31F3,extended,00000009
+
+[Cheats\Mega Man X3 Infinite Health]
+patch=1,EE,008804A1,extended,0000009C
+
+[Cheats\Mega Man X3 Infinite Lives]
+patch=1,EE,0087FB53,extended,00000009
+
+[Cheats\Mega Man X4 Infinite Health]
+patch=1,EE,10996D2C,extended,00002020
+
+[Cheats\Mega Man X4 Infinite Lives]
+patch=1,EE,00996E04,extended,00000009
+
+[Cheats\Mega Man X4 All Weapons]
+patch=1,EE,10996D88,extended,0000FFFF
+
+[Cheats\Mega Man X5 Infinite Health]
+patch=1,EE,10C0A15C,extended,00002020
+
+[Cheats\Mega Man X5 Infinite Lives]
+patch=1,EE,00C0A2A5,extended,00000063
+
+[Cheats\MegaMan X6 Infinite Health]
+patch=1,EE,00B63B4C,extended,0000003C
+
+[Cheats\P1 Press L1+Up To Enable Infinite Health]
+patch=1,EE,E0040007,extended,00662E84
+patch=1,EE,D01A4582,extended,0000FBEF
+patch=1,EE,100C0000,extended,00000001
+patch=1,EE,D00C0000,extended,00000001
+patch=1,EE,00B63B4C,extended,0000003C
+
+[Cheats\P1 Press L1+Down To Disable Infinite Health]
+patch=1,EE,E0020007,extended,00662E84
+patch=1,EE,D01A4582,extended,0000FBBF
+patch=1,EE,100C0000,extended,00000000
+
+[Cheats\P1 Press L1+Right To Enable Invincibility]
+patch=1,EE,E0040007,extended,00662E84
+patch=1,EE,D01A4582,extended,0000FBDF
+patch=1,EE,100C0002,extended,00000001
+patch=1,EE,D00C0002,extended,00000001
+patch=1,EE,10B63B50,extended,00003500
+
+[Cheats\P1 Press L1+Left To Disable Invincibility]
+patch=1,EE,E0020007,extended,00662E84
+patch=1,EE,D01A4582,extended,0000FB7F
+patch=1,EE,100C0002,extended,00000000
+
+[Cheats\Infinite Lives]
+patch=1,EE,00B63C89,extended,00000009
+
+[Cheats\Unlock Mega Man Battle & Chase]
 patch=1,EE,E0010001,extended,00662E84
-
-[Unlock Mega Man Battle & Chase]
-author=xs1l3n7x(pnach)/CheatDevicePS2(codes)
-description=Unlock Mega Man Battle & Chase
-// Unlock Mega Man Battle & Chase
 patch=1,EE,00669980,extended,00000001
 
-[Images 1]
-author=xs1l3n7x(pnach)/CheatDevicePS2(codes)
-description=Images 1
-// Images 1
+[Cheats\Mega Man Battle & Chase Infinite Time]
+patch=1,EE,D0662EA2,extended,00006278
+patch=1,EE,2070C540,extended,00000000
+
+[Cheats\Mega Man Battle & Chase P1 Infinite Buster Fire]
+patch=1,EE,D0662EA2,extended,00006278
+patch=1,EE,00714567,extended,00000078
+
+[Cheats\Mega Man Battle & Chase P1 Turbo Speed P1 Press X]
+patch=1,EE,E0026278,extended,00662EA2
+patch=1,EE,D01A4582,extended,0000BFFF
+patch=1,EE,007144FE,extended,000000FF
+
+[Cheats\Unlock All Gallery]
 patch=1,EE,E0010001,extended,00662E84
-
-[Images 1]
-author=xs1l3n7x(pnach)/CheatDevicePS2(codes)
-description=Images 1
-// Images 1
-patch=1,EE,706699C4,extended,00000001
-
-[Images 2]
-author=xs1l3n7x(pnach)/CheatDevicePS2(codes)
-description=Images 2
-// Images 2
-patch=1,EE,E0010001,extended,00662E84
-
-[Images 2]
-author=xs1l3n7x(pnach)/CheatDevicePS2(codes)
-description=Images 2
-// Images 2
-patch=1,EE,706699C4,extended,00000002
-
-[Images 3]
-author=xs1l3n7x(pnach)/CheatDevicePS2(codes)
-description=Images 3
-// Images 3
-patch=1,EE,E0010001,extended,00662E84
-
-[Images 3]
-author=xs1l3n7x(pnach)/CheatDevicePS2(codes)
-description=Images 3
-// Images 3
-patch=1,EE,706699C4,extended,00000004
-
-[Images 4]
-author=xs1l3n7x(pnach)/CheatDevicePS2(codes)
-description=Images 4
-// Images 4
-patch=1,EE,E0010001,extended,00662E84
-
-[Images 4]
-author=xs1l3n7x(pnach)/CheatDevicePS2(codes)
-description=Images 4
-// Images 4
-patch=1,EE,706699C4,extended,00000008
-
-[Images 5]
-author=xs1l3n7x(pnach)/CheatDevicePS2(codes)
-description=Images 5
-// Images 5
-patch=1,EE,E0010001,extended,00662E84
-
-[Images 5]
-author=xs1l3n7x(pnach)/CheatDevicePS2(codes)
-description=Images 5
-// Images 5
-patch=1,EE,706699C4,extended,00000010
-
-[Images 6]
-author=xs1l3n7x(pnach)/CheatDevicePS2(codes)
-description=Images 6
-// Images 6
-patch=1,EE,E0010001,extended,00662E84
-
-[Images 6]
-author=xs1l3n7x(pnach)/CheatDevicePS2(codes)
-description=Images 6
-// Images 6
-patch=1,EE,706699C4,extended,00000020
-
-[Images 7]
-author=xs1l3n7x(pnach)/CheatDevicePS2(codes)
-description=Images 7
-// Images 7
-patch=1,EE,E0010001,extended,00662E84
-
-[Images 7]
-author=xs1l3n7x(pnach)/CheatDevicePS2(codes)
-description=Images 7
-// Images 7
-patch=1,EE,706699C4,extended,00000040
-
-[Images 8]
-author=xs1l3n7x(pnach)/CheatDevicePS2(codes)
-description=Images 8
-// Images 8
-patch=1,EE,E0010001,extended,00662E84
-
-[Images 8]
-author=xs1l3n7x(pnach)/CheatDevicePS2(codes)
-description=Images 8
-// Images 8
-patch=1,EE,706699C4,extended,00000080
-
-[Staff]
-author=xs1l3n7x(pnach)/CheatDevicePS2(codes)
-description=Staff
-// Staff
-patch=1,EE,E0010001,extended,00662E84
-
-[Staff]
-author=xs1l3n7x(pnach)/CheatDevicePS2(codes)
-description=Staff
-// Staff
-patch=1,EE,706699C5,extended,00000001
-
-[Music 1]
-author=xs1l3n7x(pnach)/CheatDevicePS2(codes)
-description=Music 1
-// Music 1
-patch=1,EE,E0010001,extended,00662E84
-
-[Music 1]
-author=xs1l3n7x(pnach)/CheatDevicePS2(codes)
-description=Music 1
-// Music 1
-patch=1,EE,706699C5,extended,00000002
-
-[Music 2]
-author=xs1l3n7x(pnach)/CheatDevicePS2(codes)
-description=Music 2
-// Music 2
-patch=1,EE,E0010001,extended,00662E84
-
-[Music 2]
-author=xs1l3n7x(pnach)/CheatDevicePS2(codes)
-description=Music 2
-// Music 2
-patch=1,EE,706699C5,extended,00000004
-
-[Music 3]
-author=xs1l3n7x(pnach)/CheatDevicePS2(codes)
-description=Music 3
-// Music 3
-patch=1,EE,E0010001,extended,00662E84
-
-[Music 3]
-author=xs1l3n7x(pnach)/CheatDevicePS2(codes)
-description=Music 3
-// Music 3
-patch=1,EE,706699C5,extended,00000008
-
-[Music 4]
-author=xs1l3n7x(pnach)/CheatDevicePS2(codes)
-description=Music 4
-// Music 4
-patch=1,EE,E0010001,extended,00662E84
-
-[Music 4]
-author=xs1l3n7x(pnach)/CheatDevicePS2(codes)
-description=Music 4
-// Music 4
-patch=1,EE,706699C5,extended,00000010
-
-[Music 5]
-author=xs1l3n7x(pnach)/CheatDevicePS2(codes)
-description=Music 5
-// Music 5
-patch=1,EE,E0010001,extended,00662E84
-
-[Music 5]
-author=xs1l3n7x(pnach)/CheatDevicePS2(codes)
-description=Music 5
-// Music 5
-patch=1,EE,706699C5,extended,00000020
-
-[Music 6]
-author=xs1l3n7x(pnach)/CheatDevicePS2(codes)
-description=Music 6
-// Music 6
-patch=1,EE,E0010001,extended,00662E84
-
-[Music 6]
-author=xs1l3n7x(pnach)/CheatDevicePS2(codes)
-description=Music 6
-// Music 6
-patch=1,EE,706699C5,extended,00000040
-
-[Music 7]
-author=xs1l3n7x(pnach)/CheatDevicePS2(codes)
-description=Music 7
-// Music 7
-patch=1,EE,E0010001,extended,00662E84
-
-[Music 7]
-author=xs1l3n7x(pnach)/CheatDevicePS2(codes)
-description=Music 7
-// Music 7
-patch=1,EE,706699C5,extended,00000080
-
-[Music 8]
-author=xs1l3n7x(pnach)/CheatDevicePS2(codes)
-description=Music 8
-// Music 8
-patch=1,EE,E0010001,extended,00662E84
-
-[Music 8]
-author=xs1l3n7x(pnach)/CheatDevicePS2(codes)
-description=Music 8
-// Music 8
-patch=1,EE,706699C6,extended,00000001
-
-[Hint 1]
-author=xs1l3n7x(pnach)/CheatDevicePS2(codes)
-description=Hint 1
-// Hint 1
-patch=1,EE,E0010001,extended,00662E84
-
-[Hint 1]
-author=xs1l3n7x(pnach)/CheatDevicePS2(codes)
-description=Hint 1
-// Hint 1
-patch=1,EE,706699C6,extended,00000002
-
-[Hint 2]
-author=xs1l3n7x(pnach)/CheatDevicePS2(codes)
-description=Hint 2
-// Hint 2
-patch=1,EE,E0010001,extended,00662E84
-
-[Hint 2]
-author=xs1l3n7x(pnach)/CheatDevicePS2(codes)
-description=Hint 2
-// Hint 2
-patch=1,EE,706699C6,extended,00000004
-
-[Hint 3]
-author=xs1l3n7x(pnach)/CheatDevicePS2(codes)
-description=Hint 3
-// Hint 3
-patch=1,EE,E0010001,extended,00662E84
-
-[Hint 3]
-author=xs1l3n7x(pnach)/CheatDevicePS2(codes)
-description=Hint 3
-// Hint 3
-patch=1,EE,706699C6,extended,00000008
-
-[All Gallery]
-author=xs1l3n7x(pnach)/CheatDevicePS2(codes)
-description=All Gallery
-// All Gallery
-patch=1,EE,E0010001,extended,00662E84
-
-[All Gallery]
-author=xs1l3n7x(pnach)/CheatDevicePS2(codes)
-description=All Gallery
-// All Gallery
 patch=1,EE,206699C4,extended,FFFFFFFF

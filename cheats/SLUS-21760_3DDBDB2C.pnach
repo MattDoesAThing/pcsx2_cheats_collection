@@ -1,0 +1,17 @@
+gametitle=Jeep Thrills NTSC-U SLUS-21760 3DDBDB2C
+
+[60 FPS]
+author=Gabominated
+description=Might need EE Overclock (130%).
+patch=1,EE,0019E3E0,word,14600007 //10600007
+patch=1,EE,00144A44,word,24420003 //24420001
+
+[Cheats\Always Finish in First Place]
+patch=1,EE,2016CDCC,extended,34020001
+
+[Cheats\Infinite Boost]
+patch=1,EE,20116498,extended,00000000
+
+[Cheats\Win Race After Crossing the Finish Line]
+patch=1,EE,2016CD20,extended,34030000
+patch=1,EE,2016CDCC,extended,34020001

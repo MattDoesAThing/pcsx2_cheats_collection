@@ -1,151 +1,36 @@
-gametitle=Street Fighter EX3 [SLUS-20130] [72B3802A]
-
-[Max Score P2]
-author=xs1l3n7x(pnach)/CheatDevicePS2(codes)
-description=Max Score P2
-// Max Score P2
-patch=1,EE,902E8670,extended,0C0BE860
-
-[Max Exp]
-author=xs1l3n7x(pnach)/CheatDevicePS2(codes)
-description=Max Exp
-// Max Exp
-patch=1,EE,204E59B8,extended,0001869F
-
-[Have All Trials Complete]
-author=xs1l3n7x(pnach)/CheatDevicePS2(codes)
-description=Have All Trials Complete
-// Have All Trials Complete
-patch=1,EE,204E5A08,extended,FFFFFFFF
-
-[Have All Trials Complete]
-author=xs1l3n7x(pnach)/CheatDevicePS2(codes)
-description=Have All Trials Complete
-// Have All Trials Complete
-patch=1,EE,204E5A0C,extended,FFFFFFFF
-
-[Have All Trials Complete]
-author=xs1l3n7x(pnach)/CheatDevicePS2(codes)
-description=Have All Trials Complete
-// Have All Trials Complete
-patch=1,EE,204E5A18,extended,FFFFFFFF
-
-[Have All Trials Complete]
-author=xs1l3n7x(pnach)/CheatDevicePS2(codes)
-description=Have All Trials Complete
-// Have All Trials Complete
-patch=1,EE,204E5A1C,extended,FFFFFFFF
-
-[Have All Trials Complete]
-author=xs1l3n7x(pnach)/CheatDevicePS2(codes)
-description=Have All Trials Complete
-// Have All Trials Complete
-patch=1,EE,204E5A28,extended,FFFFFFFF
-
-[Have All Moves Bought]
-author=xs1l3n7x(pnach)/CheatDevicePS2(codes)
-description=Have All Moves Bought
-// Have All Moves Bought
-patch=1,EE,404E59BC,extended,00130001
-
-[Have All Moves Bought]
-author=xs1l3n7x(pnach)/CheatDevicePS2(codes)
-description=Have All Moves Bought
-// Have All Moves Bought
-patch=1,EE,00010001,extended,00000000
-
-[Infinite Super P1]
-author=xs1l3n7x(pnach)/CheatDevicePS2(codes)
-description=Infinite Super P1
-// Infinite Super P1
-patch=1,EE,10C1D400,extended,00000960
-
-[No Super P1]
-author=xs1l3n7x(pnach)/CheatDevicePS2(codes)
-description=No Super P1
-// No Super P1
-patch=1,EE,10C1D400,extended,00000000
-
-[Infinite Health P1]
-author=xs1l3n7x(pnach)/CheatDevicePS2(codes)
-description=Infinite Health P1
-// Infinite Health P1
+[Cheats\Infinite Health Player 1 1st Character]
 patch=1,EE,10C1D40C,extended,0000BF00
 
-[Infinite Health P1]
-author=xs1l3n7x(pnach)/CheatDevicePS2(codes)
-description=Infinite Health P1
-// Infinite Health P1
+[Cheats\Infinite Health Player 1 2nd Character]
 patch=1,EE,10C209BC,extended,0000BF00
 
-[Infinite Super P1]
-author=xs1l3n7x(pnach)/CheatDevicePS2(codes)
-description=Infinite Super P1
-// Infinite Super P1
-patch=1,EE,10C209B0,extended,00000960
+[Cheats\Max Exp]
+patch=1,EE,204E59B8,extended,0001869F
 
-[No Super P1]
-author=xs1l3n7x(pnach)/CheatDevicePS2(codes)
-description=No Super P1
-// No Super P1
-patch=1,EE,10C209B0,extended,00000000
+[Cheats\Unlock All Characters]
+patch=1,EE,208C7738,extended,FFFFFFFF
 
-[Infinite Health P2]
-author=xs1l3n7x(pnach)/CheatDevicePS2(codes)
-description=Infinite Health P2
-// Infinite Health P2
-patch=1,EE,10C23F6C,extended,0000BF00
+[Cheats\Have All Trials Complete]
+patch=1,EE,204E5A08,extended,FFFFFFFF
+patch=1,EE,204E5A0C,extended,FFFFFFFF
+patch=1,EE,204E5A18,extended,FFFFFFFF
+patch=1,EE,204E5A1C,extended,FFFFFFFF
+patch=1,EE,204E5A28,extended,FFFFFFFF
 
-[Infinite Super P2]
-author=xs1l3n7x(pnach)/CheatDevicePS2(codes)
-description=Infinite Super P2
-// Infinite Super P2
-patch=1,EE,10C27510,extended,00000960
+[Cheats\Have All Moves Bought]
+patch=1,EE,404E59BC,extended,00130001
+patch=1,EE,00010001,extended,00000000
 
-[No Super P2]
-author=xs1l3n7x(pnach)/CheatDevicePS2(codes)
-description=No Super P2
-// No Super P2
-patch=1,EE,10C27510,extended,00000000
-
-[Infinite Health P2]
-author=xs1l3n7x(pnach)/CheatDevicePS2(codes)
-description=Infinite Health P2
-// Infinite Health P2
-patch=1,EE,10C2751C,extended,0000BF00
-
-[Infinite Super P2]
-author=xs1l3n7x(pnach)/CheatDevicePS2(codes)
-description=Infinite Super P2
-// Infinite Super P2
-patch=1,EE,10C23F60,extended,00000960
-
-[No Super P2]
-author=xs1l3n7x(pnach)/CheatDevicePS2(codes)
-description=No Super P2
-// No Super P2
-patch=1,EE,10C23F60,extended,00000000
-
-[Infinite Stand]
-author=xs1l3n7x(pnach)/CheatDevicePS2(codes)
-description=Infinite Stand
-// Infinite Stand
-patch=1,EE,10E59378,extended,00006400
-
-[No Stand]
-author=xs1l3n7x(pnach)/CheatDevicePS2(codes)
-description=No Stand
-// No Stand
-patch=1,EE,10E59378,extended,00000000
-
-[Infinite Stand]
-author=xs1l3n7x(pnach)/CheatDevicePS2(codes)
-description=Infinite Stand
-// Infinite Stand
-patch=1,EE,10E59414,extended,00006400
-
-[No Stand]
-author=xs1l3n7x(pnach)/CheatDevicePS2(codes)
-description=No Stand
-// No Stand
-patch=1,EE,10E59414,extended,00000000
+[Cheats\Enable Dip Switch Menus]
+patch=1,EE,D0307242,extended,0000BBFF
+patch=1,EE,2033EF0C,extended,00161B10
+patch=1,EE,D0307242,extended,0000BEFF
+patch=1,EE,2033EF0C,extended,00161DC0
+patch=1,EE,D0307242,extended,0000EFFF
+patch=1,EE,2033EF0C,extended,0015B778
+patch=1,EE,20161B2C,extended,3C150030
+patch=1,EE,10161B5C,extended,000072DA
+patch=1,EE,10161B60,extended,000072DA
+patch=1,EE,20161DF8,extended,3C120030
+patch=1,EE,10161E14,extended,000072DA
+patch=1,EE,10161E18,extended,000072DA

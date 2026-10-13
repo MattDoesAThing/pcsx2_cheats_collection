@@ -1,0 +1,10 @@
+gametitle=The Spiderwick Chronicles NTSC-U SLUS-21716 23B262A5
+
+[60 FPS]
+author=Gabominated
+description=Might need EE overclock (130%).
+patch=0,EE,0011F564,word,A3808530
+
+[Cheats\Activate Cheats Press Select to Set Cheat Invulnerable]
+patch=1,EE,D0439C9C,extended,0000FFFE
+patch=1,EE,10627800,extended,00000002

@@ -1,0 +1,46 @@
+gametitle=Jurassic - The Hunted NTSC-U SLUS-21907 EFE4448F
+
+// From consolidated source EFE4448F.pnach: gametitle=Jurassic The Hunted SLUS-21907 0xEFE4448F
+
+[60 FPS]
+author=Gabominated
+description=Might need EE Overclock (130%).
+patch=1,EE,2017D480,extended,2C420001 //2C420002
+
+[Cheats\Infinite Health]
+patch=1,EE,2036b1bc,extended,00000000
+
+[Cheats\Infinite Ammo]
+patch=1,EE,10291D6C,extended,00000000
+
+[Cheats\Infinite Clips]
+patch=1,EE,20280418,extended,00000000
+
+[Cheats\Max Clip After 1 use]
+patch=1,EE,20280414,extended,240203E7
+
+[Cheats\999 Rounds Use With Max Clip]
+patch=1,EE,202910F8,extended,240603E7
+
+[Cheats\Infinite Adrenaline Time]
+patch=1,EE,2036E0C8,extended,00000000
+patch=1,EE,2036E0F4,extended,00000000
+
+[Cheats\Weapons Never Overheats]
+patch=1,EE,2024634C,extended,AE0001A4
+
+[Cheats\One Hit Kill Dinosaurs]
+patch=1,EE,20351D68,extended,ACC001AC
+
+[60 FPS (Alternative)]
+// 60 FPS
+patch=1,EE,2017D480,word,2C420001
+
+[write camBase to free address (required to use MouseInjector)]
+// write camBase to free address (required to use MouseInjector)
+patch=1,EE,20214B78,word,AF84FF00 // write camBase to 006BE670 | sw a0,-0x100(gp)
+patch=1,EE,20214B7C,word,0C06E7AA // move other opcodes down by one
+patch=1,EE,20214B80,word,8C4400E0
+patch=1,EE,20214B84,word,DFBF0000
+patch=1,EE,20214B88,word,03E00008
+patch=1,EE,20214B8C,word,27BD0010

@@ -1,43 +1,29 @@
-gametitle=Superman Returns [SLUS-21434] [E1BF5DCA]
+gametitle=Superman Returns NTSC-U SLUS-21434 E1BF5DCA
 
-[Unlock All Tracks]
-author=xs1l3n7x(pnach)/CheatDevicePS2(codes)
-description=Unlock All Tracks
-// Unlock All Tracks
-patch=1,EE,90359AF0,extended,0C0D03F4
+[60 FPS]
+author=Gabominated
+description=Might need EE overclock (180%).
+patch=1,EE,203F8164,extended,14400002
+patch=1,EE,E0010001,extended,0062E580
+patch=1,EE,203F8164,extended,10400002
 
-[Infinite Metropolis Health]
-author=xs1l3n7x(pnach)/CheatDevicePS2(codes)
-description=Infinite Metropolis Health
-// Infinite Metropolis Health
+[Cheats\Infinite Health]
+patch=1,EE,20221408,extended,8C410004
+patch=1,EE,2022140C,extended,AC410000
+patch=1,EE,20221418,extended,3C013F80
+patch=1,EE,20221420,extended,AC41000C
+patch=1,EE,2022143C,extended,44816000
+
+[Cheats\Infinite Superpower]
+patch=1,EE,202AA12C,extended,24105000
+patch=1,EE,202AA130,extended,AC50000C
+
+[Cheats\Infinite Metropolis Health]
 patch=1,EE,200C0220,extended,3C013F80
-
-[Infinite Metropolis Health]
-author=xs1l3n7x(pnach)/CheatDevicePS2(codes)
-description=Infinite Metropolis Health
-// Infinite Metropolis Health
 patch=1,EE,200C0224,extended,080AA850
-
-[Infinite Metropolis Health]
-author=xs1l3n7x(pnach)/CheatDevicePS2(codes)
-description=Infinite Metropolis Health
-// Infinite Metropolis Health
 patch=1,EE,200C0228,extended,AC41000C
-
-[Infinite Metropolis Health]
-author=xs1l3n7x(pnach)/CheatDevicePS2(codes)
-description=Infinite Metropolis Health
-// Infinite Metropolis Health
 patch=1,EE,202A9FBC,extended,0C030088
 
-[Infinite Stamina]
-author=xs1l3n7x(pnach)/CheatDevicePS2(codes)
-description=Infinite Stamina
-// Infinite Stamina
+[Cheats\Infinite Stamina]
 patch=1,EE,202AA0A4,extended,24102710
-
-[Infinite Stamina]
-author=xs1l3n7x(pnach)/CheatDevicePS2(codes)
-description=Infinite Stamina
-// Infinite Stamina
 patch=1,EE,202AA118,extended,AC50000C

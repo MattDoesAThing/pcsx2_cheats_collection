@@ -1,0 +1,312 @@
+{
+  "audit_version": 3,
+  "date": "2026-08-25",
+  "scope": "post-reconciliation full PNACH tree",
+  "status": "PASS",
+  "stats": {
+    "pnach_files": 5483,
+    "baseline_files": 5478,
+    "canonical_serial_crc": 5461,
+    "unresolved": 21,
+    "distinct_crc_keys": 5255,
+    "active_patch_lines": 107552,
+    "groups": 54971,
+    "commented_patch_lines": 258
+  },
+  "expected_counts": {
+    "pnach_files": 5483,
+    "canonical_serial_crc": 5461,
+    "unresolved": 21,
+    "distinct_crc_keys": 5255,
+    "active_patch_lines": 107552
+  },
+  "changed_existing_files": [
+    "SLES-51229_76A68274.pnach",
+    "SLES-53706_41094602.pnach",
+    "SLES-53707_F29FA505.pnach",
+    "SLES-53708_FD9FA4FC.pnach",
+    "SLES-53710_F59EA4FB.pnach",
+    "SLES-54962_9F6F78DB.pnach",
+    "SLPM-65555_E09E454C.pnach",
+    "SLPS-25532_4CCEF323.pnach",
+    "SLUS-20259_DD11BEF7.pnach",
+    "SLUS-20967_81D233DC.pnach",
+    "SLUS-20998_C97EF0A4.pnach",
+    "SLUS-21006_95CC86EF.pnach"
+  ],
+  "new_files": [
+    "02E1970F.pnach",
+    "0DEDC3B7.pnach",
+    "3A32FD60.pnach",
+    "6926B199.pnach",
+    "F4D4EBE1.pnach"
+  ],
+  "unresolved_files": [
+    "02E1970F.pnach",
+    "0DEDC3B7.pnach",
+    "10B4DF0B - Winning Post 5 - Maximum 2003.pnach",
+    "3A32FD60.pnach",
+    "40E4D93 - Astro Kyuudan - Kessen!! Victory Kyuudanhen SLPS-25582.pnach",
+    "4555974 - Tony Hawk's Proving Ground SLES-54964.pnach",
+    "587693B - America's 10 Most Wanted SLES-52366.pnach",
+    "6926B199.pnach",
+    "8966730F.pnach",
+    "9BB9C9F9 - Magical Pachinko Cotton - Pachinko Juuki Simulation.pnach",
+    "AE0E098 - Indiana Jones und die Legende der Kaisergruft SLES-50838.pnach",
+    "Armored Core 2 (Playstation 2 The Best) SLPS-73403.pnach",
+    "B91DC726 - Yu-Gi-Oh! - Capsule Monster Coliseumt SLPM-656130.pnach",
+    "DE37E046.pnach",
+    "Dragon Quest VIII - Sora to Umi to Daichi to Norowareshi Himegimi (Ultimate Hits) SLPM-66481.pnach",
+    "F4D4EBE1.pnach",
+    "FF2F701F - The Dukes of Hazzard - Return of the General Le.pnach",
+    "Kiwame Mahjong DXII  (Athena Best Collection Vol. 2) SLPM-62521.pnach",
+    "Samurai Kanzenban (PlayStation 2 the Best Reprint) SLPM-74222.pnach",
+    "Star Ocean - Till the End of Time  - Director's Cut SCAJ 20070-1.pnach",
+    "Wild ARMs - Advanced 3rd PlayStation2 the Best SCPS-19323.pnach"
+  ],
+  "deterministic_corrections": [
+    {
+      "file": "SLUS-20259_DD11BEF7.pnach",
+      "from": "090909094",
+      "to": "09090909",
+      "occurrences": 3,
+      "field": "address"
+    },
+    {
+      "file": "SLES-53706_41094602.pnach",
+      "from": "100000CE2",
+      "to": "100000CE",
+      "occurrences": 1,
+      "field": "data"
+    },
+    {
+      "file": "SLES-53707_F29FA505.pnach",
+      "from": "100000CE2",
+      "to": "100000CE",
+      "occurrences": 1,
+      "field": "data"
+    },
+    {
+      "file": "SLES-53708_FD9FA4FC.pnach",
+      "from": "100000CE2",
+      "to": "100000CE",
+      "occurrences": 1,
+      "field": "data"
+    },
+    {
+      "file": "SLES-53710_F59EA4FB.pnach",
+      "from": "100000CE2",
+      "to": "100000CE",
+      "occurrences": 1,
+      "field": "data"
+    },
+    {
+      "file": "SLPS-25532_4CCEF323.pnach",
+      "from": "A4408A900",
+      "to": "A4408A90",
+      "occurrences": 1,
+      "field": "data"
+    },
+    {
+      "file": "SLUS-20998_C97EF0A4.pnach",
+      "from": "45DAC0007",
+      "to": "45DAC000",
+      "occurrences": 1,
+      "field": "data"
+    }
+  ],
+  "baseline_semantic_prefix_failures_after_allowed_corrections": [],
+  "sensitive_files_byte_identical": {
+    "00000000.pnach": true,
+    "SLUS-20228_FE06A030.pnach": true,
+    "SLUS-20228_8E8E384B.pnach": true,
+    "SLUS-21075_901AAC09.pnach": true,
+    "SLUS-20184_0EEFD2E0.pnach": true,
+    "SLUS-20733_28211F7D.pnach": true,
+    "SLUS-21448_99D3310F.pnach": true,
+    "SLES-52730_90205D97.pnach": true
+  },
+  "bad_directives": [],
+  "malformed_active_patch_or_group_lines": [],
+  "ungrouped_active_patches": [],
+  "exact_duplicate_group_files": [],
+  "casefold_duplicate_group_files": [],
+  "unknown_keys": [],
+  "overwide_data_leading_zero_parser_safe": [
+    [
+      "SLES-50056_6A031FEB.pnach",
+      8,
+      "000000050",
+      "00000050"
+    ],
+    [
+      "SLES-50978_C6EDAAB5.pnach",
+      2,
+      "0001869F8",
+      "001869F8"
+    ],
+    [
+      "SLES-51838_1DB1A6C6.pnach",
+      34,
+      "000000033",
+      "00000033"
+    ],
+    [
+      "SLES-53481_EF97EC8F.pnach",
+      9,
+      "000e00001",
+      "00E00001"
+    ],
+    [
+      "SLES-53481_EF97EC8F.pnach",
+      10,
+      "000000000",
+      "00000000"
+    ],
+    [
+      "SLPM-62418_4043F228.pnach",
+      5,
+      "000000009",
+      "00000009"
+    ],
+    [
+      "SLPM-65143_22BC614D.pnach",
+      5,
+      "00000012C",
+      "0000012C"
+    ],
+    [
+      "SLPM-65143_22BC614D.pnach",
+      6,
+      "00000012C",
+      "0000012C"
+    ],
+    [
+      "SLPM-65950_09576267.pnach",
+      2,
+      "0000007D0",
+      "000007D0"
+    ],
+    [
+      "SLPM-66278_63872287.pnach",
+      6,
+      "000000004",
+      "00000004"
+    ],
+    [
+      "SLPM-66885_BF410FEB.pnach",
+      19,
+      "0000F7FE6",
+      "000F7FE6"
+    ],
+    [
+      "SLPM-68018_B5FEAE85.pnach",
+      2,
+      "000000C90",
+      "00000C90"
+    ],
+    [
+      "SLPS-25636_B643F02A.pnach",
+      23,
+      "000000011",
+      "00000011"
+    ],
+    [
+      "SLPS-25657_4A4B623A.pnach",
+      34,
+      "0804839BF",
+      "804839BF"
+    ],
+    [
+      "SLPS-25670_5C439292.pnach",
+      2,
+      "0000270FF",
+      "000270FF"
+    ],
+    [
+      "SLUS-20004_DC03D71F.pnach",
+      20,
+      "000000626",
+      "00000626"
+    ],
+    [
+      "SLUS-20383_B6580DA4.pnach",
+      13,
+      "000000646",
+      "00000646"
+    ],
+    [
+      "SLUS-21346_65729657.pnach",
+      23,
+      "000000000",
+      "00000000"
+    ]
+  ],
+  "overwide_data_u32_truncation_candidates": [
+    [
+      "SLES-52569_6E51213C.pnach",
+      18,
+      "FFFFFFFFF",
+      "FFFFFFFF"
+    ],
+    [
+      "SLES-54554_07EC202C.pnach",
+      8,
+      "fffffffff",
+      "FFFFFFFF"
+    ],
+    [
+      "SLES-54554_07EC202C.pnach",
+      9,
+      "ffffffffff",
+      "FFFFFFFF"
+    ],
+    [
+      "SLPM-62244_A3F06070.pnach",
+      63,
+      "1456E60CC",
+      "456E60CC"
+    ],
+    [
+      "SLPS-25290_7281FD94.pnach",
+      6,
+      "24820000F",
+      "4820000F"
+    ],
+    [
+      "SLPS-25771_101CFA06.pnach",
+      27,
+      "240300003",
+      "40300003"
+    ],
+    [
+      "SLUS-20884_94C56923.pnach",
+      32,
+      "FFFFFFFFF",
+      "FFFFFFFF"
+    ]
+  ],
+  "issues": [],
+  "warnings": [
+    "18 data fields use >8 hex digits but fit u32 because of leading zeroes; parser-safe, preserved",
+    "7 extended data fields exceed u32; current PCSX2 parses u64 then extended engine uses low 32 bits; preserved pending source-specific review"
+  ],
+  "parser_notes": [
+    "Group syntax mirrors current PCSX2: any non-comment line beginning [ and ending ] is a group header; internal ] characters are not rejected.",
+    "Patch address is parsed as hexadecimal u32; overflow is a hard parser failure.",
+    "Patch data is parsed as hexadecimal u64. For extended codes, downstream operations generally consume low 32 bits or narrower according to code type.",
+    "The BIOS 00000000.pnach is the sole intentional ungrouped-patch exception and its CRC key is included in distinct CRC count."
+  ],
+  "encoding_validation": {
+    "target_encoding": "UTF-8",
+    "pnach_files_checked": 5483,
+    "legacy_windows_1252_files_normalized": 36,
+    "invalid_utf8_files_after_normalization": 0,
+    "mojibake_strings_corrected_in_current_generated_metadata": [
+      "Los 4 FantÃ¡sticos -> Los 4 Fantásticos (CHEAT_INDEX.csv; already correct in pushed audit index)",
+      "dÃ©fense -> défense (CONSOLIDATION_REPORT.md and historical CONSOLIDATION_AUDIT.json)"
+    ],
+    "numeric_patch_lines_changed_by_encoding_normalization": 0,
+    "notes": "The 36 PNACH conversions change text encoding only. All patch/directive lines are text-identical before and after Windows-1252 to UTF-8 conversion."
+  }
+}

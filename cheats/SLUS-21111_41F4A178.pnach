@@ -1,0 +1,77 @@
+gametitle=Scarface - The World is Yours NTSC-U SLUS-21111 41F4A178
+
+[60 FPS]
+author=Gabominated
+description=Might need EE Overclock (130%).
+patch=1,EE,00634148,word,8C6500DC
+
+[Cheats\Infinite Health On Foot]
+patch=1,EE,2039E9BC,extended,C4820184
+patch=1,EE,2039E9C4,extended,E4820180
+
+[Cheats\Infinite Health In Car]
+patch=1,EE,20537EA8,extended,3C0142C8
+patch=1,EE,20537EB8,extended,AE610080
+
+[Cheats\Infinite Ammo]
+patch=1,EE,203CE77C,extended,00000000
+
+[Cheats\Extra Ammo]
+patch=1,EE,203CE774,extended,00511021
+
+[Cheats\Never Reload]
+patch=1,EE,203D03F4,extended,00000000
+
+[Cheats\Less Vehicle Damage]
+patch=1,EE,20380CB0,extended,03E00008
+patch=1,EE,20380CB4,extended,00000000
+
+[Cheats\Vehicles Never Locked]
+patch=1,EE,20380AB0,extended,03E00008
+patch=1,EE,20380AB4,extended,24020000
+
+[Cheats\Visibility Never Increases]
+patch=1,EE,20475BE0,extended,00000000
+
+[Cheats\Cop Heat Never Increases]
+patch=1,EE,20475980,extended,03E00008
+patch=1,EE,20475984,extended,00000000
+
+[Cheats\Always Gain Balls]
+patch=1,EE,1081C6DC,extended,00000064
+
+[Cheats\P1 Press L1+Up To Increase Balls]
+patch=1,EE,D0842502,extended,0000FBEF
+patch=1,EE,1081C6DC,extended,0000000A
+patch=1,EE,D0842502,extended,0000FFFF
+patch=1,EE,1081C6DC,extended,00000000
+
+[Cheats\P1 Press L1+Down To Decrease Balls]
+patch=1,EE,D0842502,extended,0000FBBF
+patch=1,EE,1081C6DC,extended,0000FFF6
+patch=1,EE,D0842502,extended,0000FFFF
+patch=1,EE,1081C6DC,extended,00000000
+
+[Cheats\Press R1+Up To Increase Cop Heat]
+patch=1,EE,D0842502,extended,0000F7EF
+patch=1,EE,1081C6DE,extended,0000000A
+patch=1,EE,D0842502,extended,0000FFFF
+patch=1,EE,1081C6DE,extended,00000000
+
+[Cheats\Press R1+Down To Decrease Cop Heat]
+patch=1,EE,D0842502,extended,0000F7BF
+patch=1,EE,1081C6DE,extended,0000FFF6
+patch=1,EE,D0842502,extended,0000FFFF
+patch=1,EE,1081C6DE,extended,00000000
+
+[Cheats\Press R2+Up To Increase Gang Heat]
+patch=1,EE,D0842502,extended,0000FDEF
+patch=1,EE,1081C6E0,extended,00000001
+patch=1,EE,D0842502,extended,0000FFFF
+patch=1,EE,1081C6E0,extended,00000000
+
+[Cheats\Press R2+Down To Decrease Gang Heat]
+patch=1,EE,D0842502,extended,0000FDBF
+patch=1,EE,1081C6E0,extended,00000001
+patch=1,EE,D0842502,extended,0000FFFF
+patch=1,EE,1081C6E0,extended,00000000

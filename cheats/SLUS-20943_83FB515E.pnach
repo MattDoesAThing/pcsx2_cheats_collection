@@ -1,91 +1,45 @@
-gametitle=Heroes Of The Pacific [SLUS-20943] [83FB515E]
+gametitle=Heroes of the Pacific NTSC-U SLUS-20943 83FB515E
 
-[Infinite Raise Control]
-author=xs1l3n7x(pnach)/CheatDevicePS2(codes)
-description=Infinite Raise Control
-// Infinite Raise Control
-patch=1,EE,901597B0,extended,00832021
+[Widescreen 16:9]
+gsaspectratio=16:9
+author=Gabominated
+description=Widescreen hack
+patch=1,EE,20799100,extended,3FE38E3A //3FAAAAA7
+patch=1,EE,2067D740,extended,3F249244 //3F5B6DB6
+patch=1,EE,20799250,extended,3FE38E3A //3FAAAAA7
+patch=1,EE,20799254,extended,42C20000 //42920000
+patch=1,EE,207992E0,extended,00000002 //00000000
 
-[Infinite Warspeed]
-author=xs1l3n7x(pnach)/CheatDevicePS2(codes)
-description=Infinite Warspeed
-// Infinite Warspeed
-patch=1,EE,2021EA24,extended,00000000
+[60 FPS]
+author=Gabominated
+description=Might need EE Overclock.
+patch=0,EE,001CCBB4,word,A3808494
+patch=0,EE,00342888,word,C46CD8BC
+patch=0,EE,00342898,word,C46CD8B8
 
-[Infinite Torpedos]
-author=xs1l3n7x(pnach)/CheatDevicePS2(codes)
-description=Infinite Torpedos
-// Infinite Torpedos
-patch=1,EE,202B0F5C,extended,00000000
-
-[Infinite Bombs]
-author=xs1l3n7x(pnach)/CheatDevicePS2(codes)
-description=Infinite Bombs
-// Infinite Bombs
-patch=1,EE,202B1570,extended,00000000
-
-[Infinite Rockets]
-author=xs1l3n7x(pnach)/CheatDevicePS2(codes)
-description=Infinite Rockets
-// Infinite Rockets
-patch=1,EE,202B1C3C,extended,00000000
-
-[Rapid Fire]
-author=xs1l3n7x(pnach)/CheatDevicePS2(codes)
-description=Rapid Fire
-// Rapid Fire
-patch=1,EE,202B26E0,extended,00000000
-
-[Always Low Mission Time]
-author=xs1l3n7x(pnach)/CheatDevicePS2(codes)
-description=Always Low Mission Time
-// Always Low Mission Time
-patch=1,EE,202292E0,extended,AE000040
-
-[Buying Plane Upgrades Doesnt Decrease Points]
-author=xs1l3n7x(pnach)/CheatDevicePS2(codes)
-description=Buying Plane Upgrades Doesnt Decrease Points
-// Buying Plane Upgrades Doesnt Decrease Points
-patch=1,EE,2054DB94,extended,00000000
-
-[Buying Plane Upgrades Increases Points]
-author=xs1l3n7x(pnach)/CheatDevicePS2(codes)
-description=Buying Plane Upgrades Increases Points
-// Buying Plane Upgrades Increases Points
-patch=1,EE,2054DB8C,extended,00701021
-
-[Access More Missions/Planes]
-author=xs1l3n7x(pnach)/CheatDevicePS2(codes)
-description=Access More Missions/Planes
-// Access More Missions/Planes
-patch=1,EE,20731188,extended,00000001
-
-[Infinite Plane Upgrade Points]
-author=xs1l3n7x(pnach)/CheatDevicePS2(codes)
-description=Infinite Plane Upgrade Points
-// Infinite Plane Upgrade Points
-patch=1,EE,10A18050,extended,0000FFFF
-
-[Max Plane Upgrade Points]
-author=xs1l3n7x(pnach)/CheatDevicePS2(codes)
-description=Max Plane Upgrade Points
-// Max Plane Upgrade Points
-patch=1,EE,20A18050,extended,05F5E0FF
-
-[Invulnerability]
-author=xs1l3n7x(pnach)/CheatDevicePS2(codes)
-description=Invulnerability
-// Invulnerability
+[Cheats\Infinite Armor]
+// Duplicate source label from 83FB515E - Heroes of the Pacific SLUS-20943.pnach: [Cheats\Activate Cheat Code Invulnerability]
 patch=1,EE,2071A9B0,extended,00000001
 
-[Max Warspeed]
-author=xs1l3n7x(pnach)/CheatDevicePS2(codes)
-description=Max Warspeed
-// Max Warspeed
+[Cheats\Infinite Warspeed]
+// Duplicate source label from 83FB515E - Heroes of the Pacific SLUS-20943.pnach: [Cheats\Activate Cheat Code Infinite Warspeed]
+patch=1,EE,20711A08,extended,00000001
+
+[Cheats\Infinite Torpedos]
+patch=1,EE,202B0F5C,extended,00000000
+
+[Cheats\Infinite Bombs]
+patch=1,EE,202B1570,extended,00000000
+
+[Cheats\Infinite Rockets]
+patch=1,EE,DA472407,extended,8CC2C13
+
+[Cheats\Infinite Plane Upgrade Points]
+patch=1,EE,20A18050,extended,00000063
+
+[Cheats\Access More Missions and Planes]
+patch=1,EE,20731188,extended,00000001
+
+[Cheats\Activate Cheat Code Max Warspeed]
 patch=1,EE,20711A00,extended,00000001
 
-[Infinite Warspeed]
-author=xs1l3n7x(pnach)/CheatDevicePS2(codes)
-description=Infinite Warspeed
-// Infinite Warspeed
-patch=1,EE,20711A08,extended,00000001

@@ -1,0 +1,8 @@
+[Cheats\9999 Shiney Objects]
+patch=1,EE,2052E070,extended,0000270F
+
+[Cheats\999 Golden Spatulas]
+patch=1,EE,2052E074,extended,000003E7
+
+[Cheats\Infinite Pants Health]
+patch=1,EE,2052DC10,extended,00000003

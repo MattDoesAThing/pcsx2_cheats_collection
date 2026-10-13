@@ -1,0 +1,20 @@
+gametitle=Reign of Fire NTSC-U SLUS-20556 D10945CE
+
+[60 FPS]
+author=Gabominated
+description=Might need EE Overclock.
+patch=1,EE,00264E70,word,00000001 //00000002
+patch=1,EE,001409b4,word,2402003c //2402001e
+
+[Cheats\Infinite Health Human]
+patch=1,EE,201D6FB4,extended,3C014448
+patch=1,EE,201D6FB8,extended,03E00008
+patch=1,EE,201D6FBC,extended,AC81008C
+
+[Cheats\Infinite Health Dragon]
+patch=1,EE,201CD210,extended,3C014516
+patch=1,EE,201CD214,extended,03E00008
+patch=1,EE,201CD218,extended,AC81008C
+
+[Cheats\Unlock All Levels And Unlock Dragon]
+patch=1,EE,20275AF0,extended,FFFFFFFF

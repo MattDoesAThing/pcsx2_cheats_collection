@@ -1,67 +1,25 @@
-gametitle=Crash Twinsanity [SLES-52568] [1510E1D1]
+[Cheats\Infinite Lives]
+patch=1,EE,20171160,extended,24030064
 
-[All Tracks]
-author=xs1l3n7x(pnach)/CheatDevicePS2(codes)
-description=All Tracks
-// All Tracks
-patch=1,EE,902C2570,extended,00832021
+[Cheats\Infinite Mask]
+patch=1,EE,201375E4,extended,24020086
 
-[Infinite Lives/Gems]
-author=xs1l3n7x(pnach)/CheatDevicePS2(codes)
-description=Infinite Lives/Gems
-// Infinite Lives/Gems
-patch=1,EE,200C0220,extended,24023263
+[Cheats\Max Apples]
+patch=1,EE,201713AC,extended,24040064
 
-[Infinite Lives/Gems]
-author=xs1l3n7x(pnach)/CheatDevicePS2(codes)
-description=Infinite Lives/Gems
-// Infinite Lives/Gems
-patch=1,EE,200C0224,extended,03E00008
+[Cheats\Infinite Aku Aku Press Select+L2=ON Select+R2=OFF]
+patch=1,EE,20130894,extended,344200C0
 
-[Infinite Lives/Gems]
-author=xs1l3n7x(pnach)/CheatDevicePS2(codes)
-description=Infinite Lives/Gems
-// Infinite Lives/Gems
-patch=1,EE,200C0228,extended,A4820000
+[Cheats\Invincibility Hold Select to disable]
+patch=1,EE,201375E4,extended,24020006
+patch=1,EE,D0BBB6C2,extended,0000FFFE
+patch=1,EE,201375E4,extended,8E620014
 
-[Infinite Lives/Gems]
-author=xs1l3n7x(pnach)/CheatDevicePS2(codes)
-description=Infinite Lives/Gems
-// Infinite Lives/Gems
-patch=1,EE,2016961C,extended,0C030088
+[Cheats\Unlock 100% Game]
+patch=1,EE,0098EF77,extended,00000063
+patch=1,EE,4098EFA4,extended,00100001
+patch=1,EE,FFFFFFFF,extended,00000000
 
-[Nsanity Isle]
-author=xs1l3n7x(pnach)/CheatDevicePS2(codes)
-description=Nsanity Isle
-// Nsanity Isle
-patch=1,EE,2098C064,extended,FFFFFFFF
-
-[Jungle Bungle]
-author=xs1l3n7x(pnach)/CheatDevicePS2(codes)
-description=Jungle Bungle
-// Jungle Bungle
-patch=1,EE,2098C068,extended,FFFFFFFF
-
-[Cavern Catastrophe]
-author=xs1l3n7x(pnach)/CheatDevicePS2(codes)
-description=Cavern Catastrophe
-// Cavern Catastrophe
-patch=1,EE,2098C06C,extended,FFFFFFFF
-
-[Totem Kokum]
-author=xs1l3n7x(pnach)/CheatDevicePS2(codes)
-description=Totem Kokum
-// Totem Kokum
-patch=1,EE,2098C070,extended,FFFFFFFF
-
-[All Gems/Extras]
-author=xs1l3n7x(pnach)/CheatDevicePS2(codes)
-description=All Gems/Extras
-// All Gems/Extras
-patch=1,EE,4098C064,extended,00040001
-
-[All Gems/Extras]
-author=xs1l3n7x(pnach)/CheatDevicePS2(codes)
-description=All Gems/Extras
-// All Gems/Extras
+[Cheats\Unlock All Gems & Extras]
+patch=1,EE,4098EFA4,extended,00100001
 patch=1,EE,FFFFFFFF,extended,00000000

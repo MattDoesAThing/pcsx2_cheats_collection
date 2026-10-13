@@ -1,0 +1,18 @@
+gametitle=Gadget and the Gadgetinis PAL-M SLES-52845 2235C82F
+
+[50/60 FPS]
+author=Gabominated
+description=Might need EE Overclock (130%).
+patch=0,EE,001149DC,word,24030000
+
+[Cheats\Infinite Lives]
+patch=1,EE,21B670E8,extended,00000063
+
+[Cheats\Infinite Health Level 1]
+patch=1,EE,21B670E4,extended,40C00000
+
+[Cheats\Infinite Health Level 2]
+patch=1,EE,21A95CD4,extended,40C00000
+
+[Cheats\Infinite Health Level 3]
+patch=1,EE,21D07F84,extended,40C00000

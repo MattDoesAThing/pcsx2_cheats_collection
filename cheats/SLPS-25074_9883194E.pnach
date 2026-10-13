@@ -1,0 +1,44 @@
+gametitle=Zero (NTSC-J) [SLPS-25074]
+
+[Viewfinder Stick Swap]
+author=DAOWAce
+description=Swaps the analog stick functions while using the Camera Obscura viewfinder.
+
+patch=1,EE,20189A14,extended,90620193
+patch=1,EE,20189A28,extended,90620194
+patch=1,EE,20208020,extended,24040000
+
+[Cheats\Infinite Health]
+patch=1,EE,00251FA4,extended,000000F4
+
+[Cheats\Max Spiritual Power Charge]
+patch=1,EE,00251FC8,extended,00000063
+
+[Cheats\Max Spiritual Power Point]
+patch=1,EE,202651F8,extended,0098967F
+
+[Cheats\All Consumption Items 99]
+patch=1,EE,00253861,extended,00000063
+patch=1,EE,00253862,extended,00000063
+patch=1,EE,00253863,extended,00000063
+patch=1,EE,00253864,extended,00000063
+patch=1,EE,00253865,extended,00000063
+patch=1,EE,00253866,extended,00000063
+patch=1,EE,00253867,extended,00000063
+patch=1,EE,00253868,extended,00000063
+
+[Cheats\0 Sheets When Film is Used]
+patch=1,EE,202049F8,extended,A0600000
+
+[Cheats\Always Low Game Time]
+patch=1,EE,202522F8,extended,00000000
+
+[test camera]
+patch=1,EE,00189480,extended,00000063
+//patch=1,EE,00189480,extended,00000001
+//patch=1,EE,00189480,extended,00000001
+//patch=1,EE,00189480,extended,00000001
+//187800
+//1898e8
+//28F3F2AA7D0
+//FinderModeCameraCtrl

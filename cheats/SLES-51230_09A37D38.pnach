@@ -1,0 +1,37 @@
+gametitle=Minority Report - Everybody Runs PAL-E SLES-51230 09A37D38
+
+[50/60 FPS]
+author=Gabominated
+description=Might need EE overclock (130%).
+patch=0,EE,0047F6A8,word,8C62EA40
+//0051EA40
+
+[NTSC Mode]
+author=Gabominated
+description=NTSC mode at start.
+patch=0,EE,00461F00,word,14C00010
+patch=0,EE,00461F04,word,8C46B720
+
+[Cheats\Invincibility]
+patch=1,EE,1099B740,extended,00000001
+patch=1,EE,1099B7BC,extended,00000001
+
+[Cheats\Unlock Infinite Ammo]
+patch=1,EE,1099B750,extended,00000001
+patch=1,EE,1099B7CC,extended,00000001
+
+[Cheats\Unlock Level Warp To Any Level]
+patch=1,EE,1099B798,extended,00000001
+patch=1,EE,1099B814,extended,00000001
+
+[Cheats\Unlock All Combos]
+patch=1,EE,1099B7A4,extended,00000001
+patch=1,EE,1099B820,extended,00000001
+
+[Cheats\Unlock All Movies]
+patch=1,EE,1099B7A0,extended,00000001
+patch=1,EE,1099B81C,extended,00000001
+
+[Cheats\Unlock All Concept Art]
+patch=1,EE,1099B7AC,extended,00000001
+patch=1,EE,1099B828,extended,00000001

@@ -1,0 +1,19 @@
+[Cheats\Unlock All Special]
+patch=1,EE,4092B740,extended,09200001
+patch=1,EE,FFFFFFFF,extended,00000000
+
+[Cheats\Unlock All Non World]
+patch=1,EE,2092C448,extended,FFFFFFFF
+
+[Cheats\Enable Debug Menu]
+description=Enable Debug Menu allows quick access to images, sounds, character routes, story scenes, debug/test menus, save, and system flags. Hold Circle + L1 while entering another screen for the Start debug menu; hold Circle + R1 for ShortCut01.
+comment=Hold Circle + R2 for ShortCut02. Hold Circle + Select for the Filer debug menu.
+patch=1,EE,D041D102,extended,0000DBFF
+patch=1,EE,2023A4B8,extended,00000000
+patch=1,EE,D041D102,extended,0000D7FF
+patch=1,EE,2023A4B8,extended,0000000D
+patch=1,EE,D041D102,extended,0000DDFF
+patch=1,EE,2023A4B8,extended,0000000E
+patch=1,EE,D041D102,extended,0000DFFE
+patch=1,EE,2023A4B8,extended,00000015
+

@@ -1,0 +1,24 @@
+gametitle=Hitman 2 - Silent Assassin PAL-E SLES-50992 5B9ACF79
+
+[50/60 FPS]
+author=Gabominated
+description=Might need EE Overclock.
+patch=1,EE,20508090,extended,00000001 //00000002
+
+[NTSC Mode]
+author=Gabominated
+description=NTSC mode at start. FMVs remain in PAL.
+patch=1,EE,003066B4,word,14A20057 //10A20057
+
+[Cheats\Infinite Health]
+patch=1,EE,2015C7DC,extended,00000000
+
+[Cheats\Infinite Ammo]
+patch=1,EE,202DE9AC,extended,00000000
+
+[Cheats\God Mode]
+patch=1,EE,204DA580,extended,3F800000
+
+[Cheats\All Weapons Max Ammo]
+patch=1,EE,201567E0,extended,00000000
+patch=1,EE,20156898,extended,00000000

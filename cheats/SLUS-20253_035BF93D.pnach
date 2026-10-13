@@ -1,0 +1,16 @@
+gametitle=The Mummy Returns NTSC-U SLUS-20253 035BF93D
+
+[60 FPS]
+author=Gabominated
+description=Might need EE overclock (130%).
+patch=0,EE,00122160,word,A0600036
+//0025D9C4 alt
+
+[Cheats\Infinite Health]
+patch=1,EE,002CBBB0,extended,00000001
+
+[Cheats\1 Hit Death Enemies]
+patch=1,EE,002CBBB4,extended,00000001
+
+[Cheats\Infinite Ammo]
+patch=1,EE,002CBBB5,extended,00000001

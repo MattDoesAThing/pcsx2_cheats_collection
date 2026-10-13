@@ -1,19 +1,23 @@
-gametitle=Great Escape, The [SLUS-20670] [D600925B]
+[Cheats\Infinite Health makes choking out your enemies impossible. The effect lasts permanently until you delete your memory card saves]
+patch=1,EE,20149BF0,extended,E4800060
 
-[Task 10]
-author=xs1l3n7x(pnach)/CheatDevicePS2(codes)
-description=Task 10
-// Task 10
-patch=1,EE,90355F34,extended,0C0FA4AF
+[Cheats\Infinite Ammo]
+patch=1,EE,101D6888,extended,00000000
 
-[Play All Movies Upon Starting Game]
-author=xs1l3n7x(pnach)/CheatDevicePS2(codes)
-description=Play All Movies Upon Starting Game
-// Play All Movies Upon Starting Game
+[Cheats\Infinite First Aid]
+patch=1,EE,101D59F8,extended,00000000
+
+[Cheats\Infinite Stick Grenades]
+patch=1,EE,101D6554,extended,00000000
+
+[Cheats\Rapid Fire No Reload]
+patch=1,EE,201D6928,extended,34020000
+
+[Cheats\Unlock Play All Movies Upon Starting Game]
 patch=1,EE,204EE09C,extended,00000001
 
-[Have Level Select]
-author=xs1l3n7x(pnach)/CheatDevicePS2(codes)
-description=Have Level Select
-// Have Level Select
+[Cheats\Unlock Level Select]
 patch=1,EE,204EE0A0,extended,00000001
+
+[Cheats\Unlock Greatest Escape]
+patch=1,EE,104EE0A0,extended,00000001

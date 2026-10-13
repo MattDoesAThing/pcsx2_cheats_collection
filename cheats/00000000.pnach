@@ -1,0 +1,15 @@
+gametitle= PS2 BIOS (USA 2.20)
+comment= Widescreen hack
+
+description=Widescreen hack
+//Background Elements Width
+patch=1,EE,0028AB4C,word,3F400000 // 3F800000
+
+//Boot Section and Error Screen Width
+patch=1,EE,002C8EB0,word,3F400000 // 3F800000
+
+//Browser Objects Width
+patch=1,EE,0029C590,word,44400000 // 44800000
+
+//System Configurication Cubes Width
+patch=1,EE,00375940,word,3F400000 // 3F800000

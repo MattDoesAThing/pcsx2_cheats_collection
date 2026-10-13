@@ -1,0 +1,27 @@
+gametitle=Constantine PAL-M SLES-52872 715AD5FD
+
+[50/60 FPS]
+author=Gabominated
+description=Might need EE overclock (130%).
+patch=0,EE,0010233C,word,24020000
+
+[NTSC Mode]
+author=Gabominated
+description=NTSC mode at start.
+patch=0,EE,001009B8,word,24130000
+
+[Cheats\Infinite Health]
+patch=1,EE,200FFF10,extended,34A50020
+
+[Cheats\Infinite Magic]
+patch=1,EE,20318A84,extended,00000000
+
+[Cheats\Infinite Ammo and No Reload]
+patch=1,EE,200FFF0C,extended,34A50010
+
+[Cheats\Unlock All Levels]
+patch=1,EE,202FA5DC,extended,24040011
+
+[Cheats\Unlock All Bonus Material]
+patch=1,EE,40583A3B,extended,00ED0001
+patch=1,EE,00000001,extended,00000000

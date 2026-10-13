@@ -1,0 +1,32 @@
+gametitle=Bionicle Heroes NTSC-U SLUS-21428 EB6C8519
+
+[Widescreen 16:9]
+gsaspectratio=16:9
+author=Gabominated
+description=Enable native widescreen.
+patch=1,EE,00388D04,word,3C013F10 //3C013F00 zoom fix
+patch=1,EE,0065F798,word,00000001 //00000000
+
+[60 FPS]
+author=Gabominated
+description=Might need EE Overclock.
+patch=1,EE,001C9674,word,24020002 //24020004
+
+[Cheats\Infinite Health]
+patch=1,EE,2037FD98,extended,E60112B8
+
+[Cheats\Infinite LEGOs Shop]
+patch=1,EE,2065E43C,extended,00989680
+
+[Cheats\Unlock All Hints]
+patch=1,EE,4065E2A8,extended,00050001
+patch=1,EE,01010101,extended,00000000
+
+[Cheats\Unlock All Goodies]
+patch=1,EE,4065E2E8,extended,00040001
+patch=1,EE,01010101,extended,00000000
+patch=1,EE,0065E2F8,extended,00000001
+
+[Cheats\Unlock All Upgrades]
+patch=1,EE,4065E41C,extended,00050001
+patch=1,EE,0A0A0A0A,extended,00000000

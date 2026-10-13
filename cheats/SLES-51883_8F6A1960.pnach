@@ -1,0 +1,36 @@
+gametitle=Scooby-Doo! Mystery Mayhem PAL-M SLES-51883 8F6A1960
+
+[50/60 FPS]
+author=Gabominated
+description=Might need EE overclock (130%).
+patch=0,EE,0024ECB4,word,24110002
+
+[NTSC Mode]
+author=Gabominated
+description=NTSC mode at start.
+patch=0,EE,00120920,word,38620002
+patch=0,EE,002b79b4,word,000001c0
+
+[Cheats\Never Scared]
+patch=1,EE,208CB144,extended,3F800000
+
+[Cheats\Infinite Book Power]
+patch=1,EE,208CB148,extended,43340000
+
+[Cheats\Have All Episode Clues]
+patch=1,EE,208CB1F1,extended,000000FF
+
+[Cheats\Have All Ghost Portraits]
+patch=1,EE,208CB1E4,extended,FFFDFFFF
+
+[Cheats\Have Complete Sandwich]
+patch=1,EE,208CB1F0,extended,000000FF
+
+[Cheats\Unlock All MiniGames]
+patch=1,EE,208CB1E4,extended,FFFFFFFF
+
+[Cheats\Unlock All Gallery Images and Character Models]
+patch=1,EE,208CB204,extended,FFFFFFFF
+
+[Cheats\Unlock All Play Rerun and Movies]
+patch=1,EE,208CB20C,extended,FFFFFFFF

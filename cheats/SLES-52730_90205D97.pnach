@@ -1,0 +1,257 @@
+// -----------------------------------------------------------------------------
+// Compatibility alias retained from Nexxus-Drako/pcsx2_cheats_collection.
+// Game/serial: Dragon Ball Z: Budokai 3 / SLES-52730
+// Fork-provided CRC: 90205D97 (UNVERIFIED alternate executable CRC)
+// Confirmed retail CRC: CD787D68
+// The same fork cheat set is also represented under the confirmed retail target.
+// This alias preserves potentially useful modified-ELF compatibility information;
+// it does NOT establish that this CRC is an official/retail revision.
+// Audit note: SLES-52730 is independently documented with retail CRC CD787D68; no executable matching 90205D97 was found or supplied, so the fork CRC remains unverified rather than being discarded.
+// -----------------------------------------------------------------------------
+
+gametitle=Dragon Ball Z - Budokai 3 [527301] [90205D97]
+
+[Cheats\max hp]
+//max hp
+patch=1,EE,20497B60,extended,453B8000
+
+[Cheats\max ki]
+//max ki
+patch=1,EE,20497B70,extended,45DAC000
+
+
+[Cheats\Enable Code (Must Be On) (en option pour pcsx2 non obligatoire)]
+//Enable Code (Must Be On) [en option pour pcsx2 non obligatoire] 
+patch=1,EE,90116DF0,extended,00832021
+
+[Cheats\Unlock All Characters]
+//Misc. Codes
+//Unlock All Characters 
+patch=1,EE,204B4BF8,extended,FFFFFFFF
+patch=1,EE,204B4BFC,extended,FFFFFFFF
+
+[Cheats\Infinite Zenie]
+//Infinite Zenie 
+patch=1,EE,104DFAE8,extended,0000FFFF
+
+[Cheats\Max Zenie]
+//Max Zenie 
+patch=1,EE,204DFAE8,extended,05F5E0FF
+
+[Cheats\Buying Skills Doesnt Decrease Zenie]
+//Buying Skills Doesnt Decrease Zenie 
+patch=1,EE,20275720,extended,00000000
+
+[Cheats\Buying Skills Increases Zenie]
+//Buying Skills Increases Zenie 
+patch=1,EE,2027571C,extended,00471021
+
+[Cheats\Have All Ability Capsules]
+//Have All Ability Capsules 
+patch=1,EE,104DFB1A,extended,00000909
+patch=1,EE,404DFB1C,extended,002E0001
+patch=1,EE,09090909,extended,00000000
+patch=1,EE,004DFBD4,extended,00000009
+patch=1,EE,004DFBD9,extended,00000009
+patch=1,EE,004DFBDE,extended,00000009
+patch=1,EE,404DFBE8,extended,00090001
+patch=1,EE,09090909,extended,00000000
+patch=1,EE,104DFC0C,extended,00000909
+
+[Cheats\Have All Item Capsules]
+//Have All Item Capsules 
+patch=1,EE,004DFC0F,extended,00000009
+patch=1,EE,404DFC10,extended,00080001
+patch=1,EE,09090909,extended,00000000
+patch=1,EE,104DFC30,extended,00000909
+patch=1,EE,004DFD5B,extended,00000009
+
+[Cheats\Have All Equipment Capsules]
+//Have All Equipment Capsules 
+patch=1,EE,104DFC32,extended,00000909
+patch=1,EE,404DFC34,extended,002B0001
+patch=1,EE,09090909,extended,00000000
+patch=1,EE,104DFCE0,extended,00000909
+
+[Cheats\Have All System Capsules]
+//Have All System Capsules 
+patch=1,EE,104DFCE2,extended,00000101
+patch=1,EE,404DFCE4,extended,001E0001
+patch=1,EE,01010101,extended,00000000
+
+[Cheats\All Capsules Only Use 1 Slot To Equip]
+//All Capsules Only Use 1 Slot To Equip 
+patch=1,EE,200C0220,extended,90610000
+patch=1,EE,200C0224,extended,302100F8
+patch=1,EE,200C0228,extended,00280825
+patch=1,EE,200C022C,extended,03E00008
+patch=1,EE,200C0230,extended,A0610000
+patch=1,EE,202B18EC,extended,0C030088
+patch=1,EE,202B18F0,extended,24080001
+
+[Cheats\Infinite Health P1]
+//Infinite Health P1 
+patch=1,EE,20497B60,extended,453B8000
+
+[Cheats\75% Health P1]
+//75% Health P1 
+patch=1,EE,D0497B62,extended,0000453B
+patch=1,EE,20497B60,extended,450CA000
+
+[Cheats\50% Health P1]
+//50% Health P1 
+patch=1,EE,D0497B62,extended,0000453B
+patch=1,EE,20497B60,extended,44BB8000
+
+[Cheats\25% Health P1]
+//25% Health P1 
+patch=1,EE,D0497B62,extended,0000453B
+patch=1,EE,20497B60,extended,443B8000
+
+[Cheats\1-Hit Death P1]
+//1-Hit Death P1 
+patch=1,EE,D0497B62,extended,0000453B
+patch=1,EE,20497B60,extended,3F800000
+
+[Cheats\No Health P1]
+//No Health P1 
+patch=1,EE,20497B60,extended,00000000
+
+[Cheats\Max Level 7 KI Energy P1]
+//Max Level 7 KI Energy P1 
+patch=1,EE,20497B70,extended,45DAC000
+
+[Cheats\No KI Energy P1]
+//No KI Energy P1 
+patch=1,EE,20497B70,extended,00000000
+
+[Cheats\Infinite Health P2]
+//Infinite Health P2 
+patch=1,EE,20499B80,extended,453B8000
+
+[Cheats\75% Health P2]
+//75% Health P2 
+patch=1,EE,D0499B82,extended,0000453B
+patch=1,EE,20499B80,extended,450CA000
+
+[Cheats\50% Health P2]
+//50% Health P2 
+patch=1,EE,D0499B82,extended,0000453B
+patch=1,EE,20499B80,extended,44BB8000
+
+[Cheats\Max Level 7 KI Energy P2]
+//Max Level 7 KI Energy P2 
+patch=1,EE,20499B90,extended,45DAC000
+
+[Cheats\Infinite Health]
+//Tournament Codes
+//Infinite Health 
+patch=1,EE,D047033C,extended,00000000
+patch=1,EE,20497B60,extended,453B8000
+patch=1,EE,D047033C,extended,00000001
+patch=1,EE,20499B80,extended,453B8000
+
+[Cheats\No Health]
+//No Health 
+patch=1,EE,D047033C,extended,00000000
+patch=1,EE,20497B60,extended,00000000
+patch=1,EE,D047033C,extended,00000001
+patch=1,EE,20499B80,extended,00000000
+
+[Cheats\Max Level 7 KI Energy]
+//Max Level 7 KI Energy 
+patch=1,EE,D047033C,extended,00000000
+patch=1,EE,20497B70,extended,45DAC000
+patch=1,EE,D047033C,extended,00000001
+patch=1,EE,20499B90,extended,45DAC000
+
+[Cheats\No KI Energy]
+//No KI Energy 
+patch=1,EE,D047033C,extended,00000000
+patch=1,EE,20497B70,extended,00000000
+patch=1,EE,D047033C,extended,00000001
+patch=1,EE,20499B90,extended,00000000
+
+//Have Ability Capsule Codes (Part 1)
+
+//Goku Codes
+
+[Cheats\Kaioken]
+//Kaioken 
+patch=1,EE,004DFB1A,extended,00000009
+
+[Cheats\Super Saiyan]
+//Super Saiyan 
+patch=1,EE,004DFB1B,extended,00000009
+
+[Cheats\Super Saiyan 2]
+//Super Saiyan 2 
+patch=1,EE,004DFB1C,extended,00000009
+
+[Cheats\Super Saiyan 3]
+//Super Saiyan 3
+patch=1,EE,004DFB1D,extended,00000009
+
+[Cheats\Super Saiyan 4]
+//Super Saiyan 4 
+patch=1,EE,004DFB1E,extended,00000009
+
+[Cheats\Kamehameha]
+//Kamehameha 
+patch=1,EE,004DFB1F,extended,00000009
+
+[Cheats\Dragon Fist]
+//Dragon Fist 
+patch=1,EE,004DFB20,extended,00000009
+
+[Cheats\Kamehameha (2)]
+//Kamehameha 
+patch=1,EE,004DFB21,extended,00000009
+
+[Cheats\Warp Kamehameha]
+//Warp Kamehameha 
+patch=1,EE,004DFB22,extended,00000009
+
+[Cheats\Spirit Bomb]
+//Spirit Bomb 
+patch=1,EE,004DFB23,extended,00000009
+
+[Cheats\Super Spirit Bomb]
+//Super Spirit Bomb 
+patch=1,EE,004DFB24,extended,00000009
+
+[Cheats\Super Dragon Fist]
+//Super Dragon Fist 
+patch=1,EE,004DFB25,extended,00000009
+
+[Cheats\Fusion]
+//Fusion 
+patch=1,EE,004DFBC0,extended,00000009
+
+[Cheats\Kamehameha-Gogeta]
+//Kamehameha-Gogeta 
+patch=1,EE,004DFBC1,extended,00000009
+
+[Cheats\Soul Strike-Gogeta]
+//Soul Strike-Gogeta 
+patch=1,EE,004DFBC2,extended,00000009
+
+[Cheats\Soul Punisher-Gogeta]
+//Soul Punisher-Gogeta 
+patch=1,EE,004DFBC3,extended,00000009
+
+[Cheats\Fusion (2)]
+//Fusion 
+patch=1,EE,004DFBC8,extended,00000009
+
+[Cheats\Super Saiyan 4-Gogeta]
+//Super Saiyan 4-Gogeta 
+patch=1,EE,004DFBC9,extended,00000009
+
+[Cheats\Kamehameha-Gogeta (2)]
+//Kamehameha-Gogeta 
+patch=1,EE,004DFBCA,extended,00000009
+
+[Cheats\10X Kamehameha-Gogeta]
+//10X Kamehameha-Gogeta 
+patch=1,EE,004DFBCB,extended,00000009

@@ -1,79 +1,25 @@
-gametitle=Ico [SCES-50760] [5C991F4E]
+gametitle=Ico PAL-M SCES-50760 5C991F4E
 
-[All Bonus Features]
-author=xs1l3n7x(pnach)/CheatDevicePS2(codes)
-description=All Bonus Features
-// All Bonus Features
-patch=1,EE,9024E5D4,extended,0C09904A
+[Disable Post-Processing Effects]
+author=Gabominated
+description=Disable post-processing effects.
+patch=1,EE,001142C0,word,00000000
+patch=1,EE,001142C8,word,00000000
+patch=1,EE,001142D0,word,00000000
+//patch=1,EE,0010228C,word,00000000 //without shadows
 
-[Press {L1}+{SELECT} To Save Game]
-author=xs1l3n7x(pnach)/CheatDevicePS2(codes)
-description=Press {L1}+{SELECT} To Save Game
-// Press {L1}+{SELECT} To Save Game
-patch=1,EE,D02811D2,extended,0000FBFE
+[Cheats\1 hit kill]
+patch=1,EE,2015995C,extended,00000000
 
-[Press {L1}+{SELECT} To Save Game]
-author=xs1l3n7x(pnach)/CheatDevicePS2(codes)
-description=Press {L1}+{SELECT} To Save Game
-// Press {L1}+{SELECT} To Save Game
-patch=1,EE,1063314C,extended,0000001C
+[Cheats\Save anywhere Press R1+L1+R2+L2]
+patch=1,EE,D028F8F0,extended,0000000F
+patch=1,EE,1063B60C,extended,0000001C
 
-[Press {R1}+{SELECT} To Walk On Air]
-author=xs1l3n7x(pnach)/CheatDevicePS2(codes)
-description=Press {R1}+{SELECT} To Walk On Air
-// Press {R1}+{SELECT} To Walk On Air
-patch=1,EE,E002F7FE,extended,002811D2
+[Cheats\Never get killed from falls Press select to activate, L2+R2 to deactivate Select on, R2+L2 off]
+patch=1,EE,D028F8F0,extended,00000100
+patch=1,EE,101F035E,extended,00002800
+patch=1,EE,D028F8F0,extended,00000003
+patch=1,EE,101F035E,extended,00000C07
 
-[Press {R1}+{SELECT} To Walk On Air]
-author=xs1l3n7x(pnach)/CheatDevicePS2(codes)
-description=Press {R1}+{SELECT} To Walk On Air
-// Press {R1}+{SELECT} To Walk On Air
-patch=1,EE,201E1728,extended,03E00008
-
-[Press {R1}+{SELECT} To Walk On Air]
-author=xs1l3n7x(pnach)/CheatDevicePS2(codes)
-description=Press {R1}+{SELECT} To Walk On Air
-// Press {R1}+{SELECT} To Walk On Air
-patch=1,EE,201E172C,extended,00000000
-
-[Press {R2}+{SELECT} To Walk Normal]
-author=xs1l3n7x(pnach)/CheatDevicePS2(codes)
-description=Press {R2}+{SELECT} To Walk Normal
-// Press {R2}+{SELECT} To Walk Normal
-patch=1,EE,E002FDFE,extended,002811D2
-
-[Press {R2}+{SELECT} To Walk Normal]
-author=xs1l3n7x(pnach)/CheatDevicePS2(codes)
-description=Press {R2}+{SELECT} To Walk Normal
-// Press {R2}+{SELECT} To Walk Normal
-patch=1,EE,201E1728,extended,27BDFF70
-
-[Press {R2}+{SELECT} To Walk Normal]
-author=xs1l3n7x(pnach)/CheatDevicePS2(codes)
-description=Press {R2}+{SELECT} To Walk Normal
-// Press {R2}+{SELECT} To Walk Normal
-patch=1,EE,201E172C,extended,8F83A418
-
-[Idiot AI]
-author=xs1l3n7x(pnach)/CheatDevicePS2(codes)
-description=Idiot AI
-// Idiot AI
-patch=1,EE,20160720,extended,03E00008
-
-[Idiot AI]
-author=xs1l3n7x(pnach)/CheatDevicePS2(codes)
-description=Idiot AI
-// Idiot AI
-patch=1,EE,20160724,extended,00000000
-
-[Idiot AI]
-author=xs1l3n7x(pnach)/CheatDevicePS2(codes)
-description=Idiot AI
-// Idiot AI
-patch=1,EE,201FBB48,extended,03E00008
-
-[Idiot AI]
-author=xs1l3n7x(pnach)/CheatDevicePS2(codes)
-description=Idiot AI
-// Idiot AI
-patch=1,EE,201FBB4C,extended,00000000
+[Cheats\Unlock film Effect and 2P mode]
+patch=1,EE,2063AA00,extended,00000001

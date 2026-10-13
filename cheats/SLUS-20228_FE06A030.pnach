@@ -1,0 +1,272 @@
+gametitle=Silent Hill 2: Greatest Hits (NTSC-U) [SLUS-20228] [CRC FE06A030]
+// Modernized/combined from the available FE06A030 PNACH sources for PCSX2 2.x toggleable groups.
+// Legacy Maori-Jigglypuff writes are preserved exactly unless explicitly noted.
+// Exact executable verified: SLUS_202.28 SHA-1 3A27DEDDFA81CF30F46F0742C3523230CAC75D9A
+
+[60 FPS]
+author=asasega
+description=Current PCSX2 FE06A030 60 FPS patch. Original EE 001A6F50=14400009; replacement=10000009.
+patch=1,EE,201A6F50,extended,10000009
+
+[Cheats\Infinite Health]
+author=Code Master
+description=Direct health values. Preferred over the older legacy ASM health alternative below.
+patch=1,EE,203FFEF4,extended,42C80000
+patch=1,EE,203FFEFC,extended,42C80000
+
+[Cheats\Invincible Can't Be Hit]
+author=Code Master
+description=Prevents James from being hit.
+patch=1,EE,103FFF00,extended,000042C8
+
+[Cheats\Infinite Run Never Exhausted]
+author=floydfan
+description=Run/stamina never exhausts.
+patch=1,EE,21137C8C,extended,42C80000
+
+[Cheats\Infinite Ammo]
+author=Code Master
+description=Ammunition is not consumed.
+patch=1,EE,201B778C,extended,00000000
+
+[Cheats\Have All Items]
+author=Code Master
+description=Sets the published Greatest Hits all-items flags.
+patch=1,EE,21137C60,extended,FFFDF3FE
+patch=1,EE,21137C64,extended,FFFFFFFF
+patch=1,EE,21137C68,extended,00007FFF
+
+[Cheats\Extra Ammo]
+author=Code Master
+description=Enables the Extra Ammo ranking/extra option flag.
+patch=1,EE,021B7788,extended,00000001
+
+[Cheats\No Saves Recorded]
+author=Code Master
+description=Keeps the recorded save count at zero.
+patch=1,EE,012361EA,extended,00000000
+
+[Yellow NEW GAME + Bullet Adjust + Noise Effect]
+author=Savas Guercebe [Maori-Jigglypuff]
+description=Makes NEW GAME yellow and unlocks Bullet Adjust and Noise Effect in Extra Options.
+// "NEW GAME" appears in yellow Letters
+// (PS2 thinks that you have beaten a Game)
+// AND Unlock "Bullet Adjust" and "Noise Effect"
+// in the Extra Options
+patch=1,EE,012361E4,short,000001FF
+
+[Cheats\Infinite Health (Legacy ASM Alternative)]
+author=Savas Guercebe [Maori-Jigglypuff]
+description=Legacy code from the uploaded FE06A030 file. Do not stack with the direct Infinite Health cheat.
+// Infinite Health
+patch=1,EE,001B05fC,word,C4410168
+patch=1,EE,001B0604,word,E4410164
+
+[No Noise Filter]
+author=Savas Guercebe [Maori-Jigglypuff] / Snake356
+description=Disables the noise/film-grain filter. Not saved by the game.
+// Noise Filter Off
+// [Not saveable]
+patch=1,EE,001a7154,word,24030000
+patch=1,EE,0017e7c8,word,24070000
+patch=1,EE,001795a0,word,240A0000
+patch=1,EE,002382cc,word,24030000
+patch=1,EE,001f24e4,word,24030000
+
+[Disable Noise Effect]
+author=Gabominated
+description=Disable noise effect in gameplay. Alternative implementation to No Noise Filter; kept separate pending ELF/test verification.
+patch=1,EE,001A71DC,word,00000000 //0C063BC4
+
+[Japanese Violence Warning]
+author=Savas Guercebe [Maori-Jigglypuff]
+description=Displays Japanese age-rating/violence-warning information at first boot.
+// Display Info on Age Rating and Violence Warning
+// in Japanese at first boot of the Game
+// [Control Address and dynamic Value: 0x01101b84 000000XX]
+patch=1,EE,001ec3e8,word,24420004
+
+[Map on the Screen]
+author=Savas Guercebe [Maori-Jigglypuff] / Snake356
+description=Activates the auxiliary on-screen map. This line was commented/dormant in the legacy file; it is now safe as an explicit toggle.
+// Activate auxiliary Map on the Screen!
+patch=1,EE,01236269,byte,00000001
+
+[Cheats\Recovery Items + Weapons + Ammo x999]
+author=Savas Guercebe [Maori-Jigglypuff]
+description=Health items x999, weapons/extra weapons including Green Hyper Spray, loaded weapons and ammo x999.
+// Health drink(s), First-aid kit(s)
+// & Ampoule(s) x 999 + All Weapons,
+// (almost) all extra Weapons (incl.
+// Green Hyper Spray) & all Weapons
+// fully loaded and all Ammo x 999
+// (+ Wooden plank and Steel pipe)
+patch=1,EE,01137c60,short,0000FFFF
+patch=1,EE,01137c6C,word,03E70000
+patch=1,EE,01137c70,word,03E703E7
+patch=1,EE,01137c74,word,03E7000A
+patch=1,EE,01137c78,word,03E70006
+patch=1,EE,01137c7C,word,03E70004
+patch=1,EE,01137c80,word,03E7000A
+patch=1,EE,012361E9,byte,00000002
+
+[Disable Flashlight Room Dimming]
+author=Savas Guercebe [Maori-Jigglypuff]
+description=Disables room dimming caused by James' flashlight.
+// Disable Room-Dimming by James' Flashlight
+patch=1,EE,002841a4,word,24020000
+
+[Disable Dimming Timer]
+author=Savas Guercebe [Maori-Jigglypuff]
+description=Disables the dimming timer.
+// Disable Dimming-Timer
+patch=1,EE,002851c8,word,24020001
+patch=1,EE,00284df0,word,24040001
+patch=1,EE,00284e3c,word,24020000
+patch=1,EE,00284e08,word,24030000
+
+[Remove Environment and Object Shadows]
+author=Savas Guercebe [Maori-Jigglypuff]
+description=Removes shadow effects from the environment and objects.
+// Remove Shadow Effects of the
+// Environment and on Objects
+patch=1,EE,00184090,word,24456330
+patch=1,EE,002d6330,word,461C4000
+patch=1,EE,002d6334,word,461C4000
+patch=1,EE,002d6338,word,461C4000
+patch=1,EE,002d633c,word,43000000
+patch=1,EE,0018407c,word,24456320
+patch=1,EE,002d6320,word,461C4000
+patch=1,EE,002d6324,word,461C4000
+patch=1,EE,002d6328,word,461C4000
+patch=1,EE,002d632C,word,3F800000
+
+[Prevent Flashlight-Off Flicker]
+author=Savas Guercebe [Maori-Jigglypuff]
+description=Prevents flickering after switching off the flashlight in some areas.
+// Inhibit Flickering after switching off
+// the Flashlight in some Areas
+patch=1,EE,00283fc0,word,3C01002D
+patch=1,EE,00283fc4,word,C4206310
+patch=1,EE,002d6310,word,461C4000
+
+[Bright and Clear Visibility]
+author=Savas Guercebe [Maori-Jigglypuff]
+description=Makes rooms, outdoor areas, characters, town scenery and objects bright/clearly visible.
+// ANYTHING BRIGHT AND CLEARLY VISIBLE!
+// (ALL ROOMS AND OUTSIDE AROUND YOU,
+// ALL CHARACTERS, ENTIRE TOWN/Outskirts
+// (Streets, Trees, Grass, Buildings etc.))
+patch=1,EE,002D6bF4,word,461C4000
+patch=1,EE,002D6c00,word,461C4000
+patch=1,EE,002D6c04,word,461C4000
+patch=1,EE,002D6c08,word,461C4000
+patch=1,EE,002D6c10,word,461C4000
+patch=1,EE,002D6c14,word,461C4000
+patch=1,EE,002D6c18,word,461C4000
+patch=1,EE,002D6c20,word,461C4000
+patch=1,EE,002D6c24,word,461C4000
+patch=1,EE,002D6c28,word,461C4000
+patch=1,EE,002D6c30,word,461C4000
+patch=1,EE,002D6c34,word,461C4000
+patch=1,EE,002D6c38,word,461C4000
+patch=1,EE,002D6c50,word,461C4000
+patch=1,EE,002D6c54,word,461C4000
+patch=1,EE,002D6c58,word,461C4000
+patch=1,EE,002D6cC0,word,45BB8000
+patch=1,EE,002D6cC4,word,BF800000
+patch=1,EE,002D6cC8,word,45BB8000
+patch=1,EE,002D6d30,word,461C4000
+patch=1,EE,00241f8C,word,24446340
+patch=1,EE,0025B404,word,24456350
+patch=1,EE,002D6350,word,461C4000
+patch=1,EE,002D6354,word,461C4000
+patch=1,EE,002D6358,word,461C4000
+patch=1,EE,002D635C,word,41FC0000
+patch=1,EE,00184b9c,word,244562F0
+patch=1,EE,002D62F0,word,461C4000
+patch=1,EE,002D62F4,word,461C4000
+patch=1,EE,002D62F8,word,461C4000
+patch=1,EE,002D62FC,word,41800000
+patch=1,EE,0012b21c,word,244562E0
+patch=1,EE,002D62E0,word,461C4000
+patch=1,EE,002D62E4,word,461C4000
+patch=1,EE,002D62E8,word,461C4000
+patch=1,EE,002D62EC,word,41800000
+
+[No Fog]
+author=Savas Guercebe [Maori-Jigglypuff]
+description=Removes fog.
+// No Fog!
+patch=1,EE,002D4708,word,00000000
+patch=1,EE,002D47AC,word,00000000
+patch=1,EE,002D49B0,word,00000000
+
+[No Black Borders]
+author=Savas Guercebe [Maori-Jigglypuff]
+description=Removes the legacy black borders.
+// No black Borders
+patch=1,EE,001bd914,word,1000003A
+
+[Bright Toluca Lake + Far Sight]
+author=Savas Guercebe [Maori-Jigglypuff]
+description=Brightens Toluca Lake/background and extends view distance in rooms/corridors and outdoor areas.
+// Toluca Lake in Background at Begin brighten
+// up + farther Sight in Rooms/Corridors!
+patch=1,EE,002D6e10,word,00000000
+patch=1,EE,002D6e14,word,00000000
+patch=1,EE,002D6e18,word,00000000
+patch=1,EE,002D6e1C,word,00000000
+patch=1,EE,0017C354,word,00000000
+patch=1,EE,00242010,word,00000000
+patch=1,EE,00242044,word,00000000
+patch=1,EE,00242230,word,00000000
+patch=1,EE,00242268,word,00000000
+patch=1,EE,0017C364,word,00000000
+patch=1,EE,0017C474,word,00000000
+patch=1,EE,00242020,word,00000000
+patch=1,EE,00242050,word,00000000
+patch=1,EE,00242240,word,00000000
+patch=1,EE,00242274,word,00000000
+patch=1,EE,0017C374,word,00000000
+patch=1,EE,00242028,word,00000000
+patch=1,EE,0024205C,word,00000000
+patch=1,EE,0024224C,word,00000000
+patch=1,EE,00242280,word,00000000
+patch=1,EE,0017C384,word,00000000
+patch=1,EE,00242034,word,00000000
+patch=1,EE,00242068,word,00000000
+patch=1,EE,00242258,word,00000000
+patch=1,EE,0024228C,word,00000000
+patch=1,EE,0012A3D8,word,C4356370
+patch=1,EE,0013047C,word,C4206370
+patch=1,EE,00140794,word,C4216370
+patch=1,EE,001792c8,word,C42C6370
+patch=1,EE,0017A634,word,C4206370
+patch=1,EE,0017A6d8,word,00000000
+patch=1,EE,0017A6dC,word,0c0b58a4
+patch=1,EE,0017A720,word,C4206370
+patch=1,EE,00189D60,word,C4216370
+patch=1,EE,00189Da4,word,C4206370
+patch=1,EE,00189E20,word,C4206370
+patch=1,EE,00189E4C,word,C4206370
+patch=1,EE,0025B324,word,C4206300
+patch=1,EE,002D6370,word,47C80000
+patch=1,EE,002D6290,word,3C020123
+patch=1,EE,002D6294,word,904361e0
+patch=1,EE,002D6298,word,3C044667
+patch=1,EE,002D629c,word,34844000
+patch=1,EE,002D62A0,word,3C054740
+patch=1,EE,002D62A4,word,34A50000
+patch=1,EE,002D62A8,word,24060004
+patch=1,EE,002D62AC,word,24070026
+patch=1,EE,002D62B0,word,44840000
+patch=1,EE,002D62B4,word,14660002
+patch=1,EE,002D62B8,word,44850800
+patch=1,EE,002D62BC,word,46000806
+patch=1,EE,002D62C0,word,14670002
+patch=1,EE,002D62C4,word,44850800
+patch=1,EE,002D62C8,word,46000806
+patch=1,EE,002D62CC,word,03E00008
+patch=1,EE,002D62D0,word,46000006
+patch=1,EE,002D6300,word,47000000

@@ -1,0 +1,22 @@
+[Cheats\Infinite Gold]
+patch=1,EE,204416bc,extended,0098967f
+
+[Cheats\Dean Max Infinite HP]
+patch=1,EE,204456C8,extended,0000270f
+patch=1,EE,204456D0,extended,0000270f
+patch=1,EE,204456EC,extended,0000270f
+
+[Cheats\Dean Max Infinite MP]
+patch=1,EE,204456CC,extended,0000270f
+patch=1,EE,204456D4,extended,0000270f
+patch=1,EE,204456F0,extended,0000270f
+
+[Cheats\Rebecca Max Infinite HP]
+patch=1,EE,204458AC,extended,0000270f
+patch=1,EE,204458B4,extended,0000270f
+patch=1,EE,204458D0,extended,0000270f
+
+[Cheats\Rebecca Max Infinite MP]
+patch=1,EE,204458B0,extended,0000270f
+patch=1,EE,204458B8,extended,0000270f
+patch=1,EE,204458D4,extended,0000270f

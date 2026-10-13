@@ -1,0 +1,28 @@
+gametitle=Call of Duty - World at War - Final Fronts NTSC-U SLUS-21746 BFF3DBCB
+
+[60 FPS]
+author=Gabominated
+description=Might need EE overclock (130%)
+patch=0,EE,00420998,word,3C014270 //3C0141f0
+
+[Disable Post-processing effects]
+author=Gabominated
+description=Disable post-processing blur, bloom, ghosting and DOF effects.
+patch=1,EE,0030CC98,word,00000000
+
+[Cheats\Infinite Health]
+patch=1,EE,2036DAE8,extended,3C014400
+patch=1,EE,2036DAF0,extended,AC610028
+
+[Cheats\Immune To Explosions]
+patch=1,EE,2035E8E0,extended,24030001
+
+[Cheats\No Reload With Infinitie Clip]
+patch=1,EE,203F2E90,extended,00000000
+patch=1,EE,203F0234,extended,00000000
+
+[Cheats\God Mode]
+patch=1,EE,0052F088,extended,00000001
+
+[Cheats\Infinite Ammo And Grenades]
+patch=1,EE,0052F08A,extended,00000001

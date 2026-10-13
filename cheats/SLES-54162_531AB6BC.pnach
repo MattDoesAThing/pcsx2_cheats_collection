@@ -1,0 +1,27 @@
+gametitle=Saint Seiya - The Hades PAL-M SLES-54162 531AB6BC
+
+[50/60 FPS]
+author=Gabominated
+description=Might need EE Overclock.
+patch=1,EE,005FDDA0,word,00000000 //00000001
+
+[NTSC Mode]
+author=Gabominated
+description=NTSC mode at start.
+patch=0,EE,002bf9e4,word,24080002 //24080003
+patch=1,EE,0050022C,word,00000001 //00000002
+
+[Cheats\Unlock NTSC, 60fps And All Characters Vs Modes]
+patch=1,EE,2023FC20,extended,0000182D
+patch=1,EE,2023FC28,extended,0000182D
+patch=1,EE,2023FC44,extended,0000102D
+patch=1,EE,2013D3F4,extended,0000182D
+patch=1,EE,102BF9FC,extended,240201C0
+patch=1,EE,2030C9EC,extended,AF808BBC
+patch=1,EE,2030CA74,extended,10000058
+patch=1,EE,2030C9E0,extended,00000000
+patch=1,EE,2030CA7C,extended,00000000
+patch=1,EE,20138B28,extended,0000202D
+patch=1,EE,202C5388,extended,AC8A003C
+patch=1,EE,002DAAD8,extended,2A22002A
+patch=1,EE,002C53B4,extended,24030002

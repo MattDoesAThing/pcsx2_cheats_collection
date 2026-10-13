@@ -1,0 +1,49 @@
+gametitle=DreamWorks Over the Hedge PAL-E SLES-53866 290C8D74
+
+[NTSC Mode]
+author=Gabominated
+description=NTSC mode at start. Broken FMVs.
+patch=0,EE,0022FF5C,word,8C430001 //8C430000
+patch=0,EE,0022F384,word,8C430001 //8C430000
+//patch=1,EE,0022FF64,word,24020002 //24020003 alt
+//patch=2,EE,004A1288,word,000001c0 //00000200
+
+[Cheats\Always Low Time]
+patch=1,EE,20145850,extended,AE4008AC
+
+[Cheats\Unlock All Extras]
+patch=1,EE,409B7B40,extended,00850003
+patch=1,EE,00000001,extended,00000000
+
+[Cheats\Unlock Minigames R.C. Rally - Track 1]
+patch=1,EE,209B7848,extended,00000001
+
+[Cheats\Unlock Minigames R.C. Rally - Track 2]
+patch=1,EE,209B7958,extended,00000001
+
+[Cheats\Unlock Minigames R.C. Rally - Track 3]
+patch=1,EE,209B7888,extended,00000001
+
+[Cheats\Unlock Minigames R.C. Rally - Track 4]
+patch=1,EE,209B77A8,extended,00000001
+
+[Cheats\Unlock Minigames Range Driver - Course 1]
+patch=1,EE,209B7838,extended,00000001
+
+[Cheats\Unlock Minigames Range Driver - Course 2]
+patch=1,EE,209B79A8,extended,00000001
+
+[Cheats\Unlock Minigames Bumper Carts - Arena 1]
+patch=1,EE,209B78C8,extended,00000001
+
+[Cheats\Unlock Minigames Bumper Carts - Arena 2]
+patch=1,EE,209B77D8,extended,00000001
+
+[Cheats\Unlock Minigames Bumper Carts - Arena 3]
+patch=1,EE,209B7828,extended,00000001
+
+[Cheats\Unlock Minigames Bumper Carts - Arena 4]
+patch=1,EE,209B7908,extended,00000001
+
+
+

@@ -1,0 +1,35 @@
+gametitle=Spider-Man - Friend or Foe NTSC-U SLUS-21600 F52477F7
+
+[Widescreen 16:9]
+gsaspectratio=16:9
+author=Gabominated
+description=Enable native widescreen.
+patch=1,EE,003F0BD4,word,00000100
+patch=1,EE,004075F0,word,00000001
+
+[60 FPS]
+author=Gabominated
+description=Might need EE Overclock (180%).
+patch=1,EE,0037DCA0,word,00000001 //00000002
+
+[Cheats\Infinite Health]
+patch=1,EE,201AE270,extended,8C8103BC
+patch=1,EE,201AE27C,extended,AC8103B8
+
+[Cheats\Max Tech Tokens P1]
+patch=1,EE,203F1910,extended,0000270F
+
+[Cheats\Max Tech Tokens P2]
+patch=1,EE,203F1914,extended,0000270F
+
+[Cheats\Max Specials 1]
+patch=1,EE,203F0BA4,extended,00000009
+
+[Cheats\Max Specials 2]
+patch=1,EE,203F0BA8,extended,00000009
+
+[Cheats\Max Specials 3]
+patch=1,EE,203F0BAC,extended,00000009
+
+[Cheats\Max Specials 4]
+patch=1,EE,203F0BB0,extended,00000009

@@ -1,0 +1,22 @@
+gametitle=Gungrave - Overdose PAL-M SLES-52941 80BB14B2
+
+[50/60 FPS]
+author=Gabominated
+description=Might need EE Overclock (180%).
+patch=1,EE,20101C18,extended,28420001
+patch=1,EE,E0010019,extended,004455C4
+patch=1,EE,20101C18,extended,28420002
+
+[Cheats\Infinite Health]
+patch=1,EE,103ba6c6,extended,0000447a
+patch=1,EE,103ba6ca,extended,0000447a
+
+[Cheats\Infinite Coffin protection]
+patch=1,EE,103ba6ba,extended,0000447a
+patch=1,EE,103ba6be,extended,0000447a
+
+[Cheats\Max Artistic Points]
+patch=1,EE,203BAE88,extended,0000270F
+
+[Cheats\Max Jackpots]
+patch=1,EE,203BAE8C,extended,0000270F
